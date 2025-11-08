@@ -1,0 +1,2052 @@
+{
+  "url": "https://www.tiktok.com/@gnhun.tarot/video/7569588102637915413",
+  "crawled_at": "2025-11-07T16:58:00.703825Z",
+  "oembed": {
+    "version": "1.0",
+    "type": "video",
+    "title": "Người cũ đang nghĩ gì bề bạn #GnhunTarot #tarot #tarotreading ",
+    "author_url": "https://www.tiktok.com/@gnhun.tarot",
+    "author_name": "Gnhun Tarot",
+    "width": "100%",
+    "height": "100%",
+    "html": "<blockquote class=\"tiktok-embed\" cite=\"https://www.tiktok.com/@gnhun.tarot/video/7569588102637915413\" data-video-id=\"7569588102637915413\" data-embed-from=\"oembed\" style=\"max-width:605px; min-width:325px;\"> <section> <a target=\"_blank\" title=\"@gnhun.tarot\" href=\"https://www.tiktok.com/@gnhun.tarot?refer=embed\">@gnhun.tarot</a> <p>Người cũ đang nghĩ gì bề bạn <a title=\"gnhuntarot\" target=\"_blank\" href=\"https://www.tiktok.com/tag/gnhuntarot?refer=embed\">#GnhunTarot</a> <a title=\"tarot\" target=\"_blank\" href=\"https://www.tiktok.com/tag/tarot?refer=embed\">#tarot</a> <a title=\"tarotreading\" target=\"_blank\" href=\"https://www.tiktok.com/tag/tarotreading?refer=embed\">#tarotreading</a> </p> <a target=\"_blank\" title=\"♬ My Frequency - Rickert Ponce\" href=\"https://www.tiktok.com/music/My-Frequency-7355179885385631760?refer=embed\">♬ My Frequency - Rickert Ponce</a> </section> </blockquote> <script async src=\"https://www.tiktok.com/embed.js\"></script>",
+    "thumbnail_width": 576,
+    "thumbnail_height": 1024,
+    "thumbnail_url": "https://p16-sign-sg.tiktokcdn.com/tos-alisg-p-0037/oQEmESFtUnUziXKMBBDAINDwR3pglB4EGJEefX~tplv-tiktokx-origin.image?dr=14575&x-expires=1762704000&x-signature=ZB%2FXl%2Bcjvx8cQgyX2CA74cOP9DU%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=my2",
+    "provider_url": "https://www.tiktok.com",
+    "provider_name": "TikTok",
+    "author_unique_id": "gnhun.tarot",
+    "embed_product_id": "7569588102637915413",
+    "embed_type": "video"
+  },
+  "yt_dlp_info": {
+    "id": "7569588102637915413",
+    "formats": [
+      {
+        "ext": "mp4",
+        "vcodec": "h264",
+        "acodec": "aac",
+        "format_id": "h264_540p_822347-0",
+        "tbr": 822,
+        "quality": 1,
+        "preference": -1,
+        "filesize": 18821468,
+        "width": 576,
+        "height": 1024,
+        "url": "https://v16-webapp-prime.tiktok.com/video/tos/alisg/tos-alisg-pve-0037c001/o8wIE8qSEFA3qDQgERiDUzemJXlRNwpMzBnfBK/?a=1988&bti=ODszNWYuMDE6&ch=0&cr=3&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=1606&bt=803&cs=0&ds=6&ft=-Csk_mH1PD12N-msHd-UxtD2bY6e3wv25NcAp&mime_type=video_mp4&qs=0&rc=ZTRlODw1Ojw0O2YzNDM4Z0BpM3F0dnI5cnY8NzMzODczNEAyLzEwM2E2XzAxMi8zYWEtYSM2YHNhMmRzMzNhLS1kMTFzcw%3D%3D&btag=e00098000&expire=1762707664&l=20251108005801BB411E36B73002D3EBD7&ply_type=2&policy=2&signature=98508576311b887d8076c6bf7e2ce7d8&tk=tt_chain_token",
+        "protocol": "https",
+        "video_ext": "mp4",
+        "audio_ext": "none",
+        "resolution": "576x1024",
+        "dynamic_range": "SDR",
+        "aspect_ratio": 0.56,
+        "cookies": "_ttp=34wyWDXvxmF602Htsl0oDR6JCNq; Domain=.tiktok.com; Path=/; Secure; Expires=1795834961; tt_csrf_token=A6kVUZcK-ro_L6C62WbmQwfALArHC4HF-pTM; Domain=.tiktok.com; Path=/; Secure; tt_chain_token=\"bIQCOyoJbQ000pox+IBxHQ==\"; Domain=.tiktok.com; Path=/; Secure; Expires=1778086681; passport_csrf_token=3e2175a5e77e24a26515b4e6f7b50740; Domain=.tiktok.com; Path=/; Secure; Expires=1767674732; passport_csrf_token_default=3e2175a5e77e24a26515b4e6f7b50740; Domain=.tiktok.com; Path=/; Secure; Expires=1767674732; s_v_web_id=verify_mhodh7s9_f6H7RhcI_zN3b_4VwP_AxSW_OnDGZUzFJBgu; Domain=.tiktok.com; Path=/; Secure; multi_sids=7569810985282094098%3Aade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1767677004; cmpl_token=AgQQAPOFF-RO0rkzsFuCpB0r82zGAoWNv4UOYKOhVw; Domain=.tiktok.com; Path=/; Secure; Expires=1767677004; passport_auth_status=b8d801922a4b455b405bf6994fade073%2C063941b21aed31105bffa0d912bcf9fa; Domain=.tiktok.com; Path=/; Expires=1765085004; passport_auth_status_ss=b8d801922a4b455b405bf6994fade073%2C063941b21aed31105bffa0d912bcf9fa; Domain=.tiktok.com; Path=/; Secure; Expires=1765085004; sid_guard=ade59ff71c0c0e5cc0fe1f23772b37c1%7C1762493004%7C15552000%7CWed%2C+06-May-2026+05%3A23%3A24+GMT; Domain=.tiktok.com; Path=/; Secure; Expires=1793597004; uid_tt=ac0557b89a0248004ba199e09ced5e656aa70515a78deb5b62cd048a83d31edc; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; uid_tt_ss=ac0557b89a0248004ba199e09ced5e656aa70515a78deb5b62cd048a83d31edc; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sid_tt=ade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sessionid=ade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sessionid_ss=ade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; tt_session_tlb_tag=sttt%7C5%7CreWf9xwMDlzA_h8jdys3wf________-ji4fpfjT0V1140MZnLSHWNBnXgRLIZvw1fxmxRRmvw7s%3D; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sid_ucp_v1=1.0.0-KDYzMTBmY2U1ODFjN2FkYjNmOGUwYWE1YjcwYTk2N2FkYzhhMjMxMTEKIQiSiNvUwN_XhmkQzIS2yAYYswsgDDC1vrXIBjgIQBJIBBADGgJteSIgYWRlNTlmZjcxYzBjMGU1Y2MwZmUxZjIzNzcyYjM3YzE; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; ssid_ucp_v1=1.0.0-KDYzMTBmY2U1ODFjN2FkYjNmOGUwYWE1YjcwYTk2N2FkYzhhMjMxMTEKIQiSiNvUwN_XhmkQzIS2yAYYswsgDDC1vrXIBjgIQBJIBBADGgJteSIgYWRlNTlmZjcxYzBjMGU1Y2MwZmUxZjIzNzcyYjM3YzE; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; store-country-code=vn; Domain=.tiktok.com; Path=/; Expires=1794029034; store-country-code-src=uid; Domain=.tiktok.com; Path=/; Expires=1794029034; tt-target-idc=alisg; Domain=.tiktok.com; Path=/; Expires=1794029034; tt-target-idc-sign=X46gRkvSgmGWHXja-gzeN1KwdE4cBtH3zFXAhG3-BtWzH-YdFZEQct_uBwMTYtfjrNxqy_GJyyU9vrDSU9xBVMhZYzNMj8Yj-vL3ZdUiBlJfwT_RyqsMw9cBp-UMAurlaLw7iKPn1sOB_2Mr4OgfdC72r1rSon8aLN6RpZxfHlcPgzQDAzxGLO1WCcDi3Grn071JYzpIP3H4Uj5tKf5cHSGRn8O-z3hwE-QaTWdxP_Dv9m7mqKXg9LpTBaiRQ0apSWQMga4QK4y5B4To6e0pZD8oaixa2PVdqGeLesDSGOjsT94m5Qtsw2dBLvi1Cl2PDtg34s_m8F2kwZanwVGyMx5JeHbhEA1jVyuFTZ4wmF-6mQMCj4IoVYUBqf6cEHJl1nz6p3h7j4AFPdhgbDj7nwn0zI1o0xP8WGmE_kn9e53ehBx6IU-iOQJ-JXc_4e8_1n_tP7nZqBQAfB5B-a8mW0iUyH2XBzKKIebPZ8u02eRKDVUUZnutFcgBXjbQW4hW; Domain=.tiktok.com; Path=/; Expires=1794029034; ttwid=1%7CyHVVoWeMmc-3HMQzGeLAWTKsoEmn5lOxHLhrceV4g3w%7C1762493033%7Caa33d6157603beb187ae2fd554015cf463e69a9385fbc54d7a3e7a848a9df8fc; Domain=.tiktok.com; Path=/; Secure; Expires=1794029034; store-idc=alisg; Domain=.tiktok.com; Path=/; Expires=1794029034; store-country-sign=MEIEDGNAqWqR2a0er4zjeAQgMuurAVNuf3SOpc_lCsUS6OVOTEMJPGY7fje3VCShvuYEEKSUWUChT9xgz3oinfsoj_8; Domain=.tiktok.com; Path=/; Expires=1794029034; odin_tt=fdb338ea9924b66e069cd3826b52e91602d6c7c70440ed4a45253d1bdcb67e7b33079c363923c1afe01be7d6a0aed5f094b6d26ad61219129e2c4adf8ef71b17c80e515b61a158847d9b8a0bdf5ce20d; Domain=.tiktok.com; Path=/; Expires=1794029677; msToken=\"o0dtxP-IDT94GodUont29qX-FIqR8kPTHjfmemZaFQjr2ctPmguJGwzuoxR2x6yvG_dY9djL-Xo1wwbWwO5lTf41e5kqxKk0UcmZfE0jK4iqtu9oBm6iOKXdr5J4lmJNS7n2ihNWKiE7lQ==\"; Domain=.tiktok.com; Path=/; Secure; Expires=1763398681",
+        "http_headers": {
+          "User-Agent": "Mozilla/5.0",
+          "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+          "Accept-Language": "en-us,en;q=0.5",
+          "Sec-Fetch-Mode": "navigate",
+          "Referer": "https://www.tiktok.com/@gnhun.tarot/video/7569588102637915413"
+        },
+        "format": "h264_540p_822347-0 - 576x1024"
+      },
+      {
+        "ext": "mp4",
+        "vcodec": "h264",
+        "acodec": "aac",
+        "format_id": "h264_540p_822347-1",
+        "tbr": 822,
+        "quality": 1,
+        "preference": -1,
+        "filesize": 18821468,
+        "width": 576,
+        "height": 1024,
+        "url": "https://v19-webapp-prime.tiktok.com/video/tos/alisg/tos-alisg-pve-0037c001/o8wIE8qSEFA3qDQgERiDUzemJXlRNwpMzBnfBK/?a=1988&bti=ODszNWYuMDE6&ch=0&cr=3&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=1606&bt=803&cs=0&ds=6&ft=-Csk_mH1PD12N-msHd-UxtD2bY6e3wv25NcAp&mime_type=video_mp4&qs=0&rc=ZTRlODw1Ojw0O2YzNDM4Z0BpM3F0dnI5cnY8NzMzODczNEAyLzEwM2E2XzAxMi8zYWEtYSM2YHNhMmRzMzNhLS1kMTFzcw%3D%3D&btag=e00098000&expire=1762707664&l=20251108005801BB411E36B73002D3EBD7&ply_type=2&policy=2&signature=98508576311b887d8076c6bf7e2ce7d8&tk=tt_chain_token",
+        "protocol": "https",
+        "video_ext": "mp4",
+        "audio_ext": "none",
+        "resolution": "576x1024",
+        "dynamic_range": "SDR",
+        "aspect_ratio": 0.56,
+        "cookies": "_ttp=34wyWDXvxmF602Htsl0oDR6JCNq; Domain=.tiktok.com; Path=/; Secure; Expires=1795834961; tt_csrf_token=A6kVUZcK-ro_L6C62WbmQwfALArHC4HF-pTM; Domain=.tiktok.com; Path=/; Secure; tt_chain_token=\"bIQCOyoJbQ000pox+IBxHQ==\"; Domain=.tiktok.com; Path=/; Secure; Expires=1778086681; passport_csrf_token=3e2175a5e77e24a26515b4e6f7b50740; Domain=.tiktok.com; Path=/; Secure; Expires=1767674732; passport_csrf_token_default=3e2175a5e77e24a26515b4e6f7b50740; Domain=.tiktok.com; Path=/; Secure; Expires=1767674732; s_v_web_id=verify_mhodh7s9_f6H7RhcI_zN3b_4VwP_AxSW_OnDGZUzFJBgu; Domain=.tiktok.com; Path=/; Secure; multi_sids=7569810985282094098%3Aade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1767677004; cmpl_token=AgQQAPOFF-RO0rkzsFuCpB0r82zGAoWNv4UOYKOhVw; Domain=.tiktok.com; Path=/; Secure; Expires=1767677004; passport_auth_status=b8d801922a4b455b405bf6994fade073%2C063941b21aed31105bffa0d912bcf9fa; Domain=.tiktok.com; Path=/; Expires=1765085004; passport_auth_status_ss=b8d801922a4b455b405bf6994fade073%2C063941b21aed31105bffa0d912bcf9fa; Domain=.tiktok.com; Path=/; Secure; Expires=1765085004; sid_guard=ade59ff71c0c0e5cc0fe1f23772b37c1%7C1762493004%7C15552000%7CWed%2C+06-May-2026+05%3A23%3A24+GMT; Domain=.tiktok.com; Path=/; Secure; Expires=1793597004; uid_tt=ac0557b89a0248004ba199e09ced5e656aa70515a78deb5b62cd048a83d31edc; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; uid_tt_ss=ac0557b89a0248004ba199e09ced5e656aa70515a78deb5b62cd048a83d31edc; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sid_tt=ade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sessionid=ade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sessionid_ss=ade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; tt_session_tlb_tag=sttt%7C5%7CreWf9xwMDlzA_h8jdys3wf________-ji4fpfjT0V1140MZnLSHWNBnXgRLIZvw1fxmxRRmvw7s%3D; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sid_ucp_v1=1.0.0-KDYzMTBmY2U1ODFjN2FkYjNmOGUwYWE1YjcwYTk2N2FkYzhhMjMxMTEKIQiSiNvUwN_XhmkQzIS2yAYYswsgDDC1vrXIBjgIQBJIBBADGgJteSIgYWRlNTlmZjcxYzBjMGU1Y2MwZmUxZjIzNzcyYjM3YzE; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; ssid_ucp_v1=1.0.0-KDYzMTBmY2U1ODFjN2FkYjNmOGUwYWE1YjcwYTk2N2FkYzhhMjMxMTEKIQiSiNvUwN_XhmkQzIS2yAYYswsgDDC1vrXIBjgIQBJIBBADGgJteSIgYWRlNTlmZjcxYzBjMGU1Y2MwZmUxZjIzNzcyYjM3YzE; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; store-country-code=vn; Domain=.tiktok.com; Path=/; Expires=1794029034; store-country-code-src=uid; Domain=.tiktok.com; Path=/; Expires=1794029034; tt-target-idc=alisg; Domain=.tiktok.com; Path=/; Expires=1794029034; tt-target-idc-sign=X46gRkvSgmGWHXja-gzeN1KwdE4cBtH3zFXAhG3-BtWzH-YdFZEQct_uBwMTYtfjrNxqy_GJyyU9vrDSU9xBVMhZYzNMj8Yj-vL3ZdUiBlJfwT_RyqsMw9cBp-UMAurlaLw7iKPn1sOB_2Mr4OgfdC72r1rSon8aLN6RpZxfHlcPgzQDAzxGLO1WCcDi3Grn071JYzpIP3H4Uj5tKf5cHSGRn8O-z3hwE-QaTWdxP_Dv9m7mqKXg9LpTBaiRQ0apSWQMga4QK4y5B4To6e0pZD8oaixa2PVdqGeLesDSGOjsT94m5Qtsw2dBLvi1Cl2PDtg34s_m8F2kwZanwVGyMx5JeHbhEA1jVyuFTZ4wmF-6mQMCj4IoVYUBqf6cEHJl1nz6p3h7j4AFPdhgbDj7nwn0zI1o0xP8WGmE_kn9e53ehBx6IU-iOQJ-JXc_4e8_1n_tP7nZqBQAfB5B-a8mW0iUyH2XBzKKIebPZ8u02eRKDVUUZnutFcgBXjbQW4hW; Domain=.tiktok.com; Path=/; Expires=1794029034; ttwid=1%7CyHVVoWeMmc-3HMQzGeLAWTKsoEmn5lOxHLhrceV4g3w%7C1762493033%7Caa33d6157603beb187ae2fd554015cf463e69a9385fbc54d7a3e7a848a9df8fc; Domain=.tiktok.com; Path=/; Secure; Expires=1794029034; store-idc=alisg; Domain=.tiktok.com; Path=/; Expires=1794029034; store-country-sign=MEIEDGNAqWqR2a0er4zjeAQgMuurAVNuf3SOpc_lCsUS6OVOTEMJPGY7fje3VCShvuYEEKSUWUChT9xgz3oinfsoj_8; Domain=.tiktok.com; Path=/; Expires=1794029034; odin_tt=fdb338ea9924b66e069cd3826b52e91602d6c7c70440ed4a45253d1bdcb67e7b33079c363923c1afe01be7d6a0aed5f094b6d26ad61219129e2c4adf8ef71b17c80e515b61a158847d9b8a0bdf5ce20d; Domain=.tiktok.com; Path=/; Expires=1794029677; msToken=\"o0dtxP-IDT94GodUont29qX-FIqR8kPTHjfmemZaFQjr2ctPmguJGwzuoxR2x6yvG_dY9djL-Xo1wwbWwO5lTf41e5kqxKk0UcmZfE0jK4iqtu9oBm6iOKXdr5J4lmJNS7n2ihNWKiE7lQ==\"; Domain=.tiktok.com; Path=/; Secure; Expires=1763398681",
+        "http_headers": {
+          "User-Agent": "Mozilla/5.0",
+          "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+          "Accept-Language": "en-us,en;q=0.5",
+          "Sec-Fetch-Mode": "navigate",
+          "Referer": "https://www.tiktok.com/@gnhun.tarot/video/7569588102637915413"
+        },
+        "format": "h264_540p_822347-1 - 576x1024"
+      },
+      {
+        "ext": "mp4",
+        "vcodec": "h265",
+        "acodec": "aac",
+        "format_id": "bytevc1_540p_360886-0",
+        "tbr": 360,
+        "quality": 1,
+        "preference": -1,
+        "filesize": 8259787,
+        "width": 576,
+        "height": 1024,
+        "url": "https://v16-webapp-prime.tiktok.com/video/tos/alisg/tos-alisg-pve-0037c001/oMPkfyAf0ggh8ffkARABiaAz43RgwFGQ6YGGMu/?a=1988&bti=ODszNWYuMDE6&ch=0&cr=3&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=704&bt=352&cs=2&ds=6&ft=-Csk_mH1PD12N-msHd-UxtD2bY6e3wv25NcAp&mime_type=video_mp4&qs=11&rc=aTU4ZDs6aWllZGVlOGg2PEBpM3F0dnI5cnY8NzMzODczNEAvLV5jYTI2NjUxNjJhYF5jYSM2YHNhMmRzMzNhLS1kMTFzcw%3D%3D&btag=e00098000&expire=1762707664&l=20251108005801BB411E36B73002D3EBD7&ply_type=2&policy=2&signature=b11163637f8ab18412c55c7de1b48805&tk=tt_chain_token",
+        "protocol": "https",
+        "video_ext": "mp4",
+        "audio_ext": "none",
+        "resolution": "576x1024",
+        "dynamic_range": "SDR",
+        "aspect_ratio": 0.56,
+        "cookies": "_ttp=34wyWDXvxmF602Htsl0oDR6JCNq; Domain=.tiktok.com; Path=/; Secure; Expires=1795834961; tt_csrf_token=A6kVUZcK-ro_L6C62WbmQwfALArHC4HF-pTM; Domain=.tiktok.com; Path=/; Secure; tt_chain_token=\"bIQCOyoJbQ000pox+IBxHQ==\"; Domain=.tiktok.com; Path=/; Secure; Expires=1778086681; passport_csrf_token=3e2175a5e77e24a26515b4e6f7b50740; Domain=.tiktok.com; Path=/; Secure; Expires=1767674732; passport_csrf_token_default=3e2175a5e77e24a26515b4e6f7b50740; Domain=.tiktok.com; Path=/; Secure; Expires=1767674732; s_v_web_id=verify_mhodh7s9_f6H7RhcI_zN3b_4VwP_AxSW_OnDGZUzFJBgu; Domain=.tiktok.com; Path=/; Secure; multi_sids=7569810985282094098%3Aade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1767677004; cmpl_token=AgQQAPOFF-RO0rkzsFuCpB0r82zGAoWNv4UOYKOhVw; Domain=.tiktok.com; Path=/; Secure; Expires=1767677004; passport_auth_status=b8d801922a4b455b405bf6994fade073%2C063941b21aed31105bffa0d912bcf9fa; Domain=.tiktok.com; Path=/; Expires=1765085004; passport_auth_status_ss=b8d801922a4b455b405bf6994fade073%2C063941b21aed31105bffa0d912bcf9fa; Domain=.tiktok.com; Path=/; Secure; Expires=1765085004; sid_guard=ade59ff71c0c0e5cc0fe1f23772b37c1%7C1762493004%7C15552000%7CWed%2C+06-May-2026+05%3A23%3A24+GMT; Domain=.tiktok.com; Path=/; Secure; Expires=1793597004; uid_tt=ac0557b89a0248004ba199e09ced5e656aa70515a78deb5b62cd048a83d31edc; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; uid_tt_ss=ac0557b89a0248004ba199e09ced5e656aa70515a78deb5b62cd048a83d31edc; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sid_tt=ade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sessionid=ade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sessionid_ss=ade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; tt_session_tlb_tag=sttt%7C5%7CreWf9xwMDlzA_h8jdys3wf________-ji4fpfjT0V1140MZnLSHWNBnXgRLIZvw1fxmxRRmvw7s%3D; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sid_ucp_v1=1.0.0-KDYzMTBmY2U1ODFjN2FkYjNmOGUwYWE1YjcwYTk2N2FkYzhhMjMxMTEKIQiSiNvUwN_XhmkQzIS2yAYYswsgDDC1vrXIBjgIQBJIBBADGgJteSIgYWRlNTlmZjcxYzBjMGU1Y2MwZmUxZjIzNzcyYjM3YzE; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; ssid_ucp_v1=1.0.0-KDYzMTBmY2U1ODFjN2FkYjNmOGUwYWE1YjcwYTk2N2FkYzhhMjMxMTEKIQiSiNvUwN_XhmkQzIS2yAYYswsgDDC1vrXIBjgIQBJIBBADGgJteSIgYWRlNTlmZjcxYzBjMGU1Y2MwZmUxZjIzNzcyYjM3YzE; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; store-country-code=vn; Domain=.tiktok.com; Path=/; Expires=1794029034; store-country-code-src=uid; Domain=.tiktok.com; Path=/; Expires=1794029034; tt-target-idc=alisg; Domain=.tiktok.com; Path=/; Expires=1794029034; tt-target-idc-sign=X46gRkvSgmGWHXja-gzeN1KwdE4cBtH3zFXAhG3-BtWzH-YdFZEQct_uBwMTYtfjrNxqy_GJyyU9vrDSU9xBVMhZYzNMj8Yj-vL3ZdUiBlJfwT_RyqsMw9cBp-UMAurlaLw7iKPn1sOB_2Mr4OgfdC72r1rSon8aLN6RpZxfHlcPgzQDAzxGLO1WCcDi3Grn071JYzpIP3H4Uj5tKf5cHSGRn8O-z3hwE-QaTWdxP_Dv9m7mqKXg9LpTBaiRQ0apSWQMga4QK4y5B4To6e0pZD8oaixa2PVdqGeLesDSGOjsT94m5Qtsw2dBLvi1Cl2PDtg34s_m8F2kwZanwVGyMx5JeHbhEA1jVyuFTZ4wmF-6mQMCj4IoVYUBqf6cEHJl1nz6p3h7j4AFPdhgbDj7nwn0zI1o0xP8WGmE_kn9e53ehBx6IU-iOQJ-JXc_4e8_1n_tP7nZqBQAfB5B-a8mW0iUyH2XBzKKIebPZ8u02eRKDVUUZnutFcgBXjbQW4hW; Domain=.tiktok.com; Path=/; Expires=1794029034; ttwid=1%7CyHVVoWeMmc-3HMQzGeLAWTKsoEmn5lOxHLhrceV4g3w%7C1762493033%7Caa33d6157603beb187ae2fd554015cf463e69a9385fbc54d7a3e7a848a9df8fc; Domain=.tiktok.com; Path=/; Secure; Expires=1794029034; store-idc=alisg; Domain=.tiktok.com; Path=/; Expires=1794029034; store-country-sign=MEIEDGNAqWqR2a0er4zjeAQgMuurAVNuf3SOpc_lCsUS6OVOTEMJPGY7fje3VCShvuYEEKSUWUChT9xgz3oinfsoj_8; Domain=.tiktok.com; Path=/; Expires=1794029034; odin_tt=fdb338ea9924b66e069cd3826b52e91602d6c7c70440ed4a45253d1bdcb67e7b33079c363923c1afe01be7d6a0aed5f094b6d26ad61219129e2c4adf8ef71b17c80e515b61a158847d9b8a0bdf5ce20d; Domain=.tiktok.com; Path=/; Expires=1794029677; msToken=\"o0dtxP-IDT94GodUont29qX-FIqR8kPTHjfmemZaFQjr2ctPmguJGwzuoxR2x6yvG_dY9djL-Xo1wwbWwO5lTf41e5kqxKk0UcmZfE0jK4iqtu9oBm6iOKXdr5J4lmJNS7n2ihNWKiE7lQ==\"; Domain=.tiktok.com; Path=/; Secure; Expires=1763398681",
+        "http_headers": {
+          "User-Agent": "Mozilla/5.0",
+          "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+          "Accept-Language": "en-us,en;q=0.5",
+          "Sec-Fetch-Mode": "navigate",
+          "Referer": "https://www.tiktok.com/@gnhun.tarot/video/7569588102637915413"
+        },
+        "format": "bytevc1_540p_360886-0 - 576x1024"
+      },
+      {
+        "ext": "mp4",
+        "vcodec": "h265",
+        "acodec": "aac",
+        "format_id": "bytevc1_540p_360886-1",
+        "tbr": 360,
+        "quality": 1,
+        "preference": -1,
+        "filesize": 8259787,
+        "width": 576,
+        "height": 1024,
+        "url": "https://v19-webapp-prime.tiktok.com/video/tos/alisg/tos-alisg-pve-0037c001/oMPkfyAf0ggh8ffkARABiaAz43RgwFGQ6YGGMu/?a=1988&bti=ODszNWYuMDE6&ch=0&cr=3&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=704&bt=352&cs=2&ds=6&ft=-Csk_mH1PD12N-msHd-UxtD2bY6e3wv25NcAp&mime_type=video_mp4&qs=11&rc=aTU4ZDs6aWllZGVlOGg2PEBpM3F0dnI5cnY8NzMzODczNEAvLV5jYTI2NjUxNjJhYF5jYSM2YHNhMmRzMzNhLS1kMTFzcw%3D%3D&btag=e00098000&expire=1762707664&l=20251108005801BB411E36B73002D3EBD7&ply_type=2&policy=2&signature=b11163637f8ab18412c55c7de1b48805&tk=tt_chain_token",
+        "protocol": "https",
+        "video_ext": "mp4",
+        "audio_ext": "none",
+        "resolution": "576x1024",
+        "dynamic_range": "SDR",
+        "aspect_ratio": 0.56,
+        "cookies": "_ttp=34wyWDXvxmF602Htsl0oDR6JCNq; Domain=.tiktok.com; Path=/; Secure; Expires=1795834961; tt_csrf_token=A6kVUZcK-ro_L6C62WbmQwfALArHC4HF-pTM; Domain=.tiktok.com; Path=/; Secure; tt_chain_token=\"bIQCOyoJbQ000pox+IBxHQ==\"; Domain=.tiktok.com; Path=/; Secure; Expires=1778086681; passport_csrf_token=3e2175a5e77e24a26515b4e6f7b50740; Domain=.tiktok.com; Path=/; Secure; Expires=1767674732; passport_csrf_token_default=3e2175a5e77e24a26515b4e6f7b50740; Domain=.tiktok.com; Path=/; Secure; Expires=1767674732; s_v_web_id=verify_mhodh7s9_f6H7RhcI_zN3b_4VwP_AxSW_OnDGZUzFJBgu; Domain=.tiktok.com; Path=/; Secure; multi_sids=7569810985282094098%3Aade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1767677004; cmpl_token=AgQQAPOFF-RO0rkzsFuCpB0r82zGAoWNv4UOYKOhVw; Domain=.tiktok.com; Path=/; Secure; Expires=1767677004; passport_auth_status=b8d801922a4b455b405bf6994fade073%2C063941b21aed31105bffa0d912bcf9fa; Domain=.tiktok.com; Path=/; Expires=1765085004; passport_auth_status_ss=b8d801922a4b455b405bf6994fade073%2C063941b21aed31105bffa0d912bcf9fa; Domain=.tiktok.com; Path=/; Secure; Expires=1765085004; sid_guard=ade59ff71c0c0e5cc0fe1f23772b37c1%7C1762493004%7C15552000%7CWed%2C+06-May-2026+05%3A23%3A24+GMT; Domain=.tiktok.com; Path=/; Secure; Expires=1793597004; uid_tt=ac0557b89a0248004ba199e09ced5e656aa70515a78deb5b62cd048a83d31edc; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; uid_tt_ss=ac0557b89a0248004ba199e09ced5e656aa70515a78deb5b62cd048a83d31edc; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sid_tt=ade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sessionid=ade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sessionid_ss=ade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; tt_session_tlb_tag=sttt%7C5%7CreWf9xwMDlzA_h8jdys3wf________-ji4fpfjT0V1140MZnLSHWNBnXgRLIZvw1fxmxRRmvw7s%3D; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sid_ucp_v1=1.0.0-KDYzMTBmY2U1ODFjN2FkYjNmOGUwYWE1YjcwYTk2N2FkYzhhMjMxMTEKIQiSiNvUwN_XhmkQzIS2yAYYswsgDDC1vrXIBjgIQBJIBBADGgJteSIgYWRlNTlmZjcxYzBjMGU1Y2MwZmUxZjIzNzcyYjM3YzE; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; ssid_ucp_v1=1.0.0-KDYzMTBmY2U1ODFjN2FkYjNmOGUwYWE1YjcwYTk2N2FkYzhhMjMxMTEKIQiSiNvUwN_XhmkQzIS2yAYYswsgDDC1vrXIBjgIQBJIBBADGgJteSIgYWRlNTlmZjcxYzBjMGU1Y2MwZmUxZjIzNzcyYjM3YzE; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; store-country-code=vn; Domain=.tiktok.com; Path=/; Expires=1794029034; store-country-code-src=uid; Domain=.tiktok.com; Path=/; Expires=1794029034; tt-target-idc=alisg; Domain=.tiktok.com; Path=/; Expires=1794029034; tt-target-idc-sign=X46gRkvSgmGWHXja-gzeN1KwdE4cBtH3zFXAhG3-BtWzH-YdFZEQct_uBwMTYtfjrNxqy_GJyyU9vrDSU9xBVMhZYzNMj8Yj-vL3ZdUiBlJfwT_RyqsMw9cBp-UMAurlaLw7iKPn1sOB_2Mr4OgfdC72r1rSon8aLN6RpZxfHlcPgzQDAzxGLO1WCcDi3Grn071JYzpIP3H4Uj5tKf5cHSGRn8O-z3hwE-QaTWdxP_Dv9m7mqKXg9LpTBaiRQ0apSWQMga4QK4y5B4To6e0pZD8oaixa2PVdqGeLesDSGOjsT94m5Qtsw2dBLvi1Cl2PDtg34s_m8F2kwZanwVGyMx5JeHbhEA1jVyuFTZ4wmF-6mQMCj4IoVYUBqf6cEHJl1nz6p3h7j4AFPdhgbDj7nwn0zI1o0xP8WGmE_kn9e53ehBx6IU-iOQJ-JXc_4e8_1n_tP7nZqBQAfB5B-a8mW0iUyH2XBzKKIebPZ8u02eRKDVUUZnutFcgBXjbQW4hW; Domain=.tiktok.com; Path=/; Expires=1794029034; ttwid=1%7CyHVVoWeMmc-3HMQzGeLAWTKsoEmn5lOxHLhrceV4g3w%7C1762493033%7Caa33d6157603beb187ae2fd554015cf463e69a9385fbc54d7a3e7a848a9df8fc; Domain=.tiktok.com; Path=/; Secure; Expires=1794029034; store-idc=alisg; Domain=.tiktok.com; Path=/; Expires=1794029034; store-country-sign=MEIEDGNAqWqR2a0er4zjeAQgMuurAVNuf3SOpc_lCsUS6OVOTEMJPGY7fje3VCShvuYEEKSUWUChT9xgz3oinfsoj_8; Domain=.tiktok.com; Path=/; Expires=1794029034; odin_tt=fdb338ea9924b66e069cd3826b52e91602d6c7c70440ed4a45253d1bdcb67e7b33079c363923c1afe01be7d6a0aed5f094b6d26ad61219129e2c4adf8ef71b17c80e515b61a158847d9b8a0bdf5ce20d; Domain=.tiktok.com; Path=/; Expires=1794029677; msToken=\"o0dtxP-IDT94GodUont29qX-FIqR8kPTHjfmemZaFQjr2ctPmguJGwzuoxR2x6yvG_dY9djL-Xo1wwbWwO5lTf41e5kqxKk0UcmZfE0jK4iqtu9oBm6iOKXdr5J4lmJNS7n2ihNWKiE7lQ==\"; Domain=.tiktok.com; Path=/; Secure; Expires=1763398681",
+        "http_headers": {
+          "User-Agent": "Mozilla/5.0",
+          "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+          "Accept-Language": "en-us,en;q=0.5",
+          "Sec-Fetch-Mode": "navigate",
+          "Referer": "https://www.tiktok.com/@gnhun.tarot/video/7569588102637915413"
+        },
+        "format": "bytevc1_540p_360886-1 - 576x1024"
+      },
+      {
+        "ext": "mp4",
+        "vcodec": "h265",
+        "acodec": "aac",
+        "format_id": "bytevc1_720p_410275-0",
+        "tbr": 410,
+        "quality": 2,
+        "preference": -1,
+        "filesize": 9390177,
+        "width": 720,
+        "height": 1280,
+        "url": "https://v16-webapp-prime.tiktok.com/video/tos/alisg/tos-alisg-pve-0037c001/osEDpDQwLezJEBS3OqNBNm9AEIU9MXIIngfFR2/?a=1988&bti=ODszNWYuMDE6&ch=0&cr=3&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=800&bt=400&cs=2&ds=3&ft=-Csk_mH1PD12N-msHd-UxtD2bY6e3wv25NcAp&mime_type=video_mp4&qs=14&rc=ZWc5M2k0NDc3NjNmO2Q1ZEBpM3F0dnI5cnY8NzMzODczNEAwNDA2MzM2XmExY140Y15fYSM2YHNhMmRzMzNhLS1kMTFzcw%3D%3D&btag=e00098000&expire=1762707664&l=20251108005801BB411E36B73002D3EBD7&ply_type=2&policy=2&signature=e32fd8e56a711cdfd436543071b3dfd6&tk=tt_chain_token",
+        "protocol": "https",
+        "video_ext": "mp4",
+        "audio_ext": "none",
+        "resolution": "720x1280",
+        "dynamic_range": "SDR",
+        "aspect_ratio": 0.56,
+        "cookies": "_ttp=34wyWDXvxmF602Htsl0oDR6JCNq; Domain=.tiktok.com; Path=/; Secure; Expires=1795834961; tt_csrf_token=A6kVUZcK-ro_L6C62WbmQwfALArHC4HF-pTM; Domain=.tiktok.com; Path=/; Secure; tt_chain_token=\"bIQCOyoJbQ000pox+IBxHQ==\"; Domain=.tiktok.com; Path=/; Secure; Expires=1778086681; passport_csrf_token=3e2175a5e77e24a26515b4e6f7b50740; Domain=.tiktok.com; Path=/; Secure; Expires=1767674732; passport_csrf_token_default=3e2175a5e77e24a26515b4e6f7b50740; Domain=.tiktok.com; Path=/; Secure; Expires=1767674732; s_v_web_id=verify_mhodh7s9_f6H7RhcI_zN3b_4VwP_AxSW_OnDGZUzFJBgu; Domain=.tiktok.com; Path=/; Secure; multi_sids=7569810985282094098%3Aade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1767677004; cmpl_token=AgQQAPOFF-RO0rkzsFuCpB0r82zGAoWNv4UOYKOhVw; Domain=.tiktok.com; Path=/; Secure; Expires=1767677004; passport_auth_status=b8d801922a4b455b405bf6994fade073%2C063941b21aed31105bffa0d912bcf9fa; Domain=.tiktok.com; Path=/; Expires=1765085004; passport_auth_status_ss=b8d801922a4b455b405bf6994fade073%2C063941b21aed31105bffa0d912bcf9fa; Domain=.tiktok.com; Path=/; Secure; Expires=1765085004; sid_guard=ade59ff71c0c0e5cc0fe1f23772b37c1%7C1762493004%7C15552000%7CWed%2C+06-May-2026+05%3A23%3A24+GMT; Domain=.tiktok.com; Path=/; Secure; Expires=1793597004; uid_tt=ac0557b89a0248004ba199e09ced5e656aa70515a78deb5b62cd048a83d31edc; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; uid_tt_ss=ac0557b89a0248004ba199e09ced5e656aa70515a78deb5b62cd048a83d31edc; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sid_tt=ade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sessionid=ade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sessionid_ss=ade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; tt_session_tlb_tag=sttt%7C5%7CreWf9xwMDlzA_h8jdys3wf________-ji4fpfjT0V1140MZnLSHWNBnXgRLIZvw1fxmxRRmvw7s%3D; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sid_ucp_v1=1.0.0-KDYzMTBmY2U1ODFjN2FkYjNmOGUwYWE1YjcwYTk2N2FkYzhhMjMxMTEKIQiSiNvUwN_XhmkQzIS2yAYYswsgDDC1vrXIBjgIQBJIBBADGgJteSIgYWRlNTlmZjcxYzBjMGU1Y2MwZmUxZjIzNzcyYjM3YzE; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; ssid_ucp_v1=1.0.0-KDYzMTBmY2U1ODFjN2FkYjNmOGUwYWE1YjcwYTk2N2FkYzhhMjMxMTEKIQiSiNvUwN_XhmkQzIS2yAYYswsgDDC1vrXIBjgIQBJIBBADGgJteSIgYWRlNTlmZjcxYzBjMGU1Y2MwZmUxZjIzNzcyYjM3YzE; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; store-country-code=vn; Domain=.tiktok.com; Path=/; Expires=1794029034; store-country-code-src=uid; Domain=.tiktok.com; Path=/; Expires=1794029034; tt-target-idc=alisg; Domain=.tiktok.com; Path=/; Expires=1794029034; tt-target-idc-sign=X46gRkvSgmGWHXja-gzeN1KwdE4cBtH3zFXAhG3-BtWzH-YdFZEQct_uBwMTYtfjrNxqy_GJyyU9vrDSU9xBVMhZYzNMj8Yj-vL3ZdUiBlJfwT_RyqsMw9cBp-UMAurlaLw7iKPn1sOB_2Mr4OgfdC72r1rSon8aLN6RpZxfHlcPgzQDAzxGLO1WCcDi3Grn071JYzpIP3H4Uj5tKf5cHSGRn8O-z3hwE-QaTWdxP_Dv9m7mqKXg9LpTBaiRQ0apSWQMga4QK4y5B4To6e0pZD8oaixa2PVdqGeLesDSGOjsT94m5Qtsw2dBLvi1Cl2PDtg34s_m8F2kwZanwVGyMx5JeHbhEA1jVyuFTZ4wmF-6mQMCj4IoVYUBqf6cEHJl1nz6p3h7j4AFPdhgbDj7nwn0zI1o0xP8WGmE_kn9e53ehBx6IU-iOQJ-JXc_4e8_1n_tP7nZqBQAfB5B-a8mW0iUyH2XBzKKIebPZ8u02eRKDVUUZnutFcgBXjbQW4hW; Domain=.tiktok.com; Path=/; Expires=1794029034; ttwid=1%7CyHVVoWeMmc-3HMQzGeLAWTKsoEmn5lOxHLhrceV4g3w%7C1762493033%7Caa33d6157603beb187ae2fd554015cf463e69a9385fbc54d7a3e7a848a9df8fc; Domain=.tiktok.com; Path=/; Secure; Expires=1794029034; store-idc=alisg; Domain=.tiktok.com; Path=/; Expires=1794029034; store-country-sign=MEIEDGNAqWqR2a0er4zjeAQgMuurAVNuf3SOpc_lCsUS6OVOTEMJPGY7fje3VCShvuYEEKSUWUChT9xgz3oinfsoj_8; Domain=.tiktok.com; Path=/; Expires=1794029034; odin_tt=fdb338ea9924b66e069cd3826b52e91602d6c7c70440ed4a45253d1bdcb67e7b33079c363923c1afe01be7d6a0aed5f094b6d26ad61219129e2c4adf8ef71b17c80e515b61a158847d9b8a0bdf5ce20d; Domain=.tiktok.com; Path=/; Expires=1794029677; msToken=\"o0dtxP-IDT94GodUont29qX-FIqR8kPTHjfmemZaFQjr2ctPmguJGwzuoxR2x6yvG_dY9djL-Xo1wwbWwO5lTf41e5kqxKk0UcmZfE0jK4iqtu9oBm6iOKXdr5J4lmJNS7n2ihNWKiE7lQ==\"; Domain=.tiktok.com; Path=/; Secure; Expires=1763398681",
+        "http_headers": {
+          "User-Agent": "Mozilla/5.0",
+          "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+          "Accept-Language": "en-us,en;q=0.5",
+          "Sec-Fetch-Mode": "navigate",
+          "Referer": "https://www.tiktok.com/@gnhun.tarot/video/7569588102637915413"
+        },
+        "format": "bytevc1_720p_410275-0 - 720x1280"
+      },
+      {
+        "ext": "mp4",
+        "vcodec": "h265",
+        "acodec": "aac",
+        "format_id": "bytevc1_720p_410275-1",
+        "tbr": 410,
+        "quality": 2,
+        "preference": -1,
+        "filesize": 9390177,
+        "width": 720,
+        "height": 1280,
+        "url": "https://v19-webapp-prime.tiktok.com/video/tos/alisg/tos-alisg-pve-0037c001/osEDpDQwLezJEBS3OqNBNm9AEIU9MXIIngfFR2/?a=1988&bti=ODszNWYuMDE6&ch=0&cr=3&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=800&bt=400&cs=2&ds=3&ft=-Csk_mH1PD12N-msHd-UxtD2bY6e3wv25NcAp&mime_type=video_mp4&qs=14&rc=ZWc5M2k0NDc3NjNmO2Q1ZEBpM3F0dnI5cnY8NzMzODczNEAwNDA2MzM2XmExY140Y15fYSM2YHNhMmRzMzNhLS1kMTFzcw%3D%3D&btag=e00098000&expire=1762707664&l=20251108005801BB411E36B73002D3EBD7&ply_type=2&policy=2&signature=e32fd8e56a711cdfd436543071b3dfd6&tk=tt_chain_token",
+        "protocol": "https",
+        "video_ext": "mp4",
+        "audio_ext": "none",
+        "resolution": "720x1280",
+        "dynamic_range": "SDR",
+        "aspect_ratio": 0.56,
+        "cookies": "_ttp=34wyWDXvxmF602Htsl0oDR6JCNq; Domain=.tiktok.com; Path=/; Secure; Expires=1795834961; tt_csrf_token=A6kVUZcK-ro_L6C62WbmQwfALArHC4HF-pTM; Domain=.tiktok.com; Path=/; Secure; tt_chain_token=\"bIQCOyoJbQ000pox+IBxHQ==\"; Domain=.tiktok.com; Path=/; Secure; Expires=1778086681; passport_csrf_token=3e2175a5e77e24a26515b4e6f7b50740; Domain=.tiktok.com; Path=/; Secure; Expires=1767674732; passport_csrf_token_default=3e2175a5e77e24a26515b4e6f7b50740; Domain=.tiktok.com; Path=/; Secure; Expires=1767674732; s_v_web_id=verify_mhodh7s9_f6H7RhcI_zN3b_4VwP_AxSW_OnDGZUzFJBgu; Domain=.tiktok.com; Path=/; Secure; multi_sids=7569810985282094098%3Aade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1767677004; cmpl_token=AgQQAPOFF-RO0rkzsFuCpB0r82zGAoWNv4UOYKOhVw; Domain=.tiktok.com; Path=/; Secure; Expires=1767677004; passport_auth_status=b8d801922a4b455b405bf6994fade073%2C063941b21aed31105bffa0d912bcf9fa; Domain=.tiktok.com; Path=/; Expires=1765085004; passport_auth_status_ss=b8d801922a4b455b405bf6994fade073%2C063941b21aed31105bffa0d912bcf9fa; Domain=.tiktok.com; Path=/; Secure; Expires=1765085004; sid_guard=ade59ff71c0c0e5cc0fe1f23772b37c1%7C1762493004%7C15552000%7CWed%2C+06-May-2026+05%3A23%3A24+GMT; Domain=.tiktok.com; Path=/; Secure; Expires=1793597004; uid_tt=ac0557b89a0248004ba199e09ced5e656aa70515a78deb5b62cd048a83d31edc; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; uid_tt_ss=ac0557b89a0248004ba199e09ced5e656aa70515a78deb5b62cd048a83d31edc; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sid_tt=ade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sessionid=ade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sessionid_ss=ade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; tt_session_tlb_tag=sttt%7C5%7CreWf9xwMDlzA_h8jdys3wf________-ji4fpfjT0V1140MZnLSHWNBnXgRLIZvw1fxmxRRmvw7s%3D; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sid_ucp_v1=1.0.0-KDYzMTBmY2U1ODFjN2FkYjNmOGUwYWE1YjcwYTk2N2FkYzhhMjMxMTEKIQiSiNvUwN_XhmkQzIS2yAYYswsgDDC1vrXIBjgIQBJIBBADGgJteSIgYWRlNTlmZjcxYzBjMGU1Y2MwZmUxZjIzNzcyYjM3YzE; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; ssid_ucp_v1=1.0.0-KDYzMTBmY2U1ODFjN2FkYjNmOGUwYWE1YjcwYTk2N2FkYzhhMjMxMTEKIQiSiNvUwN_XhmkQzIS2yAYYswsgDDC1vrXIBjgIQBJIBBADGgJteSIgYWRlNTlmZjcxYzBjMGU1Y2MwZmUxZjIzNzcyYjM3YzE; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; store-country-code=vn; Domain=.tiktok.com; Path=/; Expires=1794029034; store-country-code-src=uid; Domain=.tiktok.com; Path=/; Expires=1794029034; tt-target-idc=alisg; Domain=.tiktok.com; Path=/; Expires=1794029034; tt-target-idc-sign=X46gRkvSgmGWHXja-gzeN1KwdE4cBtH3zFXAhG3-BtWzH-YdFZEQct_uBwMTYtfjrNxqy_GJyyU9vrDSU9xBVMhZYzNMj8Yj-vL3ZdUiBlJfwT_RyqsMw9cBp-UMAurlaLw7iKPn1sOB_2Mr4OgfdC72r1rSon8aLN6RpZxfHlcPgzQDAzxGLO1WCcDi3Grn071JYzpIP3H4Uj5tKf5cHSGRn8O-z3hwE-QaTWdxP_Dv9m7mqKXg9LpTBaiRQ0apSWQMga4QK4y5B4To6e0pZD8oaixa2PVdqGeLesDSGOjsT94m5Qtsw2dBLvi1Cl2PDtg34s_m8F2kwZanwVGyMx5JeHbhEA1jVyuFTZ4wmF-6mQMCj4IoVYUBqf6cEHJl1nz6p3h7j4AFPdhgbDj7nwn0zI1o0xP8WGmE_kn9e53ehBx6IU-iOQJ-JXc_4e8_1n_tP7nZqBQAfB5B-a8mW0iUyH2XBzKKIebPZ8u02eRKDVUUZnutFcgBXjbQW4hW; Domain=.tiktok.com; Path=/; Expires=1794029034; ttwid=1%7CyHVVoWeMmc-3HMQzGeLAWTKsoEmn5lOxHLhrceV4g3w%7C1762493033%7Caa33d6157603beb187ae2fd554015cf463e69a9385fbc54d7a3e7a848a9df8fc; Domain=.tiktok.com; Path=/; Secure; Expires=1794029034; store-idc=alisg; Domain=.tiktok.com; Path=/; Expires=1794029034; store-country-sign=MEIEDGNAqWqR2a0er4zjeAQgMuurAVNuf3SOpc_lCsUS6OVOTEMJPGY7fje3VCShvuYEEKSUWUChT9xgz3oinfsoj_8; Domain=.tiktok.com; Path=/; Expires=1794029034; odin_tt=fdb338ea9924b66e069cd3826b52e91602d6c7c70440ed4a45253d1bdcb67e7b33079c363923c1afe01be7d6a0aed5f094b6d26ad61219129e2c4adf8ef71b17c80e515b61a158847d9b8a0bdf5ce20d; Domain=.tiktok.com; Path=/; Expires=1794029677; msToken=\"o0dtxP-IDT94GodUont29qX-FIqR8kPTHjfmemZaFQjr2ctPmguJGwzuoxR2x6yvG_dY9djL-Xo1wwbWwO5lTf41e5kqxKk0UcmZfE0jK4iqtu9oBm6iOKXdr5J4lmJNS7n2ihNWKiE7lQ==\"; Domain=.tiktok.com; Path=/; Secure; Expires=1763398681",
+        "http_headers": {
+          "User-Agent": "Mozilla/5.0",
+          "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+          "Accept-Language": "en-us,en;q=0.5",
+          "Sec-Fetch-Mode": "navigate",
+          "Referer": "https://www.tiktok.com/@gnhun.tarot/video/7569588102637915413"
+        },
+        "format": "bytevc1_720p_410275-1 - 720x1280"
+      },
+      {
+        "ext": "mp4",
+        "vcodec": "h265",
+        "acodec": "aac",
+        "format_id": "bytevc1_1080p_658494-0",
+        "tbr": 658,
+        "quality": 3,
+        "preference": -1,
+        "filesize": 15070468,
+        "width": 1080,
+        "height": 1920,
+        "url": "https://v16-webapp-prime.tiktok.com/video/tos/alisg/tos-alisg-pve-0037c001/oQOYQfXnDB0pFXeEzME2JDItDBUE3SmgwVR9NA/?a=1988&bti=ODszNWYuMDE6&ch=0&cr=3&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=1286&bt=643&cs=2&ds=4&ft=-Csk_mH1PD12N-msHd-UxtD2bY6e3wv25NcAp&mime_type=video_mp4&qs=15&rc=ODM2NGY0N2c0ZDplNmU2ZUBpM3F0dnI5cnY8NzMzODczNEAwL19iXmEyXzYxNF8vYDJeYSM2YHNhMmRzMzNhLS1kMTFzcw%3D%3D&btag=e00098000&expire=1762707664&l=20251108005801BB411E36B73002D3EBD7&ply_type=2&policy=2&signature=8fd302bd17edded1e4159bf4a1c8bee8&tk=tt_chain_token",
+        "protocol": "https",
+        "video_ext": "mp4",
+        "audio_ext": "none",
+        "resolution": "1080x1920",
+        "dynamic_range": "SDR",
+        "aspect_ratio": 0.56,
+        "cookies": "_ttp=34wyWDXvxmF602Htsl0oDR6JCNq; Domain=.tiktok.com; Path=/; Secure; Expires=1795834961; tt_csrf_token=A6kVUZcK-ro_L6C62WbmQwfALArHC4HF-pTM; Domain=.tiktok.com; Path=/; Secure; tt_chain_token=\"bIQCOyoJbQ000pox+IBxHQ==\"; Domain=.tiktok.com; Path=/; Secure; Expires=1778086681; passport_csrf_token=3e2175a5e77e24a26515b4e6f7b50740; Domain=.tiktok.com; Path=/; Secure; Expires=1767674732; passport_csrf_token_default=3e2175a5e77e24a26515b4e6f7b50740; Domain=.tiktok.com; Path=/; Secure; Expires=1767674732; s_v_web_id=verify_mhodh7s9_f6H7RhcI_zN3b_4VwP_AxSW_OnDGZUzFJBgu; Domain=.tiktok.com; Path=/; Secure; multi_sids=7569810985282094098%3Aade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1767677004; cmpl_token=AgQQAPOFF-RO0rkzsFuCpB0r82zGAoWNv4UOYKOhVw; Domain=.tiktok.com; Path=/; Secure; Expires=1767677004; passport_auth_status=b8d801922a4b455b405bf6994fade073%2C063941b21aed31105bffa0d912bcf9fa; Domain=.tiktok.com; Path=/; Expires=1765085004; passport_auth_status_ss=b8d801922a4b455b405bf6994fade073%2C063941b21aed31105bffa0d912bcf9fa; Domain=.tiktok.com; Path=/; Secure; Expires=1765085004; sid_guard=ade59ff71c0c0e5cc0fe1f23772b37c1%7C1762493004%7C15552000%7CWed%2C+06-May-2026+05%3A23%3A24+GMT; Domain=.tiktok.com; Path=/; Secure; Expires=1793597004; uid_tt=ac0557b89a0248004ba199e09ced5e656aa70515a78deb5b62cd048a83d31edc; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; uid_tt_ss=ac0557b89a0248004ba199e09ced5e656aa70515a78deb5b62cd048a83d31edc; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sid_tt=ade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sessionid=ade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sessionid_ss=ade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; tt_session_tlb_tag=sttt%7C5%7CreWf9xwMDlzA_h8jdys3wf________-ji4fpfjT0V1140MZnLSHWNBnXgRLIZvw1fxmxRRmvw7s%3D; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sid_ucp_v1=1.0.0-KDYzMTBmY2U1ODFjN2FkYjNmOGUwYWE1YjcwYTk2N2FkYzhhMjMxMTEKIQiSiNvUwN_XhmkQzIS2yAYYswsgDDC1vrXIBjgIQBJIBBADGgJteSIgYWRlNTlmZjcxYzBjMGU1Y2MwZmUxZjIzNzcyYjM3YzE; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; ssid_ucp_v1=1.0.0-KDYzMTBmY2U1ODFjN2FkYjNmOGUwYWE1YjcwYTk2N2FkYzhhMjMxMTEKIQiSiNvUwN_XhmkQzIS2yAYYswsgDDC1vrXIBjgIQBJIBBADGgJteSIgYWRlNTlmZjcxYzBjMGU1Y2MwZmUxZjIzNzcyYjM3YzE; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; store-country-code=vn; Domain=.tiktok.com; Path=/; Expires=1794029034; store-country-code-src=uid; Domain=.tiktok.com; Path=/; Expires=1794029034; tt-target-idc=alisg; Domain=.tiktok.com; Path=/; Expires=1794029034; tt-target-idc-sign=X46gRkvSgmGWHXja-gzeN1KwdE4cBtH3zFXAhG3-BtWzH-YdFZEQct_uBwMTYtfjrNxqy_GJyyU9vrDSU9xBVMhZYzNMj8Yj-vL3ZdUiBlJfwT_RyqsMw9cBp-UMAurlaLw7iKPn1sOB_2Mr4OgfdC72r1rSon8aLN6RpZxfHlcPgzQDAzxGLO1WCcDi3Grn071JYzpIP3H4Uj5tKf5cHSGRn8O-z3hwE-QaTWdxP_Dv9m7mqKXg9LpTBaiRQ0apSWQMga4QK4y5B4To6e0pZD8oaixa2PVdqGeLesDSGOjsT94m5Qtsw2dBLvi1Cl2PDtg34s_m8F2kwZanwVGyMx5JeHbhEA1jVyuFTZ4wmF-6mQMCj4IoVYUBqf6cEHJl1nz6p3h7j4AFPdhgbDj7nwn0zI1o0xP8WGmE_kn9e53ehBx6IU-iOQJ-JXc_4e8_1n_tP7nZqBQAfB5B-a8mW0iUyH2XBzKKIebPZ8u02eRKDVUUZnutFcgBXjbQW4hW; Domain=.tiktok.com; Path=/; Expires=1794029034; ttwid=1%7CyHVVoWeMmc-3HMQzGeLAWTKsoEmn5lOxHLhrceV4g3w%7C1762493033%7Caa33d6157603beb187ae2fd554015cf463e69a9385fbc54d7a3e7a848a9df8fc; Domain=.tiktok.com; Path=/; Secure; Expires=1794029034; store-idc=alisg; Domain=.tiktok.com; Path=/; Expires=1794029034; store-country-sign=MEIEDGNAqWqR2a0er4zjeAQgMuurAVNuf3SOpc_lCsUS6OVOTEMJPGY7fje3VCShvuYEEKSUWUChT9xgz3oinfsoj_8; Domain=.tiktok.com; Path=/; Expires=1794029034; odin_tt=fdb338ea9924b66e069cd3826b52e91602d6c7c70440ed4a45253d1bdcb67e7b33079c363923c1afe01be7d6a0aed5f094b6d26ad61219129e2c4adf8ef71b17c80e515b61a158847d9b8a0bdf5ce20d; Domain=.tiktok.com; Path=/; Expires=1794029677; msToken=\"o0dtxP-IDT94GodUont29qX-FIqR8kPTHjfmemZaFQjr2ctPmguJGwzuoxR2x6yvG_dY9djL-Xo1wwbWwO5lTf41e5kqxKk0UcmZfE0jK4iqtu9oBm6iOKXdr5J4lmJNS7n2ihNWKiE7lQ==\"; Domain=.tiktok.com; Path=/; Secure; Expires=1763398681",
+        "http_headers": {
+          "User-Agent": "Mozilla/5.0",
+          "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+          "Accept-Language": "en-us,en;q=0.5",
+          "Sec-Fetch-Mode": "navigate",
+          "Referer": "https://www.tiktok.com/@gnhun.tarot/video/7569588102637915413"
+        },
+        "format": "bytevc1_1080p_658494-0 - 1080x1920"
+      },
+      {
+        "ext": "mp4",
+        "vcodec": "h265",
+        "acodec": "aac",
+        "format_id": "bytevc1_1080p_658494-1",
+        "tbr": 658,
+        "quality": 3,
+        "preference": -1,
+        "filesize": 15070468,
+        "width": 1080,
+        "height": 1920,
+        "url": "https://v19-webapp-prime.tiktok.com/video/tos/alisg/tos-alisg-pve-0037c001/oQOYQfXnDB0pFXeEzME2JDItDBUE3SmgwVR9NA/?a=1988&bti=ODszNWYuMDE6&ch=0&cr=3&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=1286&bt=643&cs=2&ds=4&ft=-Csk_mH1PD12N-msHd-UxtD2bY6e3wv25NcAp&mime_type=video_mp4&qs=15&rc=ODM2NGY0N2c0ZDplNmU2ZUBpM3F0dnI5cnY8NzMzODczNEAwL19iXmEyXzYxNF8vYDJeYSM2YHNhMmRzMzNhLS1kMTFzcw%3D%3D&btag=e00098000&expire=1762707664&l=20251108005801BB411E36B73002D3EBD7&ply_type=2&policy=2&signature=8fd302bd17edded1e4159bf4a1c8bee8&tk=tt_chain_token",
+        "protocol": "https",
+        "video_ext": "mp4",
+        "audio_ext": "none",
+        "resolution": "1080x1920",
+        "dynamic_range": "SDR",
+        "aspect_ratio": 0.56,
+        "cookies": "_ttp=34wyWDXvxmF602Htsl0oDR6JCNq; Domain=.tiktok.com; Path=/; Secure; Expires=1795834961; tt_csrf_token=A6kVUZcK-ro_L6C62WbmQwfALArHC4HF-pTM; Domain=.tiktok.com; Path=/; Secure; tt_chain_token=\"bIQCOyoJbQ000pox+IBxHQ==\"; Domain=.tiktok.com; Path=/; Secure; Expires=1778086681; passport_csrf_token=3e2175a5e77e24a26515b4e6f7b50740; Domain=.tiktok.com; Path=/; Secure; Expires=1767674732; passport_csrf_token_default=3e2175a5e77e24a26515b4e6f7b50740; Domain=.tiktok.com; Path=/; Secure; Expires=1767674732; s_v_web_id=verify_mhodh7s9_f6H7RhcI_zN3b_4VwP_AxSW_OnDGZUzFJBgu; Domain=.tiktok.com; Path=/; Secure; multi_sids=7569810985282094098%3Aade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1767677004; cmpl_token=AgQQAPOFF-RO0rkzsFuCpB0r82zGAoWNv4UOYKOhVw; Domain=.tiktok.com; Path=/; Secure; Expires=1767677004; passport_auth_status=b8d801922a4b455b405bf6994fade073%2C063941b21aed31105bffa0d912bcf9fa; Domain=.tiktok.com; Path=/; Expires=1765085004; passport_auth_status_ss=b8d801922a4b455b405bf6994fade073%2C063941b21aed31105bffa0d912bcf9fa; Domain=.tiktok.com; Path=/; Secure; Expires=1765085004; sid_guard=ade59ff71c0c0e5cc0fe1f23772b37c1%7C1762493004%7C15552000%7CWed%2C+06-May-2026+05%3A23%3A24+GMT; Domain=.tiktok.com; Path=/; Secure; Expires=1793597004; uid_tt=ac0557b89a0248004ba199e09ced5e656aa70515a78deb5b62cd048a83d31edc; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; uid_tt_ss=ac0557b89a0248004ba199e09ced5e656aa70515a78deb5b62cd048a83d31edc; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sid_tt=ade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sessionid=ade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sessionid_ss=ade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; tt_session_tlb_tag=sttt%7C5%7CreWf9xwMDlzA_h8jdys3wf________-ji4fpfjT0V1140MZnLSHWNBnXgRLIZvw1fxmxRRmvw7s%3D; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sid_ucp_v1=1.0.0-KDYzMTBmY2U1ODFjN2FkYjNmOGUwYWE1YjcwYTk2N2FkYzhhMjMxMTEKIQiSiNvUwN_XhmkQzIS2yAYYswsgDDC1vrXIBjgIQBJIBBADGgJteSIgYWRlNTlmZjcxYzBjMGU1Y2MwZmUxZjIzNzcyYjM3YzE; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; ssid_ucp_v1=1.0.0-KDYzMTBmY2U1ODFjN2FkYjNmOGUwYWE1YjcwYTk2N2FkYzhhMjMxMTEKIQiSiNvUwN_XhmkQzIS2yAYYswsgDDC1vrXIBjgIQBJIBBADGgJteSIgYWRlNTlmZjcxYzBjMGU1Y2MwZmUxZjIzNzcyYjM3YzE; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; store-country-code=vn; Domain=.tiktok.com; Path=/; Expires=1794029034; store-country-code-src=uid; Domain=.tiktok.com; Path=/; Expires=1794029034; tt-target-idc=alisg; Domain=.tiktok.com; Path=/; Expires=1794029034; tt-target-idc-sign=X46gRkvSgmGWHXja-gzeN1KwdE4cBtH3zFXAhG3-BtWzH-YdFZEQct_uBwMTYtfjrNxqy_GJyyU9vrDSU9xBVMhZYzNMj8Yj-vL3ZdUiBlJfwT_RyqsMw9cBp-UMAurlaLw7iKPn1sOB_2Mr4OgfdC72r1rSon8aLN6RpZxfHlcPgzQDAzxGLO1WCcDi3Grn071JYzpIP3H4Uj5tKf5cHSGRn8O-z3hwE-QaTWdxP_Dv9m7mqKXg9LpTBaiRQ0apSWQMga4QK4y5B4To6e0pZD8oaixa2PVdqGeLesDSGOjsT94m5Qtsw2dBLvi1Cl2PDtg34s_m8F2kwZanwVGyMx5JeHbhEA1jVyuFTZ4wmF-6mQMCj4IoVYUBqf6cEHJl1nz6p3h7j4AFPdhgbDj7nwn0zI1o0xP8WGmE_kn9e53ehBx6IU-iOQJ-JXc_4e8_1n_tP7nZqBQAfB5B-a8mW0iUyH2XBzKKIebPZ8u02eRKDVUUZnutFcgBXjbQW4hW; Domain=.tiktok.com; Path=/; Expires=1794029034; ttwid=1%7CyHVVoWeMmc-3HMQzGeLAWTKsoEmn5lOxHLhrceV4g3w%7C1762493033%7Caa33d6157603beb187ae2fd554015cf463e69a9385fbc54d7a3e7a848a9df8fc; Domain=.tiktok.com; Path=/; Secure; Expires=1794029034; store-idc=alisg; Domain=.tiktok.com; Path=/; Expires=1794029034; store-country-sign=MEIEDGNAqWqR2a0er4zjeAQgMuurAVNuf3SOpc_lCsUS6OVOTEMJPGY7fje3VCShvuYEEKSUWUChT9xgz3oinfsoj_8; Domain=.tiktok.com; Path=/; Expires=1794029034; odin_tt=fdb338ea9924b66e069cd3826b52e91602d6c7c70440ed4a45253d1bdcb67e7b33079c363923c1afe01be7d6a0aed5f094b6d26ad61219129e2c4adf8ef71b17c80e515b61a158847d9b8a0bdf5ce20d; Domain=.tiktok.com; Path=/; Expires=1794029677; msToken=\"o0dtxP-IDT94GodUont29qX-FIqR8kPTHjfmemZaFQjr2ctPmguJGwzuoxR2x6yvG_dY9djL-Xo1wwbWwO5lTf41e5kqxKk0UcmZfE0jK4iqtu9oBm6iOKXdr5J4lmJNS7n2ihNWKiE7lQ==\"; Domain=.tiktok.com; Path=/; Secure; Expires=1763398681",
+        "http_headers": {
+          "User-Agent": "Mozilla/5.0",
+          "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+          "Accept-Language": "en-us,en;q=0.5",
+          "Sec-Fetch-Mode": "navigate",
+          "Referer": "https://www.tiktok.com/@gnhun.tarot/video/7569588102637915413"
+        },
+        "format": "bytevc1_1080p_658494-1 - 1080x1920"
+      }
+    ],
+    "subtitles": {},
+    "http_headers": {
+      "User-Agent": "Mozilla/5.0",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+      "Accept-Language": "en-us,en;q=0.5",
+      "Sec-Fetch-Mode": "navigate",
+      "Referer": "https://www.tiktok.com/@gnhun.tarot/video/7569588102637915413"
+    },
+    "channel": "Gnhun Tarot",
+    "channel_id": "MS4wLjABAAAAwwaAQeb2dkMfB2I7ivxbLXXbN4dwBOu_jVlSfHGiQRE",
+    "uploader": "gnhun.tarot",
+    "uploader_id": "71980988203",
+    "channel_url": "https://www.tiktok.com/@MS4wLjABAAAAwwaAQeb2dkMfB2I7ivxbLXXbN4dwBOu_jVlSfHGiQRE",
+    "uploader_url": "https://www.tiktok.com/@gnhun.tarot",
+    "track": "My Frequency",
+    "album": "Melted Mind",
+    "artists": [
+      "Rickert Ponce"
+    ],
+    "duration": 183,
+    "title": "Người cũ đang nghĩ gì bề bạn #GnhunTarot #tarot #tarotreading ",
+    "description": "Người cũ đang nghĩ gì bề bạn #GnhunTarot #tarot #tarotreading ",
+    "timestamp": 1762432075,
+    "view_count": 18100,
+    "like_count": 1650,
+    "repost_count": 49,
+    "comment_count": 146,
+    "thumbnails": [
+      {
+        "id": "dynamicCover",
+        "url": "https://p16-sign-sg.tiktokcdn.com/tos-alisg-p-0037/okfpXmRgEpDDeMkE1lFNzIAEBSZnIgBwJXBU3A~tplv-tiktokx-origin.image?dr=14575&x-expires=1762704000&x-signature=0OGVRtRbJiUsGOl0zzURFBL6xzI%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=my2",
+        "preference": -2
+      },
+      {
+        "id": "cover",
+        "url": "https://p16-sign-sg.tiktokcdn.com/tos-alisg-p-0037/oQEmESFtUnUziXKMBBDAINDwR3pglB4EGJEefX~tplv-tiktokx-origin.image?dr=14575&x-expires=1762704000&x-signature=ZB%2FXl%2Bcjvx8cQgyX2CA74cOP9DU%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=my2",
+        "preference": -1
+      },
+      {
+        "id": "originCover",
+        "url": "https://p16-sign-sg.tiktokcdn.com/tos-alisg-p-0037/oUfolJzUDBBFeFSIAImMw9AyX3NgEplnDERME4~tplv-tiktokx-origin.image?dr=14575&x-expires=1762704000&x-signature=WgCbvRndO6HR%2FjKqNZQG%2BKY%2BfUw%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=my2",
+        "preference": -1
+      }
+    ],
+    "webpage_url": "https://www.tiktok.com/@gnhun.tarot/video/7569588102637915413",
+    "webpage_url_basename": "7569588102637915413",
+    "webpage_url_domain": "tiktok.com",
+    "extractor": "TikTok",
+    "extractor_key": "TikTok",
+    "thumbnail": "https://p16-sign-sg.tiktokcdn.com/tos-alisg-p-0037/oUfolJzUDBBFeFSIAImMw9AyX3NgEplnDERME4~tplv-tiktokx-origin.image?dr=14575&x-expires=1762704000&x-signature=WgCbvRndO6HR%2FjKqNZQG%2BKY%2BfUw%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=my2",
+    "display_id": "7569588102637915413",
+    "fulltitle": "Người cũ đang nghĩ gì bề bạn #GnhunTarot #tarot #tarotreading ",
+    "duration_string": "3:03",
+    "upload_date": "20251106",
+    "artist": "Rickert Ponce",
+    "epoch": 1762534681,
+    "ext": "mp4",
+    "vcodec": "h265",
+    "acodec": "aac",
+    "format_id": "bytevc1_1080p_658494-1",
+    "tbr": 658,
+    "quality": 3,
+    "preference": -1,
+    "filesize": 15070468,
+    "width": 1080,
+    "height": 1920,
+    "url": "https://v19-webapp-prime.tiktok.com/video/tos/alisg/tos-alisg-pve-0037c001/oQOYQfXnDB0pFXeEzME2JDItDBUE3SmgwVR9NA/?a=1988&bti=ODszNWYuMDE6&ch=0&cr=3&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=1286&bt=643&cs=2&ds=4&ft=-Csk_mH1PD12N-msHd-UxtD2bY6e3wv25NcAp&mime_type=video_mp4&qs=15&rc=ODM2NGY0N2c0ZDplNmU2ZUBpM3F0dnI5cnY8NzMzODczNEAwL19iXmEyXzYxNF8vYDJeYSM2YHNhMmRzMzNhLS1kMTFzcw%3D%3D&btag=e00098000&expire=1762707664&l=20251108005801BB411E36B73002D3EBD7&ply_type=2&policy=2&signature=8fd302bd17edded1e4159bf4a1c8bee8&tk=tt_chain_token",
+    "protocol": "https",
+    "video_ext": "mp4",
+    "audio_ext": "none",
+    "resolution": "1080x1920",
+    "dynamic_range": "SDR",
+    "aspect_ratio": 0.56,
+    "cookies": "_ttp=34wyWDXvxmF602Htsl0oDR6JCNq; Domain=.tiktok.com; Path=/; Secure; Expires=1795834961; tt_csrf_token=A6kVUZcK-ro_L6C62WbmQwfALArHC4HF-pTM; Domain=.tiktok.com; Path=/; Secure; tt_chain_token=\"bIQCOyoJbQ000pox+IBxHQ==\"; Domain=.tiktok.com; Path=/; Secure; Expires=1778086681; passport_csrf_token=3e2175a5e77e24a26515b4e6f7b50740; Domain=.tiktok.com; Path=/; Secure; Expires=1767674732; passport_csrf_token_default=3e2175a5e77e24a26515b4e6f7b50740; Domain=.tiktok.com; Path=/; Secure; Expires=1767674732; s_v_web_id=verify_mhodh7s9_f6H7RhcI_zN3b_4VwP_AxSW_OnDGZUzFJBgu; Domain=.tiktok.com; Path=/; Secure; multi_sids=7569810985282094098%3Aade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1767677004; cmpl_token=AgQQAPOFF-RO0rkzsFuCpB0r82zGAoWNv4UOYKOhVw; Domain=.tiktok.com; Path=/; Secure; Expires=1767677004; passport_auth_status=b8d801922a4b455b405bf6994fade073%2C063941b21aed31105bffa0d912bcf9fa; Domain=.tiktok.com; Path=/; Expires=1765085004; passport_auth_status_ss=b8d801922a4b455b405bf6994fade073%2C063941b21aed31105bffa0d912bcf9fa; Domain=.tiktok.com; Path=/; Secure; Expires=1765085004; sid_guard=ade59ff71c0c0e5cc0fe1f23772b37c1%7C1762493004%7C15552000%7CWed%2C+06-May-2026+05%3A23%3A24+GMT; Domain=.tiktok.com; Path=/; Secure; Expires=1793597004; uid_tt=ac0557b89a0248004ba199e09ced5e656aa70515a78deb5b62cd048a83d31edc; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; uid_tt_ss=ac0557b89a0248004ba199e09ced5e656aa70515a78deb5b62cd048a83d31edc; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sid_tt=ade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sessionid=ade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sessionid_ss=ade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; tt_session_tlb_tag=sttt%7C5%7CreWf9xwMDlzA_h8jdys3wf________-ji4fpfjT0V1140MZnLSHWNBnXgRLIZvw1fxmxRRmvw7s%3D; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sid_ucp_v1=1.0.0-KDYzMTBmY2U1ODFjN2FkYjNmOGUwYWE1YjcwYTk2N2FkYzhhMjMxMTEKIQiSiNvUwN_XhmkQzIS2yAYYswsgDDC1vrXIBjgIQBJIBBADGgJteSIgYWRlNTlmZjcxYzBjMGU1Y2MwZmUxZjIzNzcyYjM3YzE; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; ssid_ucp_v1=1.0.0-KDYzMTBmY2U1ODFjN2FkYjNmOGUwYWE1YjcwYTk2N2FkYzhhMjMxMTEKIQiSiNvUwN_XhmkQzIS2yAYYswsgDDC1vrXIBjgIQBJIBBADGgJteSIgYWRlNTlmZjcxYzBjMGU1Y2MwZmUxZjIzNzcyYjM3YzE; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; store-country-code=vn; Domain=.tiktok.com; Path=/; Expires=1794029034; store-country-code-src=uid; Domain=.tiktok.com; Path=/; Expires=1794029034; tt-target-idc=alisg; Domain=.tiktok.com; Path=/; Expires=1794029034; tt-target-idc-sign=X46gRkvSgmGWHXja-gzeN1KwdE4cBtH3zFXAhG3-BtWzH-YdFZEQct_uBwMTYtfjrNxqy_GJyyU9vrDSU9xBVMhZYzNMj8Yj-vL3ZdUiBlJfwT_RyqsMw9cBp-UMAurlaLw7iKPn1sOB_2Mr4OgfdC72r1rSon8aLN6RpZxfHlcPgzQDAzxGLO1WCcDi3Grn071JYzpIP3H4Uj5tKf5cHSGRn8O-z3hwE-QaTWdxP_Dv9m7mqKXg9LpTBaiRQ0apSWQMga4QK4y5B4To6e0pZD8oaixa2PVdqGeLesDSGOjsT94m5Qtsw2dBLvi1Cl2PDtg34s_m8F2kwZanwVGyMx5JeHbhEA1jVyuFTZ4wmF-6mQMCj4IoVYUBqf6cEHJl1nz6p3h7j4AFPdhgbDj7nwn0zI1o0xP8WGmE_kn9e53ehBx6IU-iOQJ-JXc_4e8_1n_tP7nZqBQAfB5B-a8mW0iUyH2XBzKKIebPZ8u02eRKDVUUZnutFcgBXjbQW4hW; Domain=.tiktok.com; Path=/; Expires=1794029034; ttwid=1%7CyHVVoWeMmc-3HMQzGeLAWTKsoEmn5lOxHLhrceV4g3w%7C1762493033%7Caa33d6157603beb187ae2fd554015cf463e69a9385fbc54d7a3e7a848a9df8fc; Domain=.tiktok.com; Path=/; Secure; Expires=1794029034; store-idc=alisg; Domain=.tiktok.com; Path=/; Expires=1794029034; store-country-sign=MEIEDGNAqWqR2a0er4zjeAQgMuurAVNuf3SOpc_lCsUS6OVOTEMJPGY7fje3VCShvuYEEKSUWUChT9xgz3oinfsoj_8; Domain=.tiktok.com; Path=/; Expires=1794029034; odin_tt=fdb338ea9924b66e069cd3826b52e91602d6c7c70440ed4a45253d1bdcb67e7b33079c363923c1afe01be7d6a0aed5f094b6d26ad61219129e2c4adf8ef71b17c80e515b61a158847d9b8a0bdf5ce20d; Domain=.tiktok.com; Path=/; Expires=1794029677; msToken=\"o0dtxP-IDT94GodUont29qX-FIqR8kPTHjfmemZaFQjr2ctPmguJGwzuoxR2x6yvG_dY9djL-Xo1wwbWwO5lTf41e5kqxKk0UcmZfE0jK4iqtu9oBm6iOKXdr5J4lmJNS7n2ihNWKiE7lQ==\"; Domain=.tiktok.com; Path=/; Secure; Expires=1763398681",
+    "format": "bytevc1_1080p_658494-1 - 1080x1920",
+    "_type": "video",
+    "_version": {
+      "version": "2025.10.22",
+      "release_git_head": "c9356f308dd3c5f9f494cb40ed14c5df017b4fe0",
+      "repository": "yt-dlp/yt-dlp"
+    }
+  },
+  "comments": [
+    {
+      "cid": "7569756960812991240",
+      "text": "2 tháng rồi. Hoá ra mình vẫn chưa bao giờ quên họ chứ họ đã quên mình rồi😢",
+      "author": "Trang My",
+      "create_time": 1762471408,
+      "like_count": 4,
+      "reply_count": 1,
+      "replies": [
+        {
+          "aweme_id": "7569588102637915413",
+          "cid": "7569763094870082311",
+          "collect_stat": 0,
+          "comment_language": "vi",
+          "comment_post_item_ids": null,
+          "create_time": 1762472842,
+          "digg_count": 0,
+          "forbid_reply_with_video": true,
+          "image_list": null,
+          "is_author_digged": false,
+          "is_comment_translatable": true,
+          "is_high_purchase_intent": false,
+          "label_list": null,
+          "no_show": false,
+          "reply_comment": null,
+          "reply_id": "7569756960812991240",
+          "reply_to_reply_id": "0",
+          "share_info": {
+            "acl": {
+              "code": 1,
+              "extra": "{\"is_share_handler_failed\":\"1\"}"
+            },
+            "desc": "",
+            "title": "",
+            "url": ""
+          },
+          "status": 1,
+          "stick_position": 0,
+          "text": "Mình cũng chưa quên dc ho",
+          "text_extra": [],
+          "trans_btn_style": 1,
+          "user": {
+            "account_labels": null,
+            "ad_cover_url": null,
+            "advance_feature_item_order": null,
+            "advanced_feature_info": null,
+            "avatar_thumb": {
+              "uri": "https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=131576183069698&height=240&width=240&ext=1709700739&hash=AfrrSPtJuvZEDzOwdRrKi5SX7ywTeG6CujlPqdgKJIqCRg",
+              "url_list": [
+                "https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=131576183069698&height=240&width=240&ext=1709700739&hash=AfrrSPtJuvZEDzOwdRrKi5SX7ywTeG6CujlPqdgKJIqCRg"
+              ],
+              "url_prefix": null
+            },
+            "bold_fields": null,
+            "can_message_follow_status_list": null,
+            "can_set_geofencing": null,
+            "cha_list": null,
+            "cover_url": null,
+            "custom_verify": "",
+            "enterprise_verify_reason": "",
+            "events": null,
+            "followers_detail": null,
+            "geofencing": null,
+            "homepage_bottom_toast": null,
+            "item_list": null,
+            "mutual_relation_avatars": null,
+            "need_points": null,
+            "nickname": "Yến trinh",
+            "platform_sync_info": null,
+            "predicted_age_group": "",
+            "relative_users": null,
+            "search_highlight": null,
+            "sec_uid": "MS4wLjABAAAA3pH2kmhxS7nBaPTDfnT87rk9a68tU4U6lsf9EMYV4y6VF0WpeoyHBgtzXVLHLj8a",
+            "shield_edit_field_info": null,
+            "type_label": null,
+            "uid": "7331723681154450433",
+            "unique_id": "nha.yn.yn.trinh",
+            "user_profile_guide": null,
+            "user_tags": null,
+            "white_cover_url": null
+          },
+          "user_buried": false,
+          "user_digged": 0
+        }
+      ]
+    },
+    {
+      "cid": "7569655872051462913",
+      "text": "claim hoan hỉ sự trở lại của anh ấy ạ",
+      "author": "princess",
+      "create_time": 1762447863,
+      "like_count": 15,
+      "reply_count": 1,
+      "replies": [
+        {
+          "aweme_id": "7569588102637915413",
+          "cid": "7569685894598001426",
+          "collect_stat": 0,
+          "comment_language": "en",
+          "comment_post_item_ids": null,
+          "create_time": 1762454855,
+          "digg_count": 0,
+          "forbid_reply_with_video": false,
+          "image_list": null,
+          "is_author_digged": false,
+          "is_comment_translatable": true,
+          "is_high_purchase_intent": false,
+          "label_list": null,
+          "no_show": false,
+          "reply_comment": null,
+          "reply_id": "7569655872051462913",
+          "reply_to_reply_id": "0",
+          "share_info": {
+            "acl": {
+              "code": 0,
+              "extra": "{}"
+            },
+            "desc": "Trương Nana’s comment: M",
+            "title": "Người cũ đang nghĩ gì bề bạn #GnhunTarot #tarot #tarotreading ",
+            "url": "https://m.tiktok.com/v/7569588102637915413.html?_d=f09gf88977dfid&comment_author_id=75810411460&preview_pb=0&share_comment_id=7569685894598001426&share_item_id=7569588102637915413&sharer_language=en&source=h5_m&u_code=f09gf5a9194j7d"
+          },
+          "status": 1,
+          "stick_position": 0,
+          "text": "M",
+          "text_extra": [],
+          "trans_btn_style": 0,
+          "user": {
+            "account_labels": null,
+            "ad_cover_url": null,
+            "advance_feature_item_order": null,
+            "advanced_feature_info": null,
+            "avatar_thumb": {
+              "uri": "tos-alisg-avt-0068/4b39b9c34890e3f787be03553aa24d1b",
+              "url_list": [
+                "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/4b39b9c34890e3f787be03553aa24d1b~tplv-tiktokx-cropcenter:100:100.jpg?dr=14579&refresh_token=70bb395c&x-expires=1762617600&x-signature=%2BZsHYzgMi7mfCTCCBpXzdGGC3sw%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my",
+                "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/4b39b9c34890e3f787be03553aa24d1b~tplv-tiktokx-cropcenter:100:100.jpeg?dr=14579&refresh_token=3b8b2c20&x-expires=1762617600&x-signature=CV4lFmNpAoBdriKT66VwlCt9eHw%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my"
+              ],
+              "url_prefix": null
+            },
+            "bold_fields": null,
+            "can_message_follow_status_list": null,
+            "can_set_geofencing": null,
+            "cha_list": null,
+            "cover_url": null,
+            "custom_verify": "",
+            "enterprise_verify_reason": "",
+            "events": null,
+            "followers_detail": null,
+            "geofencing": null,
+            "homepage_bottom_toast": null,
+            "item_list": null,
+            "mutual_relation_avatars": null,
+            "need_points": null,
+            "nickname": "Trương Nana",
+            "platform_sync_info": null,
+            "predicted_age_group": "3",
+            "relative_users": null,
+            "search_highlight": null,
+            "sec_uid": "MS4wLjABAAAADE7th1uJFRzqvZLwEnhDU_LnXsuanVACjd0mpvAx47E",
+            "shield_edit_field_info": null,
+            "type_label": null,
+            "uid": "75810411460",
+            "unique_id": "truongnana0939",
+            "user_profile_guide": null,
+            "user_tags": null,
+            "white_cover_url": null
+          },
+          "user_buried": false,
+          "user_digged": 0
+        }
+      ]
+    },
+    {
+      "cid": "7570005084529558279",
+      "text": "Thoiii thôii😂😂",
+      "author": "𝘼𝙢𝙮౨ৎ",
+      "create_time": 1762529161,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569852202010379016",
+      "text": "claim ạ",
+      "author": "🎀Hina_love you🎀",
+      "create_time": 1762493711,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569590132089930514",
+      "text": "dạ sớm ạ , claim nhiều ạ 🍀🍀🍀",
+      "author": "chip 🐣",
+      "create_time": 1762432550,
+      "like_count": 28,
+      "reply_count": 4,
+      "replies": [
+        {
+          "aweme_id": "7569588102637915413",
+          "cid": "7569655160503550741",
+          "collect_stat": 0,
+          "comment_language": "vi",
+          "comment_post_item_ids": null,
+          "create_time": 1762447690,
+          "digg_count": 0,
+          "forbid_reply_with_video": true,
+          "image_list": null,
+          "is_author_digged": false,
+          "is_comment_translatable": true,
+          "is_high_purchase_intent": false,
+          "label_list": null,
+          "no_show": false,
+          "reply_comment": null,
+          "reply_id": "7569590132089930514",
+          "reply_to_reply_id": "0",
+          "share_info": {
+            "acl": {
+              "code": 1,
+              "extra": "{\"is_share_handler_failed\":\"1\"}"
+            },
+            "desc": "",
+            "title": "",
+            "url": ""
+          },
+          "status": 1,
+          "stick_position": 0,
+          "text": "Claim ạ",
+          "text_extra": [],
+          "trans_btn_style": 1,
+          "user": {
+            "account_labels": null,
+            "ad_cover_url": null,
+            "advance_feature_item_order": null,
+            "advanced_feature_info": null,
+            "avatar_thumb": {
+              "uri": "tos-alisg-avt-0068/99a344a7c1a32e78544866bcc6625bab",
+              "url_list": [
+                "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/99a344a7c1a32e78544866bcc6625bab~tplv-tiktokx-cropcenter:100:100.jpg?dr=14579&refresh_token=58b28f21&x-expires=1762617600&x-signature=n33csz%2Fl1xsAI1d%2FiReeYWIPsoY%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my",
+                "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/99a344a7c1a32e78544866bcc6625bab~tplv-tiktokx-cropcenter:100:100.jpeg?dr=14579&refresh_token=2d2e2073&x-expires=1762617600&x-signature=nvHMS1tKOD2c%2BvMQxNtxppGhqhE%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my"
+              ],
+              "url_prefix": null
+            },
+            "bold_fields": null,
+            "can_message_follow_status_list": null,
+            "can_set_geofencing": null,
+            "cha_list": null,
+            "cover_url": null,
+            "custom_verify": "",
+            "enterprise_verify_reason": "",
+            "events": null,
+            "followers_detail": null,
+            "geofencing": null,
+            "homepage_bottom_toast": null,
+            "item_list": null,
+            "mutual_relation_avatars": null,
+            "need_points": null,
+            "nickname": "💔",
+            "platform_sync_info": null,
+            "predicted_age_group": "",
+            "relative_users": null,
+            "search_highlight": null,
+            "sec_uid": "MS4wLjABAAAAQLhYzNb3QySG2FUGFp8Y5cnMce3Ec99W11syOky3_OBPXak384_L6bCyYB06bu7G",
+            "shield_edit_field_info": null,
+            "type_label": null,
+            "uid": "7378496242995119121",
+            "unique_id": "goiemlaembe__1",
+            "user_profile_guide": null,
+            "user_tags": null,
+            "white_cover_url": null
+          },
+          "user_buried": false,
+          "user_digged": 0
+        },
+        {
+          "aweme_id": "7569588102637915413",
+          "cid": "7569609564460761877",
+          "collect_stat": 0,
+          "comment_language": "en",
+          "comment_post_item_ids": null,
+          "create_time": 1762437077,
+          "digg_count": 0,
+          "forbid_reply_with_video": true,
+          "image_list": null,
+          "is_author_digged": false,
+          "is_comment_translatable": true,
+          "is_high_purchase_intent": false,
+          "label_list": null,
+          "no_show": false,
+          "reply_comment": null,
+          "reply_id": "7569590132089930514",
+          "reply_to_reply_id": "0",
+          "share_info": {
+            "acl": {
+              "code": 1,
+              "extra": "{\"is_share_handler_failed\":\"1\"}"
+            },
+            "desc": "",
+            "title": "",
+            "url": ""
+          },
+          "status": 1,
+          "stick_position": 0,
+          "text": "claim",
+          "text_extra": [],
+          "trans_btn_style": 0,
+          "user": {
+            "account_labels": null,
+            "ad_cover_url": null,
+            "advance_feature_item_order": null,
+            "advanced_feature_info": null,
+            "avatar_thumb": {
+              "uri": "tos-alisg-avt-0068/1ece98e29795bf2ea01aa70c681adf10",
+              "url_list": [
+                "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/1ece98e29795bf2ea01aa70c681adf10~tplv-tiktokx-cropcenter:100:100.jpg?dr=14579&refresh_token=55faaf6f&x-expires=1762617600&x-signature=HPquoVm24qO7aHx3XZpCc1yWfEo%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my",
+                "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/1ece98e29795bf2ea01aa70c681adf10~tplv-tiktokx-cropcenter:100:100.jpeg?dr=14579&refresh_token=3abfda7b&x-expires=1762617600&x-signature=pgGL8mzOs2NY%2F%2B9pYF6kdfnLL4Q%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my"
+              ],
+              "url_prefix": null
+            },
+            "bold_fields": null,
+            "can_message_follow_status_list": null,
+            "can_set_geofencing": null,
+            "cha_list": null,
+            "cover_url": null,
+            "custom_verify": "",
+            "enterprise_verify_reason": "",
+            "events": null,
+            "followers_detail": null,
+            "geofencing": null,
+            "homepage_bottom_toast": null,
+            "item_list": null,
+            "mutual_relation_avatars": null,
+            "need_points": null,
+            "nickname": "Trúc My",
+            "platform_sync_info": null,
+            "predicted_age_group": "",
+            "relative_users": null,
+            "search_highlight": null,
+            "sec_uid": "MS4wLjABAAAArS1PojpubpmIRnn8s0XdDEXgUd8Gd9JSvsLjKSDVEBxjg8VbmEumd9a4TZ2VSYCs",
+            "shield_edit_field_info": null,
+            "type_label": null,
+            "uid": "7487449462881698824",
+            "unique_id": "ngtrmy020",
+            "user_profile_guide": null,
+            "user_tags": null,
+            "white_cover_url": null
+          },
+          "user_buried": false,
+          "user_digged": 0
+        },
+        {
+          "aweme_id": "7569588102637915413",
+          "cid": "7569601231098872596",
+          "collect_stat": 0,
+          "comment_language": "vi",
+          "comment_post_item_ids": null,
+          "create_time": 1762435133,
+          "digg_count": 0,
+          "forbid_reply_with_video": true,
+          "image_list": null,
+          "is_author_digged": false,
+          "is_comment_translatable": true,
+          "is_high_purchase_intent": false,
+          "label_list": null,
+          "no_show": false,
+          "reply_comment": null,
+          "reply_id": "7569590132089930514",
+          "reply_to_reply_id": "0",
+          "share_info": {
+            "acl": {
+              "code": 1,
+              "extra": "{\"is_share_handler_failed\":\"1\"}"
+            },
+            "desc": "",
+            "title": "",
+            "url": ""
+          },
+          "status": 1,
+          "stick_position": 0,
+          "text": "sớm ạ 🍀🍀",
+          "text_extra": [],
+          "trans_btn_style": 1,
+          "user": {
+            "account_labels": null,
+            "ad_cover_url": null,
+            "advance_feature_item_order": null,
+            "advanced_feature_info": null,
+            "avatar_thumb": {
+              "uri": "tos-alisg-avt-0068/088c33ba33eae5267a214f40b5a43c08",
+              "url_list": [
+                "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/088c33ba33eae5267a214f40b5a43c08~tplv-tiktokx-cropcenter:100:100.jpg?dr=14579&refresh_token=aa735ce3&x-expires=1762617600&x-signature=MYApQyUNf7wCnBktFeLvOzdPzmg%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my",
+                "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/088c33ba33eae5267a214f40b5a43c08~tplv-tiktokx-cropcenter:100:100.jpeg?dr=14579&refresh_token=9cbe3e2c&x-expires=1762617600&x-signature=L8gRhaguKdkVw%2B7r7sQfRo77hwg%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my"
+              ],
+              "url_prefix": null
+            },
+            "bold_fields": null,
+            "can_message_follow_status_list": null,
+            "can_set_geofencing": null,
+            "cha_list": null,
+            "cover_url": null,
+            "custom_verify": "",
+            "enterprise_verify_reason": "",
+            "events": null,
+            "followers_detail": null,
+            "geofencing": null,
+            "homepage_bottom_toast": null,
+            "item_list": null,
+            "mutual_relation_avatars": null,
+            "need_points": null,
+            "nickname": "âu nâu 🫨",
+            "platform_sync_info": null,
+            "predicted_age_group": "",
+            "relative_users": null,
+            "search_highlight": null,
+            "sec_uid": "MS4wLjABAAAASLtx1hfxblnCzTBbl4_EM6TM9NdGwaggpGgf_NUBMOQ8Z_NPSf9GlgsFYjH_VAob",
+            "shield_edit_field_info": null,
+            "type_label": null,
+            "uid": "7070078268593947649",
+            "unique_id": "25_3_00",
+            "user_profile_guide": null,
+            "user_tags": null,
+            "white_cover_url": null
+          },
+          "user_buried": false,
+          "user_digged": 0
+        },
+        {
+          "aweme_id": "7569588102637915413",
+          "cid": "7569593046992995080",
+          "collect_stat": 0,
+          "comment_language": "vi",
+          "comment_post_item_ids": null,
+          "create_time": 1762433228,
+          "digg_count": 0,
+          "forbid_reply_with_video": true,
+          "image_list": null,
+          "is_author_digged": false,
+          "is_comment_translatable": true,
+          "is_high_purchase_intent": false,
+          "label_list": null,
+          "no_show": false,
+          "reply_comment": null,
+          "reply_id": "7569590132089930514",
+          "reply_to_reply_id": "0",
+          "share_info": {
+            "acl": {
+              "code": 1,
+              "extra": "{\"is_share_handler_failed\":\"1\"}"
+            },
+            "desc": "",
+            "title": "",
+            "url": ""
+          },
+          "status": 1,
+          "stick_position": 0,
+          "text": "🍀🍀🍀 sớm ạ",
+          "text_extra": [],
+          "trans_btn_style": 1,
+          "user": {
+            "account_labels": null,
+            "ad_cover_url": null,
+            "advance_feature_item_order": null,
+            "advanced_feature_info": null,
+            "avatar_thumb": {
+              "uri": "tos-alisg-avt-0068/4debde125b61a80f9a29f96f1ed0c688",
+              "url_list": [
+                "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/4debde125b61a80f9a29f96f1ed0c688~tplv-tiktokx-cropcenter:100:100.jpg?dr=14579&refresh_token=11200ba0&x-expires=1762617600&x-signature=4DVbonHvI2EtI4iI5CQu453IBl4%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my",
+                "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/4debde125b61a80f9a29f96f1ed0c688~tplv-tiktokx-cropcenter:100:100.jpeg?dr=14579&refresh_token=30420658&x-expires=1762617600&x-signature=hYw%2Fol6f459PL4DV3C3%2BGk4ht4E%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my"
+              ],
+              "url_prefix": null
+            },
+            "bold_fields": null,
+            "can_message_follow_status_list": null,
+            "can_set_geofencing": null,
+            "cha_list": null,
+            "cover_url": null,
+            "custom_verify": "",
+            "enterprise_verify_reason": "",
+            "events": null,
+            "followers_detail": null,
+            "geofencing": null,
+            "homepage_bottom_toast": null,
+            "item_list": null,
+            "mutual_relation_avatars": null,
+            "need_points": null,
+            "nickname": "45kg đổi tên",
+            "platform_sync_info": null,
+            "predicted_age_group": "2",
+            "relative_users": null,
+            "search_highlight": null,
+            "sec_uid": "MS4wLjABAAAAz5Nak3P45LF7w-8bpp74K8ncl2XYjUVQj6Iptuu6agW-pdUBuLcD1YUOA3Qns_zz",
+            "shield_edit_field_info": null,
+            "type_label": null,
+            "uid": "7071225685759050754",
+            "unique_id": "yne.v",
+            "user_profile_guide": null,
+            "user_tags": null,
+            "white_cover_url": null
+          },
+          "user_buried": false,
+          "user_digged": 0
+        }
+      ]
+    },
+    {
+      "cid": "7569992434971673362",
+      "text": "ê gặp hoài vd giống v luôn á 😊",
+      "author": "kẹo twix",
+      "create_time": 1762526220,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569591728837264129",
+      "text": "Hoan hỉ đón nhận",
+      "author": "Vân Anh",
+      "create_time": 1762432931,
+      "like_count": 12,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569638821514232584",
+      "text": "claimmm aa🍀🍀",
+      "author": "𐙚 late love ♡",
+      "create_time": 1762443888,
+      "like_count": 1,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569670572155388679",
+      "text": "Họ có người mới rồi. Xin phép lý trí buông bỏ hết chỉ mong họ làm đơn li hôn",
+      "author": "Cỏ nail tóc shop",
+      "create_time": 1762451282,
+      "like_count": 2,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569893625317573384",
+      "text": "claim nhã vía mối tình đầu quay về",
+      "author": "Cỏ Ba Lá",
+      "create_time": 1762503215,
+      "like_count": 1,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569980652001182471",
+      "text": "hoan hỉ đón nhận ngm",
+      "author": "tuyền mio",
+      "create_time": 1762523477,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569946501330977543",
+      "text": "Claim",
+      "author": "Doan vũ 🇻🇳🇯🇵🌹🙏",
+      "create_time": 1762515525,
+      "like_count": 1,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569833647441740565",
+      "text": "claim hoan hỉ đón nhận ạ 🍀🍀🍀",
+      "author": "Ngdiepp ౨ৎ",
+      "create_time": 1762489253,
+      "like_count": 2,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569657739393483521",
+      "text": "hi vọng họ sớm liên lạc lại với em ạ🥰🥰🥰🥰",
+      "author": "Lan 🍓tây!",
+      "create_time": 1762448301,
+      "like_count": 4,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569590605020152594",
+      "text": "Chưa quên đc nyc mà gặp toàn vedeo này Ko dậy…?",
+      "author": "TrungGiangh246👑",
+      "create_time": 1762432660,
+      "like_count": 6,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569607107596485394",
+      "text": "Claim🍀🍀🍀hoan hỉ đón nhận🥰🥰🥰",
+      "author": "kimloi379",
+      "create_time": 1762436500,
+      "like_count": 7,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569674751925977874",
+      "text": "Claim nhiều ạ 🩷🩷🩷",
+      "author": "𝓝𝓱𝓲𝓮̂𝓷",
+      "create_time": 1762452255,
+      "like_count": 1,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569606921055306517",
+      "text": "claim ạ 🍀🍀🍀",
+      "author": "Kem Dừa",
+      "create_time": 1762436464,
+      "like_count": 1,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569790468084843285",
+      "text": "Nhận ạ 😢😢😢.",
+      "author": "Mây 30 tủi",
+      "create_time": 1762479210,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569665783946019592",
+      "text": "Họ có ng mới rồi ☹️",
+      "author": "Zero - T",
+      "create_time": 1762450166,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569758282338206482",
+      "text": "hoan hỉ đón nhận , claim cực mạnh mong \"Dương Hồng Anh \" đống ý quay lại ạ 🥰☘️🍀",
+      "author": "VTD danh",
+      "create_time": 1762471722,
+      "like_count": 1,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569652662904718087",
+      "text": "Claim🍀🍀",
+      "author": "Hằngiu❤️",
+      "create_time": 1762447109,
+      "like_count": 5,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569934356271465236",
+      "text": "5 thg r tr ak ko cs hy vọng nx đâuuu🍀🍀",
+      "author": "hoaang lann",
+      "create_time": 1762512701,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569786398010737426",
+      "text": "nhận ạ🍀",
+      "author": "Mclaren Mercedes",
+      "create_time": 1762478251,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569610234634158855",
+      "text": "Hay quá",
+      "author": "Cô nàng cá tính",
+      "create_time": 1762437232,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569771760821125906",
+      "text": "Claim hoan hỉ đón nhận🍀",
+      "author": "Nhung đang bận💫",
+      "create_time": 1762474850,
+      "like_count": 1,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569639193997148929",
+      "text": "claim ạ 🍀🍀",
+      "author": "🖤",
+      "create_time": 1762443982,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569617427509691156",
+      "text": "Hoan hỉ đón nhận 🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀",
+      "author": "Bùi thị linh chi",
+      "create_time": 1762438908,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569589179501118215",
+      "text": "sớm chị ơi",
+      "author": "🙀Kem vani...💗",
+      "create_time": 1762432328,
+      "like_count": 1,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569652690184897287",
+      "text": "💙Claim H🖤",
+      "author": "Kỵ Sĩ Bóng Đêm",
+      "create_time": 1762447118,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569657124688544520",
+      "text": "Mong anh quay lại",
+      "author": "Mèo-laydy87",
+      "create_time": 1762448150,
+      "like_count": 1,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569761845771846407",
+      "text": "claim",
+      "author": "hương maii",
+      "create_time": 1762472547,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569760028963930898",
+      "text": "claim nyc qlai 🍀",
+      "author": "💔",
+      "create_time": 1762472129,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569625799093486354",
+      "text": "Claim hoan hỉ đón nhận a☘️☘️☘️",
+      "author": "FB:Dương Thụy chợ",
+      "create_time": 1762440852,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569741931321508624",
+      "text": "haon hy don nhan",
+      "author": "gấu cUte",
+      "create_time": 1762467924,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569611425132888852",
+      "text": "claim ạa🥰🍀",
+      "author": "️",
+      "create_time": 1762437509,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569835931437056786",
+      "text": "claim ạ🍀",
+      "author": "Mai Anh",
+      "create_time": 1762489782,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569651082084582152",
+      "text": "hoan hỉ đón nhận 🍀🍀🍀🍀🍀🍀🍀🍀",
+      "author": "SummyyeuSam 🦈🍀🥰🥰🥰❤️❤️❤❤️",
+      "create_time": 1762446742,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569784990578328337",
+      "text": "hoan hỷ",
+      "author": "Mỹ Dông ❤️",
+      "create_time": 1762477928,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569600917055308562",
+      "text": "Em claim mạnh lun ạaa 😭💗",
+      "author": "Thèm Hành, Tỏi 🫦🤤",
+      "create_time": 1762435059,
+      "like_count": 1,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569995684474192658",
+      "text": "claim",
+      "author": "Bé Tủn",
+      "create_time": 1762526974,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569628069368021768",
+      "text": "cliam hoan hỉ đón nhận🍀🍀🍀",
+      "author": "🐛",
+      "create_time": 1762441380,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569956241792811794",
+      "text": "hoan hỉ đón nhận",
+      "author": "kimphuongle",
+      "create_time": 1762517797,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569911173576327943",
+      "text": "chờ ng mới chứ chờ gì m:)",
+      "author": "Ỉn",
+      "create_time": 1762507300,
+      "like_count": 1,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569600805893849863",
+      "text": "Hoan hỷ đon nhận",
+      "author": "𝓗𝓪̆̀𝓷𝓰 𝓜𝓾𝓷",
+      "create_time": 1762435034,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569637830696534805",
+      "text": "Claim ạ 😭",
+      "author": "nhớ..",
+      "create_time": 1762443656,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569608009942401800",
+      "text": "hoan hỉ đón nhận ạ🍀",
+      "author": "(winmeta🐰)",
+      "create_time": 1762436710,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569619483006976786",
+      "text": "Tarot cứ tìm đến t khi kết thúc 1 mối qh🫠",
+      "author": "🦭",
+      "create_time": 1762439381,
+      "like_count": 3,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569628628040991506",
+      "text": "claimNHV chủ động lm hòa ạ",
+      "author": "QTKT(KIỀU)",
+      "create_time": 1762441512,
+      "like_count": 1,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569599583698453269",
+      "text": "hoan hi don nhận",
+      "author": "Camtu@1995",
+      "create_time": 1762434752,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569777843473269512",
+      "text": "Claim",
+      "author": "Mai Hương",
+      "create_time": 1762476275,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569632152138351368",
+      "text": "hoan hỉ đón nhận S🍀",
+      "author": "Ngoại lệ của en",
+      "create_time": 1762442336,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569653723748844306",
+      "text": "bạn ý hờ hững vơi mình nên mình cũng k muốn nc nữa.nhg bjo k trách k gì hết kể cả bạn ý tệ .k đáng để mình phải buồn",
+      "author": "Yu Menglong",
+      "create_time": 1762447356,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569614414049067783",
+      "text": "năng lượng",
+      "author": "Chánh",
+      "create_time": 1762438205,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569630873202574087",
+      "text": "Đón nhận 🥰",
+      "author": "Linh Khểnh",
+      "create_time": 1762442036,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569622543976596231",
+      "text": "claim ạ🍀",
+      "author": "nie🍄",
+      "create_time": 1762440094,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569604264055538440",
+      "text": "hoan hỉ đón nhận ạ🍀☘️☘️🍀🍀",
+      "author": "su",
+      "create_time": 1762435839,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569746765960708871",
+      "text": "Claim hoan hỉ đón nhận ạ🍀🍀🍀",
+      "author": "Tramanh",
+      "create_time": 1762469028,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569739734504981256",
+      "text": "claimm ạ 🍀",
+      "author": "isywh_🧸",
+      "create_time": 1762467404,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569617080221614856",
+      "text": "hoan hỷ đón nhận",
+      "author": "Minh Trang",
+      "create_time": 1762438826,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569755059031393031",
+      "text": "claim",
+      "author": "ngủ trước 10g",
+      "create_time": 1762470963,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569756235390747413",
+      "text": "claim ạ",
+      "author": "kh băng",
+      "create_time": 1762471236,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569763359438275346",
+      "text": "Hoan hỉ đón nhận",
+      "author": "bơ",
+      "create_time": 1762472896,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569918323577570056",
+      "text": "mong cậu ấy quay lại với mình. T",
+      "author": "dy oi",
+      "create_time": 1762508966,
+      "like_count": 1,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569663856764502804",
+      "text": "hoan hỉ đón nhận ạ",
+      "author": "An yên ☘️!",
+      "create_time": 1762449721,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569639708071707413",
+      "text": "Claim hoan hỉ đón nhận ạ",
+      "author": "Quang Cần",
+      "create_time": 1762444094,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569659757167854344",
+      "text": "Claimmm",
+      "author": "Sao trời hay biển lớn",
+      "create_time": 1762448764,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569750393342165780",
+      "text": "Claim ạ rất mong",
+      "author": "em bé mít ướt 💤",
+      "create_time": 1762469879,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569689919376032519",
+      "text": "claim an",
+      "author": "Hoa bí",
+      "create_time": 1762455788,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569648816992387861",
+      "text": "claim a",
+      "author": "Phuong Nhu.",
+      "create_time": 1762446216,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569754999225811719",
+      "text": "claim🍀🍀🍀",
+      "author": "NgocPhim",
+      "create_time": 1762470956,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569605299487048466",
+      "text": "Claim ạ",
+      "author": "Kẹo haribo",
+      "create_time": 1762436081,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569637805951042325",
+      "text": "sớm nhe🙂 claim",
+      "author": "min9x_9x",
+      "create_time": 1762443653,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569663052352029460",
+      "text": "Xin vía ng cũ tìm về",
+      "author": "Nhi Hương",
+      "create_time": 1762449535,
+      "like_count": 1,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569645513843327764",
+      "text": "Hoan hỉ đón nhận ạ",
+      "author": "Anh Tuyet",
+      "create_time": 1762445444,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569659960272339719",
+      "text": "claim hoan hỉ đón nhận ạ 🍀🍀🍀🍀🍀🍀",
+      "author": "️",
+      "create_time": 1762448809,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569659182816985872",
+      "text": "claim H quay về với mình ạ🥰",
+      "author": "Mờ Tê 🌙",
+      "create_time": 1762448636,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569621527449551623",
+      "text": "hoan hỉ đón nhận",
+      "author": "min.!!🥰",
+      "create_time": 1762439859,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569643651862938386",
+      "text": "Hi vọng ❤️",
+      "author": "chuppachup25050",
+      "create_time": 1762445013,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569781319610958599",
+      "text": "claim buông bỏ được nyc",
+      "author": "sun🌞",
+      "create_time": 1762477078,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569704597234647826",
+      "text": "claim 🥰",
+      "author": "buon😞",
+      "create_time": 1762459215,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569752982779626247",
+      "text": "claim ạ",
+      "author": "thvaniu_09",
+      "create_time": 1762470481,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569857770503160596",
+      "text": "Claim hoan hỉ đón nhận ạ 🍀",
+      "author": "Nào bỏ nhậu đổi tên 🥹",
+      "create_time": 1762494871,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569645044334379777",
+      "text": "claim người iu hiện tại",
+      "author": "Dâu Tây",
+      "create_time": 1762445346,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569620103249527560",
+      "text": "Claim N",
+      "author": "tiểu mẩn 🍭🍭🍭",
+      "create_time": 1762439530,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569792024665899796",
+      "text": "claim hoan hỉ đón nhânn ạ🥰🍀",
+      "author": "ྀི",
+      "create_time": 1762479564,
+      "like_count": 1,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569593499105739541",
+      "text": "hoan hỉ đón nhận",
+      "author": "Ngọc Yến 011297",
+      "create_time": 1762433333,
+      "like_count": 3,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569604572227175176",
+      "text": "Thành tâm đón nhận ạ",
+      "author": "Cấn Kiều Oanh",
+      "create_time": 1762435910,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569732488735343367",
+      "text": "tâm nghỉ ngơi....từ từ tìm người khác phù hợp hon",
+      "author": "thangtaidau",
+      "create_time": 1762465711,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569601601959740178",
+      "text": "Hoan hỉ đón nhận ạ",
+      "author": "Khumcoxuhuong:))",
+      "create_time": 1762435220,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569773223290831637",
+      "text": "Claim claim",
+      "author": "Mynhan Pro",
+      "create_time": 1762475188,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569848074375168786",
+      "text": "Claim ạ",
+      "author": "Hương Huỳnh🥰🥰",
+      "create_time": 1762492612,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569599006142989072",
+      "text": "Claim hoan hỉ đón nhận ạ 🍀",
+      "author": "𓆱",
+      "create_time": 1762434621,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569590061965296392",
+      "text": "Vâng🤗🤗🥰",
+      "author": "Thanh Qui DVMXH❤️‍🔥",
+      "create_time": 1762432532,
+      "like_count": 1,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569590551075504904",
+      "text": "hoan hỉ",
+      "author": "ThuongSensei",
+      "create_time": 1762432645,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569648979949716245",
+      "text": "hoan hỷ đón nhận",
+      "author": "đỗ Hồng",
+      "create_time": 1762446255,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569621776452387602",
+      "text": "hoan hỉ đón nhận",
+      "author": "Minh Bảo",
+      "create_time": 1762439916,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569605691344143125",
+      "text": "claim mạnh",
+      "author": "ᴋᴀɴʜ ⋆˚🐾˖°",
+      "create_time": 1762436177,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569794668318556948",
+      "text": "Claim ❤",
+      "author": "Quỳnh đang học tiếng hàn",
+      "create_time": 1762480178,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569621938231657234",
+      "text": "Claim 🍀🙏",
+      "author": "☘️娜娜☘️",
+      "create_time": 1762439959,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569664075245208340",
+      "text": "Claim",
+      "author": "Kiều Duy",
+      "create_time": 1762449768,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569653118880187143",
+      "text": "claim ạ",
+      "author": "CnY 🍇",
+      "create_time": 1762447216,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569603205614404368",
+      "text": "hoan hỉ đón nhận",
+      "author": "️",
+      "create_time": 1762435598,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569864646267929352",
+      "text": "Claim",
+      "author": "iu bản thân",
+      "create_time": 1762496473,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569789675000693511",
+      "text": "claim",
+      "author": "GócBìnhYênNhỏ",
+      "create_time": 1762479022,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569683255935861511",
+      "text": "claim",
+      "author": "Trần Vân",
+      "create_time": 1762454236,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569649272086807313",
+      "text": "Claim 😍",
+      "author": "Ngoennn 💋",
+      "create_time": 1762446321,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569635425074856724",
+      "text": "claim",
+      "author": "say hang.",
+      "create_time": 1762443098,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569633040373515028",
+      "text": "Claim",
+      "author": "Hoa Hồng Có Gai",
+      "create_time": 1762442540,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569605995853415176",
+      "text": "Claim",
+      "author": "Dya",
+      "create_time": 1762436240,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569654464198492935",
+      "text": "Claim 🍀",
+      "author": "Ly Trần",
+      "create_time": 1762447526,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569600975703606034",
+      "text": "Claim ạ 💗💗",
+      "author": "kieutrangg",
+      "create_time": 1762435072,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569683364144661256",
+      "text": "Claim",
+      "author": "honganh129666",
+      "create_time": 1762454262,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569602167059137287",
+      "text": "claim🍀",
+      "author": "sosc",
+      "create_time": 1762435354,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569663996904293127",
+      "text": "Claim",
+      "author": "Gia Gia",
+      "create_time": 1762449751,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569598206243160850",
+      "text": "claim",
+      "author": "yến_lily♒",
+      "create_time": 1762434429,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569745948425306898",
+      "text": "Claim🍀",
+      "author": "tidi03",
+      "create_time": 1762468852,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569616075656463112",
+      "text": "Claim",
+      "author": "Ngoài lề nhưng yêu anh 🥲",
+      "create_time": 1762438594,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569628933374133010",
+      "text": "Claim 🥰🥰🍀🍀🍀",
+      "author": "nguoiiuemm88",
+      "create_time": 1762441584,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569593859493413648",
+      "text": "🥰🥰🥰",
+      "author": "HBinh",
+      "create_time": 1762433425,
+      "like_count": 1,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569593543930692360",
+      "text": "🙏🙏🙏",
+      "author": "Thảo tran",
+      "create_time": 1762433346,
+      "like_count": 1,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569593528520868626",
+      "text": "🥰🥰🥰",
+      "author": "Thảo tran",
+      "create_time": 1762433342,
+      "like_count": 1,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569854751878382343",
+      "text": "☘️☘️☘️☘️",
+      "author": "Thanh",
+      "create_time": 1762494165,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569786827080925959",
+      "text": "😇🥹💚🩵",
+      "author": "Mclaren Mercedes",
+      "create_time": 1762478361,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569758464790119189",
+      "text": "❤️❤️❤️",
+      "author": "Mẹ em zin",
+      "create_time": 1762471762,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569755183052325650",
+      "text": "☘️☘️☘️",
+      "author": "Đại Dại Khờ",
+      "create_time": 1762470987,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569743484979512072",
+      "text": "😂❤❤",
+      "author": "Im lặng là vàng",
+      "create_time": 1762468268,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569661476937810709",
+      "text": "😭",
+      "author": "knn1ksktddt",
+      "create_time": 1762449167,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569661474287125269",
+      "text": "😁",
+      "author": "knn1ksktddt",
+      "create_time": 1762449167,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569656342757081876",
+      "text": "🙃🙂",
+      "author": "Libra T10 ♎️",
+      "create_time": 1762447970,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569627303271105298",
+      "text": "🍀🍀🍀",
+      "author": "Lê Khắc Hoàng",
+      "create_time": 1762441204,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569626703451800327",
+      "text": "👍👍👍👍👍",
+      "author": "Hằng Bùi",
+      "create_time": 1762441064,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569620154557809415",
+      "text": "♥",
+      "author": "Sandy",
+      "create_time": 1762439537,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569594706406359826",
+      "text": "hoan hỉ đón nhận thông điệp 🍀🍀",
+      "author": "🌶",
+      "create_time": 1762433612,
+      "like_count": 1,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569815262930207506",
+      "text": "xin don Nhan neu ho nho tu dong ho Tim den neu con duyen thi con gap",
+      "author": "heo con",
+      "create_time": 1762484971,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569738573130334997",
+      "text": "hoan hỷ đón nhận ng chân thành",
+      "author": "cô gái xính đẹp🌹💋❤️‍🩹 🙋",
+      "create_time": 1762467122,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569671876186915591",
+      "text": "hoan hỉ đón nhận thông điệp",
+      "author": "em không thương ai nữa đâu",
+      "create_time": 1762451590,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569669442041725697",
+      "text": "Hoan hỉ đón nhận thông điệp",
+      "author": "Nuneee🎀🎀",
+      "create_time": 1762451022,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569639049339945745",
+      "text": "Claim đón nhận thông điệp, trong tháng này người trong lòng tui sẽ chủ động nhắn tin lại cho tui, chúng tôi gặp nhau, hàn gắn, quay lại bù đắp cho nhau ❤️☘️🫶",
+      "author": "phuonganh.67899",
+      "create_time": 1762443947,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7569611596222481159",
+      "text": "Hoan hỉ xin thành tâm đón nhận thông điệp anh NTN quay lại tìm Tôi 🥰🥰🥰",
+      "author": "LINHKUN3839",
+      "create_time": 1762437546,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    }
+  ]
+}

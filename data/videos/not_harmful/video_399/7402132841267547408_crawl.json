@@ -1,0 +1,3124 @@
+{
+  "url": "https://www.tiktok.com/@tcoderr/video/7402132841267547408",
+  "crawled_at": "2025-11-07T15:05:04.897907Z",
+  "oembed": {
+    "version": "1.0",
+    "type": "video",
+    "title": "code được là 1 chuyện, phải hiểu nữa mới quan trọng #learntocode #it #laptrinh #coding ",
+    "author_url": "https://www.tiktok.com/@tcoderr",
+    "author_name": "Tờ_coderr",
+    "width": "100%",
+    "height": "100%",
+    "html": "<blockquote class=\"tiktok-embed\" cite=\"https://www.tiktok.com/@tcoderr/video/7402132841267547408\" data-video-id=\"7402132841267547408\" data-embed-from=\"oembed\" style=\"max-width:605px; min-width:325px;\"> <section> <a target=\"_blank\" title=\"@tcoderr\" href=\"https://www.tiktok.com/@tcoderr?refer=embed\">@tcoderr</a> <p>code được là 1 chuyện, phải hiểu nữa mới quan trọng <a title=\"learntocode\" target=\"_blank\" href=\"https://www.tiktok.com/tag/learntocode?refer=embed\">#learntocode</a> <a title=\"it\" target=\"_blank\" href=\"https://www.tiktok.com/tag/it?refer=embed\">#it</a> <a title=\"laptrinh\" target=\"_blank\" href=\"https://www.tiktok.com/tag/laptrinh?refer=embed\">#laptrinh</a> <a title=\"coding\" target=\"_blank\" href=\"https://www.tiktok.com/tag/coding?refer=embed\">#coding</a> </p> <a target=\"_blank\" title=\"♬ Normal No More Speed Up - 🎧𝙎.𝘼𝙧𝙞𝙨𝙪 𝘾𝙝𝙞𝙡𝙡🎋\" href=\"https://www.tiktok.com/music/Normal-No-More-Speed-Up-7335444088390503170?refer=embed\">♬ Normal No More Speed Up - 🎧𝙎.𝘼𝙧𝙞𝙨𝙪 𝘾𝙝𝙞𝙡𝙡🎋</a> </section> </blockquote> <script async src=\"https://www.tiktok.com/embed.js\"></script>",
+    "thumbnail_width": 576,
+    "thumbnail_height": 1024,
+    "thumbnail_url": "https://p16-sign-sg.tiktokcdn.com/tos-alisg-p-0037/o4gGNcDO6VF1ICIlfREDw9fAIV4UzI1QgAeLjU~tplv-tiktokx-origin.image?dr=14575&x-expires=1762700400&x-signature=kV%2FI9%2BtziCU%2B7WshBDY4JIKci0E%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=my2",
+    "provider_url": "https://www.tiktok.com",
+    "provider_name": "TikTok",
+    "author_unique_id": "tcoderr",
+    "embed_product_id": "7402132841267547408",
+    "embed_type": "video"
+  },
+  "yt_dlp_info": {
+    "id": "7402132841267547408",
+    "formats": [
+      {
+        "ext": "mp4",
+        "vcodec": "h264",
+        "acodec": "aac",
+        "format_id": "h264_540p_324425-0",
+        "tbr": 324,
+        "quality": 1,
+        "preference": -1,
+        "filesize": 1068778,
+        "width": 576,
+        "height": 1024,
+        "url": "https://v16-webapp-prime.tiktok.com/video/tos/alisg/tos-alisg-pve-0037c001/oMBEgEnQRiKImAqf5BCuOaKzwSVDEBFCcS2BFf/?a=1988&bti=ODszNWYuMDE6&ch=0&cr=3&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=632&bt=316&cs=0&ds=6&ft=-Csk_m7nPD12NE3GHd-Uxt1vSY6e3wv25xcAp&mime_type=video_mp4&qs=0&rc=NDUzZWQ3ZzQ8NjxpaGc3NkBpM2xvcG05cjN0dDMzODczNEBjLTQ0X18vXjQxLS4tNC9jYSMuci1oMmRrZXBgLS1kMWBzcw%3D%3D&btag=e000b8000&expire=1762700731&l=20251107230505129DECCE605A96DDC79C&ply_type=2&policy=2&signature=5c3edb03c74aee7f3a69f84718dbe195&tk=tt_chain_token",
+        "protocol": "https",
+        "video_ext": "mp4",
+        "audio_ext": "none",
+        "resolution": "576x1024",
+        "dynamic_range": "SDR",
+        "aspect_ratio": 0.56,
+        "cookies": "_ttp=34wyWDXvxmF602Htsl0oDR6JCNq; Domain=.tiktok.com; Path=/; Secure; Expires=1795834961; tt_csrf_token=A6kVUZcK-ro_L6C62WbmQwfALArHC4HF-pTM; Domain=.tiktok.com; Path=/; Secure; tt_chain_token=\"bIQCOyoJbQ000pox+IBxHQ==\"; Domain=.tiktok.com; Path=/; Secure; Expires=1778079905; passport_csrf_token=3e2175a5e77e24a26515b4e6f7b50740; Domain=.tiktok.com; Path=/; Secure; Expires=1767674732; passport_csrf_token_default=3e2175a5e77e24a26515b4e6f7b50740; Domain=.tiktok.com; Path=/; Secure; Expires=1767674732; s_v_web_id=verify_mhodh7s9_f6H7RhcI_zN3b_4VwP_AxSW_OnDGZUzFJBgu; Domain=.tiktok.com; Path=/; Secure; multi_sids=7569810985282094098%3Aade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1767677004; cmpl_token=AgQQAPOFF-RO0rkzsFuCpB0r82zGAoWNv4UOYKOhVw; Domain=.tiktok.com; Path=/; Secure; Expires=1767677004; passport_auth_status=b8d801922a4b455b405bf6994fade073%2C063941b21aed31105bffa0d912bcf9fa; Domain=.tiktok.com; Path=/; Expires=1765085004; passport_auth_status_ss=b8d801922a4b455b405bf6994fade073%2C063941b21aed31105bffa0d912bcf9fa; Domain=.tiktok.com; Path=/; Secure; Expires=1765085004; sid_guard=ade59ff71c0c0e5cc0fe1f23772b37c1%7C1762493004%7C15552000%7CWed%2C+06-May-2026+05%3A23%3A24+GMT; Domain=.tiktok.com; Path=/; Secure; Expires=1793597004; uid_tt=ac0557b89a0248004ba199e09ced5e656aa70515a78deb5b62cd048a83d31edc; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; uid_tt_ss=ac0557b89a0248004ba199e09ced5e656aa70515a78deb5b62cd048a83d31edc; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sid_tt=ade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sessionid=ade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sessionid_ss=ade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; tt_session_tlb_tag=sttt%7C5%7CreWf9xwMDlzA_h8jdys3wf________-ji4fpfjT0V1140MZnLSHWNBnXgRLIZvw1fxmxRRmvw7s%3D; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sid_ucp_v1=1.0.0-KDYzMTBmY2U1ODFjN2FkYjNmOGUwYWE1YjcwYTk2N2FkYzhhMjMxMTEKIQiSiNvUwN_XhmkQzIS2yAYYswsgDDC1vrXIBjgIQBJIBBADGgJteSIgYWRlNTlmZjcxYzBjMGU1Y2MwZmUxZjIzNzcyYjM3YzE; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; ssid_ucp_v1=1.0.0-KDYzMTBmY2U1ODFjN2FkYjNmOGUwYWE1YjcwYTk2N2FkYzhhMjMxMTEKIQiSiNvUwN_XhmkQzIS2yAYYswsgDDC1vrXIBjgIQBJIBBADGgJteSIgYWRlNTlmZjcxYzBjMGU1Y2MwZmUxZjIzNzcyYjM3YzE; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; store-country-code=vn; Domain=.tiktok.com; Path=/; Expires=1794029034; store-country-code-src=uid; Domain=.tiktok.com; Path=/; Expires=1794029034; tt-target-idc=alisg; Domain=.tiktok.com; Path=/; Expires=1794029034; tt-target-idc-sign=X46gRkvSgmGWHXja-gzeN1KwdE4cBtH3zFXAhG3-BtWzH-YdFZEQct_uBwMTYtfjrNxqy_GJyyU9vrDSU9xBVMhZYzNMj8Yj-vL3ZdUiBlJfwT_RyqsMw9cBp-UMAurlaLw7iKPn1sOB_2Mr4OgfdC72r1rSon8aLN6RpZxfHlcPgzQDAzxGLO1WCcDi3Grn071JYzpIP3H4Uj5tKf5cHSGRn8O-z3hwE-QaTWdxP_Dv9m7mqKXg9LpTBaiRQ0apSWQMga4QK4y5B4To6e0pZD8oaixa2PVdqGeLesDSGOjsT94m5Qtsw2dBLvi1Cl2PDtg34s_m8F2kwZanwVGyMx5JeHbhEA1jVyuFTZ4wmF-6mQMCj4IoVYUBqf6cEHJl1nz6p3h7j4AFPdhgbDj7nwn0zI1o0xP8WGmE_kn9e53ehBx6IU-iOQJ-JXc_4e8_1n_tP7nZqBQAfB5B-a8mW0iUyH2XBzKKIebPZ8u02eRKDVUUZnutFcgBXjbQW4hW; Domain=.tiktok.com; Path=/; Expires=1794029034; ttwid=1%7CyHVVoWeMmc-3HMQzGeLAWTKsoEmn5lOxHLhrceV4g3w%7C1762493033%7Caa33d6157603beb187ae2fd554015cf463e69a9385fbc54d7a3e7a848a9df8fc; Domain=.tiktok.com; Path=/; Secure; Expires=1794029034; store-idc=alisg; Domain=.tiktok.com; Path=/; Expires=1794029034; store-country-sign=MEIEDGNAqWqR2a0er4zjeAQgMuurAVNuf3SOpc_lCsUS6OVOTEMJPGY7fje3VCShvuYEEKSUWUChT9xgz3oinfsoj_8; Domain=.tiktok.com; Path=/; Expires=1794029034; odin_tt=fdb338ea9924b66e069cd3826b52e91602d6c7c70440ed4a45253d1bdcb67e7b33079c363923c1afe01be7d6a0aed5f094b6d26ad61219129e2c4adf8ef71b17c80e515b61a158847d9b8a0bdf5ce20d; Domain=.tiktok.com; Path=/; Expires=1794029677; msToken=\"meDkniXDXS_tUY_gxDHQq78SotiqxQ0ZNcoqdOeIa41rbBFYVBwXJCxTrRC3R98vzLKRXjx4-tnERAh9sGZGCUxDCMp1j9u8puEUbQz0iD7PHcoJa8wEBmMePN4abcDqQKB6HgB_WDgMrvA=\"; Domain=.tiktok.com; Path=/; Secure; Expires=1763391905",
+        "http_headers": {
+          "User-Agent": "Mozilla/5.0",
+          "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+          "Accept-Language": "en-us,en;q=0.5",
+          "Sec-Fetch-Mode": "navigate",
+          "Referer": "https://www.tiktok.com/@tcoderr/video/7402132841267547408"
+        },
+        "format": "h264_540p_324425-0 - 576x1024"
+      },
+      {
+        "ext": "mp4",
+        "vcodec": "h264",
+        "acodec": "aac",
+        "format_id": "h264_540p_324425-1",
+        "tbr": 324,
+        "quality": 1,
+        "preference": -1,
+        "filesize": 1068778,
+        "width": 576,
+        "height": 1024,
+        "url": "https://v19-webapp-prime.tiktok.com/video/tos/alisg/tos-alisg-pve-0037c001/oMBEgEnQRiKImAqf5BCuOaKzwSVDEBFCcS2BFf/?a=1988&bti=ODszNWYuMDE6&ch=0&cr=3&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=632&bt=316&cs=0&ds=6&ft=-Csk_m7nPD12NE3GHd-Uxt1vSY6e3wv25xcAp&mime_type=video_mp4&qs=0&rc=NDUzZWQ3ZzQ8NjxpaGc3NkBpM2xvcG05cjN0dDMzODczNEBjLTQ0X18vXjQxLS4tNC9jYSMuci1oMmRrZXBgLS1kMWBzcw%3D%3D&btag=e000b8000&expire=1762700731&l=20251107230505129DECCE605A96DDC79C&ply_type=2&policy=2&signature=5c3edb03c74aee7f3a69f84718dbe195&tk=tt_chain_token",
+        "protocol": "https",
+        "video_ext": "mp4",
+        "audio_ext": "none",
+        "resolution": "576x1024",
+        "dynamic_range": "SDR",
+        "aspect_ratio": 0.56,
+        "cookies": "_ttp=34wyWDXvxmF602Htsl0oDR6JCNq; Domain=.tiktok.com; Path=/; Secure; Expires=1795834961; tt_csrf_token=A6kVUZcK-ro_L6C62WbmQwfALArHC4HF-pTM; Domain=.tiktok.com; Path=/; Secure; tt_chain_token=\"bIQCOyoJbQ000pox+IBxHQ==\"; Domain=.tiktok.com; Path=/; Secure; Expires=1778079905; passport_csrf_token=3e2175a5e77e24a26515b4e6f7b50740; Domain=.tiktok.com; Path=/; Secure; Expires=1767674732; passport_csrf_token_default=3e2175a5e77e24a26515b4e6f7b50740; Domain=.tiktok.com; Path=/; Secure; Expires=1767674732; s_v_web_id=verify_mhodh7s9_f6H7RhcI_zN3b_4VwP_AxSW_OnDGZUzFJBgu; Domain=.tiktok.com; Path=/; Secure; multi_sids=7569810985282094098%3Aade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1767677004; cmpl_token=AgQQAPOFF-RO0rkzsFuCpB0r82zGAoWNv4UOYKOhVw; Domain=.tiktok.com; Path=/; Secure; Expires=1767677004; passport_auth_status=b8d801922a4b455b405bf6994fade073%2C063941b21aed31105bffa0d912bcf9fa; Domain=.tiktok.com; Path=/; Expires=1765085004; passport_auth_status_ss=b8d801922a4b455b405bf6994fade073%2C063941b21aed31105bffa0d912bcf9fa; Domain=.tiktok.com; Path=/; Secure; Expires=1765085004; sid_guard=ade59ff71c0c0e5cc0fe1f23772b37c1%7C1762493004%7C15552000%7CWed%2C+06-May-2026+05%3A23%3A24+GMT; Domain=.tiktok.com; Path=/; Secure; Expires=1793597004; uid_tt=ac0557b89a0248004ba199e09ced5e656aa70515a78deb5b62cd048a83d31edc; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; uid_tt_ss=ac0557b89a0248004ba199e09ced5e656aa70515a78deb5b62cd048a83d31edc; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sid_tt=ade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sessionid=ade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sessionid_ss=ade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; tt_session_tlb_tag=sttt%7C5%7CreWf9xwMDlzA_h8jdys3wf________-ji4fpfjT0V1140MZnLSHWNBnXgRLIZvw1fxmxRRmvw7s%3D; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sid_ucp_v1=1.0.0-KDYzMTBmY2U1ODFjN2FkYjNmOGUwYWE1YjcwYTk2N2FkYzhhMjMxMTEKIQiSiNvUwN_XhmkQzIS2yAYYswsgDDC1vrXIBjgIQBJIBBADGgJteSIgYWRlNTlmZjcxYzBjMGU1Y2MwZmUxZjIzNzcyYjM3YzE; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; ssid_ucp_v1=1.0.0-KDYzMTBmY2U1ODFjN2FkYjNmOGUwYWE1YjcwYTk2N2FkYzhhMjMxMTEKIQiSiNvUwN_XhmkQzIS2yAYYswsgDDC1vrXIBjgIQBJIBBADGgJteSIgYWRlNTlmZjcxYzBjMGU1Y2MwZmUxZjIzNzcyYjM3YzE; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; store-country-code=vn; Domain=.tiktok.com; Path=/; Expires=1794029034; store-country-code-src=uid; Domain=.tiktok.com; Path=/; Expires=1794029034; tt-target-idc=alisg; Domain=.tiktok.com; Path=/; Expires=1794029034; tt-target-idc-sign=X46gRkvSgmGWHXja-gzeN1KwdE4cBtH3zFXAhG3-BtWzH-YdFZEQct_uBwMTYtfjrNxqy_GJyyU9vrDSU9xBVMhZYzNMj8Yj-vL3ZdUiBlJfwT_RyqsMw9cBp-UMAurlaLw7iKPn1sOB_2Mr4OgfdC72r1rSon8aLN6RpZxfHlcPgzQDAzxGLO1WCcDi3Grn071JYzpIP3H4Uj5tKf5cHSGRn8O-z3hwE-QaTWdxP_Dv9m7mqKXg9LpTBaiRQ0apSWQMga4QK4y5B4To6e0pZD8oaixa2PVdqGeLesDSGOjsT94m5Qtsw2dBLvi1Cl2PDtg34s_m8F2kwZanwVGyMx5JeHbhEA1jVyuFTZ4wmF-6mQMCj4IoVYUBqf6cEHJl1nz6p3h7j4AFPdhgbDj7nwn0zI1o0xP8WGmE_kn9e53ehBx6IU-iOQJ-JXc_4e8_1n_tP7nZqBQAfB5B-a8mW0iUyH2XBzKKIebPZ8u02eRKDVUUZnutFcgBXjbQW4hW; Domain=.tiktok.com; Path=/; Expires=1794029034; ttwid=1%7CyHVVoWeMmc-3HMQzGeLAWTKsoEmn5lOxHLhrceV4g3w%7C1762493033%7Caa33d6157603beb187ae2fd554015cf463e69a9385fbc54d7a3e7a848a9df8fc; Domain=.tiktok.com; Path=/; Secure; Expires=1794029034; store-idc=alisg; Domain=.tiktok.com; Path=/; Expires=1794029034; store-country-sign=MEIEDGNAqWqR2a0er4zjeAQgMuurAVNuf3SOpc_lCsUS6OVOTEMJPGY7fje3VCShvuYEEKSUWUChT9xgz3oinfsoj_8; Domain=.tiktok.com; Path=/; Expires=1794029034; odin_tt=fdb338ea9924b66e069cd3826b52e91602d6c7c70440ed4a45253d1bdcb67e7b33079c363923c1afe01be7d6a0aed5f094b6d26ad61219129e2c4adf8ef71b17c80e515b61a158847d9b8a0bdf5ce20d; Domain=.tiktok.com; Path=/; Expires=1794029677; msToken=\"meDkniXDXS_tUY_gxDHQq78SotiqxQ0ZNcoqdOeIa41rbBFYVBwXJCxTrRC3R98vzLKRXjx4-tnERAh9sGZGCUxDCMp1j9u8puEUbQz0iD7PHcoJa8wEBmMePN4abcDqQKB6HgB_WDgMrvA=\"; Domain=.tiktok.com; Path=/; Secure; Expires=1763391905",
+        "http_headers": {
+          "User-Agent": "Mozilla/5.0",
+          "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+          "Accept-Language": "en-us,en;q=0.5",
+          "Sec-Fetch-Mode": "navigate",
+          "Referer": "https://www.tiktok.com/@tcoderr/video/7402132841267547408"
+        },
+        "format": "h264_540p_324425-1 - 576x1024"
+      },
+      {
+        "ext": "mp4",
+        "vcodec": "h265",
+        "acodec": "aac",
+        "format_id": "bytevc1_540p_168733-0",
+        "tbr": 168,
+        "quality": 1,
+        "preference": -1,
+        "filesize": 555870,
+        "width": 576,
+        "height": 1024,
+        "url": "https://v16-webapp-prime.tiktok.com/video/tos/alisg/tos-alisg-pve-0037c001/owIeI46e1OkQVLIjFqcNlQLEE1hGg6ADAeOv5C/?a=1988&bti=ODszNWYuMDE6&ch=0&cr=3&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=328&bt=164&cs=2&ds=6&ft=-Csk_m7nPD12NE3GHd-Uxt1vSY6e3wv25xcAp&mime_type=video_mp4&qs=11&rc=aTNlOzY7O2llOWQ4OWhnN0BpM2xvcG05cjN0dDMzODczNEA0YjRgXjNhXzQxNGNjMmNgYSMuci1oMmRrZXBgLS1kMWBzcw%3D%3D&btag=e000b8000&expire=1762700731&l=20251107230505129DECCE605A96DDC79C&ply_type=2&policy=2&signature=11a11ba7b427c8d2d3a2b9a363ced655&tk=tt_chain_token",
+        "protocol": "https",
+        "video_ext": "mp4",
+        "audio_ext": "none",
+        "resolution": "576x1024",
+        "dynamic_range": "SDR",
+        "aspect_ratio": 0.56,
+        "cookies": "_ttp=34wyWDXvxmF602Htsl0oDR6JCNq; Domain=.tiktok.com; Path=/; Secure; Expires=1795834961; tt_csrf_token=A6kVUZcK-ro_L6C62WbmQwfALArHC4HF-pTM; Domain=.tiktok.com; Path=/; Secure; tt_chain_token=\"bIQCOyoJbQ000pox+IBxHQ==\"; Domain=.tiktok.com; Path=/; Secure; Expires=1778079905; passport_csrf_token=3e2175a5e77e24a26515b4e6f7b50740; Domain=.tiktok.com; Path=/; Secure; Expires=1767674732; passport_csrf_token_default=3e2175a5e77e24a26515b4e6f7b50740; Domain=.tiktok.com; Path=/; Secure; Expires=1767674732; s_v_web_id=verify_mhodh7s9_f6H7RhcI_zN3b_4VwP_AxSW_OnDGZUzFJBgu; Domain=.tiktok.com; Path=/; Secure; multi_sids=7569810985282094098%3Aade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1767677004; cmpl_token=AgQQAPOFF-RO0rkzsFuCpB0r82zGAoWNv4UOYKOhVw; Domain=.tiktok.com; Path=/; Secure; Expires=1767677004; passport_auth_status=b8d801922a4b455b405bf6994fade073%2C063941b21aed31105bffa0d912bcf9fa; Domain=.tiktok.com; Path=/; Expires=1765085004; passport_auth_status_ss=b8d801922a4b455b405bf6994fade073%2C063941b21aed31105bffa0d912bcf9fa; Domain=.tiktok.com; Path=/; Secure; Expires=1765085004; sid_guard=ade59ff71c0c0e5cc0fe1f23772b37c1%7C1762493004%7C15552000%7CWed%2C+06-May-2026+05%3A23%3A24+GMT; Domain=.tiktok.com; Path=/; Secure; Expires=1793597004; uid_tt=ac0557b89a0248004ba199e09ced5e656aa70515a78deb5b62cd048a83d31edc; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; uid_tt_ss=ac0557b89a0248004ba199e09ced5e656aa70515a78deb5b62cd048a83d31edc; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sid_tt=ade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sessionid=ade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sessionid_ss=ade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; tt_session_tlb_tag=sttt%7C5%7CreWf9xwMDlzA_h8jdys3wf________-ji4fpfjT0V1140MZnLSHWNBnXgRLIZvw1fxmxRRmvw7s%3D; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sid_ucp_v1=1.0.0-KDYzMTBmY2U1ODFjN2FkYjNmOGUwYWE1YjcwYTk2N2FkYzhhMjMxMTEKIQiSiNvUwN_XhmkQzIS2yAYYswsgDDC1vrXIBjgIQBJIBBADGgJteSIgYWRlNTlmZjcxYzBjMGU1Y2MwZmUxZjIzNzcyYjM3YzE; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; ssid_ucp_v1=1.0.0-KDYzMTBmY2U1ODFjN2FkYjNmOGUwYWE1YjcwYTk2N2FkYzhhMjMxMTEKIQiSiNvUwN_XhmkQzIS2yAYYswsgDDC1vrXIBjgIQBJIBBADGgJteSIgYWRlNTlmZjcxYzBjMGU1Y2MwZmUxZjIzNzcyYjM3YzE; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; store-country-code=vn; Domain=.tiktok.com; Path=/; Expires=1794029034; store-country-code-src=uid; Domain=.tiktok.com; Path=/; Expires=1794029034; tt-target-idc=alisg; Domain=.tiktok.com; Path=/; Expires=1794029034; tt-target-idc-sign=X46gRkvSgmGWHXja-gzeN1KwdE4cBtH3zFXAhG3-BtWzH-YdFZEQct_uBwMTYtfjrNxqy_GJyyU9vrDSU9xBVMhZYzNMj8Yj-vL3ZdUiBlJfwT_RyqsMw9cBp-UMAurlaLw7iKPn1sOB_2Mr4OgfdC72r1rSon8aLN6RpZxfHlcPgzQDAzxGLO1WCcDi3Grn071JYzpIP3H4Uj5tKf5cHSGRn8O-z3hwE-QaTWdxP_Dv9m7mqKXg9LpTBaiRQ0apSWQMga4QK4y5B4To6e0pZD8oaixa2PVdqGeLesDSGOjsT94m5Qtsw2dBLvi1Cl2PDtg34s_m8F2kwZanwVGyMx5JeHbhEA1jVyuFTZ4wmF-6mQMCj4IoVYUBqf6cEHJl1nz6p3h7j4AFPdhgbDj7nwn0zI1o0xP8WGmE_kn9e53ehBx6IU-iOQJ-JXc_4e8_1n_tP7nZqBQAfB5B-a8mW0iUyH2XBzKKIebPZ8u02eRKDVUUZnutFcgBXjbQW4hW; Domain=.tiktok.com; Path=/; Expires=1794029034; ttwid=1%7CyHVVoWeMmc-3HMQzGeLAWTKsoEmn5lOxHLhrceV4g3w%7C1762493033%7Caa33d6157603beb187ae2fd554015cf463e69a9385fbc54d7a3e7a848a9df8fc; Domain=.tiktok.com; Path=/; Secure; Expires=1794029034; store-idc=alisg; Domain=.tiktok.com; Path=/; Expires=1794029034; store-country-sign=MEIEDGNAqWqR2a0er4zjeAQgMuurAVNuf3SOpc_lCsUS6OVOTEMJPGY7fje3VCShvuYEEKSUWUChT9xgz3oinfsoj_8; Domain=.tiktok.com; Path=/; Expires=1794029034; odin_tt=fdb338ea9924b66e069cd3826b52e91602d6c7c70440ed4a45253d1bdcb67e7b33079c363923c1afe01be7d6a0aed5f094b6d26ad61219129e2c4adf8ef71b17c80e515b61a158847d9b8a0bdf5ce20d; Domain=.tiktok.com; Path=/; Expires=1794029677; msToken=\"meDkniXDXS_tUY_gxDHQq78SotiqxQ0ZNcoqdOeIa41rbBFYVBwXJCxTrRC3R98vzLKRXjx4-tnERAh9sGZGCUxDCMp1j9u8puEUbQz0iD7PHcoJa8wEBmMePN4abcDqQKB6HgB_WDgMrvA=\"; Domain=.tiktok.com; Path=/; Secure; Expires=1763391905",
+        "http_headers": {
+          "User-Agent": "Mozilla/5.0",
+          "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+          "Accept-Language": "en-us,en;q=0.5",
+          "Sec-Fetch-Mode": "navigate",
+          "Referer": "https://www.tiktok.com/@tcoderr/video/7402132841267547408"
+        },
+        "format": "bytevc1_540p_168733-0 - 576x1024"
+      },
+      {
+        "ext": "mp4",
+        "vcodec": "h265",
+        "acodec": "aac",
+        "format_id": "bytevc1_540p_168733-1",
+        "tbr": 168,
+        "quality": 1,
+        "preference": -1,
+        "filesize": 555870,
+        "width": 576,
+        "height": 1024,
+        "url": "https://v19-webapp-prime.tiktok.com/video/tos/alisg/tos-alisg-pve-0037c001/owIeI46e1OkQVLIjFqcNlQLEE1hGg6ADAeOv5C/?a=1988&bti=ODszNWYuMDE6&ch=0&cr=3&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=328&bt=164&cs=2&ds=6&ft=-Csk_m7nPD12NE3GHd-Uxt1vSY6e3wv25xcAp&mime_type=video_mp4&qs=11&rc=aTNlOzY7O2llOWQ4OWhnN0BpM2xvcG05cjN0dDMzODczNEA0YjRgXjNhXzQxNGNjMmNgYSMuci1oMmRrZXBgLS1kMWBzcw%3D%3D&btag=e000b8000&expire=1762700731&l=20251107230505129DECCE605A96DDC79C&ply_type=2&policy=2&signature=11a11ba7b427c8d2d3a2b9a363ced655&tk=tt_chain_token",
+        "protocol": "https",
+        "video_ext": "mp4",
+        "audio_ext": "none",
+        "resolution": "576x1024",
+        "dynamic_range": "SDR",
+        "aspect_ratio": 0.56,
+        "cookies": "_ttp=34wyWDXvxmF602Htsl0oDR6JCNq; Domain=.tiktok.com; Path=/; Secure; Expires=1795834961; tt_csrf_token=A6kVUZcK-ro_L6C62WbmQwfALArHC4HF-pTM; Domain=.tiktok.com; Path=/; Secure; tt_chain_token=\"bIQCOyoJbQ000pox+IBxHQ==\"; Domain=.tiktok.com; Path=/; Secure; Expires=1778079905; passport_csrf_token=3e2175a5e77e24a26515b4e6f7b50740; Domain=.tiktok.com; Path=/; Secure; Expires=1767674732; passport_csrf_token_default=3e2175a5e77e24a26515b4e6f7b50740; Domain=.tiktok.com; Path=/; Secure; Expires=1767674732; s_v_web_id=verify_mhodh7s9_f6H7RhcI_zN3b_4VwP_AxSW_OnDGZUzFJBgu; Domain=.tiktok.com; Path=/; Secure; multi_sids=7569810985282094098%3Aade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1767677004; cmpl_token=AgQQAPOFF-RO0rkzsFuCpB0r82zGAoWNv4UOYKOhVw; Domain=.tiktok.com; Path=/; Secure; Expires=1767677004; passport_auth_status=b8d801922a4b455b405bf6994fade073%2C063941b21aed31105bffa0d912bcf9fa; Domain=.tiktok.com; Path=/; Expires=1765085004; passport_auth_status_ss=b8d801922a4b455b405bf6994fade073%2C063941b21aed31105bffa0d912bcf9fa; Domain=.tiktok.com; Path=/; Secure; Expires=1765085004; sid_guard=ade59ff71c0c0e5cc0fe1f23772b37c1%7C1762493004%7C15552000%7CWed%2C+06-May-2026+05%3A23%3A24+GMT; Domain=.tiktok.com; Path=/; Secure; Expires=1793597004; uid_tt=ac0557b89a0248004ba199e09ced5e656aa70515a78deb5b62cd048a83d31edc; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; uid_tt_ss=ac0557b89a0248004ba199e09ced5e656aa70515a78deb5b62cd048a83d31edc; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sid_tt=ade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sessionid=ade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sessionid_ss=ade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; tt_session_tlb_tag=sttt%7C5%7CreWf9xwMDlzA_h8jdys3wf________-ji4fpfjT0V1140MZnLSHWNBnXgRLIZvw1fxmxRRmvw7s%3D; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sid_ucp_v1=1.0.0-KDYzMTBmY2U1ODFjN2FkYjNmOGUwYWE1YjcwYTk2N2FkYzhhMjMxMTEKIQiSiNvUwN_XhmkQzIS2yAYYswsgDDC1vrXIBjgIQBJIBBADGgJteSIgYWRlNTlmZjcxYzBjMGU1Y2MwZmUxZjIzNzcyYjM3YzE; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; ssid_ucp_v1=1.0.0-KDYzMTBmY2U1ODFjN2FkYjNmOGUwYWE1YjcwYTk2N2FkYzhhMjMxMTEKIQiSiNvUwN_XhmkQzIS2yAYYswsgDDC1vrXIBjgIQBJIBBADGgJteSIgYWRlNTlmZjcxYzBjMGU1Y2MwZmUxZjIzNzcyYjM3YzE; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; store-country-code=vn; Domain=.tiktok.com; Path=/; Expires=1794029034; store-country-code-src=uid; Domain=.tiktok.com; Path=/; Expires=1794029034; tt-target-idc=alisg; Domain=.tiktok.com; Path=/; Expires=1794029034; tt-target-idc-sign=X46gRkvSgmGWHXja-gzeN1KwdE4cBtH3zFXAhG3-BtWzH-YdFZEQct_uBwMTYtfjrNxqy_GJyyU9vrDSU9xBVMhZYzNMj8Yj-vL3ZdUiBlJfwT_RyqsMw9cBp-UMAurlaLw7iKPn1sOB_2Mr4OgfdC72r1rSon8aLN6RpZxfHlcPgzQDAzxGLO1WCcDi3Grn071JYzpIP3H4Uj5tKf5cHSGRn8O-z3hwE-QaTWdxP_Dv9m7mqKXg9LpTBaiRQ0apSWQMga4QK4y5B4To6e0pZD8oaixa2PVdqGeLesDSGOjsT94m5Qtsw2dBLvi1Cl2PDtg34s_m8F2kwZanwVGyMx5JeHbhEA1jVyuFTZ4wmF-6mQMCj4IoVYUBqf6cEHJl1nz6p3h7j4AFPdhgbDj7nwn0zI1o0xP8WGmE_kn9e53ehBx6IU-iOQJ-JXc_4e8_1n_tP7nZqBQAfB5B-a8mW0iUyH2XBzKKIebPZ8u02eRKDVUUZnutFcgBXjbQW4hW; Domain=.tiktok.com; Path=/; Expires=1794029034; ttwid=1%7CyHVVoWeMmc-3HMQzGeLAWTKsoEmn5lOxHLhrceV4g3w%7C1762493033%7Caa33d6157603beb187ae2fd554015cf463e69a9385fbc54d7a3e7a848a9df8fc; Domain=.tiktok.com; Path=/; Secure; Expires=1794029034; store-idc=alisg; Domain=.tiktok.com; Path=/; Expires=1794029034; store-country-sign=MEIEDGNAqWqR2a0er4zjeAQgMuurAVNuf3SOpc_lCsUS6OVOTEMJPGY7fje3VCShvuYEEKSUWUChT9xgz3oinfsoj_8; Domain=.tiktok.com; Path=/; Expires=1794029034; odin_tt=fdb338ea9924b66e069cd3826b52e91602d6c7c70440ed4a45253d1bdcb67e7b33079c363923c1afe01be7d6a0aed5f094b6d26ad61219129e2c4adf8ef71b17c80e515b61a158847d9b8a0bdf5ce20d; Domain=.tiktok.com; Path=/; Expires=1794029677; msToken=\"meDkniXDXS_tUY_gxDHQq78SotiqxQ0ZNcoqdOeIa41rbBFYVBwXJCxTrRC3R98vzLKRXjx4-tnERAh9sGZGCUxDCMp1j9u8puEUbQz0iD7PHcoJa8wEBmMePN4abcDqQKB6HgB_WDgMrvA=\"; Domain=.tiktok.com; Path=/; Secure; Expires=1763391905",
+        "http_headers": {
+          "User-Agent": "Mozilla/5.0",
+          "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+          "Accept-Language": "en-us,en;q=0.5",
+          "Sec-Fetch-Mode": "navigate",
+          "Referer": "https://www.tiktok.com/@tcoderr/video/7402132841267547408"
+        },
+        "format": "bytevc1_540p_168733-1 - 576x1024"
+      },
+      {
+        "ext": "mp4",
+        "vcodec": "h265",
+        "acodec": "aac",
+        "format_id": "bytevc1_720p_190747-0",
+        "tbr": 190,
+        "quality": 2,
+        "preference": -1,
+        "filesize": 628395,
+        "width": 720,
+        "height": 1280,
+        "url": "https://v16-webapp-prime.tiktok.com/video/tos/alisg/tos-alisg-pve-0037c001/oA2BqimE5wSDmBKqgCcOafELFEARuJunrCfSlI/?a=1988&bti=ODszNWYuMDE6&ch=0&cr=3&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=372&bt=186&cs=2&ds=3&ft=-Csk_m7nPD12NE3GHd-Uxt1vSY6e3wv25xcAp&mime_type=video_mp4&qs=14&rc=PGc1NWg0aDhkZTdlOzZkN0BpM2xvcG05cjN0dDMzODczNEBhLmBjY19jNV8xLWEuNF9eYSMuci1oMmRrZXBgLS1kMWBzcw%3D%3D&btag=e000b8000&expire=1762700731&l=20251107230505129DECCE605A96DDC79C&ply_type=2&policy=2&signature=6f11abebf41edb4ab80211213f4fcb81&tk=tt_chain_token",
+        "protocol": "https",
+        "video_ext": "mp4",
+        "audio_ext": "none",
+        "resolution": "720x1280",
+        "dynamic_range": "SDR",
+        "aspect_ratio": 0.56,
+        "cookies": "_ttp=34wyWDXvxmF602Htsl0oDR6JCNq; Domain=.tiktok.com; Path=/; Secure; Expires=1795834961; tt_csrf_token=A6kVUZcK-ro_L6C62WbmQwfALArHC4HF-pTM; Domain=.tiktok.com; Path=/; Secure; tt_chain_token=\"bIQCOyoJbQ000pox+IBxHQ==\"; Domain=.tiktok.com; Path=/; Secure; Expires=1778079905; passport_csrf_token=3e2175a5e77e24a26515b4e6f7b50740; Domain=.tiktok.com; Path=/; Secure; Expires=1767674732; passport_csrf_token_default=3e2175a5e77e24a26515b4e6f7b50740; Domain=.tiktok.com; Path=/; Secure; Expires=1767674732; s_v_web_id=verify_mhodh7s9_f6H7RhcI_zN3b_4VwP_AxSW_OnDGZUzFJBgu; Domain=.tiktok.com; Path=/; Secure; multi_sids=7569810985282094098%3Aade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1767677004; cmpl_token=AgQQAPOFF-RO0rkzsFuCpB0r82zGAoWNv4UOYKOhVw; Domain=.tiktok.com; Path=/; Secure; Expires=1767677004; passport_auth_status=b8d801922a4b455b405bf6994fade073%2C063941b21aed31105bffa0d912bcf9fa; Domain=.tiktok.com; Path=/; Expires=1765085004; passport_auth_status_ss=b8d801922a4b455b405bf6994fade073%2C063941b21aed31105bffa0d912bcf9fa; Domain=.tiktok.com; Path=/; Secure; Expires=1765085004; sid_guard=ade59ff71c0c0e5cc0fe1f23772b37c1%7C1762493004%7C15552000%7CWed%2C+06-May-2026+05%3A23%3A24+GMT; Domain=.tiktok.com; Path=/; Secure; Expires=1793597004; uid_tt=ac0557b89a0248004ba199e09ced5e656aa70515a78deb5b62cd048a83d31edc; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; uid_tt_ss=ac0557b89a0248004ba199e09ced5e656aa70515a78deb5b62cd048a83d31edc; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sid_tt=ade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sessionid=ade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sessionid_ss=ade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; tt_session_tlb_tag=sttt%7C5%7CreWf9xwMDlzA_h8jdys3wf________-ji4fpfjT0V1140MZnLSHWNBnXgRLIZvw1fxmxRRmvw7s%3D; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sid_ucp_v1=1.0.0-KDYzMTBmY2U1ODFjN2FkYjNmOGUwYWE1YjcwYTk2N2FkYzhhMjMxMTEKIQiSiNvUwN_XhmkQzIS2yAYYswsgDDC1vrXIBjgIQBJIBBADGgJteSIgYWRlNTlmZjcxYzBjMGU1Y2MwZmUxZjIzNzcyYjM3YzE; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; ssid_ucp_v1=1.0.0-KDYzMTBmY2U1ODFjN2FkYjNmOGUwYWE1YjcwYTk2N2FkYzhhMjMxMTEKIQiSiNvUwN_XhmkQzIS2yAYYswsgDDC1vrXIBjgIQBJIBBADGgJteSIgYWRlNTlmZjcxYzBjMGU1Y2MwZmUxZjIzNzcyYjM3YzE; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; store-country-code=vn; Domain=.tiktok.com; Path=/; Expires=1794029034; store-country-code-src=uid; Domain=.tiktok.com; Path=/; Expires=1794029034; tt-target-idc=alisg; Domain=.tiktok.com; Path=/; Expires=1794029034; tt-target-idc-sign=X46gRkvSgmGWHXja-gzeN1KwdE4cBtH3zFXAhG3-BtWzH-YdFZEQct_uBwMTYtfjrNxqy_GJyyU9vrDSU9xBVMhZYzNMj8Yj-vL3ZdUiBlJfwT_RyqsMw9cBp-UMAurlaLw7iKPn1sOB_2Mr4OgfdC72r1rSon8aLN6RpZxfHlcPgzQDAzxGLO1WCcDi3Grn071JYzpIP3H4Uj5tKf5cHSGRn8O-z3hwE-QaTWdxP_Dv9m7mqKXg9LpTBaiRQ0apSWQMga4QK4y5B4To6e0pZD8oaixa2PVdqGeLesDSGOjsT94m5Qtsw2dBLvi1Cl2PDtg34s_m8F2kwZanwVGyMx5JeHbhEA1jVyuFTZ4wmF-6mQMCj4IoVYUBqf6cEHJl1nz6p3h7j4AFPdhgbDj7nwn0zI1o0xP8WGmE_kn9e53ehBx6IU-iOQJ-JXc_4e8_1n_tP7nZqBQAfB5B-a8mW0iUyH2XBzKKIebPZ8u02eRKDVUUZnutFcgBXjbQW4hW; Domain=.tiktok.com; Path=/; Expires=1794029034; ttwid=1%7CyHVVoWeMmc-3HMQzGeLAWTKsoEmn5lOxHLhrceV4g3w%7C1762493033%7Caa33d6157603beb187ae2fd554015cf463e69a9385fbc54d7a3e7a848a9df8fc; Domain=.tiktok.com; Path=/; Secure; Expires=1794029034; store-idc=alisg; Domain=.tiktok.com; Path=/; Expires=1794029034; store-country-sign=MEIEDGNAqWqR2a0er4zjeAQgMuurAVNuf3SOpc_lCsUS6OVOTEMJPGY7fje3VCShvuYEEKSUWUChT9xgz3oinfsoj_8; Domain=.tiktok.com; Path=/; Expires=1794029034; odin_tt=fdb338ea9924b66e069cd3826b52e91602d6c7c70440ed4a45253d1bdcb67e7b33079c363923c1afe01be7d6a0aed5f094b6d26ad61219129e2c4adf8ef71b17c80e515b61a158847d9b8a0bdf5ce20d; Domain=.tiktok.com; Path=/; Expires=1794029677; msToken=\"meDkniXDXS_tUY_gxDHQq78SotiqxQ0ZNcoqdOeIa41rbBFYVBwXJCxTrRC3R98vzLKRXjx4-tnERAh9sGZGCUxDCMp1j9u8puEUbQz0iD7PHcoJa8wEBmMePN4abcDqQKB6HgB_WDgMrvA=\"; Domain=.tiktok.com; Path=/; Secure; Expires=1763391905",
+        "http_headers": {
+          "User-Agent": "Mozilla/5.0",
+          "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+          "Accept-Language": "en-us,en;q=0.5",
+          "Sec-Fetch-Mode": "navigate",
+          "Referer": "https://www.tiktok.com/@tcoderr/video/7402132841267547408"
+        },
+        "format": "bytevc1_720p_190747-0 - 720x1280"
+      },
+      {
+        "ext": "mp4",
+        "vcodec": "h265",
+        "acodec": "aac",
+        "format_id": "bytevc1_720p_190747-1",
+        "tbr": 190,
+        "quality": 2,
+        "preference": -1,
+        "filesize": 628395,
+        "width": 720,
+        "height": 1280,
+        "url": "https://v19-webapp-prime.tiktok.com/video/tos/alisg/tos-alisg-pve-0037c001/oA2BqimE5wSDmBKqgCcOafELFEARuJunrCfSlI/?a=1988&bti=ODszNWYuMDE6&ch=0&cr=3&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=372&bt=186&cs=2&ds=3&ft=-Csk_m7nPD12NE3GHd-Uxt1vSY6e3wv25xcAp&mime_type=video_mp4&qs=14&rc=PGc1NWg0aDhkZTdlOzZkN0BpM2xvcG05cjN0dDMzODczNEBhLmBjY19jNV8xLWEuNF9eYSMuci1oMmRrZXBgLS1kMWBzcw%3D%3D&btag=e000b8000&expire=1762700731&l=20251107230505129DECCE605A96DDC79C&ply_type=2&policy=2&signature=6f11abebf41edb4ab80211213f4fcb81&tk=tt_chain_token",
+        "protocol": "https",
+        "video_ext": "mp4",
+        "audio_ext": "none",
+        "resolution": "720x1280",
+        "dynamic_range": "SDR",
+        "aspect_ratio": 0.56,
+        "cookies": "_ttp=34wyWDXvxmF602Htsl0oDR6JCNq; Domain=.tiktok.com; Path=/; Secure; Expires=1795834961; tt_csrf_token=A6kVUZcK-ro_L6C62WbmQwfALArHC4HF-pTM; Domain=.tiktok.com; Path=/; Secure; tt_chain_token=\"bIQCOyoJbQ000pox+IBxHQ==\"; Domain=.tiktok.com; Path=/; Secure; Expires=1778079905; passport_csrf_token=3e2175a5e77e24a26515b4e6f7b50740; Domain=.tiktok.com; Path=/; Secure; Expires=1767674732; passport_csrf_token_default=3e2175a5e77e24a26515b4e6f7b50740; Domain=.tiktok.com; Path=/; Secure; Expires=1767674732; s_v_web_id=verify_mhodh7s9_f6H7RhcI_zN3b_4VwP_AxSW_OnDGZUzFJBgu; Domain=.tiktok.com; Path=/; Secure; multi_sids=7569810985282094098%3Aade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1767677004; cmpl_token=AgQQAPOFF-RO0rkzsFuCpB0r82zGAoWNv4UOYKOhVw; Domain=.tiktok.com; Path=/; Secure; Expires=1767677004; passport_auth_status=b8d801922a4b455b405bf6994fade073%2C063941b21aed31105bffa0d912bcf9fa; Domain=.tiktok.com; Path=/; Expires=1765085004; passport_auth_status_ss=b8d801922a4b455b405bf6994fade073%2C063941b21aed31105bffa0d912bcf9fa; Domain=.tiktok.com; Path=/; Secure; Expires=1765085004; sid_guard=ade59ff71c0c0e5cc0fe1f23772b37c1%7C1762493004%7C15552000%7CWed%2C+06-May-2026+05%3A23%3A24+GMT; Domain=.tiktok.com; Path=/; Secure; Expires=1793597004; uid_tt=ac0557b89a0248004ba199e09ced5e656aa70515a78deb5b62cd048a83d31edc; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; uid_tt_ss=ac0557b89a0248004ba199e09ced5e656aa70515a78deb5b62cd048a83d31edc; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sid_tt=ade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sessionid=ade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sessionid_ss=ade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; tt_session_tlb_tag=sttt%7C5%7CreWf9xwMDlzA_h8jdys3wf________-ji4fpfjT0V1140MZnLSHWNBnXgRLIZvw1fxmxRRmvw7s%3D; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sid_ucp_v1=1.0.0-KDYzMTBmY2U1ODFjN2FkYjNmOGUwYWE1YjcwYTk2N2FkYzhhMjMxMTEKIQiSiNvUwN_XhmkQzIS2yAYYswsgDDC1vrXIBjgIQBJIBBADGgJteSIgYWRlNTlmZjcxYzBjMGU1Y2MwZmUxZjIzNzcyYjM3YzE; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; ssid_ucp_v1=1.0.0-KDYzMTBmY2U1ODFjN2FkYjNmOGUwYWE1YjcwYTk2N2FkYzhhMjMxMTEKIQiSiNvUwN_XhmkQzIS2yAYYswsgDDC1vrXIBjgIQBJIBBADGgJteSIgYWRlNTlmZjcxYzBjMGU1Y2MwZmUxZjIzNzcyYjM3YzE; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; store-country-code=vn; Domain=.tiktok.com; Path=/; Expires=1794029034; store-country-code-src=uid; Domain=.tiktok.com; Path=/; Expires=1794029034; tt-target-idc=alisg; Domain=.tiktok.com; Path=/; Expires=1794029034; tt-target-idc-sign=X46gRkvSgmGWHXja-gzeN1KwdE4cBtH3zFXAhG3-BtWzH-YdFZEQct_uBwMTYtfjrNxqy_GJyyU9vrDSU9xBVMhZYzNMj8Yj-vL3ZdUiBlJfwT_RyqsMw9cBp-UMAurlaLw7iKPn1sOB_2Mr4OgfdC72r1rSon8aLN6RpZxfHlcPgzQDAzxGLO1WCcDi3Grn071JYzpIP3H4Uj5tKf5cHSGRn8O-z3hwE-QaTWdxP_Dv9m7mqKXg9LpTBaiRQ0apSWQMga4QK4y5B4To6e0pZD8oaixa2PVdqGeLesDSGOjsT94m5Qtsw2dBLvi1Cl2PDtg34s_m8F2kwZanwVGyMx5JeHbhEA1jVyuFTZ4wmF-6mQMCj4IoVYUBqf6cEHJl1nz6p3h7j4AFPdhgbDj7nwn0zI1o0xP8WGmE_kn9e53ehBx6IU-iOQJ-JXc_4e8_1n_tP7nZqBQAfB5B-a8mW0iUyH2XBzKKIebPZ8u02eRKDVUUZnutFcgBXjbQW4hW; Domain=.tiktok.com; Path=/; Expires=1794029034; ttwid=1%7CyHVVoWeMmc-3HMQzGeLAWTKsoEmn5lOxHLhrceV4g3w%7C1762493033%7Caa33d6157603beb187ae2fd554015cf463e69a9385fbc54d7a3e7a848a9df8fc; Domain=.tiktok.com; Path=/; Secure; Expires=1794029034; store-idc=alisg; Domain=.tiktok.com; Path=/; Expires=1794029034; store-country-sign=MEIEDGNAqWqR2a0er4zjeAQgMuurAVNuf3SOpc_lCsUS6OVOTEMJPGY7fje3VCShvuYEEKSUWUChT9xgz3oinfsoj_8; Domain=.tiktok.com; Path=/; Expires=1794029034; odin_tt=fdb338ea9924b66e069cd3826b52e91602d6c7c70440ed4a45253d1bdcb67e7b33079c363923c1afe01be7d6a0aed5f094b6d26ad61219129e2c4adf8ef71b17c80e515b61a158847d9b8a0bdf5ce20d; Domain=.tiktok.com; Path=/; Expires=1794029677; msToken=\"meDkniXDXS_tUY_gxDHQq78SotiqxQ0ZNcoqdOeIa41rbBFYVBwXJCxTrRC3R98vzLKRXjx4-tnERAh9sGZGCUxDCMp1j9u8puEUbQz0iD7PHcoJa8wEBmMePN4abcDqQKB6HgB_WDgMrvA=\"; Domain=.tiktok.com; Path=/; Secure; Expires=1763391905",
+        "http_headers": {
+          "User-Agent": "Mozilla/5.0",
+          "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+          "Accept-Language": "en-us,en;q=0.5",
+          "Sec-Fetch-Mode": "navigate",
+          "Referer": "https://www.tiktok.com/@tcoderr/video/7402132841267547408"
+        },
+        "format": "bytevc1_720p_190747-1 - 720x1280"
+      },
+      {
+        "ext": "mp4",
+        "vcodec": "h265",
+        "acodec": "aac",
+        "format_id": "bytevc1_1080p_304753-0",
+        "tbr": 304,
+        "quality": 3,
+        "preference": -1,
+        "filesize": 1003973,
+        "width": 1080,
+        "height": 1920,
+        "url": "https://v16-webapp-prime.tiktok.com/video/tos/alisg/tos-alisg-pve-0037c001/oIUavDu5EAcCSSPEnB3EMfiUaIWRgcFKm5BwCf/?a=1988&bti=ODszNWYuMDE6&ch=0&cr=3&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=594&bt=297&cs=2&ds=4&ft=-Csk_m7nPD12NE3GHd-Uxt1vSY6e3wv25xcAp&mime_type=video_mp4&qs=15&rc=N2Q5OTxmO2Q8NmY1ZTc7NUBpM2xvcG05cjN0dDMzODczNEA1XmIuYjA0NTAxXzUzNF4xYSMuci1oMmRrZXBgLS1kMWBzcw%3D%3D&btag=e000b8000&expire=1762700731&l=20251107230505129DECCE605A96DDC79C&ply_type=2&policy=2&signature=e70f314eebfef0d8ee240aae4f2b67aa&tk=tt_chain_token",
+        "protocol": "https",
+        "video_ext": "mp4",
+        "audio_ext": "none",
+        "resolution": "1080x1920",
+        "dynamic_range": "SDR",
+        "aspect_ratio": 0.56,
+        "cookies": "_ttp=34wyWDXvxmF602Htsl0oDR6JCNq; Domain=.tiktok.com; Path=/; Secure; Expires=1795834961; tt_csrf_token=A6kVUZcK-ro_L6C62WbmQwfALArHC4HF-pTM; Domain=.tiktok.com; Path=/; Secure; tt_chain_token=\"bIQCOyoJbQ000pox+IBxHQ==\"; Domain=.tiktok.com; Path=/; Secure; Expires=1778079905; passport_csrf_token=3e2175a5e77e24a26515b4e6f7b50740; Domain=.tiktok.com; Path=/; Secure; Expires=1767674732; passport_csrf_token_default=3e2175a5e77e24a26515b4e6f7b50740; Domain=.tiktok.com; Path=/; Secure; Expires=1767674732; s_v_web_id=verify_mhodh7s9_f6H7RhcI_zN3b_4VwP_AxSW_OnDGZUzFJBgu; Domain=.tiktok.com; Path=/; Secure; multi_sids=7569810985282094098%3Aade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1767677004; cmpl_token=AgQQAPOFF-RO0rkzsFuCpB0r82zGAoWNv4UOYKOhVw; Domain=.tiktok.com; Path=/; Secure; Expires=1767677004; passport_auth_status=b8d801922a4b455b405bf6994fade073%2C063941b21aed31105bffa0d912bcf9fa; Domain=.tiktok.com; Path=/; Expires=1765085004; passport_auth_status_ss=b8d801922a4b455b405bf6994fade073%2C063941b21aed31105bffa0d912bcf9fa; Domain=.tiktok.com; Path=/; Secure; Expires=1765085004; sid_guard=ade59ff71c0c0e5cc0fe1f23772b37c1%7C1762493004%7C15552000%7CWed%2C+06-May-2026+05%3A23%3A24+GMT; Domain=.tiktok.com; Path=/; Secure; Expires=1793597004; uid_tt=ac0557b89a0248004ba199e09ced5e656aa70515a78deb5b62cd048a83d31edc; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; uid_tt_ss=ac0557b89a0248004ba199e09ced5e656aa70515a78deb5b62cd048a83d31edc; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sid_tt=ade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sessionid=ade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sessionid_ss=ade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; tt_session_tlb_tag=sttt%7C5%7CreWf9xwMDlzA_h8jdys3wf________-ji4fpfjT0V1140MZnLSHWNBnXgRLIZvw1fxmxRRmvw7s%3D; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sid_ucp_v1=1.0.0-KDYzMTBmY2U1ODFjN2FkYjNmOGUwYWE1YjcwYTk2N2FkYzhhMjMxMTEKIQiSiNvUwN_XhmkQzIS2yAYYswsgDDC1vrXIBjgIQBJIBBADGgJteSIgYWRlNTlmZjcxYzBjMGU1Y2MwZmUxZjIzNzcyYjM3YzE; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; ssid_ucp_v1=1.0.0-KDYzMTBmY2U1ODFjN2FkYjNmOGUwYWE1YjcwYTk2N2FkYzhhMjMxMTEKIQiSiNvUwN_XhmkQzIS2yAYYswsgDDC1vrXIBjgIQBJIBBADGgJteSIgYWRlNTlmZjcxYzBjMGU1Y2MwZmUxZjIzNzcyYjM3YzE; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; store-country-code=vn; Domain=.tiktok.com; Path=/; Expires=1794029034; store-country-code-src=uid; Domain=.tiktok.com; Path=/; Expires=1794029034; tt-target-idc=alisg; Domain=.tiktok.com; Path=/; Expires=1794029034; tt-target-idc-sign=X46gRkvSgmGWHXja-gzeN1KwdE4cBtH3zFXAhG3-BtWzH-YdFZEQct_uBwMTYtfjrNxqy_GJyyU9vrDSU9xBVMhZYzNMj8Yj-vL3ZdUiBlJfwT_RyqsMw9cBp-UMAurlaLw7iKPn1sOB_2Mr4OgfdC72r1rSon8aLN6RpZxfHlcPgzQDAzxGLO1WCcDi3Grn071JYzpIP3H4Uj5tKf5cHSGRn8O-z3hwE-QaTWdxP_Dv9m7mqKXg9LpTBaiRQ0apSWQMga4QK4y5B4To6e0pZD8oaixa2PVdqGeLesDSGOjsT94m5Qtsw2dBLvi1Cl2PDtg34s_m8F2kwZanwVGyMx5JeHbhEA1jVyuFTZ4wmF-6mQMCj4IoVYUBqf6cEHJl1nz6p3h7j4AFPdhgbDj7nwn0zI1o0xP8WGmE_kn9e53ehBx6IU-iOQJ-JXc_4e8_1n_tP7nZqBQAfB5B-a8mW0iUyH2XBzKKIebPZ8u02eRKDVUUZnutFcgBXjbQW4hW; Domain=.tiktok.com; Path=/; Expires=1794029034; ttwid=1%7CyHVVoWeMmc-3HMQzGeLAWTKsoEmn5lOxHLhrceV4g3w%7C1762493033%7Caa33d6157603beb187ae2fd554015cf463e69a9385fbc54d7a3e7a848a9df8fc; Domain=.tiktok.com; Path=/; Secure; Expires=1794029034; store-idc=alisg; Domain=.tiktok.com; Path=/; Expires=1794029034; store-country-sign=MEIEDGNAqWqR2a0er4zjeAQgMuurAVNuf3SOpc_lCsUS6OVOTEMJPGY7fje3VCShvuYEEKSUWUChT9xgz3oinfsoj_8; Domain=.tiktok.com; Path=/; Expires=1794029034; odin_tt=fdb338ea9924b66e069cd3826b52e91602d6c7c70440ed4a45253d1bdcb67e7b33079c363923c1afe01be7d6a0aed5f094b6d26ad61219129e2c4adf8ef71b17c80e515b61a158847d9b8a0bdf5ce20d; Domain=.tiktok.com; Path=/; Expires=1794029677; msToken=\"meDkniXDXS_tUY_gxDHQq78SotiqxQ0ZNcoqdOeIa41rbBFYVBwXJCxTrRC3R98vzLKRXjx4-tnERAh9sGZGCUxDCMp1j9u8puEUbQz0iD7PHcoJa8wEBmMePN4abcDqQKB6HgB_WDgMrvA=\"; Domain=.tiktok.com; Path=/; Secure; Expires=1763391905",
+        "http_headers": {
+          "User-Agent": "Mozilla/5.0",
+          "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+          "Accept-Language": "en-us,en;q=0.5",
+          "Sec-Fetch-Mode": "navigate",
+          "Referer": "https://www.tiktok.com/@tcoderr/video/7402132841267547408"
+        },
+        "format": "bytevc1_1080p_304753-0 - 1080x1920"
+      },
+      {
+        "ext": "mp4",
+        "vcodec": "h265",
+        "acodec": "aac",
+        "format_id": "bytevc1_1080p_304753-1",
+        "tbr": 304,
+        "quality": 3,
+        "preference": -1,
+        "filesize": 1003973,
+        "width": 1080,
+        "height": 1920,
+        "url": "https://v19-webapp-prime.tiktok.com/video/tos/alisg/tos-alisg-pve-0037c001/oIUavDu5EAcCSSPEnB3EMfiUaIWRgcFKm5BwCf/?a=1988&bti=ODszNWYuMDE6&ch=0&cr=3&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=594&bt=297&cs=2&ds=4&ft=-Csk_m7nPD12NE3GHd-Uxt1vSY6e3wv25xcAp&mime_type=video_mp4&qs=15&rc=N2Q5OTxmO2Q8NmY1ZTc7NUBpM2xvcG05cjN0dDMzODczNEA1XmIuYjA0NTAxXzUzNF4xYSMuci1oMmRrZXBgLS1kMWBzcw%3D%3D&btag=e000b8000&expire=1762700731&l=20251107230505129DECCE605A96DDC79C&ply_type=2&policy=2&signature=e70f314eebfef0d8ee240aae4f2b67aa&tk=tt_chain_token",
+        "protocol": "https",
+        "video_ext": "mp4",
+        "audio_ext": "none",
+        "resolution": "1080x1920",
+        "dynamic_range": "SDR",
+        "aspect_ratio": 0.56,
+        "cookies": "_ttp=34wyWDXvxmF602Htsl0oDR6JCNq; Domain=.tiktok.com; Path=/; Secure; Expires=1795834961; tt_csrf_token=A6kVUZcK-ro_L6C62WbmQwfALArHC4HF-pTM; Domain=.tiktok.com; Path=/; Secure; tt_chain_token=\"bIQCOyoJbQ000pox+IBxHQ==\"; Domain=.tiktok.com; Path=/; Secure; Expires=1778079905; passport_csrf_token=3e2175a5e77e24a26515b4e6f7b50740; Domain=.tiktok.com; Path=/; Secure; Expires=1767674732; passport_csrf_token_default=3e2175a5e77e24a26515b4e6f7b50740; Domain=.tiktok.com; Path=/; Secure; Expires=1767674732; s_v_web_id=verify_mhodh7s9_f6H7RhcI_zN3b_4VwP_AxSW_OnDGZUzFJBgu; Domain=.tiktok.com; Path=/; Secure; multi_sids=7569810985282094098%3Aade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1767677004; cmpl_token=AgQQAPOFF-RO0rkzsFuCpB0r82zGAoWNv4UOYKOhVw; Domain=.tiktok.com; Path=/; Secure; Expires=1767677004; passport_auth_status=b8d801922a4b455b405bf6994fade073%2C063941b21aed31105bffa0d912bcf9fa; Domain=.tiktok.com; Path=/; Expires=1765085004; passport_auth_status_ss=b8d801922a4b455b405bf6994fade073%2C063941b21aed31105bffa0d912bcf9fa; Domain=.tiktok.com; Path=/; Secure; Expires=1765085004; sid_guard=ade59ff71c0c0e5cc0fe1f23772b37c1%7C1762493004%7C15552000%7CWed%2C+06-May-2026+05%3A23%3A24+GMT; Domain=.tiktok.com; Path=/; Secure; Expires=1793597004; uid_tt=ac0557b89a0248004ba199e09ced5e656aa70515a78deb5b62cd048a83d31edc; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; uid_tt_ss=ac0557b89a0248004ba199e09ced5e656aa70515a78deb5b62cd048a83d31edc; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sid_tt=ade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sessionid=ade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sessionid_ss=ade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; tt_session_tlb_tag=sttt%7C5%7CreWf9xwMDlzA_h8jdys3wf________-ji4fpfjT0V1140MZnLSHWNBnXgRLIZvw1fxmxRRmvw7s%3D; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sid_ucp_v1=1.0.0-KDYzMTBmY2U1ODFjN2FkYjNmOGUwYWE1YjcwYTk2N2FkYzhhMjMxMTEKIQiSiNvUwN_XhmkQzIS2yAYYswsgDDC1vrXIBjgIQBJIBBADGgJteSIgYWRlNTlmZjcxYzBjMGU1Y2MwZmUxZjIzNzcyYjM3YzE; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; ssid_ucp_v1=1.0.0-KDYzMTBmY2U1ODFjN2FkYjNmOGUwYWE1YjcwYTk2N2FkYzhhMjMxMTEKIQiSiNvUwN_XhmkQzIS2yAYYswsgDDC1vrXIBjgIQBJIBBADGgJteSIgYWRlNTlmZjcxYzBjMGU1Y2MwZmUxZjIzNzcyYjM3YzE; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; store-country-code=vn; Domain=.tiktok.com; Path=/; Expires=1794029034; store-country-code-src=uid; Domain=.tiktok.com; Path=/; Expires=1794029034; tt-target-idc=alisg; Domain=.tiktok.com; Path=/; Expires=1794029034; tt-target-idc-sign=X46gRkvSgmGWHXja-gzeN1KwdE4cBtH3zFXAhG3-BtWzH-YdFZEQct_uBwMTYtfjrNxqy_GJyyU9vrDSU9xBVMhZYzNMj8Yj-vL3ZdUiBlJfwT_RyqsMw9cBp-UMAurlaLw7iKPn1sOB_2Mr4OgfdC72r1rSon8aLN6RpZxfHlcPgzQDAzxGLO1WCcDi3Grn071JYzpIP3H4Uj5tKf5cHSGRn8O-z3hwE-QaTWdxP_Dv9m7mqKXg9LpTBaiRQ0apSWQMga4QK4y5B4To6e0pZD8oaixa2PVdqGeLesDSGOjsT94m5Qtsw2dBLvi1Cl2PDtg34s_m8F2kwZanwVGyMx5JeHbhEA1jVyuFTZ4wmF-6mQMCj4IoVYUBqf6cEHJl1nz6p3h7j4AFPdhgbDj7nwn0zI1o0xP8WGmE_kn9e53ehBx6IU-iOQJ-JXc_4e8_1n_tP7nZqBQAfB5B-a8mW0iUyH2XBzKKIebPZ8u02eRKDVUUZnutFcgBXjbQW4hW; Domain=.tiktok.com; Path=/; Expires=1794029034; ttwid=1%7CyHVVoWeMmc-3HMQzGeLAWTKsoEmn5lOxHLhrceV4g3w%7C1762493033%7Caa33d6157603beb187ae2fd554015cf463e69a9385fbc54d7a3e7a848a9df8fc; Domain=.tiktok.com; Path=/; Secure; Expires=1794029034; store-idc=alisg; Domain=.tiktok.com; Path=/; Expires=1794029034; store-country-sign=MEIEDGNAqWqR2a0er4zjeAQgMuurAVNuf3SOpc_lCsUS6OVOTEMJPGY7fje3VCShvuYEEKSUWUChT9xgz3oinfsoj_8; Domain=.tiktok.com; Path=/; Expires=1794029034; odin_tt=fdb338ea9924b66e069cd3826b52e91602d6c7c70440ed4a45253d1bdcb67e7b33079c363923c1afe01be7d6a0aed5f094b6d26ad61219129e2c4adf8ef71b17c80e515b61a158847d9b8a0bdf5ce20d; Domain=.tiktok.com; Path=/; Expires=1794029677; msToken=\"meDkniXDXS_tUY_gxDHQq78SotiqxQ0ZNcoqdOeIa41rbBFYVBwXJCxTrRC3R98vzLKRXjx4-tnERAh9sGZGCUxDCMp1j9u8puEUbQz0iD7PHcoJa8wEBmMePN4abcDqQKB6HgB_WDgMrvA=\"; Domain=.tiktok.com; Path=/; Secure; Expires=1763391905",
+        "http_headers": {
+          "User-Agent": "Mozilla/5.0",
+          "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+          "Accept-Language": "en-us,en;q=0.5",
+          "Sec-Fetch-Mode": "navigate",
+          "Referer": "https://www.tiktok.com/@tcoderr/video/7402132841267547408"
+        },
+        "format": "bytevc1_1080p_304753-1 - 1080x1920"
+      }
+    ],
+    "subtitles": {},
+    "http_headers": {
+      "User-Agent": "Mozilla/5.0",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+      "Accept-Language": "en-us,en;q=0.5",
+      "Sec-Fetch-Mode": "navigate",
+      "Referer": "https://www.tiktok.com/@tcoderr/video/7402132841267547408"
+    },
+    "channel": "Tờ_coderr",
+    "channel_id": "MS4wLjABAAAA0Wn0P1wCYDpiBVjOllv6KBIBL6WoEhhvii6d4zv3SDw-Ux0BJRzdev8JP-OYk9WT",
+    "uploader": "tcoderr",
+    "uploader_id": "7350183525138252802",
+    "channel_url": "https://www.tiktok.com/@MS4wLjABAAAA0Wn0P1wCYDpiBVjOllv6KBIBL6WoEhhvii6d4zv3SDw-Ux0BJRzdev8JP-OYk9WT",
+    "uploader_url": "https://www.tiktok.com/@tcoderr",
+    "track": "Normal No More Speed Up",
+    "artists": [
+      "🎧𝙎.𝘼𝙧𝙞𝙨𝙪 𝘾𝙝𝙞𝙡𝙡🎋"
+    ],
+    "duration": 26,
+    "title": "code được là 1 chuyện, phải hiểu nữa mới quan trọng #learntocode #it ...",
+    "description": "code được là 1 chuyện, phải hiểu nữa mới quan trọng #learntocode #it #laptrinh #coding ",
+    "timestamp": 1723443364,
+    "view_count": 165300,
+    "like_count": 13400,
+    "repost_count": 266,
+    "comment_count": 101,
+    "thumbnails": [
+      {
+        "id": "dynamicCover",
+        "url": "https://p16-sign-sg.tiktokcdn.com/tos-alisg-p-0037/6af3abc83c97433b997e87086c914f3b_1723443367~tplv-tiktokx-origin.image?dr=14575&x-expires=1762700400&x-signature=kohG8AuR9JSf02QZppAQdHgMod8%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=my2",
+        "preference": -2
+      },
+      {
+        "id": "cover",
+        "url": "https://p16-sign-sg.tiktokcdn.com/tos-alisg-p-0037/o4gGNcDO6VF1ICIlfREDw9fAIV4UzI1QgAeLjU~tplv-tiktokx-origin.image?dr=14575&x-expires=1762700400&x-signature=kV%2FI9%2BtziCU%2B7WshBDY4JIKci0E%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=my2",
+        "preference": -1
+      },
+      {
+        "id": "originCover",
+        "url": "https://p16-sign-sg.tiktokcdn.com/tos-alisg-p-0037/5aa15b2d6159470fa5d9079ef8011cf3_1723443366~tplv-tiktokx-origin.image?dr=14575&x-expires=1762700400&x-signature=G9ua10cLMWYieNqEFS8n%2FoCdLyE%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=my2",
+        "preference": -1
+      }
+    ],
+    "webpage_url": "https://www.tiktok.com/@tcoderr/video/7402132841267547408",
+    "webpage_url_basename": "7402132841267547408",
+    "webpage_url_domain": "tiktok.com",
+    "extractor": "TikTok",
+    "extractor_key": "TikTok",
+    "thumbnail": "https://p16-sign-sg.tiktokcdn.com/tos-alisg-p-0037/5aa15b2d6159470fa5d9079ef8011cf3_1723443366~tplv-tiktokx-origin.image?dr=14575&x-expires=1762700400&x-signature=G9ua10cLMWYieNqEFS8n%2FoCdLyE%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=my2",
+    "display_id": "7402132841267547408",
+    "fulltitle": "code được là 1 chuyện, phải hiểu nữa mới quan trọng #learntocode #it ...",
+    "duration_string": "26",
+    "upload_date": "20240812",
+    "artist": "🎧𝙎.𝘼𝙧𝙞𝙨𝙪 𝘾𝙝𝙞𝙡𝙡🎋",
+    "epoch": 1762527905,
+    "ext": "mp4",
+    "vcodec": "h265",
+    "acodec": "aac",
+    "format_id": "bytevc1_1080p_304753-1",
+    "tbr": 304,
+    "quality": 3,
+    "preference": -1,
+    "filesize": 1003973,
+    "width": 1080,
+    "height": 1920,
+    "url": "https://v19-webapp-prime.tiktok.com/video/tos/alisg/tos-alisg-pve-0037c001/oIUavDu5EAcCSSPEnB3EMfiUaIWRgcFKm5BwCf/?a=1988&bti=ODszNWYuMDE6&ch=0&cr=3&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=594&bt=297&cs=2&ds=4&ft=-Csk_m7nPD12NE3GHd-Uxt1vSY6e3wv25xcAp&mime_type=video_mp4&qs=15&rc=N2Q5OTxmO2Q8NmY1ZTc7NUBpM2xvcG05cjN0dDMzODczNEA1XmIuYjA0NTAxXzUzNF4xYSMuci1oMmRrZXBgLS1kMWBzcw%3D%3D&btag=e000b8000&expire=1762700731&l=20251107230505129DECCE605A96DDC79C&ply_type=2&policy=2&signature=e70f314eebfef0d8ee240aae4f2b67aa&tk=tt_chain_token",
+    "protocol": "https",
+    "video_ext": "mp4",
+    "audio_ext": "none",
+    "resolution": "1080x1920",
+    "dynamic_range": "SDR",
+    "aspect_ratio": 0.56,
+    "cookies": "_ttp=34wyWDXvxmF602Htsl0oDR6JCNq; Domain=.tiktok.com; Path=/; Secure; Expires=1795834961; tt_csrf_token=A6kVUZcK-ro_L6C62WbmQwfALArHC4HF-pTM; Domain=.tiktok.com; Path=/; Secure; tt_chain_token=\"bIQCOyoJbQ000pox+IBxHQ==\"; Domain=.tiktok.com; Path=/; Secure; Expires=1778079905; passport_csrf_token=3e2175a5e77e24a26515b4e6f7b50740; Domain=.tiktok.com; Path=/; Secure; Expires=1767674732; passport_csrf_token_default=3e2175a5e77e24a26515b4e6f7b50740; Domain=.tiktok.com; Path=/; Secure; Expires=1767674732; s_v_web_id=verify_mhodh7s9_f6H7RhcI_zN3b_4VwP_AxSW_OnDGZUzFJBgu; Domain=.tiktok.com; Path=/; Secure; multi_sids=7569810985282094098%3Aade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1767677004; cmpl_token=AgQQAPOFF-RO0rkzsFuCpB0r82zGAoWNv4UOYKOhVw; Domain=.tiktok.com; Path=/; Secure; Expires=1767677004; passport_auth_status=b8d801922a4b455b405bf6994fade073%2C063941b21aed31105bffa0d912bcf9fa; Domain=.tiktok.com; Path=/; Expires=1765085004; passport_auth_status_ss=b8d801922a4b455b405bf6994fade073%2C063941b21aed31105bffa0d912bcf9fa; Domain=.tiktok.com; Path=/; Secure; Expires=1765085004; sid_guard=ade59ff71c0c0e5cc0fe1f23772b37c1%7C1762493004%7C15552000%7CWed%2C+06-May-2026+05%3A23%3A24+GMT; Domain=.tiktok.com; Path=/; Secure; Expires=1793597004; uid_tt=ac0557b89a0248004ba199e09ced5e656aa70515a78deb5b62cd048a83d31edc; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; uid_tt_ss=ac0557b89a0248004ba199e09ced5e656aa70515a78deb5b62cd048a83d31edc; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sid_tt=ade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sessionid=ade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sessionid_ss=ade59ff71c0c0e5cc0fe1f23772b37c1; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; tt_session_tlb_tag=sttt%7C5%7CreWf9xwMDlzA_h8jdys3wf________-ji4fpfjT0V1140MZnLSHWNBnXgRLIZvw1fxmxRRmvw7s%3D; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; sid_ucp_v1=1.0.0-KDYzMTBmY2U1ODFjN2FkYjNmOGUwYWE1YjcwYTk2N2FkYzhhMjMxMTEKIQiSiNvUwN_XhmkQzIS2yAYYswsgDDC1vrXIBjgIQBJIBBADGgJteSIgYWRlNTlmZjcxYzBjMGU1Y2MwZmUxZjIzNzcyYjM3YzE; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; ssid_ucp_v1=1.0.0-KDYzMTBmY2U1ODFjN2FkYjNmOGUwYWE1YjcwYTk2N2FkYzhhMjMxMTEKIQiSiNvUwN_XhmkQzIS2yAYYswsgDDC1vrXIBjgIQBJIBBADGgJteSIgYWRlNTlmZjcxYzBjMGU1Y2MwZmUxZjIzNzcyYjM3YzE; Domain=.tiktok.com; Path=/; Secure; Expires=1778045004; store-country-code=vn; Domain=.tiktok.com; Path=/; Expires=1794029034; store-country-code-src=uid; Domain=.tiktok.com; Path=/; Expires=1794029034; tt-target-idc=alisg; Domain=.tiktok.com; Path=/; Expires=1794029034; tt-target-idc-sign=X46gRkvSgmGWHXja-gzeN1KwdE4cBtH3zFXAhG3-BtWzH-YdFZEQct_uBwMTYtfjrNxqy_GJyyU9vrDSU9xBVMhZYzNMj8Yj-vL3ZdUiBlJfwT_RyqsMw9cBp-UMAurlaLw7iKPn1sOB_2Mr4OgfdC72r1rSon8aLN6RpZxfHlcPgzQDAzxGLO1WCcDi3Grn071JYzpIP3H4Uj5tKf5cHSGRn8O-z3hwE-QaTWdxP_Dv9m7mqKXg9LpTBaiRQ0apSWQMga4QK4y5B4To6e0pZD8oaixa2PVdqGeLesDSGOjsT94m5Qtsw2dBLvi1Cl2PDtg34s_m8F2kwZanwVGyMx5JeHbhEA1jVyuFTZ4wmF-6mQMCj4IoVYUBqf6cEHJl1nz6p3h7j4AFPdhgbDj7nwn0zI1o0xP8WGmE_kn9e53ehBx6IU-iOQJ-JXc_4e8_1n_tP7nZqBQAfB5B-a8mW0iUyH2XBzKKIebPZ8u02eRKDVUUZnutFcgBXjbQW4hW; Domain=.tiktok.com; Path=/; Expires=1794029034; ttwid=1%7CyHVVoWeMmc-3HMQzGeLAWTKsoEmn5lOxHLhrceV4g3w%7C1762493033%7Caa33d6157603beb187ae2fd554015cf463e69a9385fbc54d7a3e7a848a9df8fc; Domain=.tiktok.com; Path=/; Secure; Expires=1794029034; store-idc=alisg; Domain=.tiktok.com; Path=/; Expires=1794029034; store-country-sign=MEIEDGNAqWqR2a0er4zjeAQgMuurAVNuf3SOpc_lCsUS6OVOTEMJPGY7fje3VCShvuYEEKSUWUChT9xgz3oinfsoj_8; Domain=.tiktok.com; Path=/; Expires=1794029034; odin_tt=fdb338ea9924b66e069cd3826b52e91602d6c7c70440ed4a45253d1bdcb67e7b33079c363923c1afe01be7d6a0aed5f094b6d26ad61219129e2c4adf8ef71b17c80e515b61a158847d9b8a0bdf5ce20d; Domain=.tiktok.com; Path=/; Expires=1794029677; msToken=\"meDkniXDXS_tUY_gxDHQq78SotiqxQ0ZNcoqdOeIa41rbBFYVBwXJCxTrRC3R98vzLKRXjx4-tnERAh9sGZGCUxDCMp1j9u8puEUbQz0iD7PHcoJa8wEBmMePN4abcDqQKB6HgB_WDgMrvA=\"; Domain=.tiktok.com; Path=/; Secure; Expires=1763391905",
+    "format": "bytevc1_1080p_304753-1 - 1080x1920",
+    "_type": "video",
+    "_version": {
+      "version": "2025.10.22",
+      "release_git_head": "c9356f308dd3c5f9f494cb40ed14c5df017b4fe0",
+      "repository": "yt-dlp/yt-dlp"
+    }
+  },
+  "comments": [
+    {
+      "cid": "7536617605726503688",
+      "text": "e mới bắt đầu học từ số 0 thì bắt đầu như nào vậy ạ 😅",
+      "author": "hanhtrinhhoccode",
+      "create_time": 1754755536,
+      "like_count": 0,
+      "reply_count": 1,
+      "replies": [
+        {
+          "aweme_id": "7402132841267547408",
+          "cid": "7536721626115113736",
+          "collect_stat": 0,
+          "comment_language": "vi",
+          "comment_post_item_ids": null,
+          "create_time": 1754779775,
+          "digg_count": 0,
+          "forbid_reply_with_video": true,
+          "image_list": null,
+          "is_author_digged": false,
+          "is_comment_translatable": true,
+          "is_high_purchase_intent": false,
+          "label_list": [
+            {
+              "text": "Creator",
+              "type": 1
+            }
+          ],
+          "label_text": "Creator",
+          "label_type": 1,
+          "no_show": false,
+          "reply_comment": null,
+          "reply_id": "7536617605726503688",
+          "reply_to_reply_id": "0",
+          "share_info": {
+            "acl": {
+              "code": 1,
+              "extra": "{\"is_share_handler_failed\":\"1\"}"
+            },
+            "desc": "",
+            "title": "",
+            "url": ""
+          },
+          "status": 1,
+          "stick_position": 0,
+          "text": "ib mình nhé",
+          "text_extra": [],
+          "trans_btn_style": 1,
+          "user": {
+            "account_labels": null,
+            "ad_cover_url": null,
+            "advance_feature_item_order": null,
+            "advanced_feature_info": null,
+            "avatar_thumb": {
+              "uri": "tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca",
+              "url_list": [
+                "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca~tplv-tiktokx-cropcenter:100:100.jpg?dr=14579&refresh_token=509e3d82&x-expires=1762614000&x-signature=l22S60SlXkwvex6J9Bfk%2Fh5i5uM%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my",
+                "https://p9-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca~tplv-tiktokx-cropcenter:100:100.jpg?dr=14579&refresh_token=8bb50948&x-expires=1762614000&x-signature=kv5Pk8s8t4%2FWd3XM%2FcFNs7SO7d8%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my",
+                "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca~tplv-tiktokx-cropcenter:100:100.jpeg?dr=14579&refresh_token=af663a88&x-expires=1762614000&x-signature=ASpHJtuBD1%2FYK7bBfuoQeUnLlew%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my"
+              ],
+              "url_prefix": null
+            },
+            "bold_fields": null,
+            "can_message_follow_status_list": null,
+            "can_set_geofencing": null,
+            "cha_list": null,
+            "cover_url": null,
+            "custom_verify": "",
+            "enterprise_verify_reason": "",
+            "events": null,
+            "followers_detail": null,
+            "geofencing": null,
+            "homepage_bottom_toast": null,
+            "item_list": null,
+            "mutual_relation_avatars": null,
+            "need_points": null,
+            "nickname": "Tờ_coderr",
+            "platform_sync_info": null,
+            "predicted_age_group": "",
+            "relative_users": null,
+            "search_highlight": null,
+            "sec_uid": "MS4wLjABAAAA0Wn0P1wCYDpiBVjOllv6KBIBL6WoEhhvii6d4zv3SDw-Ux0BJRzdev8JP-OYk9WT",
+            "shield_edit_field_info": null,
+            "type_label": null,
+            "uid": "7350183525138252802",
+            "unique_id": "tcoderr",
+            "user_profile_guide": null,
+            "user_tags": null,
+            "white_cover_url": null
+          },
+          "user_buried": false,
+          "user_digged": 0
+        }
+      ]
+    },
+    {
+      "cid": "7429247256215962384",
+      "text": "Dạy e py cơ bản và a",
+      "author": "Never skip legday",
+      "create_time": 1729756427,
+      "like_count": 2,
+      "reply_count": 2,
+      "replies": [
+        {
+          "aweme_id": "7402132841267547408",
+          "cid": "7429397349145248530",
+          "collect_stat": 0,
+          "comment_language": "vi",
+          "comment_post_item_ids": null,
+          "create_time": 1729791373,
+          "digg_count": 2,
+          "forbid_reply_with_video": true,
+          "image_list": null,
+          "is_author_digged": false,
+          "is_comment_translatable": true,
+          "is_high_purchase_intent": false,
+          "label_list": [
+            {
+              "text": "Creator",
+              "type": 1
+            }
+          ],
+          "label_text": "Creator",
+          "label_type": 1,
+          "no_show": false,
+          "reply_comment": null,
+          "reply_id": "7429247256215962384",
+          "reply_to_reply_id": "0",
+          "share_info": {
+            "acl": {
+              "code": 1,
+              "extra": "{\"is_share_handler_failed\":\"1\"}"
+            },
+            "desc": "",
+            "title": "",
+            "url": ""
+          },
+          "status": 1,
+          "stick_position": 0,
+          "text": "ib mình nè",
+          "text_extra": [],
+          "trans_btn_style": 1,
+          "user": {
+            "account_labels": null,
+            "ad_cover_url": null,
+            "advance_feature_item_order": null,
+            "advanced_feature_info": null,
+            "avatar_thumb": {
+              "uri": "tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca",
+              "url_list": [
+                "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca~tplv-tiktokx-cropcenter:100:100.jpg?dr=14579&refresh_token=509e3d82&x-expires=1762614000&x-signature=l22S60SlXkwvex6J9Bfk%2Fh5i5uM%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my",
+                "https://p9-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca~tplv-tiktokx-cropcenter:100:100.jpg?dr=14579&refresh_token=8bb50948&x-expires=1762614000&x-signature=kv5Pk8s8t4%2FWd3XM%2FcFNs7SO7d8%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my",
+                "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca~tplv-tiktokx-cropcenter:100:100.jpeg?dr=14579&refresh_token=af663a88&x-expires=1762614000&x-signature=ASpHJtuBD1%2FYK7bBfuoQeUnLlew%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my"
+              ],
+              "url_prefix": null
+            },
+            "bold_fields": null,
+            "can_message_follow_status_list": null,
+            "can_set_geofencing": null,
+            "cha_list": null,
+            "cover_url": null,
+            "custom_verify": "",
+            "enterprise_verify_reason": "",
+            "events": null,
+            "followers_detail": null,
+            "geofencing": null,
+            "homepage_bottom_toast": null,
+            "item_list": null,
+            "mutual_relation_avatars": null,
+            "need_points": null,
+            "nickname": "Tờ_coderr",
+            "platform_sync_info": null,
+            "relative_users": null,
+            "search_highlight": null,
+            "sec_uid": "MS4wLjABAAAA0Wn0P1wCYDpiBVjOllv6KBIBL6WoEhhvii6d4zv3SDw-Ux0BJRzdev8JP-OYk9WT",
+            "shield_edit_field_info": null,
+            "type_label": null,
+            "uid": "7350183525138252802",
+            "unique_id": "tcoderr",
+            "user_profile_guide": null,
+            "user_tags": null,
+            "white_cover_url": null
+          },
+          "user_buried": false,
+          "user_digged": 0
+        },
+        {
+          "aweme_id": "7402132841267547408",
+          "cid": "7429571533771506448",
+          "collect_stat": 0,
+          "comment_language": "vi",
+          "comment_post_item_ids": null,
+          "create_time": 1729831930,
+          "digg_count": 0,
+          "forbid_reply_with_video": true,
+          "image_list": null,
+          "is_author_digged": false,
+          "is_comment_translatable": true,
+          "is_high_purchase_intent": false,
+          "label_list": null,
+          "no_show": false,
+          "reply_comment": null,
+          "reply_id": "7429247256215962384",
+          "reply_to_nickname": "Tờ_coderr",
+          "reply_to_reply_id": "7429397349145248530",
+          "reply_to_userid": "7350183525138252802",
+          "reply_to_username": "tcoderr",
+          "share_info": {
+            "acl": {
+              "code": 1,
+              "extra": "{\"is_share_handler_failed\":\"1\"}"
+            },
+            "desc": "",
+            "title": "",
+            "url": ""
+          },
+          "status": 1,
+          "stick_position": 0,
+          "text": "Đã gửi",
+          "text_extra": [],
+          "trans_btn_style": 1,
+          "user": {
+            "account_labels": null,
+            "ad_cover_url": null,
+            "advance_feature_item_order": null,
+            "advanced_feature_info": null,
+            "avatar_thumb": {
+              "uri": "tos-alisg-avt-0068/71722687b3415bdfdd6061d4ef222721",
+              "url_list": [
+                "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/71722687b3415bdfdd6061d4ef222721~tplv-tiktokx-cropcenter:100:100.jpg?dr=14579&refresh_token=08d16105&x-expires=1762614000&x-signature=XpfgCj8XFXzM2XU027LoOTot2WM%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my",
+                "https://p9-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/71722687b3415bdfdd6061d4ef222721~tplv-tiktokx-cropcenter:100:100.jpg?dr=14579&refresh_token=b40fb051&x-expires=1762614000&x-signature=zVqCARg17aU9RA%2FFSfEoA%2BBKFJA%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my",
+                "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/71722687b3415bdfdd6061d4ef222721~tplv-tiktokx-cropcenter:100:100.jpeg?dr=14579&refresh_token=f1f3e55f&x-expires=1762614000&x-signature=Tks0BeBmrmp8Y1J%2FmaGWOBaSphw%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my"
+              ],
+              "url_prefix": null
+            },
+            "bold_fields": null,
+            "can_message_follow_status_list": null,
+            "can_set_geofencing": null,
+            "cha_list": null,
+            "cover_url": null,
+            "custom_verify": "",
+            "enterprise_verify_reason": "",
+            "events": null,
+            "followers_detail": null,
+            "geofencing": null,
+            "homepage_bottom_toast": null,
+            "item_list": null,
+            "mutual_relation_avatars": null,
+            "need_points": null,
+            "nickname": "Never skip legday",
+            "platform_sync_info": null,
+            "relative_users": null,
+            "search_highlight": null,
+            "sec_uid": "MS4wLjABAAAAI-bslI5Pg90kqL0B60M9WRePAOPhEvmjPl_L6aMr7sd2qtsGuR-6VhoPMvKrhyHG",
+            "shield_edit_field_info": null,
+            "type_label": null,
+            "uid": "7139001003432756226",
+            "unique_id": "x.trgg",
+            "user_profile_guide": null,
+            "user_tags": null,
+            "white_cover_url": null
+          },
+          "user_buried": false,
+          "user_digged": 0
+        }
+      ]
+    },
+    {
+      "cid": "7562033352418493200",
+      "text": "Mình xin code ở trên video với ạ",
+      "author": "A Tứn❄️",
+      "create_time": 1760673106,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7479134595067724552",
+      "text": "Lướt TikTok xong mà vui cả ngày luôn!",
+      "author": "Võ Lâm Bảo",
+      "create_time": 1741371751,
+      "like_count": 1,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7433632692443448082",
+      "text": "dạy em cơ bản python vs huhu",
+      "author": "cutenhuttgioi;3",
+      "create_time": 1730777493,
+      "like_count": 2,
+      "reply_count": 2,
+      "replies": [
+        {
+          "aweme_id": "7402132841267547408",
+          "cid": "7433638678696395541",
+          "collect_stat": 0,
+          "comment_language": "vi",
+          "comment_post_item_ids": null,
+          "create_time": 1730778886,
+          "digg_count": 2,
+          "forbid_reply_with_video": true,
+          "image_list": null,
+          "is_author_digged": false,
+          "is_comment_translatable": true,
+          "is_high_purchase_intent": false,
+          "label_list": [
+            {
+              "text": "Creator",
+              "type": 1
+            }
+          ],
+          "label_text": "Creator",
+          "label_type": 1,
+          "no_show": false,
+          "reply_comment": null,
+          "reply_id": "7433632692443448082",
+          "reply_to_reply_id": "0",
+          "share_info": {
+            "acl": {
+              "code": 1,
+              "extra": "{\"is_share_handler_failed\":\"1\"}"
+            },
+            "desc": "",
+            "title": "",
+            "url": ""
+          },
+          "status": 1,
+          "stick_position": 0,
+          "text": "ib mình nhé",
+          "text_extra": [],
+          "trans_btn_style": 1,
+          "user": {
+            "account_labels": null,
+            "ad_cover_url": null,
+            "advance_feature_item_order": null,
+            "advanced_feature_info": null,
+            "avatar_thumb": {
+              "uri": "tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca",
+              "url_list": [
+                "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca~tplv-tiktokx-cropcenter:100:100.jpg?dr=14579&refresh_token=509e3d82&x-expires=1762614000&x-signature=l22S60SlXkwvex6J9Bfk%2Fh5i5uM%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my",
+                "https://p9-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca~tplv-tiktokx-cropcenter:100:100.jpg?dr=14579&refresh_token=8bb50948&x-expires=1762614000&x-signature=kv5Pk8s8t4%2FWd3XM%2FcFNs7SO7d8%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my",
+                "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca~tplv-tiktokx-cropcenter:100:100.jpeg?dr=14579&refresh_token=af663a88&x-expires=1762614000&x-signature=ASpHJtuBD1%2FYK7bBfuoQeUnLlew%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my"
+              ],
+              "url_prefix": null
+            },
+            "bold_fields": null,
+            "can_message_follow_status_list": null,
+            "can_set_geofencing": null,
+            "cha_list": null,
+            "cover_url": null,
+            "custom_verify": "",
+            "enterprise_verify_reason": "",
+            "events": null,
+            "followers_detail": null,
+            "geofencing": null,
+            "homepage_bottom_toast": null,
+            "item_list": null,
+            "mutual_relation_avatars": null,
+            "need_points": null,
+            "nickname": "Tờ_coderr",
+            "platform_sync_info": null,
+            "predicted_age_group": "",
+            "relative_users": null,
+            "search_highlight": null,
+            "sec_uid": "MS4wLjABAAAA0Wn0P1wCYDpiBVjOllv6KBIBL6WoEhhvii6d4zv3SDw-Ux0BJRzdev8JP-OYk9WT",
+            "shield_edit_field_info": null,
+            "type_label": null,
+            "uid": "7350183525138252802",
+            "unique_id": "tcoderr",
+            "user_profile_guide": null,
+            "user_tags": null,
+            "white_cover_url": null
+          },
+          "user_buried": false,
+          "user_digged": 0
+        },
+        {
+          "aweme_id": "7402132841267547408",
+          "cid": "7434394112247759623",
+          "collect_stat": 0,
+          "comment_language": "vi",
+          "comment_post_item_ids": null,
+          "create_time": 1730954772,
+          "digg_count": 0,
+          "forbid_reply_with_video": true,
+          "image_list": null,
+          "is_author_digged": false,
+          "is_comment_translatable": true,
+          "is_high_purchase_intent": false,
+          "label_list": null,
+          "no_show": false,
+          "reply_comment": null,
+          "reply_id": "7433632692443448082",
+          "reply_to_nickname": "Tờ_coderr",
+          "reply_to_reply_id": "7433638678696395541",
+          "reply_to_userid": "7350183525138252802",
+          "reply_to_username": "tcoderr",
+          "share_info": {
+            "acl": {
+              "code": 1,
+              "extra": "{\"is_share_handler_failed\":\"1\"}"
+            },
+            "desc": "",
+            "title": "",
+            "url": ""
+          },
+          "status": 1,
+          "stick_position": 0,
+          "text": "e nx",
+          "text_extra": [],
+          "trans_btn_style": 1,
+          "user": {
+            "account_labels": null,
+            "ad_cover_url": null,
+            "advance_feature_item_order": null,
+            "advanced_feature_info": null,
+            "avatar_thumb": {
+              "uri": "tos-alisg-avt-0068/5bbdd4812dfaedfd6ee693b727f3db5d",
+              "url_list": [
+                "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/5bbdd4812dfaedfd6ee693b727f3db5d~tplv-tiktokx-cropcenter:100:100.jpg?dr=14579&refresh_token=9d27b5c6&x-expires=1762614000&x-signature=cplODfwJCjCzCzOm4Yf%2FJFW82uI%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my",
+                "https://p9-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/5bbdd4812dfaedfd6ee693b727f3db5d~tplv-tiktokx-cropcenter:100:100.jpg?dr=14579&refresh_token=e925e6db&x-expires=1762614000&x-signature=paGnyOAb9oitPY605%2BDd3bYV2Bc%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my",
+                "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/5bbdd4812dfaedfd6ee693b727f3db5d~tplv-tiktokx-cropcenter:100:100.jpeg?dr=14579&refresh_token=f2016ff4&x-expires=1762614000&x-signature=9udxYutQVfDRfY7PeP8ooccitOQ%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my"
+              ],
+              "url_prefix": null
+            },
+            "bold_fields": null,
+            "can_message_follow_status_list": null,
+            "can_set_geofencing": null,
+            "cha_list": null,
+            "cover_url": null,
+            "custom_verify": "",
+            "enterprise_verify_reason": "",
+            "events": null,
+            "followers_detail": null,
+            "geofencing": null,
+            "homepage_bottom_toast": null,
+            "item_list": null,
+            "mutual_relation_avatars": null,
+            "need_points": null,
+            "nickname": "HUY ST5K",
+            "platform_sync_info": null,
+            "predicted_age_group": "",
+            "relative_users": null,
+            "search_highlight": null,
+            "sec_uid": "MS4wLjABAAAA8AZY1b16-SXb9a2ejNokJ7Q_8qtIesAnWueSFC4zTGRiJoUGAFVn_8Lckdj2STH6",
+            "shield_edit_field_info": null,
+            "type_label": null,
+            "uid": "7135292012382913562",
+            "unique_id": "ahqqgezahabvshsahag",
+            "user_profile_guide": null,
+            "user_tags": null,
+            "white_cover_url": null
+          },
+          "user_buried": false,
+          "user_digged": 0
+        }
+      ]
+    },
+    {
+      "cid": "7407759140377019137",
+      "text": "a fayh code c++ đi a",
+      "author": "Anh Tuan",
+      "create_time": 1724753336,
+      "like_count": 4,
+      "reply_count": 2,
+      "replies": [
+        {
+          "aweme_id": "7402132841267547408",
+          "cid": "7407773432215454482",
+          "collect_stat": 0,
+          "comment_language": "vi",
+          "comment_post_item_ids": null,
+          "create_time": 1724756660,
+          "digg_count": 1,
+          "forbid_reply_with_video": true,
+          "image_list": null,
+          "is_author_digged": false,
+          "is_comment_translatable": true,
+          "is_high_purchase_intent": false,
+          "label_list": [
+            {
+              "text": "Creator",
+              "type": 1
+            }
+          ],
+          "label_text": "Creator",
+          "label_type": 1,
+          "no_show": false,
+          "reply_comment": null,
+          "reply_id": "7407759140377019137",
+          "reply_to_reply_id": "0",
+          "share_info": {
+            "acl": {
+              "code": 1,
+              "extra": "{\"is_share_handler_failed\":\"1\"}"
+            },
+            "desc": "",
+            "title": "",
+            "url": ""
+          },
+          "status": 1,
+          "stick_position": 0,
+          "text": "ok nha đợi mình video sau",
+          "text_extra": [],
+          "trans_btn_style": 1,
+          "user": {
+            "account_labels": null,
+            "ad_cover_url": null,
+            "advance_feature_item_order": null,
+            "advanced_feature_info": null,
+            "avatar_thumb": {
+              "uri": "tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca",
+              "url_list": [
+                "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca~tplv-tiktokx-cropcenter:100:100.jpg?dr=14579&refresh_token=509e3d82&x-expires=1762614000&x-signature=l22S60SlXkwvex6J9Bfk%2Fh5i5uM%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my",
+                "https://p9-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca~tplv-tiktokx-cropcenter:100:100.jpg?dr=14579&refresh_token=8bb50948&x-expires=1762614000&x-signature=kv5Pk8s8t4%2FWd3XM%2FcFNs7SO7d8%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my",
+                "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca~tplv-tiktokx-cropcenter:100:100.jpeg?dr=14579&refresh_token=af663a88&x-expires=1762614000&x-signature=ASpHJtuBD1%2FYK7bBfuoQeUnLlew%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my"
+              ],
+              "url_prefix": null
+            },
+            "bold_fields": null,
+            "can_message_follow_status_list": null,
+            "can_set_geofencing": null,
+            "cha_list": null,
+            "cover_url": null,
+            "custom_verify": "",
+            "enterprise_verify_reason": "",
+            "events": null,
+            "followers_detail": null,
+            "geofencing": null,
+            "homepage_bottom_toast": null,
+            "item_list": null,
+            "mutual_relation_avatars": null,
+            "need_points": null,
+            "nickname": "Tờ_coderr",
+            "platform_sync_info": null,
+            "predicted_age_group": "",
+            "relative_users": null,
+            "search_highlight": null,
+            "sec_uid": "MS4wLjABAAAA0Wn0P1wCYDpiBVjOllv6KBIBL6WoEhhvii6d4zv3SDw-Ux0BJRzdev8JP-OYk9WT",
+            "shield_edit_field_info": null,
+            "type_label": null,
+            "uid": "7350183525138252802",
+            "unique_id": "tcoderr",
+            "user_profile_guide": null,
+            "user_tags": null,
+            "white_cover_url": null
+          },
+          "user_buried": false,
+          "user_digged": 0
+        }
+      ]
+    },
+    {
+      "cid": "7412246493522199303",
+      "text": "Mình có tài liệu JavaScript ko ạ",
+      "author": "dphuc",
+      "create_time": 1725798126,
+      "like_count": 0,
+      "reply_count": 1,
+      "replies": [
+        {
+          "aweme_id": "7402132841267547408",
+          "cid": "7412251491619373832",
+          "collect_stat": 0,
+          "comment_language": "vi",
+          "comment_post_item_ids": null,
+          "create_time": 1725799292,
+          "digg_count": 1,
+          "forbid_reply_with_video": true,
+          "image_list": null,
+          "is_author_digged": false,
+          "is_comment_translatable": true,
+          "is_high_purchase_intent": false,
+          "label_list": [
+            {
+              "text": "Creator",
+              "type": 1
+            }
+          ],
+          "label_text": "Creator",
+          "label_type": 1,
+          "no_show": false,
+          "reply_comment": null,
+          "reply_id": "7412246493522199303",
+          "reply_to_reply_id": "0",
+          "share_info": {
+            "acl": {
+              "code": 1,
+              "extra": "{\"is_share_handler_failed\":\"1\"}"
+            },
+            "desc": "",
+            "title": "",
+            "url": ""
+          },
+          "status": 1,
+          "stick_position": 0,
+          "text": "kh có bạn ưii",
+          "text_extra": [],
+          "trans_btn_style": 1,
+          "user": {
+            "account_labels": null,
+            "ad_cover_url": null,
+            "advance_feature_item_order": null,
+            "advanced_feature_info": null,
+            "avatar_thumb": {
+              "uri": "tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca",
+              "url_list": [
+                "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca~tplv-tiktokx-cropcenter:100:100.jpg?dr=14579&refresh_token=509e3d82&x-expires=1762614000&x-signature=l22S60SlXkwvex6J9Bfk%2Fh5i5uM%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my",
+                "https://p9-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca~tplv-tiktokx-cropcenter:100:100.jpg?dr=14579&refresh_token=8bb50948&x-expires=1762614000&x-signature=kv5Pk8s8t4%2FWd3XM%2FcFNs7SO7d8%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my",
+                "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca~tplv-tiktokx-cropcenter:100:100.jpeg?dr=14579&refresh_token=af663a88&x-expires=1762614000&x-signature=ASpHJtuBD1%2FYK7bBfuoQeUnLlew%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my"
+              ],
+              "url_prefix": null
+            },
+            "bold_fields": null,
+            "can_message_follow_status_list": null,
+            "can_set_geofencing": null,
+            "cha_list": null,
+            "cover_url": null,
+            "custom_verify": "",
+            "enterprise_verify_reason": "",
+            "events": null,
+            "followers_detail": null,
+            "geofencing": null,
+            "homepage_bottom_toast": null,
+            "item_list": null,
+            "mutual_relation_avatars": null,
+            "need_points": null,
+            "nickname": "Tờ_coderr",
+            "platform_sync_info": null,
+            "predicted_age_group": "",
+            "relative_users": null,
+            "search_highlight": null,
+            "sec_uid": "MS4wLjABAAAA0Wn0P1wCYDpiBVjOllv6KBIBL6WoEhhvii6d4zv3SDw-Ux0BJRzdev8JP-OYk9WT",
+            "shield_edit_field_info": null,
+            "type_label": null,
+            "uid": "7350183525138252802",
+            "unique_id": "tcoderr",
+            "user_profile_guide": null,
+            "user_tags": null,
+            "white_cover_url": null
+          },
+          "user_buried": false,
+          "user_digged": 0
+        }
+      ]
+    },
+    {
+      "cid": "7403514256530162440",
+      "text": "cho em xin vs ạ",
+      "author": "Song Ngư",
+      "create_time": 1723764999,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7427861721371230984",
+      "text": "có tài liệu C++ ko ah",
+      "author": "Duy Khoa",
+      "create_time": 1729433830,
+      "like_count": 0,
+      "reply_count": 1,
+      "replies": [
+        {
+          "aweme_id": "7402132841267547408",
+          "cid": "7427863868602696455",
+          "collect_stat": 0,
+          "comment_language": "vi",
+          "comment_post_item_ids": null,
+          "create_time": 1729434330,
+          "digg_count": 0,
+          "forbid_reply_with_video": true,
+          "image_list": null,
+          "is_author_digged": false,
+          "is_comment_translatable": true,
+          "is_high_purchase_intent": false,
+          "label_list": [
+            {
+              "text": "Creator",
+              "type": 1
+            }
+          ],
+          "label_text": "Creator",
+          "label_type": 1,
+          "no_show": false,
+          "reply_comment": null,
+          "reply_id": "7427861721371230984",
+          "reply_to_reply_id": "0",
+          "share_info": {
+            "acl": {
+              "code": 1,
+              "extra": "{\"is_share_handler_failed\":\"1\"}"
+            },
+            "desc": "",
+            "title": "",
+            "url": ""
+          },
+          "status": 1,
+          "stick_position": 0,
+          "text": "có nha",
+          "text_extra": [],
+          "trans_btn_style": 1,
+          "user": {
+            "account_labels": null,
+            "ad_cover_url": null,
+            "advance_feature_item_order": null,
+            "advanced_feature_info": null,
+            "avatar_thumb": {
+              "uri": "tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca",
+              "url_list": [
+                "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca~tplv-tiktokx-cropcenter:100:100.jpg?dr=14579&refresh_token=509e3d82&x-expires=1762614000&x-signature=l22S60SlXkwvex6J9Bfk%2Fh5i5uM%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my",
+                "https://p9-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca~tplv-tiktokx-cropcenter:100:100.jpg?dr=14579&refresh_token=8bb50948&x-expires=1762614000&x-signature=kv5Pk8s8t4%2FWd3XM%2FcFNs7SO7d8%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my",
+                "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca~tplv-tiktokx-cropcenter:100:100.jpeg?dr=14579&refresh_token=af663a88&x-expires=1762614000&x-signature=ASpHJtuBD1%2FYK7bBfuoQeUnLlew%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my"
+              ],
+              "url_prefix": null
+            },
+            "bold_fields": null,
+            "can_message_follow_status_list": null,
+            "can_set_geofencing": null,
+            "cha_list": null,
+            "cover_url": null,
+            "custom_verify": "",
+            "enterprise_verify_reason": "",
+            "events": null,
+            "followers_detail": null,
+            "geofencing": null,
+            "homepage_bottom_toast": null,
+            "item_list": null,
+            "mutual_relation_avatars": null,
+            "need_points": null,
+            "nickname": "Tờ_coderr",
+            "platform_sync_info": null,
+            "predicted_age_group": "",
+            "relative_users": null,
+            "search_highlight": null,
+            "sec_uid": "MS4wLjABAAAA0Wn0P1wCYDpiBVjOllv6KBIBL6WoEhhvii6d4zv3SDw-Ux0BJRzdev8JP-OYk9WT",
+            "shield_edit_field_info": null,
+            "type_label": null,
+            "uid": "7350183525138252802",
+            "unique_id": "tcoderr",
+            "user_profile_guide": null,
+            "user_tags": null,
+            "white_cover_url": null
+          },
+          "user_buried": false,
+          "user_digged": 0
+        }
+      ]
+    },
+    {
+      "cid": "7422336030713791249",
+      "text": "link đâu b ơi",
+      "author": "đv an",
+      "create_time": 1728147279,
+      "like_count": 0,
+      "reply_count": 1,
+      "replies": [
+        {
+          "aweme_id": "7402132841267547408",
+          "cid": "7422336243725304594",
+          "collect_stat": 0,
+          "comment_language": "en",
+          "comment_post_item_ids": null,
+          "create_time": 1728147328,
+          "digg_count": 1,
+          "forbid_reply_with_video": false,
+          "image_list": null,
+          "is_author_digged": false,
+          "is_comment_translatable": true,
+          "is_high_purchase_intent": false,
+          "label_list": [
+            {
+              "text": "Creator",
+              "type": 1
+            }
+          ],
+          "label_text": "Creator",
+          "label_type": 1,
+          "no_show": false,
+          "reply_comment": null,
+          "reply_id": "7422336030713791249",
+          "reply_to_reply_id": "0",
+          "share_info": {
+            "acl": {
+              "code": 0,
+              "extra": "{}"
+            },
+            "desc": "Tờ_coderr’s comment: https://dilink.net/notes/WQ5qR9",
+            "title": "code được là 1 chuyện, phải hiểu nữa mới quan trọng #learntocode #it #laptrinh #coding ",
+            "url": "https://t.tiktok.com/i18n/share/video/7402132841267547408/?_d=f09gf88977dfid&comment_author_id=7350183525138252802&mid=7335444088390503170&preview_pb=0&region=VN&share_comment_id=7422336243725304594&share_item_id=7402132841267547408&sharer_language=en&source=h5_t&u_code=f09gf5a9194j7d"
+          },
+          "status": 1,
+          "stick_position": 0,
+          "text": "https://dilink.net/notes/WQ5qR9",
+          "text_extra": [],
+          "trans_btn_style": 0,
+          "user": {
+            "account_labels": null,
+            "ad_cover_url": null,
+            "advance_feature_item_order": null,
+            "advanced_feature_info": null,
+            "avatar_thumb": {
+              "uri": "tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca",
+              "url_list": [
+                "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca~tplv-tiktokx-cropcenter:100:100.jpg?dr=14579&refresh_token=509e3d82&x-expires=1762614000&x-signature=l22S60SlXkwvex6J9Bfk%2Fh5i5uM%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my",
+                "https://p9-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca~tplv-tiktokx-cropcenter:100:100.jpg?dr=14579&refresh_token=8bb50948&x-expires=1762614000&x-signature=kv5Pk8s8t4%2FWd3XM%2FcFNs7SO7d8%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my",
+                "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca~tplv-tiktokx-cropcenter:100:100.jpeg?dr=14579&refresh_token=af663a88&x-expires=1762614000&x-signature=ASpHJtuBD1%2FYK7bBfuoQeUnLlew%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my"
+              ],
+              "url_prefix": null
+            },
+            "bold_fields": null,
+            "can_message_follow_status_list": null,
+            "can_set_geofencing": null,
+            "cha_list": null,
+            "cover_url": null,
+            "custom_verify": "",
+            "enterprise_verify_reason": "",
+            "events": null,
+            "followers_detail": null,
+            "geofencing": null,
+            "homepage_bottom_toast": null,
+            "item_list": null,
+            "mutual_relation_avatars": null,
+            "need_points": null,
+            "nickname": "Tờ_coderr",
+            "platform_sync_info": null,
+            "predicted_age_group": "",
+            "relative_users": null,
+            "search_highlight": null,
+            "sec_uid": "MS4wLjABAAAA0Wn0P1wCYDpiBVjOllv6KBIBL6WoEhhvii6d4zv3SDw-Ux0BJRzdev8JP-OYk9WT",
+            "shield_edit_field_info": null,
+            "type_label": null,
+            "uid": "7350183525138252802",
+            "unique_id": "tcoderr",
+            "user_profile_guide": null,
+            "user_tags": null,
+            "white_cover_url": null
+          },
+          "user_buried": false,
+          "user_digged": 0
+        }
+      ]
+    },
+    {
+      "cid": "7424390831141045010",
+      "text": "Có tài liệt python ko ạ😳",
+      "author": "Nhi Phan1719",
+      "create_time": 1728625702,
+      "like_count": 2,
+      "reply_count": 1,
+      "replies": [
+        {
+          "aweme_id": "7402132841267547408",
+          "cid": "7424411355065533202",
+          "collect_stat": 0,
+          "comment_language": "vi",
+          "comment_post_item_ids": null,
+          "create_time": 1728630481,
+          "digg_count": 2,
+          "forbid_reply_with_video": true,
+          "image_list": null,
+          "is_author_digged": false,
+          "is_comment_translatable": true,
+          "is_high_purchase_intent": false,
+          "label_list": [
+            {
+              "text": "Creator",
+              "type": 1
+            }
+          ],
+          "label_text": "Creator",
+          "label_type": 1,
+          "no_show": false,
+          "reply_comment": null,
+          "reply_id": "7424390831141045010",
+          "reply_to_reply_id": "0",
+          "share_info": {
+            "acl": {
+              "code": 1,
+              "extra": "{\"is_share_handler_failed\":\"1\"}"
+            },
+            "desc": "",
+            "title": "",
+            "url": ""
+          },
+          "status": 1,
+          "stick_position": 0,
+          "text": "ib mình nhé",
+          "text_extra": [],
+          "trans_btn_style": 1,
+          "user": {
+            "account_labels": null,
+            "ad_cover_url": null,
+            "advance_feature_item_order": null,
+            "advanced_feature_info": null,
+            "avatar_thumb": {
+              "uri": "tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca",
+              "url_list": [
+                "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca~tplv-tiktokx-cropcenter:100:100.jpg?dr=14579&refresh_token=509e3d82&x-expires=1762614000&x-signature=l22S60SlXkwvex6J9Bfk%2Fh5i5uM%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my",
+                "https://p9-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca~tplv-tiktokx-cropcenter:100:100.jpg?dr=14579&refresh_token=8bb50948&x-expires=1762614000&x-signature=kv5Pk8s8t4%2FWd3XM%2FcFNs7SO7d8%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my",
+                "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca~tplv-tiktokx-cropcenter:100:100.jpeg?dr=14579&refresh_token=af663a88&x-expires=1762614000&x-signature=ASpHJtuBD1%2FYK7bBfuoQeUnLlew%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my"
+              ],
+              "url_prefix": null
+            },
+            "bold_fields": null,
+            "can_message_follow_status_list": null,
+            "can_set_geofencing": null,
+            "cha_list": null,
+            "cover_url": null,
+            "custom_verify": "",
+            "enterprise_verify_reason": "",
+            "events": null,
+            "followers_detail": null,
+            "geofencing": null,
+            "homepage_bottom_toast": null,
+            "item_list": null,
+            "mutual_relation_avatars": null,
+            "need_points": null,
+            "nickname": "Tờ_coderr",
+            "platform_sync_info": null,
+            "relative_users": null,
+            "search_highlight": null,
+            "sec_uid": "MS4wLjABAAAA0Wn0P1wCYDpiBVjOllv6KBIBL6WoEhhvii6d4zv3SDw-Ux0BJRzdev8JP-OYk9WT",
+            "shield_edit_field_info": null,
+            "type_label": null,
+            "uid": "7350183525138252802",
+            "unique_id": "tcoderr",
+            "user_profile_guide": null,
+            "user_tags": null,
+            "white_cover_url": null
+          },
+          "user_buried": false,
+          "user_digged": 0
+        }
+      ]
+    },
+    {
+      "cid": "7402886178096005896",
+      "text": "cấp quyền truy cập cho mình vss",
+      "author": "LT",
+      "create_time": 1723618759,
+      "like_count": 0,
+      "reply_count": 1,
+      "replies": [
+        {
+          "aweme_id": "7402132841267547408",
+          "cid": "7402818499225518869",
+          "collect_stat": 0,
+          "comment_language": "vi",
+          "comment_post_item_ids": null,
+          "create_time": 1723618908,
+          "digg_count": 1,
+          "forbid_reply_with_video": true,
+          "image_list": null,
+          "is_author_digged": false,
+          "is_comment_translatable": true,
+          "is_high_purchase_intent": false,
+          "label_list": [
+            {
+              "text": "Creator",
+              "type": 1
+            }
+          ],
+          "label_text": "Creator",
+          "label_type": 1,
+          "no_show": false,
+          "reply_comment": null,
+          "reply_id": "7402886178096005896",
+          "reply_to_reply_id": "0",
+          "share_info": {
+            "acl": {
+              "code": 0,
+              "extra": "{}"
+            },
+            "desc": "Tờ_coderr’s comment: rồi nha",
+            "title": "code được là 1 chuyện, phải hiểu nữa mới quan trọng #learntocode #it #laptrinh #coding ",
+            "url": "https://t.tiktok.com/i18n/share/video/7402132841267547408/?_d=f09gf88977dfid&comment_author_id=7350183525138252802&mid=7335444088390503170&preview_pb=0&region=VN&share_comment_id=7402818499225518869&share_item_id=7402132841267547408&sharer_language=en&source=h5_t&u_code=f09gf5a9194j7d"
+          },
+          "status": 1,
+          "stick_position": 0,
+          "text": "rồi nha",
+          "text_extra": [],
+          "trans_btn_style": 1,
+          "user": {
+            "account_labels": null,
+            "ad_cover_url": null,
+            "advance_feature_item_order": null,
+            "advanced_feature_info": null,
+            "avatar_thumb": {
+              "uri": "tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca",
+              "url_list": [
+                "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca~tplv-tiktokx-cropcenter:100:100.jpg?dr=14579&refresh_token=509e3d82&x-expires=1762614000&x-signature=l22S60SlXkwvex6J9Bfk%2Fh5i5uM%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my",
+                "https://p9-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca~tplv-tiktokx-cropcenter:100:100.jpg?dr=14579&refresh_token=8bb50948&x-expires=1762614000&x-signature=kv5Pk8s8t4%2FWd3XM%2FcFNs7SO7d8%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my",
+                "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca~tplv-tiktokx-cropcenter:100:100.jpeg?dr=14579&refresh_token=af663a88&x-expires=1762614000&x-signature=ASpHJtuBD1%2FYK7bBfuoQeUnLlew%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my"
+              ],
+              "url_prefix": null
+            },
+            "bold_fields": null,
+            "can_message_follow_status_list": null,
+            "can_set_geofencing": null,
+            "cha_list": null,
+            "cover_url": null,
+            "custom_verify": "",
+            "enterprise_verify_reason": "",
+            "events": null,
+            "followers_detail": null,
+            "geofencing": null,
+            "homepage_bottom_toast": null,
+            "item_list": null,
+            "mutual_relation_avatars": null,
+            "need_points": null,
+            "nickname": "Tờ_coderr",
+            "platform_sync_info": null,
+            "predicted_age_group": "",
+            "relative_users": null,
+            "search_highlight": null,
+            "sec_uid": "MS4wLjABAAAA0Wn0P1wCYDpiBVjOllv6KBIBL6WoEhhvii6d4zv3SDw-Ux0BJRzdev8JP-OYk9WT",
+            "shield_edit_field_info": null,
+            "type_label": null,
+            "uid": "7350183525138252802",
+            "unique_id": "tcoderr",
+            "user_profile_guide": null,
+            "user_tags": null,
+            "white_cover_url": null
+          },
+          "user_buried": false,
+          "user_digged": 0
+        }
+      ]
+    },
+    {
+      "cid": "7418882008594498312",
+      "text": "cần cấp quyền ha ad",
+      "author": "Bol24h Top Technology",
+      "create_time": 1727343078,
+      "like_count": 0,
+      "reply_count": 1,
+      "replies": [
+        {
+          "aweme_id": "7402132841267547408",
+          "cid": "7418882253939639048",
+          "collect_stat": 0,
+          "comment_language": "vi",
+          "comment_post_item_ids": null,
+          "create_time": 1727343134,
+          "digg_count": 0,
+          "forbid_reply_with_video": true,
+          "image_list": null,
+          "is_author_digged": false,
+          "is_comment_translatable": true,
+          "is_high_purchase_intent": false,
+          "label_list": [
+            {
+              "text": "Creator",
+              "type": 1
+            }
+          ],
+          "label_text": "Creator",
+          "label_type": 1,
+          "no_show": false,
+          "reply_comment": null,
+          "reply_id": "7418882008594498312",
+          "reply_to_reply_id": "0",
+          "share_info": {
+            "acl": {
+              "code": 0,
+              "extra": "{}"
+            },
+            "desc": "Tờ_coderr’s comment: đr ạ",
+            "title": "code được là 1 chuyện, phải hiểu nữa mới quan trọng #learntocode #it #laptrinh #coding ",
+            "url": "https://t.tiktok.com/i18n/share/video/7402132841267547408/?_d=f09gf88977dfid&comment_author_id=7350183525138252802&mid=7335444088390503170&preview_pb=0&region=VN&share_comment_id=7418882253939639048&share_item_id=7402132841267547408&sharer_language=en&source=h5_t&u_code=f09gf5a9194j7d"
+          },
+          "status": 1,
+          "stick_position": 0,
+          "text": "đr ạ",
+          "text_extra": [],
+          "trans_btn_style": 1,
+          "user": {
+            "account_labels": null,
+            "ad_cover_url": null,
+            "advance_feature_item_order": null,
+            "advanced_feature_info": null,
+            "avatar_thumb": {
+              "uri": "tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca",
+              "url_list": [
+                "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca~tplv-tiktokx-cropcenter:100:100.jpg?dr=14579&refresh_token=509e3d82&x-expires=1762614000&x-signature=l22S60SlXkwvex6J9Bfk%2Fh5i5uM%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my",
+                "https://p9-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca~tplv-tiktokx-cropcenter:100:100.jpg?dr=14579&refresh_token=8bb50948&x-expires=1762614000&x-signature=kv5Pk8s8t4%2FWd3XM%2FcFNs7SO7d8%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my",
+                "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca~tplv-tiktokx-cropcenter:100:100.jpeg?dr=14579&refresh_token=af663a88&x-expires=1762614000&x-signature=ASpHJtuBD1%2FYK7bBfuoQeUnLlew%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my"
+              ],
+              "url_prefix": null
+            },
+            "bold_fields": null,
+            "can_message_follow_status_list": null,
+            "can_set_geofencing": null,
+            "cha_list": null,
+            "cover_url": null,
+            "custom_verify": "",
+            "enterprise_verify_reason": "",
+            "events": null,
+            "followers_detail": null,
+            "geofencing": null,
+            "homepage_bottom_toast": null,
+            "item_list": null,
+            "mutual_relation_avatars": null,
+            "need_points": null,
+            "nickname": "Tờ_coderr",
+            "platform_sync_info": null,
+            "predicted_age_group": "",
+            "relative_users": null,
+            "search_highlight": null,
+            "sec_uid": "MS4wLjABAAAA0Wn0P1wCYDpiBVjOllv6KBIBL6WoEhhvii6d4zv3SDw-Ux0BJRzdev8JP-OYk9WT",
+            "shield_edit_field_info": null,
+            "type_label": null,
+            "uid": "7350183525138252802",
+            "unique_id": "tcoderr",
+            "user_profile_guide": null,
+            "user_tags": null,
+            "white_cover_url": null
+          },
+          "user_buried": false,
+          "user_digged": 0
+        }
+      ]
+    },
+    {
+      "cid": "7402695153360454401",
+      "text": "bạn gửi cho mình xin có được không",
+      "author": "bestgnasche😊",
+      "create_time": 1723574283,
+      "like_count": 0,
+      "reply_count": 1,
+      "replies": [
+        {
+          "aweme_id": "7402132841267547408",
+          "cid": "7402622188229198609",
+          "collect_stat": 0,
+          "comment_language": "vi",
+          "comment_post_item_ids": null,
+          "create_time": 1723597031,
+          "digg_count": 0,
+          "forbid_reply_with_video": true,
+          "image_list": null,
+          "is_author_digged": false,
+          "is_comment_translatable": true,
+          "is_high_purchase_intent": false,
+          "label_list": [
+            {
+              "text": "Creator",
+              "type": 1
+            }
+          ],
+          "label_text": "Creator",
+          "label_type": 1,
+          "no_show": false,
+          "reply_comment": null,
+          "reply_id": "7402695153360454401",
+          "reply_to_reply_id": "0",
+          "share_info": {
+            "acl": {
+              "code": 1,
+              "extra": "{\"is_share_handler_failed\":\"1\"}"
+            },
+            "desc": "",
+            "title": "",
+            "url": ""
+          },
+          "status": 1,
+          "stick_position": 0,
+          "text": "mình có link á bạn, dán lên gg là đc nhe",
+          "text_extra": [],
+          "trans_btn_style": 1,
+          "user": {
+            "account_labels": null,
+            "ad_cover_url": null,
+            "advance_feature_item_order": null,
+            "advanced_feature_info": null,
+            "avatar_thumb": {
+              "uri": "tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca",
+              "url_list": [
+                "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca~tplv-tiktokx-cropcenter:100:100.jpg?dr=14579&refresh_token=509e3d82&x-expires=1762614000&x-signature=l22S60SlXkwvex6J9Bfk%2Fh5i5uM%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my",
+                "https://p9-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca~tplv-tiktokx-cropcenter:100:100.jpg?dr=14579&refresh_token=8bb50948&x-expires=1762614000&x-signature=kv5Pk8s8t4%2FWd3XM%2FcFNs7SO7d8%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my",
+                "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca~tplv-tiktokx-cropcenter:100:100.jpeg?dr=14579&refresh_token=af663a88&x-expires=1762614000&x-signature=ASpHJtuBD1%2FYK7bBfuoQeUnLlew%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my"
+              ],
+              "url_prefix": null
+            },
+            "bold_fields": null,
+            "can_message_follow_status_list": null,
+            "can_set_geofencing": null,
+            "cha_list": null,
+            "cover_url": null,
+            "custom_verify": "",
+            "enterprise_verify_reason": "",
+            "events": null,
+            "followers_detail": null,
+            "geofencing": null,
+            "homepage_bottom_toast": null,
+            "item_list": null,
+            "mutual_relation_avatars": null,
+            "need_points": null,
+            "nickname": "Tờ_coderr",
+            "platform_sync_info": null,
+            "relative_users": null,
+            "search_highlight": null,
+            "sec_uid": "MS4wLjABAAAA0Wn0P1wCYDpiBVjOllv6KBIBL6WoEhhvii6d4zv3SDw-Ux0BJRzdev8JP-OYk9WT",
+            "shield_edit_field_info": null,
+            "type_label": null,
+            "uid": "7350183525138252802",
+            "unique_id": "tcoderr",
+            "user_profile_guide": null,
+            "user_tags": null,
+            "white_cover_url": null
+          },
+          "user_buried": false,
+          "user_digged": 0
+        }
+      ]
+    },
+    {
+      "cid": "7427121841187635984",
+      "text": "dạy em cơ bản python vs ạ",
+      "author": "chil",
+      "create_time": 1729264544,
+      "like_count": 2,
+      "reply_count": 1,
+      "replies": [
+        {
+          "aweme_id": "7402132841267547408",
+          "cid": "7427142447483912978",
+          "collect_stat": 0,
+          "comment_language": "vi",
+          "comment_post_item_ids": null,
+          "create_time": 1729266360,
+          "digg_count": 2,
+          "forbid_reply_with_video": true,
+          "image_list": null,
+          "is_author_digged": false,
+          "is_comment_translatable": true,
+          "is_high_purchase_intent": false,
+          "label_list": [
+            {
+              "text": "Creator",
+              "type": 1
+            }
+          ],
+          "label_text": "Creator",
+          "label_type": 1,
+          "no_show": false,
+          "reply_comment": null,
+          "reply_id": "7427121841187635984",
+          "reply_to_reply_id": "0",
+          "share_info": {
+            "acl": {
+              "code": 0,
+              "extra": "{}"
+            },
+            "desc": "Tờ_coderr’s comment: ib cho mình nhé",
+            "title": "code được là 1 chuyện, phải hiểu nữa mới quan trọng #learntocode #it #laptrinh #coding ",
+            "url": "https://t.tiktok.com/i18n/share/video/7402132841267547408/?_d=f09gf88977dfid&comment_author_id=7350183525138252802&mid=7335444088390503170&preview_pb=0&region=VN&share_comment_id=7427142447483912978&share_item_id=7402132841267547408&sharer_language=en&source=h5_t&u_code=f09gf5a9194j7d"
+          },
+          "status": 1,
+          "stick_position": 0,
+          "text": "ib cho mình nhé",
+          "text_extra": [],
+          "trans_btn_style": 1,
+          "user": {
+            "account_labels": null,
+            "ad_cover_url": null,
+            "advance_feature_item_order": null,
+            "advanced_feature_info": null,
+            "avatar_thumb": {
+              "uri": "tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca",
+              "url_list": [
+                "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca~tplv-tiktokx-cropcenter:100:100.jpg?dr=14579&refresh_token=509e3d82&x-expires=1762614000&x-signature=l22S60SlXkwvex6J9Bfk%2Fh5i5uM%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my",
+                "https://p9-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca~tplv-tiktokx-cropcenter:100:100.jpg?dr=14579&refresh_token=8bb50948&x-expires=1762614000&x-signature=kv5Pk8s8t4%2FWd3XM%2FcFNs7SO7d8%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my",
+                "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca~tplv-tiktokx-cropcenter:100:100.jpeg?dr=14579&refresh_token=af663a88&x-expires=1762614000&x-signature=ASpHJtuBD1%2FYK7bBfuoQeUnLlew%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my"
+              ],
+              "url_prefix": null
+            },
+            "bold_fields": null,
+            "can_message_follow_status_list": null,
+            "can_set_geofencing": null,
+            "cha_list": null,
+            "cover_url": null,
+            "custom_verify": "",
+            "enterprise_verify_reason": "",
+            "events": null,
+            "followers_detail": null,
+            "geofencing": null,
+            "homepage_bottom_toast": null,
+            "item_list": null,
+            "mutual_relation_avatars": null,
+            "need_points": null,
+            "nickname": "Tờ_coderr",
+            "platform_sync_info": null,
+            "predicted_age_group": "",
+            "relative_users": null,
+            "search_highlight": null,
+            "sec_uid": "MS4wLjABAAAA0Wn0P1wCYDpiBVjOllv6KBIBL6WoEhhvii6d4zv3SDw-Ux0BJRzdev8JP-OYk9WT",
+            "shield_edit_field_info": null,
+            "type_label": null,
+            "uid": "7350183525138252802",
+            "unique_id": "tcoderr",
+            "user_profile_guide": null,
+            "user_tags": null,
+            "white_cover_url": null
+          },
+          "user_buried": false,
+          "user_digged": 0
+        }
+      ]
+    },
+    {
+      "cid": "7425585666249720594",
+      "text": "có python không proo cho mình xin với",
+      "author": "Nhân Nguyễn⚡️",
+      "create_time": 1728903896,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7402987896746525458",
+      "text": "cho mik xin vs ạ",
+      "author": "Đức Bảo 🖤",
+      "create_time": 1723642441,
+      "like_count": 0,
+      "reply_count": 1,
+      "replies": [
+        {
+          "aweme_id": "7402132841267547408",
+          "cid": "7403654370891875092",
+          "collect_stat": 0,
+          "comment_language": "en",
+          "comment_post_item_ids": null,
+          "create_time": 1723811397,
+          "digg_count": 1,
+          "forbid_reply_with_video": true,
+          "image_list": null,
+          "is_author_digged": false,
+          "is_comment_translatable": true,
+          "is_high_purchase_intent": false,
+          "label_list": [
+            {
+              "text": "Creator",
+              "type": 1
+            }
+          ],
+          "label_text": "Creator",
+          "label_type": 1,
+          "no_show": false,
+          "reply_comment": null,
+          "reply_id": "7402987896746525458",
+          "reply_to_reply_id": "0",
+          "share_info": {
+            "acl": {
+              "code": 1,
+              "extra": "{\"is_share_handler_failed\":\"1\"}"
+            },
+            "desc": "",
+            "title": "",
+            "url": ""
+          },
+          "status": 1,
+          "stick_position": 0,
+          "text": "https://dilink.net/notes/WQ5qR9",
+          "text_extra": [],
+          "trans_btn_style": 0,
+          "user": {
+            "account_labels": null,
+            "ad_cover_url": null,
+            "advance_feature_item_order": null,
+            "advanced_feature_info": null,
+            "avatar_thumb": {
+              "uri": "tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca",
+              "url_list": [
+                "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca~tplv-tiktokx-cropcenter:100:100.jpg?dr=14579&refresh_token=509e3d82&x-expires=1762614000&x-signature=l22S60SlXkwvex6J9Bfk%2Fh5i5uM%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my",
+                "https://p9-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca~tplv-tiktokx-cropcenter:100:100.jpg?dr=14579&refresh_token=8bb50948&x-expires=1762614000&x-signature=kv5Pk8s8t4%2FWd3XM%2FcFNs7SO7d8%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my",
+                "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca~tplv-tiktokx-cropcenter:100:100.jpeg?dr=14579&refresh_token=af663a88&x-expires=1762614000&x-signature=ASpHJtuBD1%2FYK7bBfuoQeUnLlew%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my"
+              ],
+              "url_prefix": null
+            },
+            "bold_fields": null,
+            "can_message_follow_status_list": null,
+            "can_set_geofencing": null,
+            "cha_list": null,
+            "cover_url": null,
+            "custom_verify": "",
+            "enterprise_verify_reason": "",
+            "events": null,
+            "followers_detail": null,
+            "geofencing": null,
+            "homepage_bottom_toast": null,
+            "item_list": null,
+            "mutual_relation_avatars": null,
+            "need_points": null,
+            "nickname": "Tờ_coderr",
+            "platform_sync_info": null,
+            "predicted_age_group": "",
+            "relative_users": null,
+            "search_highlight": null,
+            "sec_uid": "MS4wLjABAAAA0Wn0P1wCYDpiBVjOllv6KBIBL6WoEhhvii6d4zv3SDw-Ux0BJRzdev8JP-OYk9WT",
+            "shield_edit_field_info": null,
+            "type_label": null,
+            "uid": "7350183525138252802",
+            "unique_id": "tcoderr",
+            "user_profile_guide": null,
+            "user_tags": null,
+            "white_cover_url": null
+          },
+          "user_buried": false,
+          "user_digged": 0
+        }
+      ]
+    },
+    {
+      "cid": "7402671264642614034",
+      "text": "có c++ ko bạn",
+      "author": "Trquockhanh",
+      "create_time": 1723568719,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7403584717185188626",
+      "text": "Mình xin với ạ",
+      "author": "BoyChungTình",
+      "create_time": 1723781399,
+      "like_count": 0,
+      "reply_count": 1,
+      "replies": [
+        {
+          "aweme_id": "7402132841267547408",
+          "cid": "7403643554436612880",
+          "collect_stat": 0,
+          "comment_language": "vi",
+          "comment_post_item_ids": null,
+          "create_time": 1723811383,
+          "digg_count": 1,
+          "forbid_reply_with_video": false,
+          "image_list": null,
+          "is_author_digged": false,
+          "is_comment_translatable": true,
+          "is_high_purchase_intent": false,
+          "label_list": [
+            {
+              "text": "Creator",
+              "type": 1
+            }
+          ],
+          "label_text": "Creator",
+          "label_type": 1,
+          "no_show": false,
+          "reply_comment": null,
+          "reply_id": "7403584717185188626",
+          "reply_to_reply_id": "0",
+          "share_info": {
+            "acl": {
+              "code": 1,
+              "extra": "{\"is_share_handler_failed\":\"1\"}"
+            },
+            "desc": "",
+            "title": "",
+            "url": ""
+          },
+          "status": 1,
+          "stick_position": 0,
+          "text": "link ở đây nhé: https://dilink.net/notes/WQ5qR9",
+          "text_extra": [],
+          "trans_btn_style": 1,
+          "user": {
+            "account_labels": null,
+            "ad_cover_url": null,
+            "advance_feature_item_order": null,
+            "advanced_feature_info": null,
+            "avatar_thumb": {
+              "uri": "tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca",
+              "url_list": [
+                "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca~tplv-tiktokx-cropcenter:100:100.jpg?dr=14579&refresh_token=509e3d82&x-expires=1762614000&x-signature=l22S60SlXkwvex6J9Bfk%2Fh5i5uM%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my",
+                "https://p9-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca~tplv-tiktokx-cropcenter:100:100.jpg?dr=14579&refresh_token=8bb50948&x-expires=1762614000&x-signature=kv5Pk8s8t4%2FWd3XM%2FcFNs7SO7d8%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my",
+                "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca~tplv-tiktokx-cropcenter:100:100.jpeg?dr=14579&refresh_token=af663a88&x-expires=1762614000&x-signature=ASpHJtuBD1%2FYK7bBfuoQeUnLlew%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my"
+              ],
+              "url_prefix": null
+            },
+            "bold_fields": null,
+            "can_message_follow_status_list": null,
+            "can_set_geofencing": null,
+            "cha_list": null,
+            "cover_url": null,
+            "custom_verify": "",
+            "enterprise_verify_reason": "",
+            "events": null,
+            "followers_detail": null,
+            "geofencing": null,
+            "homepage_bottom_toast": null,
+            "item_list": null,
+            "mutual_relation_avatars": null,
+            "need_points": null,
+            "nickname": "Tờ_coderr",
+            "platform_sync_info": null,
+            "relative_users": null,
+            "search_highlight": null,
+            "sec_uid": "MS4wLjABAAAA0Wn0P1wCYDpiBVjOllv6KBIBL6WoEhhvii6d4zv3SDw-Ux0BJRzdev8JP-OYk9WT",
+            "shield_edit_field_info": null,
+            "type_label": null,
+            "uid": "7350183525138252802",
+            "unique_id": "tcoderr",
+            "user_profile_guide": null,
+            "user_tags": null,
+            "white_cover_url": null
+          },
+          "user_buried": false,
+          "user_digged": 0
+        }
+      ]
+    },
+    {
+      "cid": "7427488766790746896",
+      "text": "có cách học c++ cho người bắt đầu không ạ",
+      "author": "thngc0221",
+      "create_time": 1729347027,
+      "like_count": 1,
+      "reply_count": 1,
+      "replies": [
+        {
+          "aweme_id": "7402132841267547408",
+          "cid": "7427552792523866887",
+          "collect_stat": 0,
+          "comment_language": "vi",
+          "comment_post_item_ids": null,
+          "create_time": 1729361907,
+          "digg_count": 0,
+          "forbid_reply_with_video": true,
+          "image_list": null,
+          "is_author_digged": false,
+          "is_comment_translatable": true,
+          "is_high_purchase_intent": false,
+          "label_list": [
+            {
+              "text": "Creator",
+              "type": 1
+            }
+          ],
+          "label_text": "Creator",
+          "label_type": 1,
+          "no_show": false,
+          "reply_comment": null,
+          "reply_id": "7427488766790746896",
+          "reply_to_reply_id": "0",
+          "share_info": {
+            "acl": {
+              "code": 0,
+              "extra": "{}"
+            },
+            "desc": "Tờ_coderr’s comment: có nhé, ib mình na",
+            "title": "code được là 1 chuyện, phải hiểu nữa mới quan trọng #learntocode #it #laptrinh #coding ",
+            "url": "https://t.tiktok.com/i18n/share/video/7402132841267547408/?_d=f09gf88977dfid&comment_author_id=7350183525138252802&mid=7335444088390503170&preview_pb=0&region=VN&share_comment_id=7427552792523866887&share_item_id=7402132841267547408&sharer_language=en&source=h5_t&u_code=f09gf5a9194j7d"
+          },
+          "status": 1,
+          "stick_position": 0,
+          "text": "có nhé, ib mình na",
+          "text_extra": [],
+          "trans_btn_style": 1,
+          "user": {
+            "account_labels": null,
+            "ad_cover_url": null,
+            "advance_feature_item_order": null,
+            "advanced_feature_info": null,
+            "avatar_thumb": {
+              "uri": "tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca",
+              "url_list": [
+                "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca~tplv-tiktokx-cropcenter:100:100.jpg?dr=14579&refresh_token=509e3d82&x-expires=1762614000&x-signature=l22S60SlXkwvex6J9Bfk%2Fh5i5uM%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my",
+                "https://p9-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca~tplv-tiktokx-cropcenter:100:100.jpg?dr=14579&refresh_token=8bb50948&x-expires=1762614000&x-signature=kv5Pk8s8t4%2FWd3XM%2FcFNs7SO7d8%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my",
+                "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca~tplv-tiktokx-cropcenter:100:100.jpeg?dr=14579&refresh_token=af663a88&x-expires=1762614000&x-signature=ASpHJtuBD1%2FYK7bBfuoQeUnLlew%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my"
+              ],
+              "url_prefix": null
+            },
+            "bold_fields": null,
+            "can_message_follow_status_list": null,
+            "can_set_geofencing": null,
+            "cha_list": null,
+            "cover_url": null,
+            "custom_verify": "",
+            "enterprise_verify_reason": "",
+            "events": null,
+            "followers_detail": null,
+            "geofencing": null,
+            "homepage_bottom_toast": null,
+            "item_list": null,
+            "mutual_relation_avatars": null,
+            "need_points": null,
+            "nickname": "Tờ_coderr",
+            "platform_sync_info": null,
+            "predicted_age_group": "",
+            "relative_users": null,
+            "search_highlight": null,
+            "sec_uid": "MS4wLjABAAAA0Wn0P1wCYDpiBVjOllv6KBIBL6WoEhhvii6d4zv3SDw-Ux0BJRzdev8JP-OYk9WT",
+            "shield_edit_field_info": null,
+            "type_label": null,
+            "uid": "7350183525138252802",
+            "unique_id": "tcoderr",
+            "user_profile_guide": null,
+            "user_tags": null,
+            "white_cover_url": null
+          },
+          "user_buried": false,
+          "user_digged": 0
+        }
+      ]
+    },
+    {
+      "cid": "7410584245330330385",
+      "text": "e xin vs 😢",
+      "author": "Trang Bức",
+      "create_time": 1725411110,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7405345696603620114",
+      "text": "Cấp quyền truy cập cho mk vs ạ",
+      "author": "hồng cute",
+      "create_time": 1724191415,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7515379324133081864",
+      "text": "video hay quá 💖",
+      "author": "Lệ Nuôi Con",
+      "create_time": 1749810612,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7436015403510629136",
+      "text": "câp quyền truy cập em với ạ",
+      "author": "Quốc Đạt",
+      "create_time": 1731332258,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7403002668250415879",
+      "text": "em có thấy link nào đâu anh ơi",
+      "author": "duyduy6103",
+      "create_time": 1723654937,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7411393089741521680",
+      "text": "Này là code ở trên nền tảng nào v anh ạ?",
+      "author": "DuyAnh",
+      "create_time": 1725599432,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7429691661934822162",
+      "text": "xin dới",
+      "author": "༺╰‿╯sᵘⁿᵍㅤᴊⁱⁿㅤᴡᵒᵒ ༻",
+      "create_time": 1729859897,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7469127323355955975",
+      "text": "Công thức ở đâu ra hay quá vậy?",
+      "author": "Lý Van Chung",
+      "create_time": 1739041749,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7403008355180446485",
+      "text": "name song",
+      "author": "Rio Travel",
+      "create_time": 1723647204,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7422156155739439889",
+      "text": "Vấn đề phải\"hiểu\"😂",
+      "author": "Sinh viên năm 2",
+      "create_time": 1728105401,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7431574040172561159",
+      "text": "xin giáo trình học với",
+      "author": "kẻ phá game",
+      "create_time": 1730298170,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7411299231015699201",
+      "text": "python đi",
+      "author": "ntungg",
+      "create_time": 1725577592,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7497483638617375505",
+      "text": "rep ib em vs",
+      "author": "nguyễn văn khang",
+      "create_time": 1745643978,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7411058333455106832",
+      "text": "chạy node game làm airdrop được không ạ",
+      "author": "Hồ út",
+      "create_time": 1725521490,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7415263231802376968",
+      "text": "viết code ở chỗ nào trên máy tính vậy ạ",
+      "author": "Ngọc Chiến경 서연",
+      "create_time": 1726500517,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7422716295206535944",
+      "text": "Bạn ơi cho mình hỏi mình dán lên hok có ạ",
+      "author": "Trần Lê Long820",
+      "create_time": 1728235818,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7403353301646099218",
+      "text": "cấp quyền cho em với ạ",
+      "author": "Neiht!",
+      "create_time": 1723727518,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7413996332225512200",
+      "text": "Nhập code ở đâu v a😢",
+      "author": "Quốc Việt7002",
+      "create_time": 1726205541,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7403548077472891649",
+      "text": "Cấp quyền truy cập cho mình với ạ",
+      "author": "Laam",
+      "create_time": 1723772871,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7412872758754837253",
+      "text": "code regedit thì làm sao ạ",
+      "author": "Thien Huynh",
+      "create_time": 1725943953,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7425583043153003282",
+      "text": "em xin tài liệu js vs ạ",
+      "author": "người tình thu đông",
+      "create_time": 1728903284,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7403541095856816913",
+      "text": "Em xin tài liệu vs ạ",
+      "author": "nam nguyoễn",
+      "create_time": 1723771247,
+      "like_count": 0,
+      "reply_count": 1,
+      "replies": [
+        {
+          "aweme_id": "7402132841267547408",
+          "cid": "7403668630967173905",
+          "collect_stat": 0,
+          "comment_language": "en",
+          "comment_post_item_ids": null,
+          "create_time": 1723811389,
+          "digg_count": 1,
+          "forbid_reply_with_video": true,
+          "image_list": null,
+          "is_author_digged": false,
+          "is_comment_translatable": true,
+          "is_high_purchase_intent": false,
+          "label_list": [
+            {
+              "text": "Creator",
+              "type": 1
+            }
+          ],
+          "label_text": "Creator",
+          "label_type": 1,
+          "no_show": false,
+          "reply_comment": null,
+          "reply_id": "7403541095856816913",
+          "reply_to_reply_id": "0",
+          "share_info": {
+            "acl": {
+              "code": 1,
+              "extra": "{\"is_share_handler_failed\":\"1\"}"
+            },
+            "desc": "",
+            "title": "",
+            "url": ""
+          },
+          "status": 1,
+          "stick_position": 0,
+          "text": "https://dilink.net/notes/WQ5qR9",
+          "text_extra": [],
+          "trans_btn_style": 0,
+          "user": {
+            "account_labels": null,
+            "ad_cover_url": null,
+            "advance_feature_item_order": null,
+            "advanced_feature_info": null,
+            "avatar_thumb": {
+              "uri": "tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca",
+              "url_list": [
+                "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca~tplv-tiktokx-cropcenter:100:100.jpg?dr=14579&refresh_token=509e3d82&x-expires=1762614000&x-signature=l22S60SlXkwvex6J9Bfk%2Fh5i5uM%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my",
+                "https://p9-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca~tplv-tiktokx-cropcenter:100:100.jpg?dr=14579&refresh_token=8bb50948&x-expires=1762614000&x-signature=kv5Pk8s8t4%2FWd3XM%2FcFNs7SO7d8%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my",
+                "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca~tplv-tiktokx-cropcenter:100:100.jpeg?dr=14579&refresh_token=af663a88&x-expires=1762614000&x-signature=ASpHJtuBD1%2FYK7bBfuoQeUnLlew%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my"
+              ],
+              "url_prefix": null
+            },
+            "bold_fields": null,
+            "can_message_follow_status_list": null,
+            "can_set_geofencing": null,
+            "cha_list": null,
+            "cover_url": null,
+            "custom_verify": "",
+            "enterprise_verify_reason": "",
+            "events": null,
+            "followers_detail": null,
+            "geofencing": null,
+            "homepage_bottom_toast": null,
+            "item_list": null,
+            "mutual_relation_avatars": null,
+            "need_points": null,
+            "nickname": "Tờ_coderr",
+            "platform_sync_info": null,
+            "predicted_age_group": "",
+            "relative_users": null,
+            "search_highlight": null,
+            "sec_uid": "MS4wLjABAAAA0Wn0P1wCYDpiBVjOllv6KBIBL6WoEhhvii6d4zv3SDw-Ux0BJRzdev8JP-OYk9WT",
+            "shield_edit_field_info": null,
+            "type_label": null,
+            "uid": "7350183525138252802",
+            "unique_id": "tcoderr",
+            "user_profile_guide": null,
+            "user_tags": null,
+            "white_cover_url": null
+          },
+          "user_buried": false,
+          "user_digged": 0
+        }
+      ]
+    },
+    {
+      "cid": "7403966251327095560",
+      "text": "số đt thêm sms nghi ngờ quá",
+      "author": "kỲAnh",
+      "create_time": 1723870233,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7413319636789461768",
+      "text": "mình đang tsv, học tự động hóa, ae nghĩ sao về vc mình đi làm ở quán sửa máy tính để lấy kinh nhiệm vài tháng, từ software đến hardware và các linh kiện",
+      "author": "Vẽ vờii🖌",
+      "create_time": 1726047986,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7430968731072021268",
+      "text": "có cách nào cho 1ng ko bt j học Hg a 🥰",
+      "author": "hihihihihih",
+      "create_time": 1730157254,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7402973446341083911",
+      "text": "cấp quyền truy cập cho mình với ạ",
+      "author": "Duy Anh",
+      "create_time": 1723639076,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7408550385831920391",
+      "text": "sao để lấy ạ",
+      "author": "Quânn",
+      "create_time": 1724943402,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7428856336030417665",
+      "text": "cho e xin với ạ",
+      "author": "Nguyễn Minh Phú",
+      "create_time": 1729665408,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7403736677951767303",
+      "text": "em xin ạ",
+      "author": "Wasserschwein  🥥",
+      "create_time": 1723816781,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7410929641542222593",
+      "text": "C cho m truy cập với ạ",
+      "author": "Bichang-jp",
+      "create_time": 1725491535,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7428128040649523976",
+      "text": "Chỉ mình với",
+      "author": "Phuu金",
+      "create_time": 1729495838,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7410181150150624020",
+      "text": "cs câu này nào khiến dân IT cs động lực trở lại k",
+      "author": "B V H 13-11",
+      "create_time": 1725317258,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7407289996300550913",
+      "text": "@tengicungdc",
+      "author": "Lâm Khả Vy",
+      "create_time": 1724644105,
+      "like_count": 0,
+      "reply_count": 2,
+      "replies": [
+        {
+          "aweme_id": "7402132841267547408",
+          "cid": "7407478005445362440",
+          "collect_stat": 0,
+          "comment_language": "vi",
+          "comment_post_item_ids": null,
+          "create_time": 1724687876,
+          "digg_count": 0,
+          "forbid_reply_with_video": true,
+          "image_list": null,
+          "is_author_digged": false,
+          "is_comment_translatable": true,
+          "is_high_purchase_intent": false,
+          "label_list": null,
+          "no_show": false,
+          "reply_comment": null,
+          "reply_id": "7407289996300550913",
+          "reply_to_reply_id": "0",
+          "share_info": {
+            "acl": {
+              "code": 0,
+              "extra": "{}"
+            },
+            "desc": "Ryan-sama’s comment: nhìn thấy lạ:)",
+            "title": "code được là 1 chuyện, phải hiểu nữa mới quan trọng #learntocode #it #laptrinh #coding ",
+            "url": "https://t.tiktok.com/i18n/share/video/7402132841267547408/?_d=f09gf88977dfid&comment_author_id=7351801984960414736&mid=7335444088390503170&preview_pb=0&region=VN&share_comment_id=7407478005445362440&share_item_id=7402132841267547408&sharer_language=en&source=h5_t&u_code=f09gf5a9194j7d"
+          },
+          "status": 1,
+          "stick_position": 0,
+          "text": "nhìn thấy lạ:)",
+          "text_extra": [],
+          "trans_btn_style": 1,
+          "user": {
+            "account_labels": null,
+            "ad_cover_url": null,
+            "advance_feature_item_order": null,
+            "advanced_feature_info": null,
+            "avatar_thumb": {
+              "uri": "tos-alisg-avt-0068/d438117838d9e638418f16e5d80b0879",
+              "url_list": [
+                "https://p9-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/d438117838d9e638418f16e5d80b0879~tplv-tiktokx-cropcenter:100:100.jpg?dr=14579&refresh_token=ee580a16&x-expires=1762614000&x-signature=DL5Fhip1hDD6VbgNBl7tVRXp%2F74%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my",
+                "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/d438117838d9e638418f16e5d80b0879~tplv-tiktokx-cropcenter:100:100.jpg?dr=14579&refresh_token=68601040&x-expires=1762614000&x-signature=9ReiljlvWQ%2B9SlSPx0vYmGzdUwk%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my",
+                "https://p9-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/d438117838d9e638418f16e5d80b0879~tplv-tiktokx-cropcenter:100:100.jpeg?dr=14579&refresh_token=040bc91f&x-expires=1762614000&x-signature=en9fPfX8JmrPAA4WJuUDFdzmOWk%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my"
+              ],
+              "url_prefix": null
+            },
+            "bold_fields": null,
+            "can_message_follow_status_list": null,
+            "can_set_geofencing": null,
+            "cha_list": null,
+            "cover_url": null,
+            "custom_verify": "",
+            "enterprise_verify_reason": "",
+            "events": null,
+            "followers_detail": null,
+            "geofencing": null,
+            "homepage_bottom_toast": null,
+            "item_list": null,
+            "mutual_relation_avatars": null,
+            "need_points": null,
+            "nickname": "Ryan-sama",
+            "platform_sync_info": null,
+            "relative_users": null,
+            "search_highlight": null,
+            "sec_uid": "MS4wLjABAAAAw8Zk_jaonYc83Njo5ef4fvAx3eqDZ-JfDRnlrPOWrtasHkaoCEA9Y1J3s1zXQ5fS",
+            "shield_edit_field_info": null,
+            "type_label": null,
+            "uid": "7351801984960414736",
+            "unique_id": "ryan_sama555",
+            "user_profile_guide": null,
+            "user_tags": null,
+            "white_cover_url": null
+          },
+          "user_buried": false,
+          "user_digged": 0
+        },
+        {
+          "aweme_id": "7402132841267547408",
+          "cid": "7407580889947259649",
+          "collect_stat": 0,
+          "comment_language": "un",
+          "comment_post_item_ids": null,
+          "create_time": 1724711840,
+          "digg_count": 0,
+          "forbid_reply_with_video": true,
+          "image_list": null,
+          "is_author_digged": false,
+          "is_comment_translatable": false,
+          "is_high_purchase_intent": false,
+          "label_list": null,
+          "no_show": false,
+          "reply_comment": null,
+          "reply_id": "7407289996300550913",
+          "reply_to_nickname": "Ryan-sama",
+          "reply_to_reply_id": "7407478005445362440",
+          "reply_to_userid": "7351801984960414736",
+          "reply_to_username": "ryan_sama555",
+          "share_info": {
+            "acl": {
+              "code": 0,
+              "extra": "{}"
+            },
+            "desc": "Lâm Khả Vy’s comment: :))",
+            "title": "code được là 1 chuyện, phải hiểu nữa mới quan trọng #learntocode #it #laptrinh #coding ",
+            "url": "https://t.tiktok.com/i18n/share/video/7402132841267547408/?_d=f09gf88977dfid&comment_author_id=6975429896501199873&mid=7335444088390503170&preview_pb=0&region=VN&share_comment_id=7407580889947259649&share_item_id=7402132841267547408&sharer_language=en&source=h5_t&u_code=f09gf5a9194j7d"
+          },
+          "status": 1,
+          "stick_position": 0,
+          "text": ":))",
+          "text_extra": [],
+          "trans_btn_style": 1,
+          "user": {
+            "account_labels": null,
+            "ad_cover_url": null,
+            "advance_feature_item_order": null,
+            "advanced_feature_info": null,
+            "avatar_thumb": {
+              "uri": "tos-alisg-avt-0068/c474d96eea4daab3e8b771df086425e7",
+              "url_list": [
+                "https://p9-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/c474d96eea4daab3e8b771df086425e7~tplv-tiktokx-cropcenter:100:100.jpg?dr=14579&refresh_token=c202d8f1&x-expires=1762614000&x-signature=4xCn4JUvR83Gm3YQn%2BzAE2StAds%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my",
+                "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/c474d96eea4daab3e8b771df086425e7~tplv-tiktokx-cropcenter:100:100.jpg?dr=14579&refresh_token=a36c9b9a&x-expires=1762614000&x-signature=j8J4HtqYWXWlgGxqaZmATcPRjKY%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my",
+                "https://p9-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/c474d96eea4daab3e8b771df086425e7~tplv-tiktokx-cropcenter:100:100.jpeg?dr=14579&refresh_token=b8a1ef5f&x-expires=1762614000&x-signature=smYSBTDeGVCndEL%2BQrsutgadNmM%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my"
+              ],
+              "url_prefix": null
+            },
+            "bold_fields": null,
+            "can_message_follow_status_list": null,
+            "can_set_geofencing": null,
+            "cha_list": null,
+            "cover_url": null,
+            "custom_verify": "",
+            "enterprise_verify_reason": "",
+            "events": null,
+            "followers_detail": null,
+            "geofencing": null,
+            "homepage_bottom_toast": null,
+            "item_list": null,
+            "mutual_relation_avatars": null,
+            "need_points": null,
+            "nickname": "Lâm Khả Vy",
+            "platform_sync_info": null,
+            "relative_users": null,
+            "search_highlight": null,
+            "sec_uid": "MS4wLjABAAAA3fGRXlOIvQ7gm2k8VegpKWbVAfy0UEzfCcXqebiObsCZkxz3R_BudmrBt4mXjhsV",
+            "shield_edit_field_info": null,
+            "type_label": null,
+            "uid": "6975429896501199873",
+            "unique_id": "lkv_0602",
+            "user_profile_guide": null,
+            "user_tags": null,
+            "white_cover_url": null
+          },
+          "user_buried": false,
+          "user_digged": 0
+        }
+      ]
+    },
+    {
+      "cid": "7404118606675608337",
+      "text": "@natami_206 chắc sẽ cần",
+      "author": "30_uyn_10",
+      "create_time": 1723905703,
+      "like_count": 0,
+      "reply_count": 2,
+      "replies": [
+        {
+          "aweme_id": "7402132841267547408",
+          "cid": "7404261712151020296",
+          "collect_stat": 0,
+          "comment_language": "vi",
+          "comment_post_item_ids": null,
+          "create_time": 1723939031,
+          "digg_count": 0,
+          "forbid_reply_with_video": true,
+          "image_list": null,
+          "is_author_digged": false,
+          "is_comment_translatable": true,
+          "is_high_purchase_intent": false,
+          "label_list": null,
+          "no_show": false,
+          "reply_comment": null,
+          "reply_id": "7404118606675608337",
+          "reply_to_reply_id": "0",
+          "share_info": {
+            "acl": {
+              "code": 0,
+              "extra": "{}"
+            },
+            "desc": "Nitsuki’s comment: Này tui hc rồi fen😅",
+            "title": "code được là 1 chuyện, phải hiểu nữa mới quan trọng #learntocode #it #laptrinh #coding ",
+            "url": "https://t.tiktok.com/i18n/share/video/7402132841267547408/?_d=f09gf88977dfid&comment_author_id=6915907188016661505&mid=7335444088390503170&preview_pb=0&region=VN&share_comment_id=7404261712151020296&share_item_id=7402132841267547408&sharer_language=en&source=h5_t&u_code=f09gf5a9194j7d"
+          },
+          "status": 1,
+          "stick_position": 0,
+          "text": "Này tui hc rồi fen😅",
+          "text_extra": [],
+          "trans_btn_style": 1,
+          "user": {
+            "account_labels": null,
+            "ad_cover_url": null,
+            "advance_feature_item_order": null,
+            "advanced_feature_info": null,
+            "avatar_thumb": {
+              "uri": "tos-alisg-avt-0068/fdef0690b3932bafbaffb5b93c8b37d9",
+              "url_list": [
+                "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/fdef0690b3932bafbaffb5b93c8b37d9~tplv-tiktokx-cropcenter:100:100.jpg?dr=14579&refresh_token=412749e9&x-expires=1762614000&x-signature=U5T9KSYnQo9MgkUqOMcQyvh2SYY%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my",
+                "https://p9-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/fdef0690b3932bafbaffb5b93c8b37d9~tplv-tiktokx-cropcenter:100:100.jpg?dr=14579&refresh_token=5c59664e&x-expires=1762614000&x-signature=RZYUHnnH8CjQNcog7nz5CXqNurg%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my",
+                "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/fdef0690b3932bafbaffb5b93c8b37d9~tplv-tiktokx-cropcenter:100:100.jpeg?dr=14579&refresh_token=a1c3df6c&x-expires=1762614000&x-signature=jbP5WBbwvyKBHNwkLqvt7AwQMuo%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my"
+              ],
+              "url_prefix": null
+            },
+            "bold_fields": null,
+            "can_message_follow_status_list": null,
+            "can_set_geofencing": null,
+            "cha_list": null,
+            "cover_url": null,
+            "custom_verify": "",
+            "enterprise_verify_reason": "",
+            "events": null,
+            "followers_detail": null,
+            "geofencing": null,
+            "homepage_bottom_toast": null,
+            "item_list": null,
+            "mutual_relation_avatars": null,
+            "need_points": null,
+            "nickname": "Nitsuki",
+            "platform_sync_info": null,
+            "predicted_age_group": "2",
+            "relative_users": null,
+            "search_highlight": null,
+            "sec_uid": "MS4wLjABAAAA-T_CC5d1GDfnsXRefA44bVjEnu_SuxOr2-XB64xUiRYK3Qt5TM28ZthWCdT1qkPX",
+            "shield_edit_field_info": null,
+            "type_label": null,
+            "uid": "6915907188016661505",
+            "unique_id": "nitsuki_206",
+            "user_profile_guide": null,
+            "user_tags": null,
+            "white_cover_url": null
+          },
+          "user_buried": false,
+          "user_digged": 0
+        },
+        {
+          "aweme_id": "7402132841267547408",
+          "cid": "7404683209558246152",
+          "collect_stat": 0,
+          "comment_language": "vi",
+          "comment_post_item_ids": null,
+          "create_time": 1724037161,
+          "digg_count": 0,
+          "forbid_reply_with_video": true,
+          "image_list": null,
+          "is_author_digged": false,
+          "is_comment_translatable": true,
+          "is_high_purchase_intent": false,
+          "label_list": null,
+          "no_show": false,
+          "reply_comment": null,
+          "reply_id": "7404118606675608337",
+          "reply_to_reply_id": "0",
+          "share_info": {
+            "acl": {
+              "code": 0,
+              "extra": "{}"
+            },
+            "desc": "Nitsuki’s comment: Sao bên em nó hiện là ko đc hỗ trợ ạ",
+            "title": "code được là 1 chuyện, phải hiểu nữa mới quan trọng #learntocode #it #laptrinh #coding ",
+            "url": "https://t.tiktok.com/i18n/share/video/7402132841267547408/?_d=f09gf88977dfid&comment_author_id=6915907188016661505&mid=7335444088390503170&preview_pb=0&region=VN&share_comment_id=7404683209558246152&share_item_id=7402132841267547408&sharer_language=en&source=h5_t&u_code=f09gf5a9194j7d"
+          },
+          "status": 1,
+          "stick_position": 0,
+          "text": "Sao bên em nó hiện là ko đc hỗ trợ ạ",
+          "text_extra": [],
+          "trans_btn_style": 1,
+          "user": {
+            "account_labels": null,
+            "ad_cover_url": null,
+            "advance_feature_item_order": null,
+            "advanced_feature_info": null,
+            "avatar_thumb": {
+              "uri": "tos-alisg-avt-0068/fdef0690b3932bafbaffb5b93c8b37d9",
+              "url_list": [
+                "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/fdef0690b3932bafbaffb5b93c8b37d9~tplv-tiktokx-cropcenter:100:100.jpg?dr=14579&refresh_token=412749e9&x-expires=1762614000&x-signature=U5T9KSYnQo9MgkUqOMcQyvh2SYY%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my",
+                "https://p9-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/fdef0690b3932bafbaffb5b93c8b37d9~tplv-tiktokx-cropcenter:100:100.jpg?dr=14579&refresh_token=5c59664e&x-expires=1762614000&x-signature=RZYUHnnH8CjQNcog7nz5CXqNurg%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my",
+                "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/fdef0690b3932bafbaffb5b93c8b37d9~tplv-tiktokx-cropcenter:100:100.jpeg?dr=14579&refresh_token=a1c3df6c&x-expires=1762614000&x-signature=jbP5WBbwvyKBHNwkLqvt7AwQMuo%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my"
+              ],
+              "url_prefix": null
+            },
+            "bold_fields": null,
+            "can_message_follow_status_list": null,
+            "can_set_geofencing": null,
+            "cha_list": null,
+            "cover_url": null,
+            "custom_verify": "",
+            "enterprise_verify_reason": "",
+            "events": null,
+            "followers_detail": null,
+            "geofencing": null,
+            "homepage_bottom_toast": null,
+            "item_list": null,
+            "mutual_relation_avatars": null,
+            "need_points": null,
+            "nickname": "Nitsuki",
+            "platform_sync_info": null,
+            "relative_users": null,
+            "search_highlight": null,
+            "sec_uid": "MS4wLjABAAAA-T_CC5d1GDfnsXRefA44bVjEnu_SuxOr2-XB64xUiRYK3Qt5TM28ZthWCdT1qkPX",
+            "shield_edit_field_info": null,
+            "type_label": null,
+            "uid": "6915907188016661505",
+            "unique_id": "nitsuki_206",
+            "user_profile_guide": null,
+            "user_tags": null,
+            "white_cover_url": null
+          },
+          "user_buried": false,
+          "user_digged": 0
+        }
+      ]
+    },
+    {
+      "cid": "7408578188282004242",
+      "text": "@nglinh4075 xong r nhiều dã man",
+      "author": "H_Tiep10",
+      "create_time": 1724944030,
+      "like_count": 0,
+      "reply_count": 1,
+      "replies": [
+        {
+          "aweme_id": "7402132841267547408",
+          "cid": "7408579224014947079",
+          "collect_stat": 0,
+          "comment_language": "vi",
+          "comment_post_item_ids": null,
+          "create_time": 1724944271,
+          "digg_count": 0,
+          "forbid_reply_with_video": true,
+          "image_list": null,
+          "is_author_digged": false,
+          "is_comment_translatable": true,
+          "is_high_purchase_intent": false,
+          "label_list": null,
+          "no_show": false,
+          "reply_comment": null,
+          "reply_id": "7408578188282004242",
+          "reply_to_reply_id": "0",
+          "share_info": {
+            "acl": {
+              "code": 0,
+              "extra": "{}"
+            },
+            "desc": "nglinh4075’s comment: Chấp nhận thôi theo tới cùng",
+            "title": "code được là 1 chuyện, phải hiểu nữa mới quan trọng #learntocode #it #laptrinh #coding ",
+            "url": "https://t.tiktok.com/i18n/share/video/7402132841267547408/?_d=f09gf88977dfid&comment_author_id=7163885525450753050&mid=7335444088390503170&preview_pb=0&region=VN&share_comment_id=7408579224014947079&share_item_id=7402132841267547408&sharer_language=en&source=h5_t&u_code=f09gf5a9194j7d"
+          },
+          "status": 1,
+          "stick_position": 0,
+          "text": "Chấp nhận thôi theo tới cùng",
+          "text_extra": [],
+          "trans_btn_style": 1,
+          "user": {
+            "account_labels": null,
+            "ad_cover_url": null,
+            "advance_feature_item_order": null,
+            "advanced_feature_info": null,
+            "avatar_thumb": {
+              "uri": "tos-alisg-avt-0068/566263b2ebfdbfc8de83742d1a9a2162",
+              "url_list": [
+                "https://p9-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/566263b2ebfdbfc8de83742d1a9a2162~tplv-tiktokx-cropcenter:100:100.jpg?dr=14579&refresh_token=b4ae91ee&x-expires=1762614000&x-signature=ZLLI7XgjjLVAjyAjVZIWJHiwkMs%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my",
+                "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/566263b2ebfdbfc8de83742d1a9a2162~tplv-tiktokx-cropcenter:100:100.jpg?dr=14579&refresh_token=491309ae&x-expires=1762614000&x-signature=nfn87kMPiCSFMrBuH7TCgEchOLU%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my",
+                "https://p9-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/566263b2ebfdbfc8de83742d1a9a2162~tplv-tiktokx-cropcenter:100:100.jpeg?dr=14579&refresh_token=d0d38703&x-expires=1762614000&x-signature=XY9Crkz2SeGp52gjJh3JeU2WOOU%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my"
+              ],
+              "url_prefix": null
+            },
+            "bold_fields": null,
+            "can_message_follow_status_list": null,
+            "can_set_geofencing": null,
+            "cha_list": null,
+            "cover_url": null,
+            "custom_verify": "",
+            "enterprise_verify_reason": "",
+            "events": null,
+            "followers_detail": null,
+            "geofencing": null,
+            "homepage_bottom_toast": null,
+            "item_list": null,
+            "mutual_relation_avatars": null,
+            "need_points": null,
+            "nickname": "nglinh4075",
+            "platform_sync_info": null,
+            "relative_users": null,
+            "search_highlight": null,
+            "sec_uid": "MS4wLjABAAAAcyji5rgh3eJua5h-WhttUEgXyr6m4-FuvHD4xaYypBv7WzhZ5FxbfNFK6hkmPwXc",
+            "shield_edit_field_info": null,
+            "type_label": null,
+            "uid": "7163885525450753050",
+            "unique_id": "nglinh4075",
+            "user_profile_guide": null,
+            "user_tags": null,
+            "white_cover_url": null
+          },
+          "user_buried": false,
+          "user_digged": 0
+        }
+      ]
+    },
+    {
+      "cid": "7551870816305038088",
+      "text": "😂",
+      "author": "thytrang9854",
+      "create_time": 1758306951,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7475360639176098578",
+      "text": "@Nguyễn Hải Hoàng",
+      "author": "4G Không giới hạn data",
+      "create_time": 1740493038,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7470079210523919121",
+      "text": "😂",
+      "author": "linh",
+      "create_time": 1739263370,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7442346899186828050",
+      "text": "😁😁😁",
+      "author": "Bùm",
+      "create_time": 1732806424,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7435453334226830098",
+      "text": ":)))",
+      "author": "Cùng wibu lập trình",
+      "create_time": 1731201412,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7412212060841575186",
+      "text": "@cận vệ đca Kelvin",
+      "author": "concac",
+      "create_time": 1725790111,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7407749897678734088",
+      "text": "🥰",
+      "author": "Quânn",
+      "create_time": 1724751181,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7405590234845233937",
+      "text": "@Dang Ng.🔰",
+      "author": "Rain",
+      "create_time": 1724248345,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7404474205720920849",
+      "text": "😂😂😂",
+      "author": "Newbie Youtut",
+      "create_time": 1723988499,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7424820974212809479",
+      "text": "mọi người hiện tại em chả qua trường lớp nào em chỉ vừa tốt nghiệp nhưng em muốn học lập trình thì nên bắt đầu thế nào ạ học ngôn ngữ nào ạ",
+      "author": "kkk",
+      "create_time": 1728725852,
+      "like_count": 1,
+      "reply_count": 2,
+      "replies": [
+        {
+          "aweme_id": "7402132841267547408",
+          "cid": "7424822768069673746",
+          "collect_stat": 0,
+          "comment_language": "vi",
+          "comment_post_item_ids": null,
+          "create_time": 1728726268,
+          "digg_count": 1,
+          "forbid_reply_with_video": true,
+          "image_list": null,
+          "is_author_digged": false,
+          "is_comment_translatable": true,
+          "is_high_purchase_intent": false,
+          "label_list": [
+            {
+              "text": "Creator",
+              "type": 1
+            }
+          ],
+          "label_text": "Creator",
+          "label_type": 1,
+          "no_show": false,
+          "reply_comment": null,
+          "reply_id": "7424820974212809479",
+          "reply_to_reply_id": "0",
+          "share_info": {
+            "acl": {
+              "code": 0,
+              "extra": "{}"
+            },
+            "desc": "Tờ_coderr’s comment: em nên chủ động tìm hiểu thứ c/c++ hoặc python nhé",
+            "title": "code được là 1 chuyện, phải hiểu nữa mới quan trọng #learntocode #it #laptrinh #coding ",
+            "url": "https://t.tiktok.com/i18n/share/video/7402132841267547408/?_d=f09gf88977dfid&comment_author_id=7350183525138252802&mid=7335444088390503170&preview_pb=0&region=VN&share_comment_id=7424822768069673746&share_item_id=7402132841267547408&sharer_language=en&source=h5_t&u_code=f09gf5a9194j7d"
+          },
+          "status": 1,
+          "stick_position": 0,
+          "text": "em nên chủ động tìm hiểu thứ c/c++ hoặc python nhé",
+          "text_extra": [],
+          "trans_btn_style": 1,
+          "user": {
+            "account_labels": null,
+            "ad_cover_url": null,
+            "advance_feature_item_order": null,
+            "advanced_feature_info": null,
+            "avatar_thumb": {
+              "uri": "tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca",
+              "url_list": [
+                "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca~tplv-tiktokx-cropcenter:100:100.jpg?dr=14579&refresh_token=509e3d82&x-expires=1762614000&x-signature=l22S60SlXkwvex6J9Bfk%2Fh5i5uM%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my",
+                "https://p9-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca~tplv-tiktokx-cropcenter:100:100.jpg?dr=14579&refresh_token=8bb50948&x-expires=1762614000&x-signature=kv5Pk8s8t4%2FWd3XM%2FcFNs7SO7d8%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my",
+                "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca~tplv-tiktokx-cropcenter:100:100.jpeg?dr=14579&refresh_token=af663a88&x-expires=1762614000&x-signature=ASpHJtuBD1%2FYK7bBfuoQeUnLlew%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my"
+              ],
+              "url_prefix": null
+            },
+            "bold_fields": null,
+            "can_message_follow_status_list": null,
+            "can_set_geofencing": null,
+            "cha_list": null,
+            "cover_url": null,
+            "custom_verify": "",
+            "enterprise_verify_reason": "",
+            "events": null,
+            "followers_detail": null,
+            "geofencing": null,
+            "homepage_bottom_toast": null,
+            "item_list": null,
+            "mutual_relation_avatars": null,
+            "need_points": null,
+            "nickname": "Tờ_coderr",
+            "platform_sync_info": null,
+            "predicted_age_group": "",
+            "relative_users": null,
+            "search_highlight": null,
+            "sec_uid": "MS4wLjABAAAA0Wn0P1wCYDpiBVjOllv6KBIBL6WoEhhvii6d4zv3SDw-Ux0BJRzdev8JP-OYk9WT",
+            "shield_edit_field_info": null,
+            "type_label": null,
+            "uid": "7350183525138252802",
+            "unique_id": "tcoderr",
+            "user_profile_guide": null,
+            "user_tags": null,
+            "white_cover_url": null
+          },
+          "user_buried": false,
+          "user_digged": 0
+        },
+        {
+          "aweme_id": "7402132841267547408",
+          "cid": "7424823166725456647",
+          "collect_stat": 0,
+          "comment_language": "vi",
+          "comment_post_item_ids": null,
+          "create_time": 1728726360,
+          "digg_count": 0,
+          "forbid_reply_with_video": true,
+          "image_list": null,
+          "is_author_digged": false,
+          "is_comment_translatable": true,
+          "is_high_purchase_intent": false,
+          "label_list": null,
+          "no_show": false,
+          "reply_comment": null,
+          "reply_id": "7424820974212809479",
+          "reply_to_nickname": "Tờ_coderr",
+          "reply_to_reply_id": "7424822768069673746",
+          "reply_to_userid": "7350183525138252802",
+          "reply_to_username": "tcoderr",
+          "share_info": {
+            "acl": {
+              "code": 0,
+              "extra": "{}"
+            },
+            "desc": "kkk’s comment: em cảm ơn anh ạ",
+            "title": "code được là 1 chuyện, phải hiểu nữa mới quan trọng #learntocode #it #laptrinh #coding ",
+            "url": "https://t.tiktok.com/i18n/share/video/7402132841267547408/?_d=f09gf88977dfid&comment_author_id=7387708545691894800&mid=7335444088390503170&preview_pb=0&region=VN&share_comment_id=7424823166725456647&share_item_id=7402132841267547408&sharer_language=en&source=h5_t&u_code=f09gf5a9194j7d"
+          },
+          "status": 1,
+          "stick_position": 0,
+          "text": "em cảm ơn anh ạ",
+          "text_extra": [],
+          "trans_btn_style": 1,
+          "user": {
+            "account_labels": null,
+            "ad_cover_url": null,
+            "advance_feature_item_order": null,
+            "advanced_feature_info": null,
+            "avatar_thumb": {
+              "uri": "tos-alisg-avt-0068/c66ea419c28341094fbb3cd2b1b2f945",
+              "url_list": [
+                "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/c66ea419c28341094fbb3cd2b1b2f945~tplv-tiktokx-cropcenter:100:100.jpg?dr=14579&refresh_token=76a7b8e3&x-expires=1762614000&x-signature=Yhr3eFLae4teUCP1JbDGZCgxAvM%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my",
+                "https://p9-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/c66ea419c28341094fbb3cd2b1b2f945~tplv-tiktokx-cropcenter:100:100.jpg?dr=14579&refresh_token=9573ce59&x-expires=1762614000&x-signature=K3aOpH0WLPUM4kb7HGTyBEnVZUc%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my",
+                "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/c66ea419c28341094fbb3cd2b1b2f945~tplv-tiktokx-cropcenter:100:100.jpeg?dr=14579&refresh_token=b73e335b&x-expires=1762614000&x-signature=5jGET3eoj7UnZ8eUyzj9hjdO8pc%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my"
+              ],
+              "url_prefix": null
+            },
+            "bold_fields": null,
+            "can_message_follow_status_list": null,
+            "can_set_geofencing": null,
+            "cha_list": null,
+            "cover_url": null,
+            "custom_verify": "",
+            "enterprise_verify_reason": "",
+            "events": null,
+            "followers_detail": null,
+            "geofencing": null,
+            "homepage_bottom_toast": null,
+            "item_list": null,
+            "mutual_relation_avatars": null,
+            "need_points": null,
+            "nickname": "kkk",
+            "platform_sync_info": null,
+            "predicted_age_group": "",
+            "relative_users": null,
+            "search_highlight": null,
+            "sec_uid": "MS4wLjABAAAA6A6gZwwy9OPMSEo0_3IaB7HhAyxewusA8OtPYuXCwSJUG5fzBJT1PyRVhmIQHG1m",
+            "shield_edit_field_info": null,
+            "type_label": null,
+            "uid": "7387708545691894800",
+            "unique_id": "huwng.xe.hi",
+            "user_profile_guide": null,
+            "user_tags": null,
+            "white_cover_url": null
+          },
+          "user_buried": false,
+          "user_digged": 0
+        }
+      ]
+    },
+    {
+      "cid": "7429359136377619205",
+      "text": "em học phát triển phần mềm và h e muốn học trước java thì nên tìm tài liệu ở đâu anh.",
+      "author": "TADTN",
+      "create_time": 1729782485,
+      "like_count": 0,
+      "reply_count": 1,
+      "replies": [
+        {
+          "aweme_id": "7402132841267547408",
+          "cid": "7429397321986949906",
+          "collect_stat": 0,
+          "comment_language": "vi",
+          "comment_post_item_ids": null,
+          "create_time": 1729791367,
+          "digg_count": 0,
+          "forbid_reply_with_video": true,
+          "image_list": null,
+          "is_author_digged": false,
+          "is_comment_translatable": true,
+          "is_high_purchase_intent": false,
+          "label_list": [
+            {
+              "text": "Creator",
+              "type": 1
+            }
+          ],
+          "label_text": "Creator",
+          "label_type": 1,
+          "no_show": false,
+          "reply_comment": null,
+          "reply_id": "7429359136377619205",
+          "reply_to_reply_id": "0",
+          "share_info": {
+            "acl": {
+              "code": 1,
+              "extra": "{\"is_share_handler_failed\":\"1\"}"
+            },
+            "desc": "",
+            "title": "",
+            "url": ""
+          },
+          "status": 1,
+          "stick_position": 0,
+          "text": "ib mình nhs",
+          "text_extra": [],
+          "trans_btn_style": 1,
+          "user": {
+            "account_labels": null,
+            "ad_cover_url": null,
+            "advance_feature_item_order": null,
+            "advanced_feature_info": null,
+            "avatar_thumb": {
+              "uri": "tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca",
+              "url_list": [
+                "https://p9-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca~tplv-tiktokx-cropcenter:100:100.jpg?dr=14579&refresh_token=8bb50948&x-expires=1762614000&x-signature=kv5Pk8s8t4%2FWd3XM%2FcFNs7SO7d8%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my",
+                "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca~tplv-tiktokx-cropcenter:100:100.jpg?dr=14579&refresh_token=509e3d82&x-expires=1762614000&x-signature=l22S60SlXkwvex6J9Bfk%2Fh5i5uM%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my",
+                "https://p9-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/f474fcccdcbe5807cab1bec53b6ae1ca~tplv-tiktokx-cropcenter:100:100.jpeg?dr=14579&refresh_token=a88761ea&x-expires=1762614000&x-signature=YKp6nGPyWrDDxwjgx1R9R8Vr3hQ%3D&t=4d5b0474&ps=13740610&shp=30310797&shcp=ff37627b&idc=my"
+              ],
+              "url_prefix": null
+            },
+            "bold_fields": null,
+            "can_message_follow_status_list": null,
+            "can_set_geofencing": null,
+            "cha_list": null,
+            "cover_url": null,
+            "custom_verify": "",
+            "enterprise_verify_reason": "",
+            "events": null,
+            "followers_detail": null,
+            "geofencing": null,
+            "homepage_bottom_toast": null,
+            "item_list": null,
+            "mutual_relation_avatars": null,
+            "need_points": null,
+            "nickname": "Tờ_coderr",
+            "platform_sync_info": null,
+            "predicted_age_group": "",
+            "relative_users": null,
+            "search_highlight": null,
+            "sec_uid": "MS4wLjABAAAA0Wn0P1wCYDpiBVjOllv6KBIBL6WoEhhvii6d4zv3SDw-Ux0BJRzdev8JP-OYk9WT",
+            "shield_edit_field_info": null,
+            "type_label": null,
+            "uid": "7350183525138252802",
+            "unique_id": "tcoderr",
+            "user_profile_guide": null,
+            "user_tags": null,
+            "white_cover_url": null
+          },
+          "user_buried": false,
+          "user_digged": 0
+        }
+      ]
+    },
+    {
+      "cid": "7427538063130264338",
+      "text": "còn viết sai 2 3 lần nữa chứ vãi ò 😂",
+      "author": "T",
+      "create_time": 1729358475,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7426468970062070536",
+      "text": "có java k ạ",
+      "author": "Em Bảo",
+      "create_time": 1729109559,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7422336303251079954",
+      "text": "link code: https://dilink.net/notes/WQ5qR9",
+      "author": "Tờ_coderr",
+      "create_time": 1728147342,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7419672584881046280",
+      "text": "xin link ạ",
+      "author": "trnbnh732",
+      "create_time": 1727527148,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    },
+    {
+      "cid": "7403619587380445959",
+      "text": "link source ở đây nha :https://dilink.net/notes/WQ5qR9",
+      "author": "Tờ_coderr",
+      "create_time": 1723811419,
+      "like_count": 0,
+      "reply_count": 0,
+      "replies": []
+    }
+  ]
+}

@@ -20,9 +20,12 @@ results/
 chrome_profile/
 
 
-# data
-temp_downloads/
+# data folders (download from Google Drive separately)
+data/
+data_1/
 data_viet/
+temp_downloads/
+processed_data/audios/
 
 
 # state

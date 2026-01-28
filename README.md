@@ -77,6 +77,28 @@ cp streaming/.env.example streaming/.env
 nano streaming/.env
 ```
 
+### Download Data (Required for Training)
+
+> **Note**: Raw data and audio files are not included in the repository due to size constraints. Download them from Google Drive:
+
+| Folder | Download Link | Description |
+|--------|---------------|-------------|
+| `data/` | [Google Drive](https://drive.google.com) *(link TBD)* | Raw crawled videos (batch 1) |
+| `data_1/` | [Google Drive](https://drive.google.com) *(link TBD)* | Raw crawled videos (batch 2) |
+| `data_viet/` | [Google Drive](https://drive.google.com) *(link TBD)* | Vietnamese TikTok videos |
+| `processed_data/audios/` | [Google Drive](https://drive.google.com) *(link TBD)* | Extracted audio files (.wav) |
+
+**After downloading**, extract and place folders in the project root:
+
+```
+UIT-SE363-Big-Data-Platform-Application-Development/
+├── data/                    # ← Extract here
+├── data_1/                  # ← Extract here
+├── data_viet/               # ← Extract here
+└── processed_data/
+    └── audios/              # ← Extract here
+```
+
 ### Run with Docker (Ubuntu)
 
 ```bash

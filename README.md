@@ -442,6 +442,24 @@ The system follows a **9-layer architecture**:
 | `wait_30s_cooldown` | Cooldown before next loop |
 | `loop_self_trigger` | Self-trigger for continuous processing |
 
+### DAG 3: `3_MODEL_RETRAINING`
+
+**Purpose**: Automated model retraining & MLflow registration
+
+```
+┌────────────────┐     ┌──────────────────┐     ┌───────────────────┐    ┌────────────────┐
+│ check_new_data │────►│ submit_spark_job │────►│ monitor_spark_job │───►│ notify_success │
+└────────────────┘     │  (REST API)      │     │  (Polling)        │    └────────────────┘
+                       └──────────────────┘     └───────────────────┘
+```
+
+| Task | Description |
+|------|-------------|
+| `check_new_data` | Validate if sufficient new data exists |
+| `submit_training_job` | Submit training job to Spark Master (Cluster Mode) |
+| `monitor_training_job` | Track job status until FINISHED |
+| `notify_success` | Log completion and registration status |
+
 ---
 
 ## 📊 Data Flow

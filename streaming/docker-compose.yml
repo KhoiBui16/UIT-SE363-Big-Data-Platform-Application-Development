@@ -241,6 +241,7 @@ services:
       - ./state/airflow_logs:/opt/airflow/logs # logs là runtime state
       - ./ingestion:/opt/project/streaming/ingestion
       - ./data:/opt/project/streaming/data
+      - ../train_eval_module:/models
     environment:
       - AIRFLOW__CORE__EXECUTOR=LocalExecutor # FIX: Chuyển sang LocalExecutor
       - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://${AIRFLOW_DB_USER:-airflow}:${AIRFLOW_DB_PASSWORD:-airflow}@airflow-db/${AIRFLOW_DB_NAME:-airflow}
@@ -272,6 +273,7 @@ services:
       - ./ingestion:/opt/project/streaming/ingestion
       - ./data:/opt/project/streaming/data
       - ./state/chrome_profile:/workspace/chrome_profile
+      - ../train_eval_module:/models
     environment:
       - AIRFLOW__CORE__EXECUTOR=LocalExecutor # Thêm Executor để chạy song song
       - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://${AIRFLOW_DB_USER:-airflow}:${AIRFLOW_DB_PASSWORD:-airflow}@airflow-db/${AIRFLOW_DB_NAME:-airflow}

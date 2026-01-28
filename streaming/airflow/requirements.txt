@@ -24,3 +24,4 @@ blinker==1.7.0
 
 # Video download
 yt-dlp
+apache-airflow-providers-apache-spark==4.7.1

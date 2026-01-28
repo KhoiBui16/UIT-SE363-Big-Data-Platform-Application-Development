@@ -363,6 +363,38 @@ def train_text(model_idx, metric_type="eval_f1"):
 
     logger.info(f"✅ Training Finished. Best checkpoint saved to: {save_path}")
 
+    # -------------------------------------------------------------------------
+    # MLflow Logging
+    # -------------------------------------------------------------------------
+    start_mlflow = os.getenv("ENABLE_MLFLOW", "true").lower() == "true"
+    if start_mlflow:
+        try:
+            from shared_utils.mlflow_logger import log_model_to_mlflow
+            
+            # Prepare metrics
+            # Note: metrics dictionary from compute_metrics is available inside trainer, 
+            # but we can also use trainer.evaluate() to get final metrics on validation set.
+            final_metrics = trainer.evaluate()
+            
+            # Prepare params
+            log_params = {**PARAMS}
+            log_params["model_name"] = raw_model_name
+            
+            success = log_model_to_mlflow(
+                model_type="text",
+                model_path=save_path,
+                metrics=final_metrics,
+                params=log_params,
+                tags={"model_name": raw_model_name, "framework": "pytorch"},
+                model=best_model if 'best_model' in locals() else model
+            )
+            if success:
+                logger.info("✅ MLflow logging successful")
+            else:
+                logger.warning("⚠️ MLflow logging failed")
+        except Exception as e:
+            logger.error(f"❌ Failed to log to MLflow: {e}")
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()

@@ -74,6 +74,7 @@ LAYERS[1]="test_layer1_infrastructure.sh:Infrastructure (Zookeeper, Kafka, MinIO
 LAYERS[2]="test_layer2_ingestion.sh:Ingestion (Crawler, Downloader, Kafka Producer)"
 LAYERS[3]="test_layer3_processing.sh:Processing (Spark Streaming, ML Models)"
 LAYERS[4]="test_layer4_dashboard.sh:Dashboard & Visualization"
+LAYERS[5]="test_layer5_mlflow.sh:MLflow Integration & Retraining"
 
 if [ -n "$LAYER_ARG" ]; then
     # Run specific layer
@@ -82,14 +83,14 @@ if [ -n "$LAYER_ARG" ]; then
         run_layer_test "$LAYER_ARG" "$TEST_FILE" "$DESCRIPTION"
     else
         echo -e "${RED}Invalid layer number: $LAYER_ARG${NC}"
-        echo "Available layers: 1, 2, 3, 4"
+        echo "Available layers: 1, 2, 3, 4, 5"
         exit 1
     fi
 else
     # Run all layers
-    echo -e "${CYAN}Chạy tất cả 4 layers...${NC}"
+    echo -e "${CYAN}Chạy tất cả 5 layers...${NC}"
     
-    for i in 1 2 3 4; do
+    for i in 1 2 3 4 5; do
         IFS=':' read -r TEST_FILE DESCRIPTION <<< "${LAYERS[$i]}"
         run_layer_test "$i" "$TEST_FILE" "$DESCRIPTION"
     done

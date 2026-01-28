@@ -16,23 +16,25 @@ MLFLOW_TRACKING_URI = os.getenv("MLFLOW_TRACKING_URI", "http://localhost:5000")
 
 
 def log_model_to_mlflow(
-    model_type: str,  # "text", "video", "fusion", "audio"
+    model_type: str,
     model_path: str,
     metrics: dict,
     params: dict = None,
     tags: dict = None,
     experiment_name: str = None,
+    model=None,  # Added model object
 ):
     """
     Log model vào MLflow sau khi training xong
     
     Args:
         model_type: Loại model ("text", "video", "fusion", "audio")
-        model_path: Đường dẫn đến best_checkpoint
-        metrics: Dict metrics {eval_f1: 0.85, eval_accuracy: 0.90, ...}
+        model_path: Đường dẫn đến best_checkpoint (used for artifacts if model not provided)
+        metrics: Dict metrics {eval_f1: 0.85, ...}
         params: Dict hyperparameters
-        tags: Dict tags {model_name: "xlm-roberta-base", ...}
-        experiment_name: Tên experiment (nếu None, dùng default)
+        tags: Dict tags
+        experiment_name: Tên experiment
+        model: PyTorch model object (Optional, but Recommended for registration)
     """
     try:
         # Set tracking URI
@@ -73,20 +75,26 @@ def log_model_to_mlflow(
                     mlflow.set_tag(key, str(value))
             
             # Log model
-            if os.path.isdir(model_path):
+            if model is not None:
+                # Log model object directly
                 mlflow.pytorch.log_model(
-                    pytorch_model=model_path,
+                    pytorch_model=model,
                     artifact_path="model",
                     registered_model_name=f"{model_type}_classification_model",
                 )
-                print(f"✅ Model logged to MLflow: {run_name}")
-                print(f"   Tracking URI: {MLFLOW_TRACKING_URI}")
-                print(f"   Experiment: {experiment_name}")
-                print(f"   Metrics: {metrics}")
-                return True
+                print(f"✅ Model object logged to MLflow: {run_name}")
+            elif os.path.isdir(model_path):
+                # Fallback: Log artifacts (folder) - CANNOT REGISTER AS PYTORCH FLAVOR easily without object
+                mlflow.log_artifacts(model_path, artifact_path="model_artifacts")
+                print(f"⚠️ Model logged as artifacts only (no registry): {run_name}")
             else:
-                print(f"⚠️ Model path not found: {model_path}")
+                print(f"⚠️ Model path/object not found: {model_path}")
                 return False
+                
+            print(f"   Tracking URI: {MLFLOW_TRACKING_URI}")
+            print(f"   Experiment: {experiment_name}")
+            print(f"   Metrics: {metrics}")
+            return True
     
     except Exception as e:
         print(f"❌ Error logging to MLflow: {e}")

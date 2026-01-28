@@ -16,8 +16,6 @@
 
 **A Big Data platform for detecting harmful content on TikTok using multimodal AI (Text + Video + Fusion)**
 
-[Features](#-features) • [Architecture](#-architecture) • [Installation](#-installation) • [Usage](#-usage) • [Models](#-ai-models) • [API Reference](#-api-reference)
-
 </div>
 
 ---
@@ -40,36 +38,146 @@ This project implements a **Lambda Architecture** based Big Data platform for re
 
 ---
 
-## ✨ Features
+## 📑 Table of Contents
 
-### 1. Analytics Dashboard
-- **KPI Monitoring**: Total processed videos, harmful detection rate, average risk score
-- **Visual Analysis**: Time-series charts and category distribution
-- **Real-time Updates**: Live data refresh from PostgreSQL
+1. [Quick Start](#-quick-start)
+2. [Project Structure](#-project-structure)
+3. [Architecture](#️-architecture)
+4. [Layer Architecture](#-layer-architecture)
+5. [Airflow DAGs](#-airflow-dags)
+6. [Data Flow](#-data-flow)
+7. [Features](#-features)
+8. [AI Models](#-ai-models)
+9. [Installation Guide](#-installation-guide)
+10. [Usage](#-usage)
+11. [Testing](#-testing)
+12. [Documentation](#-documentation)
+13. [Troubleshooting](#-troubleshooting)
+14. [Tech Stack](#️-tech-stack)
+15. [Authors](#-authors)
 
-### 2. System Operations
-- **Pipeline Control**: Start/Stop crawler and streaming pipelines
-- **Status Monitor**: Real-time container and service health checks
-- **System Logs**: Centralized logging viewer
-- **Quick Actions**: One-click access to Airflow, MinIO, and queue management
+---
 
-### 3. Content Audit
-- **Gallery Mode**: Visual grid of processed videos with risk scores
-- **Detail View**: In-depth analysis of individual videos
-- **Table View**: Sortable/filterable data table
-- **Filters**: Category, score range, and keyword search
+## 🚀 Quick Start
 
-### 4. Database Manager
-- **Table Browser**: Schema inspection and data preview
-- **Query Tool**: Execute custom SQL queries
-- **Statistics**: Database performance metrics
-- **Maintenance**: Database optimization tools
+### Clone Repository
 
-### 5. Project Info
-- **Architecture Diagrams**: Visual system documentation
-- **Data Pipeline Flow**: End-to-end data journey
-- **AI Models Documentation**: Model specifications and usage
-- **Technical Documentation**: Detailed implementation guides
+```bash
+git clone https://github.com/BinhAnndapoet/UIT-SE363-Big-Data-Platform-Application-Development.git
+cd UIT-SE363-Big-Data-Platform-Application-Development
+```
+
+### Setup Environment
+
+```bash
+# Copy environment file
+cp streaming/.env.example streaming/.env
+
+# (Optional) Edit .env if needed
+nano streaming/.env
+```
+
+### Run with Docker (Ubuntu)
+
+```bash
+cd streaming
+chmod +x start_all.sh
+./start_all.sh
+```
+
+### Access Services
+
+| Service | URL | Credentials |
+|---------|-----|-------------|
+| **Dashboard** | http://localhost:8501 | - |
+| **Airflow** | http://localhost:8080 | admin / admin |
+| **MinIO Console** | http://localhost:9001 | admin / password123 |
+| **Spark Master** | http://localhost:9090 | - |
+| **MLflow** | http://localhost:5000 | - |
+
+---
+
+## 📁 Project Structure
+
+```
+UIT-SE363-Big-Data-Platform-Application-Development/
+│
+├── streaming/                          # 🔄 Streaming Pipeline
+│   ├── airflow/                        # Airflow configuration
+│   │   └── dags/                       # DAG definitions
+│   │       ├── 1_TIKTOK_ETL_COLLECTOR.py
+│   │       └── 2_TIKTOK_STREAMING_PIPELINE.py
+│   ├── dashboard/                      # Streamlit Dashboard
+│   │   ├── app.py                      # Main entry point
+│   │   └── page_modules/               # Page components
+│   │       ├── dashboard_monitor.py
+│   │       ├── system_operations.py
+│   │       ├── content_audit.py
+│   │       ├── database_manager.py
+│   │       └── project_info.py
+│   ├── ingestion/                      # Data Ingestion Layer
+│   │   ├── crawler.py                  # TikTok crawler (Selenium)
+│   │   ├── downloader.py               # Video downloader
+│   │   ├── main_worker.py              # Main ingestion worker
+│   │   └── clients/                    # External clients
+│   │       ├── minio_client.py
+│   │       └── kafka_client.py
+│   ├── processing/                     # Stream Processing
+│   │   └── spark_processor.py          # Spark AI inference
+│   ├── mlflow/                         # MLflow Integration
+│   │   ├── client.py                   # Model registry client
+│   │   └── model_updater.py            # Auto-update mechanism
+│   ├── spark/                          # Spark Docker config
+│   ├── scripts/                        # Automation scripts
+│   ├── tests/                          # Test files
+│   │   ├── test_layer1_infrastructure.sh
+│   │   ├── test_layer2_ingestion.sh
+│   │   ├── test_layer3_processing.sh
+│   │   ├── test_layer4_dashboard.sh
+│   │   └── run_all_tests.sh
+│   ├── docker-compose.yml              # Main compose file
+│   ├── start_all.sh                    # Full startup script
+│   ├── .env.example                    # Environment template
+│   └── .env                            # Environment config (gitignored)
+│
+├── train_eval_module/                  # 🤖 Model Training
+│   ├── text/                           # Text classification
+│   │   ├── train_text_spark.py
+│   │   └── output/uitnlp_CafeBERT/
+│   ├── video/                          # Video classification
+│   │   ├── train_video.py
+│   │   └── output/MCG-NJU_videomae-base-finetuned-kinetics/
+│   ├── fusion/                         # Multimodal fusion
+│   │   ├── train_fusion.py
+│   │   └── output/fusion_videomae/
+│   ├── audio/                          # Audio (experimental)
+│   ├── scripts/                        # Utility scripts
+│   │   └── push_hf_model.py            # Push to HuggingFace Hub
+│   └── shared_utils/                   # Common utilities
+│
+├── notebooks/                          # 📓 Jupyter Notebooks
+│   ├── ScrapingVideoTiktok.ipynb       # Web scraping notebook
+│   ├── create_sub_samples_tiktok_links.ipynb
+│   ├── eda.ipynb                       # Exploratory Data Analysis
+│   └── audio_trial.ipynb               # Audio experiments
+│
+├── docs/                               # 📖 Documentation
+│   ├── streaming/                      # Streaming docs
+│   │   ├── 01_PROJECT_OVERVIEW.md
+│   │   ├── 02_LAYER_ARCHITECTURE.md
+│   │   ├── 03_DASHBOARD_PAGES.md
+│   │   ├── 04_SETUP_GUIDE.md
+│   │   ├── 05_TESTING_GUIDE.md
+│   │   └── 06_API_REFERENCE.md
+│   └── mlflow/                         # MLflow docs
+│       └── MLFLOW_INTEGRATION_GUIDE.md
+│
+├── processed_data/                     # 📊 Processed Data
+│   ├── text/                           # Text CSV files
+│   └── fusion/                         # Fusion training data
+│
+└── data/                               # 📦 Raw Data
+```
 
 ---
 
@@ -100,7 +208,7 @@ This project implements a **Lambda Architecture** based Big Data platform for re
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
-### Services (Docker Compose)
+### Docker Services
 
 | Service | Port | Description |
 |---------|------|-------------|
@@ -115,6 +223,161 @@ This project implements a **Lambda Architecture** based Big Data platform for re
 
 ---
 
+## 🏗️ Layer Architecture
+
+The system follows an **8-layer architecture**:
+
+```
+┌────────────────────────────────────────────────────────────────────────┐
+│  Layer 8: PRESENTATION          │  Streamlit Dashboard (port 8501)    │
+├────────────────────────────────────────────────────────────────────────┤
+│  Layer 7: DATA STORAGE          │  PostgreSQL (processed_results)     │
+├────────────────────────────────────────────────────────────────────────┤
+│  Layer 6: ORCHESTRATION         │  Airflow DAGs (port 8080)           │
+├────────────────────────────────────────────────────────────────────────┤
+│  Layer 5: STREAM PROCESSING     │  Spark Streaming + AI Models        │
+├────────────────────────────────────────────────────────────────────────┤
+│  Layer 4: DATA INGESTION        │  Crawler → Downloader → Producer    │
+├────────────────────────────────────────────────────────────────────────┤
+│  Layer 3: OBJECT STORAGE        │  MinIO (videos, audios)             │
+├────────────────────────────────────────────────────────────────────────┤
+│  Layer 2: MESSAGE QUEUE         │  Kafka + Zookeeper                  │
+├────────────────────────────────────────────────────────────────────────┤
+│  Layer 1: INFRASTRUCTURE        │  Docker Network, Volumes            │
+└────────────────────────────────────────────────────────────────────────┘
+```
+
+### Layer Details
+
+| Layer | Components | Key Files |
+|-------|------------|-----------|
+| **L1: Infrastructure** | Docker Network, Volumes | [docker-compose.yml](streaming/docker-compose.yml) |
+| **L2: Message Queue** | Kafka (9092), Zookeeper | [docker-compose.yml](streaming/docker-compose.yml) |
+| **L3: Object Storage** | MinIO (9000/9001) | [minio_client.py](streaming/ingestion/clients/minio_client.py) |
+| **L4: Data Ingestion** | Crawler, Downloader, Producer | [crawler.py](streaming/ingestion/crawler.py), [main_worker.py](streaming/ingestion/main_worker.py) |
+| **L5: Stream Processing** | Spark + AI Models | [spark_processor.py](streaming/processing/spark_processor.py) |
+| **L6: Orchestration** | Airflow DAGs | [airflow/dags/](streaming/airflow/dags/) |
+| **L7: Data Storage** | PostgreSQL | [db_migrator.py](streaming/db_migrator.py) |
+| **L8: Presentation** | Streamlit Dashboard | [dashboard/app.py](streaming/dashboard/app.py) |
+
+---
+
+## 🔄 Airflow DAGs
+
+### DAG 1: `1_TIKTOK_ETL_COLLECTOR`
+
+**Purpose**: Crawl TikTok videos by hashtags
+
+```
+┌─────────────────────┐      ┌────────────────────────┐
+│ monitor_db_health   │ ───► │   crawl_tiktok_links   │
+│ (pg_isready check)  │      │  (Selenium + Xvfb)     │
+└─────────────────────┘      └────────────────────────┘
+```
+
+| Task | Description | Timeout |
+|------|-------------|---------|
+| `monitor_db_health` | Check PostgreSQL connection | - |
+| `crawl_tiktok_links` | Crawl TikTok with Selenium (headless) | 45 min |
+
+### DAG 2: `2_TIKTOK_STREAMING_PIPELINE`
+
+**Purpose**: Download videos, run AI inference, continuous processing loop
+
+```
+┌──────────────────┐   ┌──────────────────┐   ┌─────────────────────┐
+│ prepare_environ  │──►│ check_kafka_infra│──►│ run_ingestion_worker│
+└──────────────────┘   └──────────────────┘   └─────────────────────┘
+                                                        │
+         ┌─────────────────────────────────────────────┘
+         ▼
+┌────────────────────┐   ┌─────────────────┐   ┌─────────────────┐
+│ verify_spark_result│──►│ wait_30s_cooldown│──►│ loop_self_trigger│
+│   (SQL Sensor)     │   │                 │   │  (Auto-restart)  │
+└────────────────────┘   └─────────────────┘   └─────────────────┘
+```
+
+| Task | Description |
+|------|-------------|
+| `prepare_environment` | Check queue file exists |
+| `check_kafka_infra` | Verify Kafka is healthy |
+| `run_ingestion_worker` | Download → Upload MinIO → Send Kafka |
+| `verify_spark_ai_result` | Wait for Spark processing |
+| `wait_30s_cooldown` | Cooldown before next loop |
+| `loop_self_trigger` | Self-trigger for continuous processing |
+
+---
+
+## 📊 Data Flow
+
+```
+     TikTok Website
+          │
+          ▼ (1. Crawl)
+    ┌─────────────┐
+    │   Crawler   │ ───► tiktok_links_viet.csv
+    └─────────────┘
+          │
+          ▼ (2. Download)
+    ┌─────────────┐     ┌─────────┐
+    │  Downloader │────►│  MinIO  │
+    └─────────────┘     └─────────┘
+          │
+          ▼ (3. Produce)
+    ┌─────────────┐     ┌─────────┐
+    │   Producer  │────►│  Kafka  │
+    └─────────────┘     └─────────┘
+          │
+          ▼ (4. AI Inference)
+    ┌─────────────────────────────────┐
+    │         Spark Processor         │
+    │  ┌──────┐ ┌──────┐ ┌──────┐    │
+    │  │ Text │ │Video │ │Fusion│    │
+    │  └──────┘ └──────┘ └──────┘    │
+    └─────────────────────────────────┘
+          │
+          ▼ (5. Store)
+    ┌─────────────┐
+    │  PostgreSQL │
+    └─────────────┘
+          │
+          ▼ (6. Display)
+    ┌─────────────┐
+    │  Dashboard  │
+    └─────────────┘
+```
+
+---
+
+## ✨ Features
+
+### 1. Analytics Dashboard
+- **KPI Monitoring**: Total processed videos, harmful detection rate, average risk score
+- **Visual Analysis**: Time-series charts and category distribution
+- **Real-time Updates**: Live data refresh from PostgreSQL
+
+### 2. System Operations
+- **Pipeline Control**: Start/Stop crawler and streaming pipelines
+- **Status Monitor**: Real-time container and service health checks
+- **System Logs**: Centralized logging viewer
+
+### 3. Content Audit
+- **Gallery Mode**: Visual grid of processed videos with risk scores
+- **Detail View**: In-depth analysis of individual videos
+- **Table View**: Sortable/filterable data table
+
+### 4. Database Manager
+- **Table Browser**: Schema inspection and data preview
+- **Query Tool**: Execute custom SQL queries
+- **Statistics**: Database performance metrics
+
+### 5. Project Info
+- **Architecture Diagrams**: Visual system documentation
+- **Data Pipeline Flow**: End-to-end data journey
+- **AI Models Documentation**: Model specifications
+
+---
+
 ## 🤖 AI Models
 
 All models are available on HuggingFace Hub:
@@ -124,7 +387,6 @@ All models are available on HuggingFace Hub:
 
 - **Base Model**: CafeBERT (uitnlp/CafeBERT)
 - **Task**: Binary classification (safe/harmful)
-- **Input**: Video captions, comments, hashtags
 - **Languages**: Vietnamese, English
 
 ```python
@@ -132,11 +394,6 @@ from transformers import AutoTokenizer, AutoModelForSequenceClassification
 
 tokenizer = AutoTokenizer.from_pretrained("KhoiBui/tiktok-text-safety-classifier")
 model = AutoModelForSequenceClassification.from_pretrained("KhoiBui/tiktok-text-safety-classifier")
-
-text = "your text here"
-inputs = tokenizer(text, return_tensors="pt", truncation=True, max_length=512)
-outputs = model(**inputs)
-prediction = outputs.logits.argmax(-1).item()  # 0=safe, 1=harmful
 ```
 
 ### Video Classification Model
@@ -146,42 +403,22 @@ prediction = outputs.logits.argmax(-1).item()  # 0=safe, 1=harmful
 - **Task**: Binary classification (safe/harmful)
 - **Input**: 16 video frames (224x224)
 
-```python
-from transformers import AutoImageProcessor, VideoMAEForVideoClassification
-from decord import VideoReader, cpu
-import numpy as np
-
-processor = AutoImageProcessor.from_pretrained("KhoiBui/tiktok-video-safety-classifier")
-model = VideoMAEForVideoClassification.from_pretrained("KhoiBui/tiktok-video-safety-classifier")
-
-# Load video and sample 16 frames
-vr = VideoReader("video.mp4", ctx=cpu(0))
-indices = np.linspace(0, len(vr) - 1, 16).astype(int)
-frames = list(vr.get_batch(indices).asnumpy())
-
-inputs = processor(frames, return_tensors="pt")
-outputs = model(**inputs)
-prediction = outputs.logits.argmax(-1).item()  # 0=safe, 1=harmful
-```
-
 ### Multimodal Fusion Model
 **Repository**: [KhoiBui/tiktok-multimodal-fusion-classifier](https://huggingface.co/KhoiBui/tiktok-multimodal-fusion-classifier)
 
 - **Architecture**: Late Fusion with Cross-Attention
 - **Text Backbone**: XLM-RoBERTa-base
 - **Video Backbone**: VideoMAE-base
-- **Fusion**: Cross-Attention + Gating Mechanism
 
 ---
 
-## 📦 Installation
+## 📦 Installation Guide
 
 ### Prerequisites
 
-- **OS**: Ubuntu 20.04+ (recommended) or Windows 10+ with WSL2
+- **OS**: Ubuntu 20.04+ or Windows 10+ with WSL2
 - **Docker**: Docker Engine 20.10+ & Docker Compose v2
 - **Python**: 3.9+
-- **GPU**: NVIDIA GPU with CUDA 11.8+ (optional, for training)
 - **RAM**: Minimum 16GB (32GB recommended)
 
 ### Step 1: Clone Repository
@@ -191,71 +428,22 @@ git clone https://github.com/BinhAnndapoet/UIT-SE363-Big-Data-Platform-Applicati
 cd UIT-SE363-Big-Data-Platform-Application-Development
 ```
 
-### Step 2: Create Virtual Environment
-
-**Ubuntu/Linux:**
-```bash
-# Create virtual environment
-python3 -m venv .venv
-
-# Activate virtual environment
-source .venv/bin/activate
-
-# Install dependencies
-pip install -r requirements.txt
-```
-
-**Windows (PowerShell):**
-```powershell
-# Create virtual environment
-python -m venv .venv
-
-# Activate virtual environment
-.\.venv\Scripts\Activate.ps1
-
-# Install dependencies
-pip install -r requirements.txt
-```
-
-### Step 3: Configure Environment Variables
+### Step 2: Setup Environment
 
 ```bash
-# Copy example environment file
+# Copy environment template
 cp streaming/.env.example streaming/.env
 
-# Edit as needed (default values work for development)
-nano streaming/.env
+# (Optional) Create Python virtual environment
+python3 -m venv .venv
+source .venv/bin/activate  # Linux/Mac
+# .\.venv\Scripts\Activate.ps1  # Windows
+
+# Install dependencies
+pip install -r requirements.txt
 ```
 
-**Key environment variables:**
-```env
-# PostgreSQL
-POSTGRES_USER=user
-POSTGRES_PASSWORD=password
-POSTGRES_DB=tiktok_safety_db
-
-# MinIO
-MINIO_ROOT_USER=admin
-MINIO_ROOT_PASSWORD=password123
-
-# Airflow
-AIRFLOW_ADMIN_USERNAME=admin
-AIRFLOW_ADMIN_PASSWORD=admin
-
-# HuggingFace Hub (optional - for loading models from Hub)
-HF_MODEL_TEXT=KhoiBui/tiktok-text-safety-classifier
-HF_MODEL_VIDEO=KhoiBui/tiktok-video-safety-classifier
-HF_MODEL_FUSION=KhoiBui/tiktok-multimodal-fusion-classifier
-HF_TOKEN=your_huggingface_token
-```
-
----
-
-## 🚀 Usage
-
-### Quick Start (Ubuntu)
-
-The easiest way to start all services:
+### Step 3: Run Docker
 
 ```bash
 cd streaming
@@ -263,14 +451,27 @@ chmod +x start_all.sh
 ./start_all.sh
 ```
 
-This script will:
-1. Clean up existing containers
-2. Set proper file permissions
-3. Build and start all Docker services
-4. Configure Airflow connections
-5. Initialize MinIO buckets
+---
 
-### Manual Docker Compose
+## 🚀 Usage
+
+### Running the Pipeline
+
+1. **Open Airflow** at http://localhost:8080
+
+2. **Trigger DAG 1**: `1_TIKTOK_ETL_COLLECTOR`
+   - Crawls TikTok videos by hashtags
+   - Wait for completion (Success status)
+
+3. **Trigger DAG 2**: `2_TIKTOK_STREAMING_PIPELINE`
+   - Downloads videos to MinIO
+   - Runs AI inference with Spark
+   - Stores results in PostgreSQL
+   - Auto-loops for continuous processing
+
+4. **Monitor Dashboard** at http://localhost:8501
+
+### Manual Docker Commands
 
 ```bash
 cd streaming
@@ -283,62 +484,16 @@ docker compose ps
 
 # View logs
 docker compose logs -f spark-processor
+
+# Stop all services
+docker compose down
 ```
-
-### Access Services
-
-| Service | URL | Credentials |
-|---------|-----|-------------|
-| **Dashboard** | http://localhost:8501 | - |
-| **Airflow** | http://localhost:8080 | admin / admin |
-| **MinIO Console** | http://localhost:9001 | admin / password123 |
-| **Spark Master** | http://localhost:9090 | - |
-| **MLflow** | http://localhost:5000 | - |
-
-### Running the Pipeline
-
-1. **Open Airflow** at http://localhost:8080
-2. **Trigger DAG 1**: `1_TIKTOK_ETL_COLLECTOR` - Crawls TikTok videos
-3. **Wait for completion** (Success status)
-4. **Trigger DAG 2**: `2_TIKTOK_STREAMING_PIPELINE` - Starts streaming processing
-5. **Monitor Dashboard** at http://localhost:8501
-
----
-
-## 📁 Project Structure
-
-| Path | Description |
-|------|-------------|
-| [streaming/](streaming/) | Streaming pipeline |
-| [streaming/airflow/dags/](streaming/airflow/dags/) | Airflow DAG definitions |
-| [streaming/dashboard/app.py](streaming/dashboard/app.py) | Main dashboard entry point |
-| [streaming/dashboard/page_modules/](streaming/dashboard/page_modules/) | Dashboard page components |
-| [streaming/ingestion/crawler.py](streaming/ingestion/crawler.py) | TikTok video crawler |
-| [streaming/ingestion/downloader.py](streaming/ingestion/downloader.py) | Video downloader |
-| [streaming/ingestion/clients/](streaming/ingestion/clients/) | MinIO, Kafka clients |
-| [streaming/processing/spark_processor.py](streaming/processing/spark_processor.py) | Spark Streaming job (AI inference) |
-| [streaming/mlflow/client.py](streaming/mlflow/client.py) | MLflow model registry client |
-| [streaming/mlflow/model_updater.py](streaming/mlflow/model_updater.py) | Model auto-update mechanism |
-| [streaming/docker-compose.yml](streaming/docker-compose.yml) | Main Docker Compose file |
-| [streaming/start_all.sh](streaming/start_all.sh) | Full startup script |
-| [streaming/tests/](streaming/tests/) | Test files |
-| | |
-| [train_eval_module/](train_eval_module/) | Model training and evaluation |
-| [train_eval_module/text/](train_eval_module/text/) | Text classification model |
-| [train_eval_module/video/](train_eval_module/video/) | Video classification model |
-| [train_eval_module/fusion/](train_eval_module/fusion/) | Multimodal fusion model |
-| [train_eval_module/scripts/push_hf_model.py](train_eval_module/scripts/push_hf_model.py) | Push models to HuggingFace Hub |
-| [train_eval_module/shared_utils/](train_eval_module/shared_utils/) | Common utilities |
-| | |
-| [docs/](docs/) | Documentation |
-| [docs/streaming/](docs/streaming/) | Streaming documentation |
-| [docs/mlflow/MLFLOW_INTEGRATION_GUIDE.md](docs/mlflow/MLFLOW_INTEGRATION_GUIDE.md) | MLflow setup and usage |
 
 ---
 
 ## 🧪 Testing
 
-### Automation Scripts (Ubuntu)
+### Shell Scripts (Ubuntu)
 
 ```bash
 cd streaming
@@ -347,53 +502,31 @@ cd streaming
 ./tests/run_all_tests.sh
 
 # Test individual layers
-./tests/test_layer1_infrastructure.sh  # Docker, network, services
-./tests/test_layer2_ingestion.sh       # Crawler, MinIO, Kafka
-./tests/test_layer3_processing.sh      # Spark, AI inference
-./tests/test_layer4_dashboard.sh       # Dashboard UI tests
+./tests/test_layer1_infrastructure.sh
+./tests/test_layer2_ingestion.sh
+./tests/test_layer3_processing.sh
+./tests/test_layer4_dashboard.sh
 ```
 
 ### Python Tests
 
 ```bash
 cd streaming
-
-# Run pytest
 pytest tests/ -v
-
-# Specific test files
-pytest tests/test_dashboard.py -v
-pytest tests/test_ingestion_layer.py -v
-pytest tests/test_spark_layer.py -v
-pytest tests/test_mlflow.py -v
 ```
-
-### Test Files Overview
-
-| File | Purpose |
-|------|---------|
-| `test_dashboard.py` | Dashboard UI and API tests |
-| `test_db_layer.py` | PostgreSQL database tests |
-| `test_ingestion_layer.py` | Crawler and ingestion tests |
-| `test_spark_layer.py` | Spark processing tests |
-| `test_mlflow.py` | MLflow integration tests |
-| `test_comprehensive.sh` | Full end-to-end test |
 
 ---
 
 ## 📖 Documentation
 
-Detailed documentation is available in the `docs/` folder:
-
 | Document | Description |
 |----------|-------------|
-| `docs/streaming/01_PROJECT_OVERVIEW.md` | Project introduction |
-| `docs/streaming/02_LAYER_ARCHITECTURE.md` | Architecture details |
-| `docs/streaming/03_DASHBOARD_PAGES.md` | Dashboard usage guide |
-| `docs/streaming/04_SETUP_GUIDE.md` | Installation guide |
-| `docs/streaming/05_TESTING_GUIDE.md` | Testing documentation |
-| `docs/streaming/06_API_REFERENCE.md` | API documentation |
-| `docs/mlflow/MLFLOW_INTEGRATION_GUIDE.md` | MLflow setup and usage |
+| [01_PROJECT_OVERVIEW.md](docs/streaming/01_PROJECT_OVERVIEW.md) | Project introduction |
+| [02_LAYER_ARCHITECTURE.md](docs/streaming/02_LAYER_ARCHITECTURE.md) | Architecture details |
+| [03_DASHBOARD_PAGES.md](docs/streaming/03_DASHBOARD_PAGES.md) | Dashboard usage guide |
+| [04_SETUP_GUIDE.md](docs/streaming/04_SETUP_GUIDE.md) | Installation guide |
+| [05_TESTING_GUIDE.md](docs/streaming/05_TESTING_GUIDE.md) | Testing documentation |
+| [MLFLOW_INTEGRATION_GUIDE.md](docs/mlflow/MLFLOW_INTEGRATION_GUIDE.md) | MLflow setup |
 
 ---
 
@@ -403,25 +536,17 @@ Detailed documentation is available in the `docs/` folder:
 
 **1. Docker containers not starting:**
 ```bash
-# Check container logs
 docker compose logs <service-name>
-
-# Restart specific service
 docker compose restart <service-name>
 ```
 
 **2. Spark processor failing:**
 ```bash
-# Check Spark logs
 docker logs spark-processor -f
-
-# Common fix: increase memory
-# Edit docker-compose.yml: SPARK_WORKER_MEMORY=16g
 ```
 
 **3. Database connection issues:**
 ```bash
-# Verify PostgreSQL is healthy
 docker exec postgres pg_isready -U user -d tiktok_safety_db
 ```
 
@@ -432,6 +557,42 @@ docker compose down -v
 rm -rf state/
 ./start_all.sh
 ```
+
+---
+
+## 🛠️ Tech Stack
+
+### Core Technologies
+
+| Category | Technology | Version |
+|----------|------------|---------|
+| **Language** | Python | 3.9+ |
+| **Container** | Docker & Docker Compose | 20.10+ |
+| **Stream Processing** | Apache Spark | 3.5.0 |
+| **Message Queue** | Apache Kafka | 7.5.0 |
+| **Object Storage** | MinIO | Latest |
+| **Database** | PostgreSQL | 15 |
+| **Orchestration** | Apache Airflow | 2.8.1 |
+| **ML Tracking** | MLflow | 2.8.1 |
+| **Dashboard** | Streamlit | 1.28+ |
+
+### AI/ML Frameworks
+
+| Framework | Purpose |
+|-----------|---------|
+| PyTorch | Deep learning backend |
+| Transformers | Pre-trained models |
+| CafeBERT | Vietnamese text classification |
+| VideoMAE | Video frame analysis |
+
+### Supporting Tools
+
+| Tool | Purpose |
+|------|---------|
+| Selenium + Chrome | Web scraping |
+| FFmpeg | Audio extraction |
+| Decord | Video frame extraction |
+| kafka-python | Kafka client |
 
 ---
 

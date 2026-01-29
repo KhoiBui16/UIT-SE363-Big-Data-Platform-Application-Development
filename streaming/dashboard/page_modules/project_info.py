@@ -51,7 +51,7 @@ def _render_architecture():
     ```mermaid
     graph TB
         subgraph "📥 Data Ingestion"
-            A[TikTok API] --> B[Crawler Service]
+            A[TikTok Web] --> B[Crawler Service]
             B --> C[MinIO Storage]
         end
         
@@ -66,17 +66,15 @@ def _render_architecture():
         end
         
         subgraph "🤖 AI Pipeline"
-            G --> H[Text Model]
-            G --> I[Video Model]
-            G --> J[Audio Model]
-            H --> K[Fusion Layer]
+            G --> H[CafeBERT - Text]
+            G --> I[VideoMAE - Video]
+            H --> K[Late Fusion + Attention]
             I --> K
-            J --> K
         end
         
         subgraph "💾 Data Storage"
             K --> L[PostgreSQL]
-            L --> M[Dashboard]
+            L --> M[Streamlit Dashboard]
         end
         
         subgraph "🔧 Orchestration"
@@ -101,9 +99,11 @@ def _render_architecture():
         #### 📥 Data Ingestion Layer
         | Component | Technology | Purpose |
         |-----------|------------|---------|
-        | Crawler | Python + Selenium | Thu thập video TikTok |
+        | Crawler | SeleniumWire + TikTok API | Intercept API JSON, lấy link+caption |
+        | Downloader | yt-dlp (Mobile emulation) | Tải video từ TikTok |
+        | Audio Extract | FFmpeg | Trích xuất audio WAV (chưa dùng AI) |
         | Storage | MinIO (S3-compatible) | Lưu trữ video/audio |
-        | Producer | kafka-python | Gửi events vào Kafka |
+        | Producer | kafka-python | Gửi message vào Kafka |
         
         #### 📡 Message Queue Layer
         | Component | Technology | Purpose |
@@ -119,15 +119,15 @@ def _render_architecture():
         #### ⚡ Processing Layer
         | Component | Technology | Purpose |
         |-----------|------------|---------|
-        | Streaming | Apache Spark | Real-time processing |
-        | Batch | Apache Spark | Large-scale processing |
+        | Streaming | Apache Spark 3.5 | Real-time micro-batch processing |
+        | AI Fusion | PyTorch + Transformers | Multi-modal classification |
         
         #### 💾 Storage Layer
         | Component | Technology | Purpose |
         |-----------|------------|---------|
-        | Database | PostgreSQL | Structured data |
-        | Object Store | MinIO | Unstructured data |
-        | Cache | Redis (optional) | Fast access cache |
+        | Database | PostgreSQL 16 | Structured results |
+        | Object Store | MinIO | Video/Audio files |
+        | Model Registry | MLflow (optional) | Model versioning |
         """
         )
 
@@ -145,33 +145,34 @@ def _render_data_pipeline():
     )
 
     # Stage 1
-    with st.expander("**1️⃣ Stage 1: Data Collection (Crawler)**", expanded=True):
+    with st.expander("**1️⃣ Stage 1: Data Collection (Crawler + Downloader)**", expanded=True):
         st.markdown(
             """
         ```
         ┌─────────────────────────────────────────────────────────────┐
-        │                    CRAWLER SERVICE                          │
+        │                    CRAWLER + DOWNLOADER                       │
         ├─────────────────────────────────────────────────────────────┤
-        │  Input:  Hashtag list (e.g., #harmful, #violence, #safe)   │
-        │  Process: Selenium WebDriver → TikTok scraping             │
-        │  Output:  MP4 videos + metadata (JSON)                      │
-        │  Storage: MinIO bucket (tiktok-videos/)                     │
+        │  Step 1: SeleniumWire intercept TikTok API JSON               │
+        │  Step 2: Extract video_id, author, caption từ API            │
+        │  Step 3: yt-dlp tải video (Mobile iPhone emulation)          │
+        │  Step 4: FFmpeg trích xuất audio (.wav)                       │
+        │  Step 5: Upload lên MinIO (video + audio buckets)            │
         └─────────────────────────────────────────────────────────────┘
         ```
         
-        **Files involved:**
-        - `crawl_tiktok_links_update_v1.py`
-        - `ScrapingVideoTiktok.py`
+        **Files chính:**
+        - `ingestion/crawler.py` - SeleniumWire + API intercept
+        - `ingestion/downloader.py` - yt-dlp mobile emulation
+        - `ingestion/main_worker.py` - Pipeline orchestrator
+        - `ingestion/audio_processor.py` - FFmpeg audio extraction
         
-        **Output structure:**
+        **MinIO structure:**
         ```
-        MinIO:tiktok-videos/
-        ├── harmful/
-        │   ├── video_001.mp4
-        │   └── video_002.mp4
-        └── not_harmful/
-            ├── video_003.mp4
-            └── video_004.mp4
+        tiktok-raw-videos/            tiktok-raw-audios/
+        ├── raw/harmful/              ├── raw/harmful/
+        │   └── {video_id}.mp4        │   └── {video_id}.wav
+        └── raw/safe/                 └── raw/safe/
+            └── {video_id}.mp4            └── {video_id}.wav
         ```
         """
         )
@@ -184,21 +185,21 @@ def _render_data_pipeline():
         ┌─────────────────────────────────────────────────────────────┐
         │                    KAFKA PIPELINE                           │
         ├─────────────────────────────────────────────────────────────┤
-        │  Producer: Sends video metadata to topic                    │
-        │  Topic:    tiktok-videos-topic                              │
-        │  Consumer: Spark Streaming subscriber                       │
-        │  Format:   JSON (video_id, path, timestamp, label)          │
+        │  Topic:    tiktok_raw_data                                   │
+        │  Producer: main_worker.py (sau khi upload MinIO)            │
+        │  Consumer: Spark Structured Streaming                       │
         └─────────────────────────────────────────────────────────────┘
         ```
         
-        **Message Schema:**
+        **Kafka Message Schema (thực tế):**
         ```json
         {
             "video_id": "7123456789",
-            "video_path": "s3://tiktok-videos/harmful/video_001.mp4",
-            "timestamp": "2024-01-15T10:30:00Z",
-            "label": "harmful",
-            "metadata": {...}
+            "minio_video_path": "tiktok-raw-videos/raw/harmful/7123456789.mp4",
+            "minio_audio_path": "tiktok-raw-audios/raw/harmful/7123456789.wav",
+            "clean_text": "Caption đã được làm sạch...",
+            "csv_label": "harmful",
+            "timestamp": 1705312200.123
         }
         ```
         """
@@ -210,22 +211,23 @@ def _render_data_pipeline():
             """
         ```
         ┌─────────────────────────────────────────────────────────────┐
-        │                  SPARK STREAMING                            │
+        │                  SPARK STRUCTURED STREAMING                  │
         ├─────────────────────────────────────────────────────────────┤
-        │  Input:    Kafka topic subscription                         │
-        │  Process:  Micro-batch processing (5s window)               │
-        │  Transform: Download video → Extract features               │
-        │  Output:   Feature vectors for AI models                    │
+        │  Input:    Kafka topic (tiktok_raw_data)                     │
+        │  Process:  Micro-batch (maxOffsetsPerTrigger=5)             │
+        │  Text:     Lấy từ clean_text (caption, KHÔNG dùng Whisper)  │
+        │  Video:    Download từ MinIO → Extract 16 frames            │
+        │  Audio:    Chưa sử dụng (dự phòng cho tương lai)            │
         └─────────────────────────────────────────────────────────────┘
         ```
         
-        **Processing steps:**
-        1. Receive Kafka message
-        2. Download video from MinIO
-        3. Extract audio track (ffmpeg)
-        4. Generate text transcript (Whisper)
-        5. Extract video frames (OpenCV)
-        6. Send to AI models
+        **Processing steps (thực tế):**
+        1. Nhận Kafka message (JSON)
+        2. Parse: video_id, minio_video_path, clean_text, csv_label
+        3. Download video từ MinIO (boto3)
+        4. Decord: Trích 16 frames từ video
+        5. **Text đã có sẵn** (caption từ TikTok API, không cần Whisper)
+        6. Gửi song song đến AI models
         """
         )
 
@@ -235,23 +237,52 @@ def _render_data_pipeline():
             """
         ```
         ┌─────────────────────────────────────────────────────────────┐
-        │                  AI MODEL ENSEMBLE                          │
+        │                  AI PIPELINE (2 MODES)                       │
         ├─────────────────────────────────────────────────────────────┤
-        │  Text Model:   PhoBERT (Vietnamese NLP)                     │
-        │  Video Model:  TimeSformer / SlowFast                       │
-        │  Audio Model:  Wav2Vec2                                     │
-        │  Fusion:       Late fusion (weighted average)               │
-        │  Output:       Harmful probability [0-1]                    │
+        │  MODE 1: FUSION (default) - End-to-end trained model        │
+        │    • Text: uitnlp/CafeBERT backbone                         │
+        │    • Video: MCG-NJU/VideoMAE-base backbone                  │
+        │    • Fusion: Cross-Attention + Gating (50-50 weights)       │
+        │    • Output: Single fusion_score từ softmax [0-1]           │
+        ├─────────────────────────────────────────────────────────────┤
+        │  MODE 2: LATE_SCORE (fallback) - Separate models            │
+        │    • avg_score = text_score * TEXT_WEIGHT + video * VIDEO   │
+        │    • Default: TEXT_WEIGHT=0.3, VIDEO_WEIGHT=0.7             │
+        │    • Configurable via env: TEXT_WEIGHT (0 to 1)             │
         └─────────────────────────────────────────────────────────────┘
         ```
         
-        **Decision logic:**
+        **FUSION mode (default) - khớp với train_eval_module:**
         ```python
-        avg_score = (text_score * 0.4 + video_score * 0.4 + audio_score * 0.2)
-        verdict = "Harmful" if avg_score >= 0.5 else "Safe"
+        # fusion_configs.py (train_eval_module)
+        FUSION_PARAMS = {
+            "video_weight": 0.5,  # Equal weights in cross-attention
+            "text_weight": 0.5,   # Equal weights in cross-attention
+            "fusion_type": "attention",  # Cross-Attention + Gating
+        }
+        
+        # spark_processor.py (streaming) - ĐỒNG BỘ
+        fusion_config = {
+            "video_weight": 0.5,  # ✅ Khớp với train_eval
+            "text_weight": 0.5,   # ✅ Khớp với train_eval
+            "fusion_type": "attention",
+        }
         ```
+        
+        **LATE_SCORE mode (fallback - khi USE_FUSION_MODEL=false):**
+        ```python
+        # Chạy 2 model riêng biệt, tính weighted average
+        TEXT_WEIGHT = float(os.getenv("TEXT_WEIGHT", "0.3"))  # Default 30%
+        VIDEO_WEIGHT = 1.0 - TEXT_WEIGHT  # Default 70%
+        avg_score = (text_score * TEXT_WEIGHT) + (video_score * VIDEO_WEIGHT)
+        ```
+        
+        > **Lưu ý:** FUSION mode dùng weights 50-50 bên trong model (đã train). 
+        > LATE_SCORE mode dùng 30-70 default (configurable).
+        > Audio đã được trích xuất nhưng chưa tích hợp vào AI pipeline.
         """
         )
+
 
     # Stage 5
     with st.expander("**5️⃣ Stage 5: Results Storage & Visualization**"):
@@ -270,18 +301,17 @@ def _render_data_pipeline():
         **Database schema:**
         ```sql
         CREATE TABLE processed_results (
-            id SERIAL PRIMARY KEY,
-            video_id VARCHAR(50),
-            text_score FLOAT,
-            video_score FLOAT,
-            audio_score FLOAT,
-            avg_score FLOAT,
+            video_id VARCHAR(50) PRIMARY KEY,
+            raw_text TEXT,
+            human_label VARCHAR(20),
             text_verdict VARCHAR(20),
+            text_score DOUBLE PRECISION,
             video_verdict VARCHAR(20),
-            audio_verdict VARCHAR(20),
-            category VARCHAR(20),
-            transcript TEXT,
-            processed_at TIMESTAMP
+            video_score DOUBLE PRECISION,
+            avg_score DOUBLE PRECISION,
+            threshold DOUBLE PRECISION,
+            final_decision VARCHAR(50),
+            processed_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
         );
         ```
         """
@@ -296,7 +326,7 @@ def _render_ai_models():
         """
     ### Multi-Modal Harmful Content Detection
     
-    Hệ thống sử dụng **3 AI models** phân tích song song và kết hợp kết quả:
+    Hệ thống sử dụng **Fusion Model (Text + Video)** với attention mechanism để kết hợp kết quả:
     """
     )
 
@@ -314,14 +344,14 @@ def _render_ai_models():
             overflow: visible;
         ">
             <h3 style="color: white; margin: 0 0 10px 0;">📝 Text Model</h3>
-            <p style="color: #ddd; margin: 5px 0;"><b>Architecture:</b> PhoBERT-base</p>
-            <p style="color: #ddd; margin: 5px 0;"><b>Input:</b> Transcript (Vietnamese)</p>
-            <p style="color: #ddd; margin: 5px 0;"><b>Output:</b> Harmful probability</p>
-            <p style="color: #ddd; margin: 5px 0;"><b>Weight:</b> 40%</p>
+            <p style="color: #ddd; margin: 5px 0;"><b>Architecture:</b> CafeBERT (uitnlp)</p>
+            <p style="color: #ddd; margin: 5px 0;"><b>Input:</b> Vietnamese text/caption</p>
+            <p style="color: #ddd; margin: 5px 0;"><b>Output:</b> Harmful probability [0-1]</p>
+            <p style="color: #ddd; margin: 5px 0;"><b>Features:</b> Rule-based + AI</p>
             <hr style="border-color: rgba(255,255,255,0.2); margin: 10px 0;">
             <p style="color: #aaa; font-size: 0.85em; line-height: 1.4;">
-                Phân tích ngữ nghĩa văn bản, phát hiện từ khóa độc hại, 
-                hate speech, và nội dung không phù hợp.
+                Phân tích ngữ nghĩa văn bản tiếng Việt, kết hợp blacklist keywords
+                với deep learning để phát hiện nội dung độc hại.
             </p>
         </div>
         """,
@@ -339,14 +369,14 @@ def _render_ai_models():
             overflow: visible;
         ">
             <h3 style="color: white; margin: 0 0 10px 0;">🎬 Video Model</h3>
-            <p style="color: #ddd; margin: 5px 0;"><b>Architecture:</b> TimeSformer</p>
-            <p style="color: #ddd; margin: 5px 0;"><b>Input:</b> Video frames (16 fps)</p>
-            <p style="color: #ddd; margin: 5px 0;"><b>Output:</b> Harmful probability</p>
-            <p style="color: #ddd; margin: 5px 0;"><b>Weight:</b> 40%</p>
+            <p style="color: #ddd; margin: 5px 0;"><b>Architecture:</b> VideoMAE</p>
+            <p style="color: #ddd; margin: 5px 0;"><b>Input:</b> 16 video frames</p>
+            <p style="color: #ddd; margin: 5px 0;"><b>Output:</b> Harmful probability [0-1]</p>
+            <p style="color: #ddd; margin: 5px 0;"><b>Base:</b> MCG-NJU/videomae-base</p>
             <hr style="border-color: rgba(255,255,255,0.2); margin: 10px 0;">
             <p style="color: #aaa; font-size: 0.85em; line-height: 1.4;">
-                Phân tích hình ảnh, phát hiện bạo lực, nội dung người lớn,
-                và các hành vi nguy hiểm.
+                Phân tích chuỗi video frames, sử dụng masked autoencoder
+                để phát hiện nội dung bạo lực và không phù hợp.
             </p>
         </div>
         """,
@@ -363,15 +393,15 @@ def _render_ai_models():
             min-height: 280px;
             overflow: visible;
         ">
-            <h3 style="color: white; margin: 0 0 10px 0;">🔊 Audio Model</h3>
-            <p style="color: #ddd; margin: 5px 0;"><b>Architecture:</b> Wav2Vec2</p>
-            <p style="color: #ddd; margin: 5px 0;"><b>Input:</b> Audio waveform</p>
-            <p style="color: #ddd; margin: 5px 0;"><b>Output:</b> Harmful probability</p>
-            <p style="color: #ddd; margin: 5px 0;"><b>Weight:</b> 20%</p>
+            <h3 style="color: white; margin: 0 0 10px 0;">🔥 Fusion Model</h3>
+            <p style="color: #ddd; margin: 5px 0;"><b>Architecture:</b> Late Fusion + Attention</p>
+            <p style="color: #ddd; margin: 5px 0;"><b>Input:</b> Text + Video features</p>
+            <p style="color: #ddd; margin: 5px 0;"><b>Output:</b> Final harmful score</p>
+            <p style="color: #ddd; margin: 5px 0;"><b>Threshold:</b> 0.5 (configurable)</p>
             <hr style="border-color: rgba(255,255,255,0.2); margin: 10px 0;">
             <p style="color: #aaa; font-size: 0.85em; line-height: 1.4;">
-                Phân tích âm thanh, phát hiện tiếng la hét, âm thanh bạo lực,
-                và ngữ điệu tiêu cực.
+                Cross-attention fusion kết hợp text và video features
+                với gating mechanism để quyết định cuối cùng.
             </p>
         </div>
         """,
@@ -384,30 +414,37 @@ def _render_ai_models():
 
     st.markdown(
         """
-    **Cách kết hợp kết quả từ 3 models:**
+    **Cách Fusion Model hoạt động:**
     
     ```python
-    def late_fusion(text_score, video_score, audio_score):
-        # Weighted average fusion
-        weights = {"text": 0.4, "video": 0.4, "audio": 0.2}
-        
-        avg_score = (
-            text_score * weights["text"] +
-            video_score * weights["video"] +
-            audio_score * weights["audio"]
-        )
-        
-        # Decision threshold
-        threshold = 0.5
-        verdict = "Harmful" if avg_score >= threshold else "Safe"
-        
-        return avg_score, verdict
+    class LateFusionModel:
+        def forward(self, text_input, video_frames):
+            # 1. Extract features from backbones
+            text_feat = text_backbone(text_input)       # CafeBERT [CLS] token
+            video_feat = video_backbone(video_frames)   # VideoMAE mean pooling
+            
+            # 2. Project to same dimension (256)
+            t_proj = text_proj(text_feat)   # (B, 256)
+            v_proj = video_proj(video_feat) # (B, 256)
+            
+            # 3. Cross-Attention Fusion
+            t_attended = cross_attn_t2v(t_proj, v_proj, v_proj)
+            v_attended = cross_attn_v2t(v_proj, t_proj, t_proj)
+            
+            # 4. Gating mechanism
+            concat = torch.cat([t_attended, v_attended], dim=1)
+            gate = sigmoid(gate_layer(concat))  # [0-1] weight
+            combined = gate * t_attended + (1 - gate) * v_attended
+            
+            # 5. Classification
+            logits = classifier(combined)  # [safe, harmful]
+            return softmax(logits)[:, 1]   # harmful probability
     ```
     
-    **Tại sao chọn tỷ lệ 40-40-20?**
-    - Text (40%): Chứa nhiều thông tin ngữ nghĩa nhất
-    - Video (40%): Quan trọng cho phát hiện visual
-    - Audio (20%): Bổ sung thông tin, nhưng nhiễu hơn
+    **Tại sao chọn Late Fusion với Attention?**
+    - Cross-attention cho phép text và video "tham khảo" lẫn nhau
+    - Gating mechanism tự động học weight dựa trên context
+    - Hiệu quả hơn simple weighted average (40-40-20)
     """
     )
 
@@ -421,32 +458,34 @@ def _render_documentation():
     ### 📁 Project Structure
     
     ```
-    UIT-SE363-Big-Data-Pipeline/
-    ├── 📂 streaming/                # Main application
-    │   ├── 📂 dashboard/            # Streamlit dashboard
-    │   │   ├── app.py              # Main entry point
-    │   │   ├── config.py           # Configuration
-    │   │   ├── styles.py           # CSS styles
-    │   │   ├── helpers.py          # Utility functions
-    │   │   └── 📂 pages/           # Page modules
+    UIT-SE363-Big-Data-Platform-Application-Development/
+    ├── 📂 streaming/                     # Main application
+    │   ├── 📂 ingestion/               # Data collection
+    │   │   ├── crawler.py              # SeleniumWire + TikTok API
+    │   │   ├── downloader.py           # yt-dlp video download
+    │   │   ├── main_worker.py          # Pipeline orchestrator
+    │   │   └── audio_processor.py      # FFmpeg audio extraction
     │   │
-    │   ├── 📂 airflow/              # Workflow orchestration
-    │   │   ├── dags/               # DAG definitions
-    │   │   └── Dockerfile.airflow
+    │   ├── 📂 processing/              # Spark + AI
+    │   │   └── spark_processor.py      # Streaming + Fusion AI
     │   │
-    │   ├── 📂 tiktok-pipeline/      # Core pipeline code
-    │   │   ├── producer/           # Kafka producer
-    │   │   ├── consumer/           # Spark consumer
-    │   │   └── models/             # AI model wrappers
+    │   ├── 📂 dashboard/               # Streamlit UI
+    │   │   ├── app.py                  # Entry point
+    │   │   ├── helpers.py              # DB queries
+    │   │   └── page_modules/           # Tab pages
     │   │
-    │   └── docker-compose.yml      # Service orchestration
+    │   ├── 📂 airflow/                 # DAG orchestration
+    │   │   └── dags/                   # 3 DAGs
+    │   │
+    │   ├── docker-compose.yml        # 12 services
+    │   └── start_all.sh              # One-click start
     │
-    ├── 📂 train_eval_module/        # Model training
-    │   ├── text/                   # Text model training
-    │   ├── video/                  # Video model training
-    │   └── audio/                  # Audio model training
+    ├── 📂 train_eval_module/          # Model training
+    │   ├── text/                      # CafeBERT, XLM-RoBERTa
+    │   ├── video/                     # VideoMAE
+    │   └── fusion/                    # Late Fusion + Attention
     │
-    └── 📂 processed_data/           # Training datasets
+    └── 📂 processed_data/             # Training datasets
     ```
     """
     )
@@ -457,18 +496,22 @@ def _render_documentation():
     st.code(
         """
 # 1. Clone repository
-git clone https://github.com/your-repo/UIT-SE363-Big-Data-Pipeline.git
-cd UIT-SE363-Big-Data-Pipeline/streaming
+git clone https://github.com/TrungPhamDac/UIT-SE363-BigData.git
+cd UIT-SE363-Big-Data-Platform-Application-Development/streaming
 
-# 2. Start all services
-docker-compose up -d
+# 2. Start all services (one-click)
+./start_all.sh
+# Hoặc: docker compose up -d --build
 
-# 3. Access Dashboard
+# 3. Đợi services khởi động (~2-3 phút)
+docker ps  # Kiểm tra status
+
+# 4. Truy cập Dashboard
 open http://localhost:8501
 
-# 4. Run Pipeline
-# Via Dashboard → System Operations → Trigger DAGs
-# Or via Airflow UI: http://localhost:8080
+# 5. Khởi chạy Pipeline
+# Dashboard → System Operations → Trigger DAGs
+# Hoặc: Airflow UI http://localhost:8080 (admin/admin)
     """,
         language="bash",
     )

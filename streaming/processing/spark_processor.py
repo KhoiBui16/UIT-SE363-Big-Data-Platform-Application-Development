@@ -474,14 +474,40 @@ def get_fusion_model():
     try:
         print(f"🔥 Loading Fusion Model from: {PATH_FUSION_MODEL}")
         
-        # 1. Load processors (tokenizer và video processor)
-        fusion_text_tokenizer = AutoTokenizer.from_pretrained(PATH_FUSION_TEXT_BACKBONE)
-        fusion_video_processor = VideoMAEImageProcessor.from_pretrained(PATH_FUSION_VIDEO_BACKBONE)
+        # 1. Determine if using HuggingFace Hub or local paths
+        is_hf_hub = HF_MODEL_FUSION is not None
+        
+        if is_hf_hub:
+            # Load tokenizer and processor from separate HF models
+            print(f"📦 Loading from HuggingFace Hub...")
+            print(f"   Text model: {HF_MODEL_TEXT}")
+            print(f"   Video model: {HF_MODEL_VIDEO}")
+            
+            fusion_text_tokenizer = AutoTokenizer.from_pretrained(
+                HF_MODEL_TEXT if HF_MODEL_TEXT else "uitnlp/CafeBERT",
+                token=HF_TOKEN
+            )
+            fusion_video_processor = VideoMAEImageProcessor.from_pretrained(
+                HF_MODEL_VIDEO if HF_MODEL_VIDEO else "MCG-NJU/videomae-base-finetuned-kinetics",
+                token=HF_TOKEN
+            )
+            
+            # For HF Hub, use the same HF paths for config
+            text_backbone_path = HF_MODEL_TEXT or "uitnlp/CafeBERT"
+            video_backbone_path = HF_MODEL_VIDEO or "MCG-NJU/videomae-base-finetuned-kinetics"
+        else:
+            # Load from local paths
+            print(f"📂 Loading from local paths...")
+            fusion_text_tokenizer = AutoTokenizer.from_pretrained(PATH_FUSION_TEXT_BACKBONE)
+            fusion_video_processor = VideoMAEImageProcessor.from_pretrained(PATH_FUSION_VIDEO_BACKBONE)
+            
+            text_backbone_path = PATH_FUSION_TEXT_BACKBONE
+            video_backbone_path = PATH_FUSION_VIDEO_BACKBONE
         
         # 2. Fusion model config (theo fusion_configs.py)
         fusion_config = {
-            "text_model_path": PATH_FUSION_TEXT_BACKBONE,
-            "video_model_path": PATH_FUSION_VIDEO_BACKBONE,
+            "text_model_path": text_backbone_path,
+            "video_model_path": video_backbone_path,
             "fusion_type": "attention",  # hoặc "concat"
             "text_feat_dim": 768,
             "video_feat_dim": 768,
@@ -494,19 +520,48 @@ def get_fusion_model():
         fusion_model = LateFusionModel(fusion_config)
         
         # 4. Load weights from checkpoint
-        safetensors_path = os.path.join(PATH_FUSION_MODEL, "model.safetensors")
-        if os.path.exists(safetensors_path):
-            print(f"📥 Loading weights from: {safetensors_path}")
-            state_dict = load_file(safetensors_path)
-            fusion_model.load_state_dict(state_dict)
+        if is_hf_hub:
+            # For HuggingFace Hub, try to load from the repo
+            from huggingface_hub import hf_hub_download
+            try:
+                safetensors_path = hf_hub_download(
+                    repo_id=PATH_FUSION_MODEL,
+                    filename="model.safetensors",
+                    token=HF_TOKEN
+                )
+                print(f"📥 Loading weights from HF Hub: {safetensors_path}")
+                state_dict = load_file(safetensors_path)
+                fusion_model.load_state_dict(state_dict)
+            except Exception as e_safetensors:
+                try:
+                    pytorch_path = hf_hub_download(
+                        repo_id=PATH_FUSION_MODEL,
+                        filename="pytorch_model.bin",
+                        token=HF_TOKEN
+                    )
+                    print(f"📥 Loading weights from HF Hub: {pytorch_path}")
+                    state_dict = torch.load(pytorch_path, map_location="cpu")
+                    fusion_model.load_state_dict(state_dict)
+                except Exception as e_pytorch:
+                    raise FileNotFoundError(
+                        f"Fusion model weights not found in HF Hub {PATH_FUSION_MODEL}. "
+                        f"Tried model.safetensors ({e_safetensors}) and pytorch_model.bin ({e_pytorch})"
+                    )
         else:
-            pytorch_path = os.path.join(PATH_FUSION_MODEL, "pytorch_model.bin")
-            if os.path.exists(pytorch_path):
-                print(f"📥 Loading weights from: {pytorch_path}")
-                state_dict = torch.load(pytorch_path, map_location="cpu")
+            # Local loading
+            safetensors_path = os.path.join(PATH_FUSION_MODEL, "model.safetensors")
+            if os.path.exists(safetensors_path):
+                print(f"📥 Loading weights from: {safetensors_path}")
+                state_dict = load_file(safetensors_path)
                 fusion_model.load_state_dict(state_dict)
             else:
-                raise FileNotFoundError(f"Fusion model weights not found in {PATH_FUSION_MODEL}")
+                pytorch_path = os.path.join(PATH_FUSION_MODEL, "pytorch_model.bin")
+                if os.path.exists(pytorch_path):
+                    print(f"📥 Loading weights from: {pytorch_path}")
+                    state_dict = torch.load(pytorch_path, map_location="cpu")
+                    fusion_model.load_state_dict(state_dict)
+                else:
+                    raise FileNotFoundError(f"Fusion model weights not found in {PATH_FUSION_MODEL}")
         
         fusion_model.to(device)
         fusion_model.eval()
@@ -517,6 +572,8 @@ def get_fusion_model():
     except Exception as e:
         print(f"⚠️ Failed to load Fusion Model: {e}")
         print("⚠️ Will fallback to LATE_SCORE mode using separate text + video models")
+        import traceback
+        traceback.print_exc()
         FUSION_MODEL_AVAILABLE = False
         fusion_model = None
         fusion_text_tokenizer = None

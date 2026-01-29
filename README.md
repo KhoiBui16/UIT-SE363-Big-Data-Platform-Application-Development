@@ -205,74 +205,110 @@ pytest tests/ -v
 
 ```bash
 UIT-SE363-Big-Data-Platform-Application-Development/
+├── streaming/                          # 🚀 Real-time Pipeline Root
+│   ├── airflow/
+│   │   └── dags/                       # ⚡ Airflow DAGs
+│   │       ├── 1_TIKTOK_ETL_COLLECTOR.py
+│   │       ├── 2_TIKTOK_STREAMING_PIPELINE.py
+│   │       └── 3_MODEL_RETRAINING.py
+│   ├── ingestion/                      # 📥 Data Ingestion Layer
+│   │   ├── clients/                    # External clients
+│   │   │   ├── kafka_client.py
+│   │   │   └── minio_client.py
 │   │   ├── crawler.py                  # TikTok crawler (Selenium)
 │   │   ├── downloader.py               # Video downloader
 │   │   ├── main_worker.py              # Main ingestion worker
-│   │   └── clients/                    # External clients
-│   │       ├── minio_client.py
-│   │       └── kafka_client.py
-│   ├── processing/                     # Stream Processing
-│   │   └── spark_processor.py          # Spark AI inference
-│   ├── mlflow/                         # MLflow Integration
-│   │   ├── client.py                   # Model registry client
-│   │   └── model_updater.py            # Auto-update mechanism
-│   ├── spark/                          # Spark Docker config
-│   ├── scripts/                        # Automation scripts
-│   ├── tests/                          # Test files
+│   │   └── config.py
+│   ├── processing/                     # 🧠 Stream Processing Layer
+│   │   └── spark_processor.py          # Spark AI Inference Job
+│   ├── mlflow/                         # 🔄 MLOps & Model Registry
+│   │   ├── client.py                   # Registry client wrapper
+│   │   └── model_updater.py            # Model auto-updater logic
+│   ├── dashboard/                      # 📊 Streamlit Dashboard
+│   │   ├── app.py                      # Main dashboard entrypoint
+│   │   ├── config.py
+│   │   ├── helpers.py
+│   │   ├── styles.py
+│   │   ├── page_modules/               # UI Components
+│   │   └── Dockerfile.dashboard
+│   ├── spark/                          # 🐳 Spark Docker Config
+│   │   └── Dockerfile
+│   ├── tests/                          # 🧪 Comprehensive Test Suite
+│   │   ├── run_all_tests.sh            # Master test script
 │   │   ├── test_layer1_infrastructure.sh
 │   │   ├── test_layer2_ingestion.sh
 │   │   ├── test_layer3_processing.sh
 │   │   ├── test_layer4_dashboard.sh
-│   │   └── run_all_tests.sh
-│   ├── docker-compose.yml              # Main compose file
-│   ├── start_all.sh                    # Full startup script
-│   ├── .env.example                    # Environment template
-│   └── .env                            # Environment config (gitignored)
+│   │   ├── test_layer5_mlflow.sh
+│   │   ├── test_mlflow.py              # Unit tests
+│   │   ├── test_dashboard.py
+│   │   ├── test_db_layer.py
+│   │   └── ... (helper scripts)
+│   ├── docker-compose.yml              # Main Infrastructure Config
+│   ├── start_all.sh                    # One-click Startup Script
+│   ├── link_host.sh                    # Host URL generator
+│   └── .env                            # Environment Config
 │
-├── train_eval_module/                  # 🤖 Model Training
-│   ├── text/                           # Text classification
-│   │   ├── train_text_spark.py
-│   │   └── output/uitnlp_CafeBERT/
-│   ├── video/                          # Video classification
-│   │   ├── train_video.py
-│   │   └── output/MCG-NJU_videomae-base-finetuned-kinetics/
-│   ├── fusion/                         # Multimodal fusion
-│   │   ├── train_fusion.py
-│   │   └── output/fusion_videomae/
-│   ├── audio/                          # Audio (experimental)
-│   ├── scripts/                        # Utility scripts
-│   │   └── push_hf_model.py            # Push to HuggingFace Hub
-│   └── shared_utils/                   # Common utilities
+├── train_eval_module/                  # 🤖 AI Model Training & Eval
+│   ├── text/                           # Text Model (CafeBERT)
+│   │   ├── src/                        # Model source code
+│   │   ├── train.py
+│   │   ├── test.py
+│   │   ├── text_configs.py
+│   │   └── output/uitnlp_CafeBERT/     # Spec: 1024-dim
+│   ├── video/                          # Video Model (VideoMAE)
+│   │   ├── src/
+│   │   ├── train.py
+│   │   ├── test.py
+│   │   ├── video_configs.py
+│   │   └── output/MCG-NJU_videomae.../ # Spec: 768-dim
+│   ├── fusion/                         # Multimodal Fusion
+│   │   ├── src/
+│   │   ├── train.py
+│   │   ├── test.py
+│   │   ├── fusion_configs.py
+│   │   └── output/fusion_videomae/     # Retrained 1024-dim Text + 768-dim Video
+│   ├── audio/                          # Audio Model (Experimental)
+│   │   ├── src/
+│   │   ├── train.py
+│   │   └── ...
+│   ├── scripts/                        # Utility Scripts
+│   │   ├── push_hf_model.py            # HuggingFace Uploader
+│   │   ├── split_data.py
+│   │   └── check_paths.py
+│   └── shared_utils/                   # Common Utilities
+│       ├── file_utils.py
+│       ├── logger.py
+│       ├── mlflow_logger.py
+│       └── processing.py
 │
-├── crawl_scripts/                      # 🕷️ Crawling Scripts
+├── crawl_scripts/                      # 🕷️ Standalone Crawling Utils
 │   ├── ScrapingVideoTiktok.py          # Main video scraper
-│   ├── crawl_tiktok_links_update_v1.py # Link crawler v1
-│   ├── crawl_tiktok_links_update_viet.py # Link crawler (Vietnamese)
-│   ├── create_sub_samples_tiktok_links.py # Sample creator
-│   └── find_tiktok_links.py            # Link finder
+│   ├── find_tiktok_links.py            # Link finder by hashtag
+│   ├── create_sub_samples_tiktok_links.py
+│   ├── crawl_tiktok_links_update_v1.py
+│   └── crawl_tiktok_links_update_viet.py
 │
-├── notebooks/                          # 📓 Jupyter Notebooks
-│   ├── ScrapingVideoTiktok.ipynb       # Web scraping notebook
+├── notebooks/                          # 📓 Analysis & Experiments
+│   ├── ScrapingVideoTiktok.ipynb
 │   ├── create_sub_samples_tiktok_links.ipynb
-│   ├── eda.ipynb                       # Exploratory Data Analysis
-│   └── audio_trial.ipynb               # Audio experiments
+│   ├── eda.ipynb
+│   └── audio_trial.ipynb
 │
-├── docs/                               # 📖 Documentation
-│   ├── streaming/                      # Streaming docs
+├── docs/                               # 📚 Project Documentation
+│   ├── streaming/
 │   │   ├── 01_PROJECT_OVERVIEW.md
 │   │   ├── 02_LAYER_ARCHITECTURE.md
 │   │   ├── 03_DASHBOARD_PAGES.md
 │   │   ├── 04_SETUP_GUIDE.md
 │   │   ├── 05_TESTING_GUIDE.md
 │   │   └── 06_API_REFERENCE.md
-│   └── mlflow/                         # MLflow docs
+│   └── mlflow/
 │       └── MLFLOW_INTEGRATION_GUIDE.md
 │
-├── processed_data/                     # 📊 Processed Data
-│   ├── text/                           # Text CSV files
-│   └── fusion/                         # Fusion training data
-│
-└── data/                               # 📦 Raw Data
+├── processed_data/                     # 💾 Processed Datasets (CSV)
+├── data/                               # 📦 Raw Data Storage (Images/Videos)
+└── requirements.txt                    # 🐍 Project Dependencies (Root)
 ```
 
 ---

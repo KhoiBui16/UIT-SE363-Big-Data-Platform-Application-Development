@@ -612,9 +612,123 @@ Spark Processor sử dụng chiến lược **auto-fallback** trong `spark_proce
 | **FUSION** | Default (nếu load được) | 1 Fusion model | End-to-end (50-50 trained) |
 | **LATE_SCORE** | Fallback (khi FUSION fail) | 2 separate models | `text*0.3 + video*0.7` |
 
-> **⚠️ Lưu ý**: FUSION là mode chính với model đã train end-to-end. LATE_SCORE chỉ được dùng tự động khi không load được Fusion model.
+> **⚠️ Note**: FUSION is the primary mode with end-to-end trained model. LATE_SCORE is only used automatically when Fusion model fails to load.
 
+### Rule-based Filtering (Pre-AI Check)
 
+Before calling AI models, the system performs a quick check based on **60+ banned keywords** in Vietnamese, divided into 5 groups:
+
+| Group | Content Type | Examples |
+|-------|--------------|----------|
+| 1 | Adult/Sexual content | 18+, sex, xxx |
+| 2 | Violence/Gang-related | fighting, knife, gun |
+| 3 | Gambling/Fraud | casino, betting, ponzi |
+| 4 | Social vices | drugs, narcotics |
+| 5 | Superstition | fortune telling, black magic |
+
+**Logic**: If text contains banned keyword → Immediately assign `score = 0.85` + `label = harmful` **WITHOUT calling AI** → Saves GPU resources.
+
+### Streaming Inference Logic
+
+```
+┌────────────────────────────────────────────────────────────────┐
+│  1. Kafka Consumer reads messages (max 5 offsets/trigger)      │
+├────────────────────────────────────────────────────────────────┤
+│  2. Download video from MinIO → Extract 16 frames (decord)     │
+├────────────────────────────────────────────────────────────────┤
+│  3. Rule-based check (60+ keywords)                            │
+│     ✓ Match → score=0.85, skip AI                              │
+│     ✗ No match → Continue to AI                                │
+├────────────────────────────────────────────────────────────────┤
+│  4. AI Inference (UDFs - Lazy Loading)                         │
+│     - Text UDF: CafeBERT (max 256 tokens)                      │
+│     - Video UDF: VideoMAE (16 frames 224x224)                  │
+├────────────────────────────────────────────────────────────────┤
+│  5. Score Fusion: text*0.3 + video*0.7 (configurable)          │
+│     - Threshold = 0.5 → final_decision                         │
+├────────────────────────────────────────────────────────────────┤
+│  6. PostgreSQL UPSERT (10 columns + processed_at)              │
+└────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## 📊 Dataset Statistics
+
+### Data Sources
+
+| Folder | Videos | Description |
+|--------|--------|-------------|
+| `data/` | 959 | Original dataset (mixed languages) |
+| `data_1/` | 838 | Supplementary dataset |
+| `data_viet/` | 818 | Vietnamese-only dataset |
+| **Total Collected** | **2,615** | - |
+| **After Filtering** | **1,820** | Removed corrupt/short/no-text videos |
+
+### Train/Val/Test Split (80:10:10)
+
+| Split | Samples | Safe | Harmful |
+|-------|---------|------|---------|
+| Train | 1,456 | ~1,100 | ~356 |
+| Val | 182 | 137 | 45 |
+| Test | 182 | 137 | 45 |
+
+> **Note**: Video test set = 180 samples (2 videos corrupt/too short for VideoMAE)
+
+---
+
+## 📈 Experimental Results
+
+### Text Models (Test Set = 182 samples)
+
+| Model | Accuracy | F1-Harmful | Precision | Recall |
+|-------|----------|------------|-----------|--------|
+| **CafeBERT** | **79.7%** | **57.5%** | 59.5% | 55.6% |
+| XLM-RoBERTa | 75.8% | 38.9% | 50.0% | 31.8% |
+| DistilBERT | 70.3% | 46.0% | 48.6% | 43.7% |
+
+### Video Models (Test Set = 180 samples)
+
+| Model | Accuracy | F1-Harmful | Precision | Recall |
+|-------|----------|------------|-----------|--------|
+| **VideoMAE** | **87.2%** | **87.8%** | 88.5% | 87.1% |
+| TimeSformer | 85.6% | 86.9% | 87.2% | 86.6% |
+| ViViT | 78.3% | 81.2% | 79.4% | 83.1% |
+
+### Fusion Model (Test Set = 182 samples)
+
+| Metrics | Value |
+|---------|-------|
+| Accuracy | 79.1% |
+| F1-Weighted | 79.4% |
+| F1-Harmful | 60.0% |
+| Precision-Harmful | 57.0% |
+| Recall-Harmful | 62.2% |
+
+**Confusion Matrix:**
+```
+                    Predicted
+                 Safe    Harmful
+Actual Safe       116       21
+Actual Harmful     17       28
+```
+
+---
+
+## ⚡ Performance Metrics
+
+| Metric | Value |
+|--------|-------|
+| **Throughput** | 1.66 videos/sec |
+| **Hourly Capacity** | ~6,000 videos/hour |
+| **Latency** | < 2 seconds per video |
+| **Frame Extraction** | 0.2 sec/video |
+| **VideoMAE Inference** | 0.4 sec/video |
+| **DB Write** | 0.05 sec/batch |
+
+> Tested on: 32GB RAM, GPU with 4GB+ VRAM
+
+---
 
 ## 🕷️ Data Crawling
 

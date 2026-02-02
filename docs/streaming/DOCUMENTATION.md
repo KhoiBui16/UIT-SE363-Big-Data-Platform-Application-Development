@@ -309,8 +309,8 @@ COPY dags/ /opt/airflow/dags/
 
 ```bash
 # AI Model Weights
-TEXT_WEIGHT=0.6          # Weight cho text model (60%)
-VIDEO_WEIGHT=0.4         # Weight cho video model (40%)
+TEXT_WEIGHT=0.3          # Weight cho text model (30%)
+VIDEO_WEIGHT=0.7         # Weight cho video model (70%)
 AUDIO_WEIGHT=0.0         # Audio chưa implement
 
 # Decision Threshold

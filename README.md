@@ -942,17 +942,34 @@ docker compose rm -f airflow-webserver
 docker compose up -d airflow-webserver
 ```
 
-**5. Spark processor failing:**
+**5. Spark processor failing / Out of Memory:**
 ```bash
 docker logs spark-processor -f
+
+# If you see "Java heap space" error, the docker-compose.yml 
+# already configured with: --driver-memory 8g --executor-memory 6g
+# Make sure your system has at least 16GB RAM available
 ```
 
-**6. Database connection issues:**
+**6. Kafka container exits with code 1:**
+```bash
+# This is usually caused by Zookeeper not being ready
+# The docker-compose.yml now has healthcheck for Zookeeper
+# Kafka waits for Zookeeper to be healthy before starting
+
+# To manually restart:
+docker compose restart zookeeper
+sleep 15
+docker compose restart kafka
+docker exec kafka kafka-topics --bootstrap-server localhost:9092 --create --topic tiktok_raw_data --partitions 1 --replication-factor 1 --if-not-exists
+```
+
+**7. Database connection issues:**
 ```bash
 docker exec postgres pg_isready -U user -d tiktok_safety_db
 ```
 
-**7. Reset everything:**
+**8. Reset everything:**
 ```bash
 cd streaming
 docker compose down -v
@@ -960,11 +977,23 @@ rm -rf state/
 ./start_all.sh
 ```
 
-**8. Startup timeout - Services not ready:**
+**9. Startup timeout - Services not ready:**
 ```bash
 # The start_all.sh script waits 85s for services
 # If you see timeout warnings, wait additional 30-60s
 # then check: http://localhost:8089 (Airflow)
+```
+
+**10. Fusion Model not loading:**
+```bash
+# Check if HuggingFace models are accessible
+docker logs spark-processor 2>&1 | grep -i "fusion"
+
+# Fusion model requires ~8GB driver memory (configured in docker-compose.yml)
+# Models are loaded from HuggingFace Hub:
+#   - KhoiBui/tiktok-text-safety-classifier
+#   - KhoiBui/tiktok-video-safety-classifier  
+#   - KhoiBui/tiktok-multimodal-fusion-classifier
 ```
 
 ---

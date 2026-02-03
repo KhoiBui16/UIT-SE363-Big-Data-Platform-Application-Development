@@ -14,7 +14,11 @@ from psycopg2.extras import execute_values
 from datetime import datetime
 
 # --- HUGGING FACE IMPORTS ---
-from transformers import AutoImageProcessor, VideoMAEForVideoClassification, VideoMAEImageProcessor
+from transformers import (
+    AutoImageProcessor,
+    VideoMAEForVideoClassification,
+    VideoMAEImageProcessor,
+)
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 from transformers import AutoFeatureExtractor, AutoModelForAudioClassification
 from decord import VideoReader, cpu
@@ -26,13 +30,16 @@ from transformers import AutoModel
 try:
     import sys
     import sys
-    sys.path.insert(0, '/app/mlflow')  # Mounted volume
+
+    sys.path.insert(0, "/app/mlflow")  # Mounted volume
     from model_updater import init_model_updater, get_model_updater
+
     MLFLOW_ENABLED = True
 except ImportError as e:
     MLFLOW_ENABLED = False
     print(f"⚠️ MLflow module not found, auto-update disabled. Error: {e}")
     import traceback
+
     traceback.print_exc()
 
 
@@ -51,7 +58,9 @@ SPARK_CHECKPOINT_DIR = os.getenv(
 # Tuning (cho phép test thủ công qua env, không cần sửa code)
 # NOTE: USE_FUSION_MODEL giờ là preference, không phải force mode
 # Nếu FUSION model không load được, sẽ tự động fallback về LATE_SCORE
-USE_FUSION_MODEL = os.getenv("USE_FUSION_MODEL", "true").lower() == "true"  # Mặc định thử fusion trước
+USE_FUSION_MODEL = (
+    os.getenv("USE_FUSION_MODEL", "true").lower() == "true"
+)  # Mặc định thử fusion trước
 FUSION_MODEL_AVAILABLE = False  # Sẽ được set True nếu load thành công
 TEXT_WEIGHT = float(os.getenv("TEXT_WEIGHT", "0.3"))
 TEXT_WEIGHT = max(0.0, min(1.0, TEXT_WEIGHT))
@@ -77,33 +86,33 @@ TASK_NAME = "spark_processor"
 # --- FUSION MODEL CLASS (Copy từ train_eval_module/fusion/src/model.py) ---
 class LateFusionModel(nn.Module):
     """Late Fusion Model - Multimodal fusion for text + video."""
-    
+
     def __init__(self, config):
         super().__init__()
         text_path = config["text_model_path"]
         video_path = config["video_model_path"]
-        
+
         # 1. Load Backbones
         self.text_backbone = AutoModel.from_pretrained(text_path)
         self.video_backbone = AutoModel.from_pretrained(video_path)
-        
+
         # Freeze all backbones
         for p in self.text_backbone.parameters():
             p.requires_grad = False
         for p in self.video_backbone.parameters():
             p.requires_grad = False
-        
+
         # 2. Fusion Strategy
         self.fusion_type = config.get("fusion_type", "attention")
         text_dim = config["text_feat_dim"]
         video_dim = config["video_feat_dim"]
         fusion_hidden = config["fusion_hidden"]
-        
+
         if self.fusion_type == "attention":
             # Project to same dimension
             self.text_proj = nn.Linear(text_dim, fusion_hidden)
             self.video_proj = nn.Linear(video_dim, fusion_hidden)
-            
+
             # Cross-Attention
             self.cross_attn_t2v = nn.MultiheadAttention(
                 embed_dim=fusion_hidden, num_heads=4, dropout=0.1, batch_first=True
@@ -111,12 +120,12 @@ class LateFusionModel(nn.Module):
             self.cross_attn_v2t = nn.MultiheadAttention(
                 embed_dim=fusion_hidden, num_heads=4, dropout=0.1, batch_first=True
             )
-            
+
             # Gating mechanism
             self.gate = nn.Sequential(
                 nn.Linear(fusion_hidden * 2, fusion_hidden), nn.Sigmoid()
             )
-            
+
             # Classifier
             self.classifier = nn.Sequential(
                 nn.Linear(fusion_hidden, fusion_hidden // 2),
@@ -135,46 +144,57 @@ class LateFusionModel(nn.Module):
                 nn.Dropout(0.3),
                 nn.Linear(fusion_hidden, 2),
             )
-        
+
         self.v_weight = config["video_weight"]
         self.t_weight = config["text_weight"]
         self.is_videomae = "videomae" in video_path.lower()
-    
-    def forward(self, text_input_ids, text_attention_mask, video_pixel_values, labels=None, **kwargs):
+
+    def forward(
+        self,
+        text_input_ids,
+        text_attention_mask,
+        video_pixel_values,
+        labels=None,
+        **kwargs,
+    ):
         # A. Text Features
-        t_outputs = self.text_backbone(input_ids=text_input_ids, attention_mask=text_attention_mask)
+        t_outputs = self.text_backbone(
+            input_ids=text_input_ids, attention_mask=text_attention_mask
+        )
         t_feat = t_outputs.last_hidden_state[:, 0, :]  # CLS token
-        
+
         # B. Video Features
         v_outputs = self.video_backbone(video_pixel_values)
         if self.is_videomae:
             v_feat = v_outputs.last_hidden_state.mean(dim=1)
         else:
             v_feat = v_outputs.last_hidden_state[:, 0, :]
-        
+
         # C. Fusion
         if self.fusion_type == "attention":
             t_proj = self.text_proj(t_feat).unsqueeze(1)
             v_proj = self.video_proj(v_feat).unsqueeze(1)
-            
+
             t_attended, _ = self.cross_attn_t2v(t_proj, v_proj, v_proj)
             v_attended, _ = self.cross_attn_v2t(v_proj, t_proj, t_proj)
-            
+
             t_attended = t_attended.squeeze(1)
             v_attended = v_attended.squeeze(1)
-            
+
             t_weighted = t_attended * self.t_weight
             v_weighted = v_attended * self.v_weight
-            
+
             concat_feat = torch.cat([t_weighted, v_weighted], dim=1)
             gate = self.gate(concat_feat)
             combined = gate * t_weighted + (1 - gate) * v_weighted
         else:
-            combined = torch.cat((t_feat * self.t_weight, v_feat * self.v_weight), dim=1)
-        
+            combined = torch.cat(
+                (t_feat * self.t_weight, v_feat * self.v_weight), dim=1
+            )
+
         # D. Classification
         logits = self.classifier(combined)
-        
+
         if labels is not None:
             loss_fct = nn.CrossEntropyLoss()
             loss = loss_fct(logits.view(-1, 2), labels.view(-1))
@@ -216,11 +236,18 @@ HF_TOKEN = os.getenv("HF_TOKEN", None)  # For private repos
 
 # --- PATH MODELS (Local fallback if HF env vars not set) ---
 # --- PATH MODELS (Local fallback if HF env vars not set) ---
-PATH_TEXT_MODEL = HF_MODEL_TEXT or "/models/text/output/uitnlp_CafeBERT/train/best_checkpoint"
-PATH_VIDEO_MODEL = HF_MODEL_VIDEO or "/models/video/output/MCG-NJU_videomae-base-finetuned-kinetics/train/best_checkpoint"
+PATH_TEXT_MODEL = (
+    HF_MODEL_TEXT or "/models/text/output/uitnlp_CafeBERT/train/best_checkpoint"
+)
+PATH_VIDEO_MODEL = (
+    HF_MODEL_VIDEO
+    or "/models/video/output/MCG-NJU_videomae-base-finetuned-kinetics/train/best_checkpoint"
+)
 PATH_AUDIO_MODEL = "/models/audio/audio_model/checkpoint-2300"
 # Fusion Model Path
-PATH_FUSION_MODEL = HF_MODEL_FUSION or "/models/fusion/output/fusion_videomae/best_checkpoint"
+PATH_FUSION_MODEL = (
+    HF_MODEL_FUSION or "/models/fusion/output/fusion_videomae/best_checkpoint"
+)
 # Backbone paths cho fusion model (used when loading fusion from local)
 PATH_FUSION_TEXT_BACKBONE = "/models/text/output/uitnlp_CafeBERT/train/best_checkpoint"
 PATH_FUSION_VIDEO_BACKBONE = "/models/video/output/MCG-NJU_videomae-base-finetuned-kinetics/train/best_checkpoint"
@@ -321,33 +348,33 @@ fusion_video_processor = None
 # --- FUSION MODEL CLASS (Copy từ train_eval_module/fusion/src/model.py) ---
 class LateFusionModel(nn.Module):
     """Late Fusion Model - Multimodal fusion for text + video."""
-    
+
     def __init__(self, config):
         super().__init__()
         text_path = config["text_model_path"]
         video_path = config["video_model_path"]
-        
+
         # 1. Load Backbones
         self.text_backbone = AutoModel.from_pretrained(text_path)
         self.video_backbone = AutoModel.from_pretrained(video_path)
-        
+
         # Freeze all backbones
         for p in self.text_backbone.parameters():
             p.requires_grad = False
         for p in self.video_backbone.parameters():
             p.requires_grad = False
-        
+
         # 2. Fusion Strategy
         self.fusion_type = config.get("fusion_type", "attention")
         text_dim = config["text_feat_dim"]
         video_dim = config["video_feat_dim"]
         fusion_hidden = config["fusion_hidden"]
-        
+
         if self.fusion_type == "attention":
             # Project to same dimension
             self.text_proj = nn.Linear(text_dim, fusion_hidden)
             self.video_proj = nn.Linear(video_dim, fusion_hidden)
-            
+
             # Cross-Attention
             self.cross_attn_t2v = nn.MultiheadAttention(
                 embed_dim=fusion_hidden, num_heads=4, dropout=0.1, batch_first=True
@@ -355,12 +382,12 @@ class LateFusionModel(nn.Module):
             self.cross_attn_v2t = nn.MultiheadAttention(
                 embed_dim=fusion_hidden, num_heads=4, dropout=0.1, batch_first=True
             )
-            
+
             # Gating mechanism
             self.gate = nn.Sequential(
                 nn.Linear(fusion_hidden * 2, fusion_hidden), nn.Sigmoid()
             )
-            
+
             # Classifier
             self.classifier = nn.Sequential(
                 nn.Linear(fusion_hidden, fusion_hidden // 2),
@@ -379,46 +406,57 @@ class LateFusionModel(nn.Module):
                 nn.Dropout(0.3),
                 nn.Linear(fusion_hidden, 2),
             )
-        
+
         self.v_weight = config["video_weight"]
         self.t_weight = config["text_weight"]
         self.is_videomae = "videomae" in video_path.lower()
-    
-    def forward(self, text_input_ids, text_attention_mask, video_pixel_values, labels=None, **kwargs):
+
+    def forward(
+        self,
+        text_input_ids,
+        text_attention_mask,
+        video_pixel_values,
+        labels=None,
+        **kwargs,
+    ):
         # A. Text Features
-        t_outputs = self.text_backbone(input_ids=text_input_ids, attention_mask=text_attention_mask)
+        t_outputs = self.text_backbone(
+            input_ids=text_input_ids, attention_mask=text_attention_mask
+        )
         t_feat = t_outputs.last_hidden_state[:, 0, :]  # CLS token
-        
+
         # B. Video Features
         v_outputs = self.video_backbone(video_pixel_values)
         if self.is_videomae:
             v_feat = v_outputs.last_hidden_state.mean(dim=1)
         else:
             v_feat = v_outputs.last_hidden_state[:, 0, :]
-        
+
         # C. Fusion
         if self.fusion_type == "attention":
             t_proj = self.text_proj(t_feat).unsqueeze(1)
             v_proj = self.video_proj(v_feat).unsqueeze(1)
-            
+
             t_attended, _ = self.cross_attn_t2v(t_proj, v_proj, v_proj)
             v_attended, _ = self.cross_attn_v2t(v_proj, t_proj, t_proj)
-            
+
             t_attended = t_attended.squeeze(1)
             v_attended = v_attended.squeeze(1)
-            
+
             t_weighted = t_attended * self.t_weight
             v_weighted = v_attended * self.v_weight
-            
+
             concat_feat = torch.cat([t_weighted, v_weighted], dim=1)
             gate = self.gate(concat_feat)
             combined = gate * t_weighted + (1 - gate) * v_weighted
         else:
-            combined = torch.cat((t_feat * self.t_weight, v_feat * self.v_weight), dim=1)
-        
+            combined = torch.cat(
+                (t_feat * self.t_weight, v_feat * self.v_weight), dim=1
+            )
+
         # D. Classification
         logits = self.classifier(combined)
-        
+
         if labels is not None:
             loss_fct = nn.CrossEntropyLoss()
             loss = loss_fct(logits.view(-1, 2), labels.view(-1))
@@ -462,48 +500,57 @@ def get_audio_model():
 
 def get_fusion_model():
     """Load Fusion Model (text + video fusion) - Lazy loading.
-    
+
     Returns:
         tuple: (model, tokenizer, processor) if successful, (None, None, None) if failed
     """
     global fusion_model, fusion_text_tokenizer, fusion_video_processor, FUSION_MODEL_AVAILABLE
-    
+
     if fusion_model is not None:
         return fusion_model, fusion_text_tokenizer, fusion_video_processor
-    
+
     try:
         print(f"🔥 Loading Fusion Model from: {PATH_FUSION_MODEL}")
-        
+
         # 1. Determine if using HuggingFace Hub or local paths
         is_hf_hub = HF_MODEL_FUSION is not None
-        
+
         if is_hf_hub:
             # Load tokenizer and processor from separate HF models
             print(f"📦 Loading from HuggingFace Hub...")
             print(f"   Text model: {HF_MODEL_TEXT}")
             print(f"   Video model: {HF_MODEL_VIDEO}")
-            
+
             fusion_text_tokenizer = AutoTokenizer.from_pretrained(
-                HF_MODEL_TEXT if HF_MODEL_TEXT else "uitnlp/CafeBERT",
-                token=HF_TOKEN
+                HF_MODEL_TEXT if HF_MODEL_TEXT else "uitnlp/CafeBERT", token=HF_TOKEN
             )
             fusion_video_processor = VideoMAEImageProcessor.from_pretrained(
-                HF_MODEL_VIDEO if HF_MODEL_VIDEO else "MCG-NJU/videomae-base-finetuned-kinetics",
-                token=HF_TOKEN
+                (
+                    HF_MODEL_VIDEO
+                    if HF_MODEL_VIDEO
+                    else "MCG-NJU/videomae-base-finetuned-kinetics"
+                ),
+                token=HF_TOKEN,
             )
-            
+
             # For HF Hub, use the same HF paths for config
             text_backbone_path = HF_MODEL_TEXT or "uitnlp/CafeBERT"
-            video_backbone_path = HF_MODEL_VIDEO or "MCG-NJU/videomae-base-finetuned-kinetics"
+            video_backbone_path = (
+                HF_MODEL_VIDEO or "MCG-NJU/videomae-base-finetuned-kinetics"
+            )
         else:
             # Load from local paths
             print(f"📂 Loading from local paths...")
-            fusion_text_tokenizer = AutoTokenizer.from_pretrained(PATH_FUSION_TEXT_BACKBONE)
-            fusion_video_processor = VideoMAEImageProcessor.from_pretrained(PATH_FUSION_VIDEO_BACKBONE)
-            
+            fusion_text_tokenizer = AutoTokenizer.from_pretrained(
+                PATH_FUSION_TEXT_BACKBONE
+            )
+            fusion_video_processor = VideoMAEImageProcessor.from_pretrained(
+                PATH_FUSION_VIDEO_BACKBONE
+            )
+
             text_backbone_path = PATH_FUSION_TEXT_BACKBONE
             video_backbone_path = PATH_FUSION_VIDEO_BACKBONE
-        
+
         # 2. Fusion model config (theo fusion_configs.py)
         # IMPORTANT: Fusion model on HF Hub is now retrained with 1024-dim text backbone (CafeBERT)
         fusion_config = {
@@ -517,19 +564,19 @@ def get_fusion_model():
             "text_weight": 0.5,
         }
 
-        
         # 3. Initialize model architecture
         fusion_model = LateFusionModel(fusion_config)
-        
+
         # 4. Load weights from checkpoint
         if is_hf_hub:
             # For HuggingFace Hub, try to load from the repo
             from huggingface_hub import hf_hub_download
+
             try:
                 safetensors_path = hf_hub_download(
                     repo_id=PATH_FUSION_MODEL,
                     filename="model.safetensors",
-                    token=HF_TOKEN
+                    token=HF_TOKEN,
                 )
                 print(f"📥 Loading weights from HF Hub: {safetensors_path}")
                 state_dict = load_file(safetensors_path)
@@ -539,7 +586,7 @@ def get_fusion_model():
                     pytorch_path = hf_hub_download(
                         repo_id=PATH_FUSION_MODEL,
                         filename="pytorch_model.bin",
-                        token=HF_TOKEN
+                        token=HF_TOKEN,
                     )
                     print(f"📥 Loading weights from HF Hub: {pytorch_path}")
                     state_dict = torch.load(pytorch_path, map_location="cpu")
@@ -563,18 +610,21 @@ def get_fusion_model():
                     state_dict = torch.load(pytorch_path, map_location="cpu")
                     fusion_model.load_state_dict(state_dict)
                 else:
-                    raise FileNotFoundError(f"Fusion model weights not found in {PATH_FUSION_MODEL}")
-        
+                    raise FileNotFoundError(
+                        f"Fusion model weights not found in {PATH_FUSION_MODEL}"
+                    )
+
         fusion_model.to(device)
         fusion_model.eval()
         FUSION_MODEL_AVAILABLE = True
         print("✅ Fusion Model loaded successfully!")
         return fusion_model, fusion_text_tokenizer, fusion_video_processor
-        
+
     except Exception as e:
         print(f"⚠️ Failed to load Fusion Model: {e}")
         print("⚠️ Will fallback to LATE_SCORE mode using separate text + video models")
         import traceback
+
         traceback.print_exc()
         FUSION_MODEL_AVAILABLE = False
         fusion_model = None
@@ -673,16 +723,16 @@ def process_fusion_logic(video_id, minio_video_path, text):
     try:
         if not minio_video_path or not text:
             return {"risk_score": 0.0, "verdict": "MissingData", "status": "Skip"}
-        
+
         # 1. Rule-based check cho text (nhanh hơn)
         text_lower = text.lower()
         for kw in BLACKLIST_KEYWORDS:
             if kw in text_lower:
                 return {"risk_score": 0.85, "verdict": "harmful", "status": "RuleBased"}
-        
+
         # 2. Load fusion model (lazy)
         model, tokenizer, video_processor = get_fusion_model()
-        
+
         # 3. Download video từ MinIO
         s3 = boto3.client(
             "s3",
@@ -695,23 +745,27 @@ def process_fusion_logic(video_id, minio_video_path, text):
         os.close(fd)
         temp_file = temp_name
         s3.download_file(parts[0], parts[1], temp_file)
-        
+
         # 4. Extract video frames
         vr = VideoReader(temp_file, ctx=cpu(0))
         indices = np.linspace(0, len(vr) - 1, 16).astype(int)
         frames = list(vr.get_batch(indices).asnumpy())
-        
+
         # 5. Preprocess video
         v_inputs = video_processor(list(frames), return_tensors="pt")
         video_pixel_values = v_inputs["pixel_values"].to(device)  # (1, C, T, H, W)
-        
+
         # 6. Preprocess text
         t_inputs = tokenizer(
-            text, truncation=True, padding="max_length", max_length=512, return_tensors="pt"
+            text,
+            truncation=True,
+            padding="max_length",
+            max_length=512,
+            return_tensors="pt",
         )
         text_input_ids = t_inputs["input_ids"].to(device)  # (1, L)
         text_attention_mask = t_inputs["attention_mask"].to(device)  # (1, L)
-        
+
         # 7. Fusion model inference
         with torch.no_grad():
             outputs = model(
@@ -721,14 +775,14 @@ def process_fusion_logic(video_id, minio_video_path, text):
             )
             logits = outputs["logits"]
             probs = torch.nn.functional.softmax(logits, dim=-1)
-            
+
             # Lấy score class 1 (Harmful)
             score = probs[0][1].item()
             verdict = "harmful" if score > DECISION_THRESHOLD else "safe"
-        
+
         if os.path.exists(temp_file):
             os.remove(temp_file)
-        
+
         return {
             "risk_score": float(score),
             "verdict": str(verdict),
@@ -913,13 +967,16 @@ def main():
                     "fusion": PATH_FUSION_MODEL,
                 },
                 current_metrics={
-                    "text": 0.75,   # Baseline F1 for text model
+                    "text": 0.75,  # Baseline F1 for text model
                     "video": 0.70,  # Baseline F1 for video model
-                    "fusion": 0.80, # Baseline F1 for fusion model
+                    "fusion": 0.80,  # Baseline F1 for fusion model
                 },
             )
             updater.start()
-            log_to_db("✅ MLflow auto-updater started (interval: 2 min, metric: F1-score)", "INFO")
+            log_to_db(
+                "✅ MLflow auto-updater started (interval: 2 min, metric: F1-score)",
+                "INFO",
+            )
         except Exception as e:
             log_to_db(f"⚠️ MLflow auto-updater failed to start: {e}", "WARNING")
 
@@ -951,33 +1008,43 @@ def main():
 
     # Chọn mode: Thử FUSION trước, nếu không được thì fallback về LATE_SCORE
     actual_use_fusion = USE_FUSION_MODEL  # Default từ env
-    
+
     if USE_FUSION_MODEL:
         # Thử load FUSION model trước
         log_to_db("🔥 Attempting to load FUSION MODEL...", "INFO")
         model, tokenizer, processor = get_fusion_model()
         if model is None:
-            log_to_db("⚠️ FUSION model not available, falling back to LATE_SCORE mode", "WARNING")
+            log_to_db(
+                "⚠️ FUSION model not available, falling back to LATE_SCORE mode",
+                "WARNING",
+            )
             actual_use_fusion = False
         else:
             log_to_db("✅ FUSION model loaded successfully!", "INFO")
-    
+
     if actual_use_fusion:
         # --- MODE: FUSION MODEL (text + video cùng lúc) ---
         log_to_db("🔥 Using FUSION MODEL mode", "INFO")
         df_fusion = df_parsed.withColumn(
-            "fusion_ai", process_fusion_udf(col("video_id"), col("minio_video_path"), col("clean_text"))
+            "fusion_ai",
+            process_fusion_udf(
+                col("video_id"), col("minio_video_path"), col("clean_text")
+            ),
         )
-        
+
         df_final = df_fusion.select(
             col("video_id"),
             col("clean_text").alias("raw_text"),
             col("csv_label").alias("human_label"),
-            col("fusion_ai.verdict").alias("text_verdict"),  # Giữ tên cột để tương thích DB schema
+            col("fusion_ai.verdict").alias(
+                "text_verdict"
+            ),  # Giữ tên cột để tương thích DB schema
             col("fusion_ai.risk_score").alias("text_score"),  # Giữ tên cột
             lit("fusion").alias("video_verdict"),  # Dummy cho video_verdict
             col("fusion_ai.risk_score").alias("video_score"),  # Dummy cho video_score
-            col("fusion_ai.risk_score").alias("avg_score"),  # Fusion score = final score
+            col("fusion_ai.risk_score").alias(
+                "avg_score"
+            ),  # Fusion score = final score
             lit(DECISION_THRESHOLD).alias("threshold"),
             when(col("fusion_ai.risk_score") >= lit(DECISION_THRESHOLD), "harmful")
             .otherwise("safe")

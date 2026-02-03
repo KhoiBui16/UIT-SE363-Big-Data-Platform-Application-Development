@@ -90,7 +90,13 @@ streaming/ingestion/cookies.txt
 
 ## Tải dữ liệu từ Google Drive và đặt đúng folder
 
-Tải các thư mục dữ liệu và giải nén vào đúng vị trí trong root của dự án. Sau khi tải, đảm bảo cấu trúc như sau:
+| Folder | Link | Mô tả |
+|--------|------|-------|
+| `data/` | [Google Drive](https://drive.google.com/drive/folders/1rfEyJnUaM8p0s4deP9GoSV0RMwxY62Lu?usp=sharing) | Mixed EN+VI hashtags (batch 1) |
+| `data_1/` | [Google Drive](https://drive.google.com/drive/folders/1yVywtRKArInyWX4hZ5q00FjG4jgJ8kZE?usp=sharing) | Mixed EN+VI hashtags (batch 2) |
+| `data_viet/` | [Google Drive](https://drive.google.com/drive/folders/1W6OBCbU_e3_Rsp3QYNV5f3ozWi8KVn4v?usp=sharing) | Vietnamese-only hashtags |
+
+Tải và giải nén vào root của dự án. Sau khi tải, đảm bảo cấu trúc như sau:
 
 ```
 UIT-SE363-Big-Data-Platform-Application-Development/

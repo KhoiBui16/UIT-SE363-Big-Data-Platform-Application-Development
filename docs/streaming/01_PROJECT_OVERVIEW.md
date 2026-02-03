@@ -133,7 +133,7 @@ streaming/
 | Service | Internal URL | External URL (Tailscale) |
 |---------|-------------|--------------------------|
 | Dashboard | http://localhost:8501 | http://100.69.255.87:8501 |
-| Airflow UI | http://localhost:8080 | http://100.69.255.87:8080 |
+| Airflow UI | http://localhost:8089 | http://100.69.255.87:8089 |
 | MinIO Console | http://localhost:9001 | http://100.69.255.87:9001 |
 | Spark UI | http://localhost:9090 | http://100.69.255.87:9090 |
 | Kafka | localhost:9092 | 100.69.255.87:9092 |

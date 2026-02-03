@@ -288,8 +288,8 @@ test_airflow_integration() {
     print_subheader "AIRFLOW INTEGRATION"
     
     # Test 1: Airflow webserver accessible
-    echo -e "  ${YELLOW}TEST:${NC} Airflow webserver (port 8080)"
-    HTTP_CODE=$(timeout 15 curl -sf -o /dev/null -w "%{http_code}" http://localhost:8080 2>/dev/null || echo "timeout")
+    echo -e "  ${YELLOW}TEST:${NC} Airflow webserver (port 8089)"
+    HTTP_CODE=$(timeout 15 curl -sf -o /dev/null -w "%{http_code}" http://localhost:8089 2>/dev/null || echo "timeout")
     if [ "$HTTP_CODE" = "200" ] || [ "$HTTP_CODE" = "302" ]; then
         test_pass "Airflow UI accessible (HTTP $HTTP_CODE)"
     elif [ "$HTTP_CODE" = "timeout" ]; then
@@ -300,7 +300,7 @@ test_airflow_integration() {
     
     # Test 2: Airflow API accessible
     echo -e "  ${YELLOW}TEST:${NC} Airflow API /api/v1/dags"
-    API_CODE=$(timeout 15 curl -sf -o /dev/null -w "%{http_code}" -u admin:admin http://localhost:8080/api/v1/dags 2>/dev/null || echo "timeout")
+    API_CODE=$(timeout 15 curl -sf -o /dev/null -w "%{http_code}" -u admin:admin http://localhost:8089/api/v1/dags 2>/dev/null || echo "timeout")
     if [ "$API_CODE" = "200" ]; then
         test_pass "Airflow API accessible"
     elif [ "$API_CODE" = "timeout" ]; then
@@ -311,7 +311,7 @@ test_airflow_integration() {
     
     # Test 3: DAGs visible via API
     echo -e "  ${YELLOW}TEST:${NC} DAGs visible in API"
-    DAGS=$(timeout 15 curl -sf -u admin:admin http://localhost:8080/api/v1/dags 2>/dev/null)
+    DAGS=$(timeout 15 curl -sf -u admin:admin http://localhost:8089/api/v1/dags 2>/dev/null)
     if echo "$DAGS" | grep -q "1_TIKTOK_ETL_COLLECTOR"; then
         test_pass "DAGs returned from API"
     else

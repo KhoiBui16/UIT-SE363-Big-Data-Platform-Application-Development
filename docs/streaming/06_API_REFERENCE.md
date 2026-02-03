@@ -434,18 +434,18 @@ def get_system_stats():
 **Example Requests**:
 ```bash
 # List DAGs
-curl -u admin:admin http://localhost:8080/api/v1/dags | jq '.dags[].dag_id'
+curl -u admin:admin http://localhost:8089/api/v1/dags | jq '.dags[].dag_id'
 
 # Trigger DAG
 curl -X POST -u admin:admin \
     -H "Content-Type: application/json" \
-    http://localhost:8080/api/v1/dags/1_TIKTOK_ETL_COLLECTOR/dagRuns \
+    http://localhost:8089/api/v1/dags/1_TIKTOK_ETL_COLLECTOR/dagRuns \
     -d '{}'
 
 # Unpause DAG
 curl -X PATCH -u admin:admin \
     -H "Content-Type: application/json" \
-    http://localhost:8080/api/v1/dags/1_TIKTOK_ETL_COLLECTOR \
+    http://localhost:8089/api/v1/dags/1_TIKTOK_ETL_COLLECTOR \
     -d '{"is_paused": false}'
 ```
 
@@ -735,12 +735,12 @@ stats = client.get_statistics()
 ### cURL Examples
 ```bash
 # Get all DAGs
-curl -s -u admin:admin http://localhost:8080/api/v1/dags | jq
+curl -s -u admin:admin http://localhost:8089/api/v1/dags | jq
 
 # Trigger crawler
 curl -X POST -u admin:admin \
     -H "Content-Type: application/json" \
-    http://localhost:8080/api/v1/dags/1_TIKTOK_ETL_COLLECTOR/dagRuns \
+    http://localhost:8089/api/v1/dags/1_TIKTOK_ETL_COLLECTOR/dagRuns \
     -d '{}'
 
 # Get video URL

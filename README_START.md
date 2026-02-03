@@ -124,7 +124,7 @@ docker compose ps
 docker compose logs -f spark-processor
 ```
 
-4. Mở Airflow tại http://localhost:8080 (tài khoản mặc định admin/admin) và chạy lần lượt:
+4. Mở Airflow tại http://localhost:8089 (tài khoản mặc định admin/admin) và chạy lần lượt:
 
 - DAG `1_TIKTOK_ETL_COLLECTOR` (crawl link TikTok)
 - DAG `2_TIKTOK_STREAMING_PIPELINE` (ingestion + Spark streaming)
@@ -143,7 +143,7 @@ docker compose down
 | Dịch vụ | URL | Ghi chú |
 |---|---|---|
 | Dashboard | http://localhost:8501 | Theo dõi realtime |
-| Airflow | http://localhost:8080 | admin / admin |
+| Airflow | http://localhost:8089 | admin / admin |
 | Spark Master UI | http://localhost:9090 | Quản trị Spark |
 | MLflow | http://localhost:5000 | Tracking & registry |
 | MinIO Console | http://localhost:9001 | admin / password123 |

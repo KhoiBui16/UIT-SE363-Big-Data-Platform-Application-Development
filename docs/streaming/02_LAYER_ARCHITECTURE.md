@@ -267,7 +267,7 @@ def process_batch(batch_df):
 |-----------|-------|-------|---------|
 | airflow-db | postgres:15 | 5432 | Airflow metadata |
 | airflow-scheduler | apache/airflow:2.8.1 | - | DAG scheduling |
-| airflow-webserver | apache/airflow:2.8.1 | 8080 | Web UI |
+| airflow-webserver | apache/airflow:2.8.1 | 8089 | Web UI |
 
 ### DAGs
 | DAG ID | Schedule | Purpose |
@@ -315,8 +315,8 @@ docker exec airflow-webserver airflow dags unpause 1_TIKTOK_ETL_COLLECTOR
 ```
 
 ### Tests
-- Health: `curl http://localhost:8080/health`
-- UI: http://localhost:8080 (admin/admin)
+- Health: `curl http://localhost:8089/health`
+- UI: http://localhost:8089 (admin/admin)
 
 ---
 
@@ -412,7 +412,7 @@ MINIO_CONF = {
 }
 
 EXTERNAL_URLS = {
-    "airflow": f"http://{PUBLIC_HOST}:8080",
+    "airflow": f"http://{PUBLIC_HOST}:8089",
     "minio_console": f"http://{PUBLIC_HOST}:9001",
     "spark_ui": f"http://{PUBLIC_HOST}:9090"
 }

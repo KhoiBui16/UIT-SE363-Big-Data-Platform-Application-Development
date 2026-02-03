@@ -99,7 +99,7 @@ if st.button("Next Page ▶️", key="next_page"):
 PUBLIC_HOST = extract_host_from_minio_endpoint()  # 100.69.255.87
 
 EXTERNAL_URLS = {
-    "airflow": f"http://{PUBLIC_HOST}:8080",
+    "airflow": f"http://{PUBLIC_HOST}:8089",
     "minio_console": f"http://{PUBLIC_HOST}:9001",
 }
 ```

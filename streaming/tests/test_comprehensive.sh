@@ -168,7 +168,7 @@ test_layer1_infrastructure() {
     # 1.6 Port mappings
     test_start "All required ports are mapped"
     PORTS_OK=true
-    for PORT in 8501 8080 9090 9000 9001 9092; do
+    for PORT in 8501 8089 9090 9000 9001 9092; do
         if docker ps --format '{{.Ports}}' | grep -q "$PORT->"; then
             test_info "Port $PORT: ✓"
         else
@@ -285,7 +285,7 @@ test_layer3_airflow() {
     
     # 3.3 Airflow Webserver
     test_start "Airflow Webserver accessible"
-    HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" http://localhost:8080/health 2>/dev/null)
+    HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" http://localhost:8089/health 2>/dev/null)
     if [ "$HTTP_CODE" = "200" ]; then
         test_pass "Webserver health check OK"
     else
@@ -628,7 +628,7 @@ for h in hosts:
     test_start "External access URLs configured"
     TAILSCALE_IP="100.69.255.87"
     test_info "Dashboard: http://$TAILSCALE_IP:8501"
-    test_info "Airflow: http://$TAILSCALE_IP:8080"
+    test_info "Airflow: http://$TAILSCALE_IP:8089"
     test_info "MinIO: http://$TAILSCALE_IP:9001"
     test_info "Spark: http://$TAILSCALE_IP:9090"
     test_pass "URLs documented"

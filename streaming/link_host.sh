@@ -19,17 +19,17 @@ echo -e "================================================================"
 
 echo -e "\n${YELLOW}🌐 TRUY CẬP TRỰC TIẾP (Qua Tailscale - Không cần SSH Tunnel):${NC}"
 echo -e "   📍 Dashboard (Streamlit):    ${CYAN}http://${TAILSCALE_IP}:8501${NC}"
-echo -e "   📍 Airflow UI (Quản lý):     ${CYAN}http://${TAILSCALE_IP}:8080${NC} (admin/admin)"
+echo -e "   📍 Airflow UI (Quản lý):     ${CYAN}http://${TAILSCALE_IP}:8089${NC} (admin/admin)"
 echo -e "   📍 MinIO Console:            ${CYAN}http://${TAILSCALE_IP}:9001${NC} (admin/password123)"
 echo -e "   📍 Spark Master UI:          ${CYAN}http://${TAILSCALE_IP}:9090${NC}"
 
 echo -e "\n${YELLOW}🌐 TRUY CẬP QUA LOCAL NETWORK:${NC}"
 echo -e "   📍 Dashboard (Streamlit):    ${CYAN}http://${LOCAL_IP}:8501${NC}"
-echo -e "   📍 Airflow UI (Quản lý):     ${CYAN}http://${LOCAL_IP}:8080${NC}"
+echo -e "   📍 Airflow UI (Quản lý):     ${CYAN}http://${LOCAL_IP}:8089${NC}"
 
 echo -e "\n----------------------------------------------------------------"
 echo -e "${YELLOW}🔒 LỆNH SSH TUNNEL (Nếu cần - chạy trên máy cá nhân):${NC}"
-echo -e "${CYAN}ssh -L 8501:localhost:8501 -L 8080:localhost:8080 -L 9090:localhost:9090 -L 9001:localhost:9001 -L 9000:localhost:9000 ${USER_NAME}@${TAILSCALE_IP}${NC}"
+echo -e "${CYAN}ssh -L 8501:localhost:8501 -L 8089:localhost:8089 -L 9090:localhost:9090 -L 9001:localhost:9001 -L 9000:localhost:9000 ${USER_NAME}@${TAILSCALE_IP}${NC}"
 echo -e "----------------------------------------------------------------"
 
 echo -e "\n${YELLOW}🛠️  CLI QUICK CHECK (Copy lệnh bên dưới chạy trên Server này):${NC}"

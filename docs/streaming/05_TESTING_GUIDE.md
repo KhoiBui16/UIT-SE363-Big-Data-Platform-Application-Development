@@ -207,7 +207,7 @@ test_airflow_scheduler() {
 
 # Test 3.3: Airflow Webserver
 test_airflow_webserver() {
-    HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" -u admin:admin http://localhost:8080/api/v1/dags)
+    HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" -u admin:admin http://localhost:8089/api/v1/dags)
     if [ "$HTTP_CODE" = "200" ]; then
         echo "[PASS] API accessible"
     else
@@ -217,7 +217,7 @@ test_airflow_webserver() {
 
 # Test 3.4: DAGs Loaded
 test_dags_loaded() {
-    DAG_COUNT=$(curl -s -u admin:admin http://localhost:8080/api/v1/dags | jq '.total_entries')
+    DAG_COUNT=$(curl -s -u admin:admin http://localhost:8089/api/v1/dags | jq '.total_entries')
     if [ "$DAG_COUNT" -ge 2 ]; then
         echo "[PASS] $DAG_COUNT DAGs loaded"
     else
@@ -430,7 +430,7 @@ test_full_pipeline() {
     # Trigger DAG and wait for completion
     RUN_ID=$(curl -s -X POST -u admin:admin \
         -H "Content-Type: application/json" \
-        "http://localhost:8080/api/v1/dags/1_TIKTOK_ETL_COLLECTOR/dagRuns" \
+        "http://localhost:8089/api/v1/dags/1_TIKTOK_ETL_COLLECTOR/dagRuns" \
         -d '{}' | jq -r '.dag_run_id')
     
     if [ -n "$RUN_ID" ] && [ "$RUN_ID" != "null" ]; then
@@ -452,7 +452,7 @@ docker compose ps
 
 # Basic health check
 curl -s http://localhost:8501 | head -1
-curl -s -u admin:admin http://localhost:8080/api/v1/dags | jq '.total_entries'
+curl -s -u admin:admin http://localhost:8089/api/v1/dags | jq '.total_entries'
 ```
 
 ### Full Test Suite

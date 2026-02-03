@@ -277,7 +277,7 @@ streaming/airflow/
 
 | Service | Internal Port | External Port |
 |---------|---------------|---------------|
-| Airflow Webserver | 8080 | 8080 |
+| Airflow Webserver | 8080 | 8089 |
 
 ### 🔐 Default Credentials
 - **Username:** `admin`
@@ -393,7 +393,7 @@ docker compose up zookeeper kafka minio postgres -d
 | Service | URL | Credentials |
 |---------|-----|-------------|
 | Dashboard | http://localhost:8501 | - |
-| Airflow | http://localhost:8080 | admin/admin |
+| Airflow | http://localhost:8089 | admin/admin |
 | MinIO | http://localhost:9001 | admin/password123 |
 | MLflow | http://localhost:5000 | - |
 | Spark UI | http://localhost:8081 | - |

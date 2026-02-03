@@ -20,7 +20,7 @@
 
 ### Network Requirements
 - Port 8501 (Dashboard)
-- Port 8080 (Airflow)
+- Port 8089 (Airflow)
 - Port 9000, 9001 (MinIO)
 - Port 9090 (Spark Master)
 - Port 5432 (PostgreSQL)
@@ -87,7 +87,7 @@ docker compose ps
 ### Step 5: Access Dashboard
 Open browser and navigate to:
 - **Dashboard**: http://localhost:8501
-- **Airflow**: http://localhost:8080 (admin/admin)
+- **Airflow**: http://localhost:8089 (admin/admin)
 - **MinIO**: http://localhost:9001 (minioadmin/minioadmin123)
 - **Spark**: http://localhost:9090
 
@@ -277,18 +277,18 @@ docker exec -it kafka kafka-console-consumer \
 ### Airflow
 ```bash
 # Check DAG status
-curl -u admin:admin http://localhost:8080/api/v1/dags | jq '.dags[].dag_id'
+curl -u admin:admin http://localhost:8089/api/v1/dags | jq '.dags[].dag_id'
 
 # Trigger DAG manually
 curl -X POST -u admin:admin \
     -H "Content-Type: application/json" \
-    "http://localhost:8080/api/v1/dags/1_TIKTOK_ETL_COLLECTOR/dagRuns" \
+    "http://localhost:8089/api/v1/dags/1_TIKTOK_ETL_COLLECTOR/dagRuns" \
     -d '{}'
 
 # Unpause DAG
 curl -X PATCH -u admin:admin \
     -H "Content-Type: application/json" \
-    "http://localhost:8080/api/v1/dags/1_TIKTOK_ETL_COLLECTOR" \
+    "http://localhost:8089/api/v1/dags/1_TIKTOK_ETL_COLLECTOR" \
     -d '{"is_paused": false}'
 ```
 
@@ -323,7 +323,7 @@ tailscale ip -4
 # Allow Tailscale traffic
 sudo ufw allow in on tailscale0
 sudo ufw allow 8501/tcp  # Dashboard
-sudo ufw allow 8080/tcp  # Airflow
+sudo ufw allow 8089/tcp  # Airflow
 sudo ufw allow 9001/tcp  # MinIO Console
 ```
 

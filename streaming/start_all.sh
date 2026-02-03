@@ -104,7 +104,7 @@ echo "   - Đợi Airflow Webserver parse DAGs (60s)..."
 TIMEOUT=60
 ELAPSED=0
 while [ $ELAPSED -lt $TIMEOUT ]; do
-    if timeout 3 curl -sf http://localhost:8080/health >/dev/null 2>&1; then
+    if timeout 3 curl -sf http://localhost:8089/health >/dev/null 2>&1; then
         echo "   ✅ Airflow Webserver ready!"
         break
     fi
@@ -144,6 +144,6 @@ else
 fi
 
 echo -e "${YELLOW}👉 HƯỚNG DẪN TIẾP THEO:${NC}"
-echo "1. Vào Airflow (http://localhost:8080)."
+echo "1. Vào Airflow (http://localhost:8089)."
 echo "2. Trigger DAG 1 (1_TIKTOK_ETL_COLLECTOR) -> Đợi nó chạy xong (Success)."
 echo "3. Trigger DAG 2 (2_TIKTOK_STREAMING_PIPELINE)."

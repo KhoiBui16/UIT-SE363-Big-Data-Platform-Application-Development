@@ -7,7 +7,7 @@ GREEN='\033[0;32m'
 YELLOW='\033[1;33m'
 NC='\033[0m'
 
-PORTS=(8080 8501 5000 9000 9001 9090 9092 5432)
+PORTS=(8089 8501 5000 9000 9001 9090 9092 5432)
 PORT_SERVICES=("Airflow" "Dashboard" "MLflow" "MinIO" "MinIO Console" "Spark" "Kafka" "PostgreSQL")
 
 echo -e "${YELLOW}🔍 Checking port availability...${NC}"

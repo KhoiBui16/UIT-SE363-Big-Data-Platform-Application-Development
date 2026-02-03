@@ -242,7 +242,7 @@ streaming/
 | spark-processor | - | (streaming) | spark-master, kafka, postgres |
 | airflow-db | 5433 | pg_isready | - |
 | airflow-init | - | (one-shot) | airflow-db |
-| airflow-webserver | 8888 | curl :8080 | airflow-init |
+| airflow-webserver | 8089 | curl :8080 | airflow-init |
 | airflow-scheduler | - | (running) | airflow-init |
 | dashboard | 8501 | curl :8501 | postgres |
 | db-migrator | - | (one-shot) | postgres |
@@ -337,7 +337,7 @@ MINIO_ROOT_PASSWORD=password123
 
 | Service | Internal Port | External Access |
 |---------|---------------|-----------------|
-| Airflow UI | 8888 | http://100.69.255.87:8888 |
+| Airflow UI | 8089 | http://100.69.255.87:8089 |
 | Spark Master UI | 8080 | http://100.69.255.87:8080 |
 | Spark Worker UI | 8081 | http://100.69.255.87:8081 |
 | MinIO Console | 9001 | http://100.69.255.87:9001 |

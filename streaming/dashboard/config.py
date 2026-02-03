@@ -28,7 +28,7 @@ MINIO_CONF = {
 
 # External URLs (use PUBLIC_HOST for Tailscale access)
 EXTERNAL_URLS = {
-    "airflow": f"http://{PUBLIC_HOST}:8080",
+    "airflow": f"http://{PUBLIC_HOST}:8089",
     "minio_console": f"http://{PUBLIC_HOST}:9001",
     "minio_api": f"http://{PUBLIC_HOST}:9000",
     "spark_ui": f"http://{PUBLIC_HOST}:9090",

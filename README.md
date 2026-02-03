@@ -143,7 +143,7 @@ docker compose down
 | Service | URL | Credentials |
 |---------|-----|-------------|
 | **Dashboard** | http://localhost:8501 | - |
-| **Airflow** | http://localhost:8080 | admin / admin |
+| **Airflow** | http://localhost:8089 | admin / admin |
 | **MLflow** | http://localhost:5000 | - |
 | **MinIO Console** | http://localhost:9001 | admin / password123 |
 | **Spark Master** | http://localhost:9090 | - |
@@ -154,7 +154,7 @@ docker compose down
 
 ### Running the Pipeline
 
-1. **Open Airflow** at http://localhost:8080 (login: admin/admin)
+1. **Open Airflow** at http://localhost:8089 (login: admin/admin)
 
 2. **Trigger DAG 1**: `1_TIKTOK_ETL_COLLECTOR`
    - Crawls TikTok videos by hashtags
@@ -756,7 +756,7 @@ python ScrapingVideoTiktok.py
 cd streaming
 ./start_all.sh
 
-# 2. Access Airflow at http://localhost:8080 (admin/admin)
+# 2. Access Airflow at http://localhost:8089 (admin/admin)
 
 # 3. Trigger DAG "1_TIKTOK_ETL_COLLECTOR"
 #    - Crawls TikTok videos by hashtags
@@ -964,7 +964,7 @@ rm -rf state/
 ```bash
 # The start_all.sh script waits 85s for services
 # If you see timeout warnings, wait additional 30-60s
-# then check: http://localhost:8080 (Airflow)
+# then check: http://localhost:8089 (Airflow)
 ```
 
 ---

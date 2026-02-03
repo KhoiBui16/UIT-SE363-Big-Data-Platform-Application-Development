@@ -40,23 +40,22 @@ This project implements a **Lambda Architecture** based Big Data platform for re
 
 ## 📑 Table of Contents
 
-1. [Quick Start](#-quick-start)
+1. [Quick Start](#-quick-start--installation-guide)
 2. [Project Structure](#-project-structure)
-3. [Architecture](#️-architecture)
-4. [Layer Architecture](#-layer-architecture)
+3. [Architecture](#%EF%B8%8F-architecture)
+4. [Layer Architecture](#%EF%B8%8F-layer-architecture)
 5. [Airflow DAGs](#-airflow-dags)
 6. [Data Flow](#-data-flow)
 7. [Features](#-features)
 8. [AI Models](#-ai-models)
-9. [Data Crawling](#-data-crawling)
-10. [Model Training](#-model-training)
-11. [Installation Guide](#-installation-guide)
+9. [Data Crawling](#%EF%B8%8F-data-crawling)
+10. [Model Training](#%EF%B8%8F-model-training)
+11. [Documentation](#-documentation)
 12. [Usage](#-usage)
 13. [Testing](#-testing)
-14. [Documentation](#-documentation)
-15. [Troubleshooting](#-troubleshooting)
-16. [Tech Stack](#️-tech-stack)
-17. [Authors](#-authors)
+14. [Troubleshooting](#-troubleshooting)
+15. [Tech Stack](#%EF%B8%8F-tech-stack)
+16. [Authors](#-authors)
 
 ---
 
@@ -128,9 +127,9 @@ pip install -r requirements.txt
 
 | Folder | Download Link | Description |
 |--------|---------------|-------------|
-| `data/` | [Google Drive](https://drive.google.com) *(link TBD)* | Raw crawled videos (batch 1) |
-| `data_1/` | [Google Drive](https://drive.google.com) *(link TBD)* | Raw crawled videos (batch 2) |
-| `data_viet/` | [Google Drive](https://drive.google.com) *(link TBD)* | Vietnamese TikTok videos |
+| `data/` | [Google Drive](https://drive.google.com/drive/folders/1rfEyJnUaM8p0s4deP9GoSV0RMwxY62Lu?usp=sharing) | Mixed English & Vietnamese hashtags (batch 1) |
+| `data_1/` | [Google Drive](https://drive.google.com/drive/folders/1yVywtRKArInyWX4hZ5q00FjG4jgJ8kZE?usp=sharing) | Mixed English & Vietnamese hashtags (batch 2) |
+| `data_viet/` | [Google Drive](https://drive.google.com/drive/folders/1W6OBCbU_e3_Rsp3QYNV5f3ozWi8KVn4v?usp=sharing) | Vietnamese-only hashtags |
 
 ### Step 5: Run with Docker
 

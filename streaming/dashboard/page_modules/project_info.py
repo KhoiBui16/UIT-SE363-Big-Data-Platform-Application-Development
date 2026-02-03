@@ -145,7 +145,9 @@ def _render_data_pipeline():
     )
 
     # Stage 1
-    with st.expander("**1️⃣ Stage 1: Data Collection (Crawler + Downloader)**", expanded=True):
+    with st.expander(
+        "**1️⃣ Stage 1: Data Collection (Crawler + Downloader)**", expanded=True
+    ):
         st.markdown(
             """
         ```
@@ -285,8 +287,6 @@ def _render_data_pipeline():
         > Audio đã được trích xuất nhưng chưa tích hợp vào AI pipeline.
         """
         )
-
-
 
     # Stage 5
     with st.expander("**5️⃣ Stage 5: Results Storage & Visualization**"):
@@ -541,24 +541,12 @@ open http://localhost:8501
 
     with col3:
         st.link_button(
-            "📚 GitHub", "https://github.com/your-repo", use_container_width=True
+            "📚 GitHub",
+            "https://github.com/BinhAnndapoet/UIT-SE363-Big-Data-Platform-Application-Development",
+            use_container_width=True,
         )
         st.link_button(
-            "📖 Docs", "https://docs.your-project.com", use_container_width=True
+            "📖 Docs",
+            "https://github.com/BinhAnndapoet/UIT-SE363-Big-Data-Platform-Application-Development?tab=readme-ov-file#-documentation",
+            use_container_width=True,
         )
-
-    st.markdown("---")
-    st.markdown("### 👥 Team")
-
-    st.markdown(
-        """
-    **UIT - SE363 Big Data Platform Application Development**
-    
-    | Role | Name | Student ID |
-    |------|------|------------|
-    | Team Lead | [Your Name] | [ID] |
-    | Backend Dev | [Name] | [ID] |
-    | AI Engineer | [Name] | [ID] |
-    | DevOps | [Name] | [ID] |
-    """
-    )

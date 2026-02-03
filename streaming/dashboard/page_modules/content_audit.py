@@ -221,7 +221,9 @@ def _render_video_card(item):
     badge_class = "badge-harm" if is_harmful else "badge-safe"
     badge_text = "⚠️ Harmful" if is_harmful else "✅ Safe"
 
-    video_url = get_video_url(item.get("video_id", ""), item.get("Category", "Safe"))
+    # Use human_label (original CSV label) for MinIO path, not AI prediction
+    storage_label = item.get("human_label", "harmful")  # Default to harmful if missing
+    video_url = get_video_url(item.get("video_id", ""), storage_label)
     score = item.get("avg_score", 0)
 
     st.markdown(
@@ -286,7 +288,9 @@ def _render_detail_view(df):
 
         with col1:
             st.markdown("### 📹 Video Player")
-            video_url = get_video_url(selected_id, video_data.get("Category", "Safe"))
+            # Use human_label (original CSV label) for MinIO path, not AI prediction
+            storage_label = video_data.get("human_label", "harmful")
+            video_url = get_video_url(selected_id, storage_label)
             if video_url:
                 st.video(video_url)
             else:
